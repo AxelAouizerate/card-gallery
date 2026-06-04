@@ -298,17 +298,32 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
 
 function Photo({ src, alt, label }: { src: string | null; alt: string; label: string }) {
   return (
-    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-900">
+    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-100">
       {src ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={src} alt={alt} className="h-full w-full object-contain" />
       ) : (
-        <div className="flex h-full items-center justify-center px-4 text-center text-base font-semibold uppercase tracking-wide text-white">
-          Photo en attente
-        </div>
+        <PhotoPending />
       )}
       <span className="absolute left-2 top-2 rounded bg-slate-900/70 px-1.5 py-0.5 text-[10px] font-semibold uppercase text-white">
         {label}
+      </span>
+    </div>
+  );
+}
+
+function PhotoPending() {
+  return (
+    <div
+      className="relative flex h-full w-full items-center justify-center bg-slate-900 bg-cover bg-center"
+      style={{ backgroundImage: "url(/photo-en-attente.jpg)" }}
+    >
+      <div className="absolute inset-0 bg-black/55" />
+      <span
+        className="relative px-2 text-center text-sm font-extrabold uppercase tracking-widest text-yellow-300"
+        style={{ textShadow: "0 2px 6px rgba(0,0,0,0.9), 0 0 2px rgba(0,0,0,1)" }}
+      >
+        Photo en attente
       </span>
     </div>
   );
