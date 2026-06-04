@@ -277,7 +277,8 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
 
           <dl className="mt-5 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
             <Row label="État">{ETAT_LABELS[card.etat] ?? card.etat ?? "-"}</Row>
-            <Row label="Édition">{card.is_1st ? "1ère Édition" : "-"}</Row>
+            <Row label="Édition">{card.set || "-"}</Row>
+            <Row label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Row>
             <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
             <Row label="Réservée">{card.reserve ? "Oui" : "Non"}</Row>
           </dl>
