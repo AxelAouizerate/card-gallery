@@ -22,7 +22,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": true,
-    "grade": null,
+    "grade": "7",
     "grade_org": "CCC",
     "reserve": false,
     "prix": 350.0,
@@ -37,7 +37,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": true,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": null,
     "reserve": false,
     "prix": 250.0,
@@ -67,7 +67,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": true,
-    "grade": null,
+    "grade": "7.5",
     "grade_org": "MTG",
     "reserve": false,
     "prix": 250.0,
@@ -82,7 +82,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": true,
-    "grade": null,
+    "grade": "8",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 200.0,
@@ -97,7 +97,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": true,
-    "grade": null,
+    "grade": "7",
     "grade_org": null,
     "reserve": false,
     "prix": 200.0,
@@ -112,7 +112,7 @@
     "lang": "FR",
     "etat": "MINT+",
     "is_1st": false,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 200.0,
@@ -127,7 +127,7 @@
     "lang": "FR",
     "etat": "MINT+",
     "is_1st": true,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 200.0,
@@ -142,7 +142,7 @@
     "lang": "FR",
     "etat": "MINT+",
     "is_1st": true,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 200.0,
@@ -157,7 +157,7 @@
     "lang": "JP",
     "etat": "MINT+",
     "is_1st": false,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 200.0,
@@ -172,7 +172,7 @@
     "lang": "JP",
     "etat": "MINT+",
     "is_1st": false,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 200.0,
@@ -187,7 +187,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": true,
-    "grade": null,
+    "grade": "8",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 200.0,
@@ -202,7 +202,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": false,
-    "grade": null,
+    "grade": "8",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 200.0,
@@ -232,7 +232,7 @@
     "lang": "FR",
     "etat": "MINT",
     "is_1st": true,
-    "grade": null,
+    "grade": "8",
     "grade_org": "PSA",
     "reserve": false,
     "prix": 160.0,
@@ -247,7 +247,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": true,
-    "grade": null,
+    "grade": "9",
     "grade_org": null,
     "reserve": false,
     "prix": 150.0,
@@ -262,7 +262,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": true,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": null,
     "reserve": false,
     "prix": 150.0,
@@ -277,7 +277,7 @@
     "lang": "JP",
     "etat": "MINT+",
     "is_1st": false,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 150.0,
@@ -307,7 +307,7 @@
     "lang": "FR",
     "etat": "MINT+",
     "is_1st": false,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 150.0,
@@ -322,7 +322,7 @@
     "lang": "EN",
     "etat": "MINT+",
     "is_1st": false,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 150.0,
@@ -337,7 +337,7 @@
     "lang": "FR",
     "etat": "EXC",
     "is_1st": true,
-    "grade": null,
+    "grade": "6",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 120.0,
@@ -352,7 +352,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": false,
-    "grade": null,
+    "grade": "8",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 120.0,
@@ -367,7 +367,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": true,
-    "grade": null,
+    "grade": "8",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 120.0,
@@ -442,7 +442,7 @@
     "lang": "FR",
     "etat": "MINT",
     "is_1st": false,
-    "grade": null,
+    "grade": "9",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 110.0,
@@ -457,7 +457,7 @@
     "lang": "FR",
     "etat": "MINT+",
     "is_1st": true,
-    "grade": null,
+    "grade": "9",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 110.0,
@@ -551,8 +551,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 100.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1042_01.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1042_02.jpeg"
   },
   {
     "id": 431,
@@ -562,7 +562,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": true,
-    "grade": null,
+    "grade": "8",
     "grade_org": null,
     "reserve": false,
     "prix": 100.0,
@@ -592,7 +592,7 @@
     "lang": "JP",
     "etat": "NM",
     "is_1st": false,
-    "grade": null,
+    "grade": "8",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 100.0,
@@ -607,7 +607,7 @@
     "lang": "FR",
     "etat": "GEM MINT",
     "is_1st": false,
-    "grade": null,
+    "grade": "10",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 100.0,
@@ -622,7 +622,7 @@
     "lang": "JP",
     "etat": "MINT+",
     "is_1st": false,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 100.0,
@@ -667,7 +667,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": true,
-    "grade": null,
+    "grade": "7",
     "grade_org": null,
     "reserve": false,
     "prix": 90.0,
@@ -712,7 +712,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": false,
-    "grade": null,
+    "grade": "8.5",
     "grade_org": "CCC",
     "reserve": false,
     "prix": 90.0,
@@ -727,7 +727,7 @@
     "lang": "FR",
     "etat": "MINT",
     "is_1st": true,
-    "grade": null,
+    "grade": "9",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 90.0,
@@ -791,8 +791,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 80.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/475_1.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/475_2.jpeg"
   },
   {
     "id": 492,
@@ -862,7 +862,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": false,
-    "grade": null,
+    "grade": "8",
     "grade_org": "CCC",
     "reserve": false,
     "prix": 80.0,
@@ -896,8 +896,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 75.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/295_01.jpg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/295_02.jpg"
   },
   {
     "id": 494,
@@ -1042,7 +1042,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": true,
-    "grade": null,
+    "grade": "7",
     "grade_org": null,
     "reserve": false,
     "prix": 70.0,
@@ -1192,7 +1192,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": true,
-    "grade": null,
+    "grade": "8",
     "grade_org": null,
     "reserve": false,
     "prix": 60.0,
@@ -1282,7 +1282,7 @@
     "lang": "FR",
     "etat": "MINT+",
     "is_1st": false,
-    "grade": null,
+    "grade": "9.5",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 60.0,
@@ -1297,7 +1297,7 @@
     "lang": "FR",
     "etat": "MINT",
     "is_1st": false,
-    "grade": null,
+    "grade": "9",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 60.0,
@@ -1387,7 +1387,7 @@
     "lang": "FR",
     "etat": "NM-",
     "is_1st": true,
-    "grade": null,
+    "grade": "7",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 55.0,
@@ -1492,7 +1492,7 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": true,
-    "grade": null,
+    "grade": "8",
     "grade_org": null,
     "reserve": false,
     "prix": 50.0,
@@ -1657,7 +1657,7 @@
     "lang": "JP",
     "etat": "NM",
     "is_1st": false,
-    "grade": null,
+    "grade": "7",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 50.0,
@@ -1706,8 +1706,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 45.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/330_01.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/330_02.jpeg"
   },
   {
     "id": 476,
@@ -1897,12 +1897,12 @@
     "lang": "FR",
     "etat": "NM+",
     "is_1st": true,
-    "grade": null,
+    "grade": "8",
     "grade_org": null,
     "reserve": false,
     "prix": 40.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/451_01.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/451_02.jpeg"
   },
   {
     "id": 501,
@@ -1961,8 +1961,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 40.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/879_01.jpg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/879_02.jpg"
   },
   {
     "id": 904,
@@ -2017,7 +2017,7 @@
     "lang": "FR",
     "etat": "NM-",
     "is_1st": true,
-    "grade": null,
+    "grade": "7",
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 40.0,
@@ -2246,8 +2246,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 35.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1065_01.jpg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1065_02.jpg"
   },
   {
     "id": 616,
@@ -2276,8 +2276,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 32.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/647_01.jpg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/647_02.jpg"
   },
   {
     "id": 13,
@@ -2366,8 +2366,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 30.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/340_1.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/340_2.jpeg"
   },
   {
     "id": 345,
@@ -2711,8 +2711,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 25.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/348_01.jpg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/348_02.jpg"
   },
   {
     "id": 349,
@@ -2831,8 +2831,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 25.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/891_01.jpg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/891_02.jpg"
   },
   {
     "id": 907,
@@ -3356,8 +3356,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 18.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/284_1.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/284_2.jpeg"
   },
   {
     "id": 396,
@@ -3536,8 +3536,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 15.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/360_01.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/360_02.jpeg"
   },
   {
     "id": 362,
@@ -3791,7 +3791,7 @@
     "grade_org": null,
     "reserve": false,
     "prix": 14.0,
-    "photo_1": null,
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/271_1.jpeg",
     "photo_2": null
   },
   {
@@ -4226,8 +4226,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 10.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/281_1.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/281_2.jpeg"
   },
   {
     "id": 286,
@@ -4286,8 +4286,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 10.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/367_01.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/367_02.jpeg"
   },
   {
     "id": 368,
@@ -4346,8 +4346,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 10.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/459_01.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/459_02.jpeg"
   },
   {
     "id": 511,
@@ -4856,8 +4856,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 9.0,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/846_01.jpeg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/846_02.jpeg"
   },
   {
     "id": 861,
@@ -5411,7 +5411,7 @@
     "grade_org": null,
     "reserve": false,
     "prix": 7.0,
-    "photo_1": null,
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/260_1.jpeg",
     "photo_2": null
   },
   {
@@ -10316,8 +10316,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": null,
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1065_01.jpg",
+    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1065_02.jpg"
   },
   {
     "id": 1066,
@@ -10612,7 +10612,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": false,
-    "grade": null,
+    "grade": "7",
     "grade_org": "CCC",
     "reserve": false,
     "prix": null,

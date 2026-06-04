@@ -192,9 +192,7 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
           // eslint-disable-next-line @next/next/no-img-element
           <img src={c.photo_1} alt={c.nom} className="h-full w-full object-cover" loading="lazy" />
         ) : (
-          <div className="flex h-full items-center justify-center bg-slate-900 px-2 text-center text-sm font-semibold uppercase tracking-wide text-white">
-            Photo en attente
-          </div>
+          <PhotoPending />
         )}
         {c.reserve && (
           <span className="absolute right-2 top-2 rounded bg-amber-500 px-1.5 py-0.5 text-[10px] font-semibold uppercase text-white">
