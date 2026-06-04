@@ -275,15 +275,7 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
             {card.set} · {card.rarete} · {card.lang}
           </p>
 
-          <dl className="mt-5 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
-            <Row label="État">{ETAT_LABELS[card.etat] ?? card.etat ?? "-"}</Row>
-            <Row label="Édition">{card.set || "-"}</Row>
-            <Row label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Row>
-            <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
-            <Row label="Réservée">{card.reserve ? "Oui" : "Non"}</Row>
-          </dl>
-
-          <div className="mt-auto pt-6">
+          <div className="mt-4">
             {card.prix !== null ? (
               <p className="text-3xl font-semibold text-slate-900">{card.prix.toFixed(0)} €</p>
             ) : (
@@ -292,6 +284,14 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
               </p>
             )}
           </div>
+
+          <dl className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
+            <Row label="État">{ETAT_LABELS[card.etat] ?? card.etat ?? "-"}</Row>
+            <Row label="Édition">{card.set || "-"}</Row>
+            <Row label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Row>
+            <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
+            <Row label="Réservée">{card.reserve ? "Oui" : "Non"}</Row>
+          </dl>
         </div>
       </div>
     </div>
