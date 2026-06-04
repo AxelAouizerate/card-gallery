@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Card } from "@/lib/cards";
 
 type Props = { cards: Card[] };
@@ -81,6 +81,8 @@ export default function CardGallery({ cards }: Props) {
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
+
+  const [selected, setSelected] = useState<Card | null>(null);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-6">
@@ -163,7 +165,7 @@ export default function CardGallery({ cards }: Props) {
       {/* Grille */}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {filtered.map((c) => (
-          <CardTile key={c.id} c={c} />
+          <CardTile key={c.id} c={c} onOpen={() => setSelected(c)} />
         ))}
       </div>
 
@@ -172,13 +174,19 @@ export default function CardGallery({ cards }: Props) {
           Aucune carte ne correspond à ces filtres.
         </p>
       )}
+
+      {selected && <CardModal card={selected} onClose={() => setSelected(null)} />}
     </div>
   );
 }
 
-function CardTile({ c }: { c: Card }) {
+function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
   return (
-    <div className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:shadow-md">
+    <button
+      type="button"
+      onClick={onOpen}
+      className="overflow-hidden rounded-lg border border-slate-200 bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-slate-400"
+    >
       <div className="relative aspect-[3/4] w-full bg-slate-100">
         {c.photo_1 ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -222,6 +230,96 @@ function CardTile({ c }: { c: Card }) {
           {c.etat && <span className="text-[10px] text-slate-500">{ETAT_LABELS[c.etat] ?? c.etat}</span>}
         </div>
       </div>
+    </button>
+  );
+}
+
+function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
+  // Echap pour fermer
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  return (
+    <div
+      onClick={onClose}
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="relative grid max-h-[92vh] w-full max-w-4xl gap-4 overflow-y-auto rounded-xl bg-white p-4 shadow-2xl md:grid-cols-2 md:p-6"
+      >
+        <button
+          onClick={onClose}
+          aria-label="Fermer"
+          className="absolute right-3 top-3 z-10 rounded-full bg-white/90 p-1.5 text-slate-600 shadow hover:bg-white hover:text-slate-900"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+
+        {/* Photos */}
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-1">
+          <Photo src={card.photo_1} alt={`${card.nom} - recto`} label="Recto" />
+          <Photo src={card.photo_2} alt={`${card.nom} - verso`} label="Verso" />
+        </div>
+
+        {/* Infos */}
+        <div className="flex flex-col">
+          <h2 className="pr-10 text-xl font-semibold text-slate-900">{card.nom}</h2>
+          <p className="mt-1 text-sm text-slate-500">
+            {card.set} · {card.rarete} · {card.lang}
+          </p>
+
+          <dl className="mt-5 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
+            <Row label="État">{ETAT_LABELS[card.etat] ?? card.etat ?? "-"}</Row>
+            <Row label="Édition">{card.is_1st ? "1ère Édition" : "-"}</Row>
+            <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
+            <Row label="Réservée">{card.reserve ? "Oui" : "Non"}</Row>
+          </dl>
+
+          <div className="mt-auto pt-6">
+            {card.prix !== null ? (
+              <p className="text-3xl font-semibold text-slate-900">{card.prix.toFixed(0)} €</p>
+            ) : (
+              <p className="text-base font-medium uppercase tracking-wide text-amber-700">
+                Bientôt en boutique
+              </p>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Photo({ src, alt, label }: { src: string | null; alt: string; label: string }) {
+  return (
+    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-100">
+      {src ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={src} alt={alt} className="h-full w-full object-contain" />
+      ) : (
+        <div className="flex h-full items-center justify-center text-xs text-slate-400">
+          (pas de photo)
+        </div>
+      )}
+      <span className="absolute left-2 top-2 rounded bg-slate-900/70 px-1.5 py-0.5 text-[10px] font-semibold uppercase text-white">
+        {label}
+      </span>
+    </div>
+  );
+}
+
+function Row({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <dt className="text-xs uppercase tracking-wide text-slate-500">{label}</dt>
+      <dd className="mt-0.5 text-slate-900">{children}</dd>
     </div>
   );
 }
