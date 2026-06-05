@@ -104,6 +104,20 @@ export default function CardGallery({ cards }: Props) {
 
   const [selected, setSelected] = useState<Card | null>(null);
 
+  // Pagination
+  const PAGE_SIZE = 40;
+  const [page, setPage] = useState(1);
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  // Reset a la page 1 quand les filtres changent (filtered change de longueur)
+  useEffect(() => { setPage(1); }, [
+    search, setFilter, rareteFilter, langFilter, etatFilter,
+    only1st, onlyGraded, priceMin, priceMax, sortBy,
+  ]);
+  const safePage = Math.min(page, pageCount);
+  const pageStart = (safePage - 1) * PAGE_SIZE;
+  const pageEnd = pageStart + PAGE_SIZE;
+  const pageItems = filtered.slice(pageStart, pageEnd);
+
   return (
     <div className="mx-auto max-w-7xl px-4 py-6">
       <header className="mb-6 flex flex-wrap items-baseline justify-between gap-2">
@@ -188,12 +202,21 @@ export default function CardGallery({ cards }: Props) {
 
       {/* Grille */}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-        {filtered.map((c, i) => (
-          // Cle composee : ton CSV a quelques IDs dupliques (886, 887...)
-          // donc cles {c.id} seules embrouillent React lors des filtres.
-          <CardTile key={`${c.id}-${c.set}-${i}`} c={c} onOpen={() => setSelected(c)} />
+        {pageItems.map((c, i) => (
+          <CardTile key={`${c.id}-${c.set}-${pageStart + i}`} c={c} onOpen={() => setSelected(c)} />
         ))}
       </div>
+
+      {filtered.length > 0 && (
+        <Pagination
+          page={safePage}
+          pageCount={pageCount}
+          pageStart={pageStart}
+          pageEnd={Math.min(pageEnd, filtered.length)}
+          total={filtered.length}
+          onPage={setPage}
+        />
+      )}
 
       {filtered.length === 0 && (
         <p className="mt-12 text-center text-sm text-amber-100/60">
@@ -203,6 +226,28 @@ export default function CardGallery({ cards }: Props) {
 
       {selected && <CardModal card={selected} onClose={() => setSelected(null)} />}
     </div>
+  );
+}
+
+function Pagination({
+  page, pageCount, pageStart, pageEnd, total, onPage,
+}: {
+  page: number; pageCount: number; pageStart: number; pageEnd: number;
+  total: number; onPage: (p: number) => void;
+}) {
+  const btn = "inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-amber-500/40 bg-black/40 px-3 text-sm font-medium text-amber-100 transition hover:bg-amber-500/20 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-black/40";
+  return (
+    <nav className="mt-8 flex flex-wrap items-center justify-between gap-3">
+      <p className="text-xs text-amber-100/70">
+        Cartes {pageStart + 1}-{pageEnd} sur {total} - Page {page} / {pageCount}
+      </p>
+      <div className="flex items-center gap-1.5">
+        <button className={btn} onClick={() => onPage(1)} disabled={page <= 1} aria-label="Première page">«</button>
+        <button className={btn} onClick={() => onPage(page - 1)} disabled={page <= 1} aria-label="Page précédente">‹ Précédente</button>
+        <button className={btn} onClick={() => onPage(page + 1)} disabled={page >= pageCount} aria-label="Page suivante">Suivante ›</button>
+        <button className={btn} onClick={() => onPage(pageCount)} disabled={page >= pageCount} aria-label="Dernière page">»</button>
+      </div>
+    </nav>
   );
 }
 
