@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Card } from "@/lib/cards";
 import { useCart } from "@/lib/cart";
+import { useFavorites } from "@/lib/favorites";
 
 type Props = { cards: Card[] };
 
@@ -282,6 +283,8 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
         {c.photo_1 ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={c.photo_1} alt={c.nom} className="h-full w-full object-cover" loading="lazy" />
+        ) : c.status === "coming_soon" ? (
+          <ComingSoon />
         ) : (
           <PhotoPending />
         )}
@@ -354,8 +357,8 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
 
         {/* Photos */}
         <div className="grid grid-cols-2 gap-3 md:grid-cols-1">
-          <Photo src={card.photo_1} alt={`${card.nom} - recto`} label="Recto" />
-          <Photo src={card.photo_2} alt={`${card.nom} - verso`} label="Verso" />
+          <Photo src={card.photo_1} alt={`${card.nom} - recto`} label="Recto" status={card.status} />
+          <Photo src={card.photo_2} alt={`${card.nom} - verso`} label="Verso" status={card.status} />
         </div>
 
         {/* Infos */}
@@ -383,19 +386,77 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
             <Row label="Réservée">{card.reserve ? "Oui" : "Non"}</Row>
           </dl>
 
-          <CartButton card={card} className="mt-6" />
+          <div className="mt-6 flex flex-col gap-2">
+            <CartButton card={card} />
+            <FavoriteButton card={card} />
+            {card.status === "photo_pending" && <RequestPhotosButton card={card} />}
+          </div>
         </div>
       </div>
     </div>
   );
 }
 
-function Photo({ src, alt, label }: { src: string | null; alt: string; label: string }) {
+function FavoriteButton({ card }: { card: Card }) {
+  const { has, toggle } = useFavorites();
+  const liked = has(card);
+  return (
+    <button
+      type="button"
+      onClick={(e) => { e.stopPropagation(); toggle(card); }}
+      className={"w-full rounded-md border px-4 py-2.5 text-sm font-semibold transition " + (
+        liked
+          ? "border-rose-500 bg-rose-100 text-rose-700 hover:bg-rose-200"
+          : "border-rose-300 bg-white text-rose-600 hover:bg-rose-50"
+      )}
+    >
+      {liked ? "❤ Aimé - Retirer des favoris" : "♡ Ajouter aux favoris"}
+    </button>
+  );
+}
+
+function RequestPhotosButton({ card }: { card: Card }) {
+  // Limite cote front (le rate-limit reel par utilisateur necessitera Supabase) :
+  // on enregistre dans localStorage le nombre de demandes du jour.
+  const dailyKey = `req_photos_${new Date().toISOString().slice(0, 10)}`;
+  const handleClick = () => {
+    let n = 0;
+    try { n = parseInt(localStorage.getItem(dailyKey) || "0", 10); } catch {}
+    if (n >= 5) {
+      alert("Tu as déjà demandé 5 séries de photos aujourd'hui. Reviens demain !");
+      return;
+    }
+    try { localStorage.setItem(dailyKey, String(n + 1)); } catch {}
+    const subject = encodeURIComponent(`Demande de photos - ${card.nom} (${card.set})`);
+    const body = encodeURIComponent(
+      `Bonjour,\n\nJe serais intéressé(e) par cette carte mais les photos ne sont pas encore disponibles :\n\n` +
+      `• Carte : ${card.nom}\n• Set : ${card.set}\n• Rareté : ${card.rarete}\n• Langue : ${card.lang}\n` +
+      `• Référence : #${card.id}\n\nPourrais-tu m'envoyer des photos quand tu peux ?\n\nMerci !`
+    );
+    window.location.href = `mailto:axel.ate3@gmail.com?subject=${subject}&body=${body}`;
+  };
+  return (
+    <button
+      type="button"
+      onClick={handleClick}
+      className="w-full rounded-md border border-cyan-400 bg-cyan-50 px-4 py-2.5 text-sm font-semibold text-cyan-800 transition hover:bg-cyan-100"
+    >
+      📸 Demander des photos
+    </button>
+  );
+}
+
+function Photo({ src, alt, label, status }: {
+  src: string | null; alt: string; label: string;
+  status?: "available" | "photo_pending" | "coming_soon";
+}) {
   return (
     <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-100">
       {src ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={src} alt={alt} className="h-full w-full object-contain" />
+      ) : status === "coming_soon" ? (
+        <ComingSoon />
       ) : (
         <PhotoPending />
       )}
@@ -418,6 +479,29 @@ function PhotoPending() {
         style={{ textShadow: "0 2px 6px rgba(0,0,0,0.9), 0 0 2px rgba(0,0,0,1)" }}
       >
         Photo en attente
+      </span>
+    </div>
+  );
+}
+
+function ComingSoon() {
+  return (
+    <div
+      className="relative flex h-full w-full items-center justify-center bg-slate-900 bg-cover bg-center"
+      style={{ backgroundImage: "url(/photo-en-attente.jpg)" }}
+    >
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(135deg, rgba(20,40,90,0.85), rgba(60,20,90,0.85))",
+        }}
+      />
+      <span
+        className="relative px-2 text-center text-sm font-extrabold uppercase tracking-widest text-cyan-200"
+        style={{ textShadow: "0 2px 6px rgba(0,0,0,0.9), 0 0 2px rgba(0,0,0,1)" }}
+      >
+        Bientôt en boutique
       </span>
     </div>
   );

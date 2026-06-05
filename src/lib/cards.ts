@@ -1,3 +1,5 @@
+export type CardStatus = "available" | "photo_pending" | "coming_soon";
+
 export type Card = {
   id: number;
   nom: string;
@@ -9,7 +11,9 @@ export type Card = {
   grade: string | null;
   grade_org: string | null;
   reserve: boolean;
-  prix: number | null;   // null = "Bientot en boutique"
+  prix: number | null;
+  status: CardStatus;
+  statut_raw: string;
   photo_1: string | null;
   photo_2: string | null;
 };
