@@ -128,10 +128,11 @@ export default function CardGallery({ cards }: Props) {
           Ma collection
         </h1>
         <p className="text-sm text-amber-100/80">
-          {filtered.length} cartes - {totalValue.toFixed(0)} €
+          {filtered.length} cartes
           {nWithoutPrice > 0 && (
             <span className="text-amber-100/50"> (+{nWithoutPrice} bientôt en boutique)</span>
           )}
+          {" - "}{totalValue.toFixed(0)} €
         </p>
       </header>
 
@@ -287,6 +288,7 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
         </p>
         <p className="mt-0.5 truncate text-xs text-slate-500">
           {c.set} · {c.rarete} · {c.lang}
+          {c.is_1st && " · 1ère édition"}
         </p>
         <div className="mt-2 flex items-center justify-between">
           {c.prix !== null ? (
