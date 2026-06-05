@@ -13,7 +13,7 @@ async function getCards(): Promise<Card[]> {
 export default async function HomePage() {
   const cards = await getCards();
   return (
-    <main className="min-h-screen bg-slate-50">
+    <main className="min-h-screen">
       <HeaderNav />
       <CardGallery cards={cards} />
     </main>

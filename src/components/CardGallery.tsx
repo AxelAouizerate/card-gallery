@@ -107,17 +107,22 @@ export default function CardGallery({ cards }: Props) {
   return (
     <div className="mx-auto max-w-7xl px-4 py-6">
       <header className="mb-6 flex flex-wrap items-baseline justify-between gap-2">
-        <h1 className="text-2xl font-semibold text-slate-900">Ma collection</h1>
-        <p className="text-sm text-slate-600">
+        <h1
+          className="font-serif text-3xl font-bold tracking-wide text-amber-300"
+          style={{ textShadow: "0 2px 0 #000, 0 0 14px rgba(212,175,55,0.35)" }}
+        >
+          Ma collection
+        </h1>
+        <p className="text-sm text-amber-100/80">
           {filtered.length} cartes - {totalValue.toFixed(0)} €
           {nWithoutPrice > 0 && (
-            <span className="text-slate-400"> (+{nWithoutPrice} bientôt en boutique)</span>
+            <span className="text-amber-100/50"> (+{nWithoutPrice} bientôt en boutique)</span>
           )}
         </p>
       </header>
 
-      {/* Filtres */}
-      <div className="mb-6 grid grid-cols-1 gap-3 rounded-lg border border-slate-200 bg-white p-4 sm:grid-cols-2 lg:grid-cols-4">
+      {/* Filtres : panneau "papyrus" sombre */}
+      <div className="mb-6 grid grid-cols-1 gap-3 rounded-lg border border-amber-500/30 bg-black/55 p-4 backdrop-blur supports-[backdrop-filter]:bg-black/40 sm:grid-cols-2 lg:grid-cols-4">
         <Input label="Rechercher" placeholder="Nom de la carte..." value={search} onChange={setSearch} />
         <Select label="Set / Extension" value={setFilter} onChange={setSetFilter} options={sets} />
         <Select label="Rareté" value={rareteFilter} onChange={setRareteFilter} options={raretes} />
@@ -129,30 +134,30 @@ export default function CardGallery({ cards }: Props) {
           options={etats}
         />
         <div>
-          <label className="mb-1 block text-xs font-medium text-slate-600">Prix (€)</label>
+          <label className="mb-1 block text-xs font-medium text-amber-100/80">Prix (€)</label>
           <div className="flex gap-2">
             <input
               type="number"
               placeholder="Min"
               value={priceMin}
               onChange={(e) => setPriceMin(e.target.value === "" ? "" : Number(e.target.value))}
-              className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-sm"
+              className="w-full rounded-md border border-amber-500/40 bg-black/40 px-2 py-1.5 text-sm text-amber-50 placeholder:text-amber-100/40 focus:border-amber-300 focus:outline-none"
             />
             <input
               type="number"
               placeholder="Max"
               value={priceMax}
               onChange={(e) => setPriceMax(e.target.value === "" ? "" : Number(e.target.value))}
-              className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-sm"
+              className="w-full rounded-md border border-amber-500/40 bg-black/40 px-2 py-1.5 text-sm text-amber-50 placeholder:text-amber-100/40 focus:border-amber-300 focus:outline-none"
             />
           </div>
         </div>
         <div>
-          <label className="mb-1 block text-xs font-medium text-slate-600">Tri</label>
+          <label className="mb-1 block text-xs font-medium text-amber-100/80">Tri</label>
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as typeof sortBy)}
-            className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-sm"
+            className="w-full rounded-md border border-amber-500/40 bg-black/40 px-2 py-1.5 text-sm text-amber-50 placeholder:text-amber-100/40 focus:border-amber-300 focus:outline-none"
           >
             <option value="price_desc">Prix décroissant</option>
             <option value="price_asc">Prix croissant</option>
@@ -160,7 +165,7 @@ export default function CardGallery({ cards }: Props) {
           </select>
         </div>
         <div className="flex items-end gap-4">
-          <label className="flex items-center gap-2 text-sm text-slate-700">
+          <label className="flex items-center gap-2 text-sm text-amber-100/90">
             <input
               type="checkbox"
               checked={only1st}
@@ -169,7 +174,7 @@ export default function CardGallery({ cards }: Props) {
             />
             1ère Édition
           </label>
-          <label className="flex items-center gap-2 text-sm text-slate-700">
+          <label className="flex items-center gap-2 text-sm text-amber-100/90">
             <input
               type="checkbox"
               checked={onlyGraded}
@@ -191,7 +196,7 @@ export default function CardGallery({ cards }: Props) {
       </div>
 
       {filtered.length === 0 && (
-        <p className="mt-12 text-center text-sm text-slate-500">
+        <p className="mt-12 text-center text-sm text-amber-100/60">
           Aucune carte ne correspond à ces filtres.
         </p>
       )}
@@ -364,13 +369,13 @@ function Input({
 }: { label: string; value: string; onChange: (v: string) => void; placeholder?: string }) {
   return (
     <div>
-      <label className="mb-1 block text-xs font-medium text-slate-600">{label}</label>
+      <label className="mb-1 block text-xs font-medium text-amber-100/80">{label}</label>
       <input
         type="text"
         value={value}
         placeholder={placeholder}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-sm"
+        className="w-full rounded-md border border-amber-500/40 bg-black/40 px-2 py-1.5 text-sm text-amber-50 placeholder:text-amber-100/40 focus:border-amber-300 focus:outline-none"
       />
     </div>
   );
@@ -387,11 +392,11 @@ function Select({
 }) {
   return (
     <div>
-      <label className="mb-1 block text-xs font-medium text-slate-600">{label}</label>
+      <label className="mb-1 block text-xs font-medium text-amber-100/80">{label}</label>
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full rounded-md border border-slate-300 px-2 py-1.5 text-sm"
+        className="w-full rounded-md border border-amber-500/40 bg-black/40 px-2 py-1.5 text-sm text-amber-50 placeholder:text-amber-100/40 focus:border-amber-300 focus:outline-none"
       >
         <option value="">Tous</option>
         {options.map((o) => (
