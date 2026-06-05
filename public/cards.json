@@ -855,21 +855,6 @@
     "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/614_2.jpg"
   },
   {
-    "id": 884,
-    "nom": "Hommage Torrentiel",
-    "set": "LDC",
-    "rarete": "Ultra",
-    "lang": "FR",
-    "etat": "NM+",
-    "is_1st": false,
-    "grade": "8",
-    "grade_org": "CCC",
-    "reserve": false,
-    "prix": 80.0,
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/884_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/884_2.jpg"
-  },
-  {
     "id": 1041,
     "nom": "L'Explosion Des Étoiles",
     "set": "STBL",
@@ -3240,7 +3225,7 @@
     "photo_2": null
   },
   {
-    "id": 887,
+    "id": 1124,
     "nom": "Chimeratech Over-Dragon",
     "set": "POTD",
     "rarete": "Ultra",
@@ -3251,8 +3236,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 20.0,
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/887_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/887_2.jpg"
+    "photo_1": null,
+    "photo_2": null
   },
   {
     "id": 920,
@@ -3390,7 +3375,7 @@
     "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/528_2.jpg"
   },
   {
-    "id": 885,
+    "id": 1122,
     "nom": "Babouin Vert",
     "set": "RP02",
     "rarete": "Secret",
@@ -6495,7 +6480,7 @@
     "photo_2": null
   },
   {
-    "id": 886,
+    "id": 1123,
     "nom": "Ring Of Destruction",
     "set": "PP01-KR",
     "rarete": "Ultra",
@@ -6506,8 +6491,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": 5.0,
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/886_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/886_2.jpg"
+    "photo_1": null,
+    "photo_2": null
   },
   {
     "id": 998,
@@ -10305,7 +10290,7 @@
     "photo_2": null
   },
   {
-    "id": 1065,
+    "id": 1125,
     "nom": "Dragon Poussières D'Étoiles",
     "set": "TDGS",
     "rarete": "Ghost",
@@ -10316,8 +10301,8 @@
     "grade_org": null,
     "reserve": false,
     "prix": null,
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1065_01.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1065_02.jpg"
+    "photo_1": null,
+    "photo_2": null
   },
   {
     "id": 1066,
