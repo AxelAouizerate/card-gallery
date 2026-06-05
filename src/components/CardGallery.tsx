@@ -5,6 +5,7 @@ import type { Card } from "@/lib/cards";
 
 type Props = { cards: Card[] };
 
+// Libelles fins (affiches sur les cartes) — "joué" remplace par "played"
 const ETAT_LABELS: Record<string, string> = {
   "MINT": "Mint",
   "MINT+": "Mint+",
@@ -18,17 +19,32 @@ const ETAT_LABELS: Record<string, string> = {
   "EXC": "Excellent",
   "EXC+": "Excellent+",
   "EXC-": "Excellent-",
-  "LP": "Légèrement joué",
-  "LP+": "Légèrement joué+",
-  "LP-": "Légèrement joué-",
+  "LP": "Légèrement played",
+  "LP+": "Légèrement played+",
+  "LP-": "Légèrement played-",
   "GOOD": "Bon",
   "GOOD+": "Bon+",
   "GOOD-": "Bon-",
-  "PL": "Joué",
-  "PL+": "Joué+",
-  "PL-": "Joué-",
-  "POOR": "Très joué",
+  "PL": "Played",
+  "PL+": "Played+",
+  "PL-": "Played-",
+  "POOR": "Très played",
 };
+
+// Groupes pour le FILTRE : on regroupe les variantes (+, -, etc.) sous une
+// meme etiquette. La grille / le modal continuent d'afficher l'etat precis
+// via ETAT_LABELS.
+const ETAT_GROUP: Record<string, string> = {
+  "GEM MINT": "MINT",  "MINT": "MINT",  "MINT+": "MINT",
+  "NM": "NEAR MINT",   "NM+": "NEAR MINT",  "NM-": "NEAR MINT",
+  "EX": "EXCELLENT",   "EX+": "EXCELLENT",  "EX-": "EXCELLENT",
+  "EXC": "EXCELLENT",  "EXC+": "EXCELLENT", "EXC-": "EXCELLENT",
+  "LP": "LIGHTLY PLAYED", "LP+": "LIGHTLY PLAYED", "LP-": "LIGHTLY PLAYED",
+  "GOOD": "GOOD",      "GOOD+": "GOOD",     "GOOD-": "GOOD",
+  "PL": "PLAYED",      "PL+": "PLAYED",     "PL-": "PLAYED",
+  "POOR": "POOR",
+};
+const etatGroup = (e: string) => ETAT_GROUP[e] ?? e;
 
 export default function CardGallery({ cards }: Props) {
   const [search, setSearch] = useState("");
@@ -46,7 +62,11 @@ export default function CardGallery({ cards }: Props) {
   const sets = useMemo(() => uniq(cards.map((c) => c.set).filter(Boolean)).sort(), [cards]);
   const raretes = useMemo(() => uniq(cards.map((c) => c.rarete).filter(Boolean)).sort(), [cards]);
   const langs = useMemo(() => uniq(cards.map((c) => c.lang).filter(Boolean)).sort(), [cards]);
-  const etats = useMemo(() => uniq(cards.map((c) => c.etat).filter(Boolean)).sort(), [cards]);
+  // Pour le dropdown, on liste les GROUPES uniques (MINT, NEAR MINT, etc.)
+  const etats = useMemo(
+    () => uniq(cards.map((c) => etatGroup(c.etat)).filter(Boolean)).sort(),
+    [cards]
+  );
 
   const filtered = useMemo(() => {
     let out = cards.filter((c) => {
@@ -54,7 +74,7 @@ export default function CardGallery({ cards }: Props) {
       if (setFilter && c.set !== setFilter) return false;
       if (rareteFilter && c.rarete !== rareteFilter) return false;
       if (langFilter && c.lang !== langFilter) return false;
-      if (etatFilter && c.etat !== etatFilter) return false;
+      if (etatFilter && etatGroup(c.etat) !== etatFilter) return false;
       if (only1st && !c.is_1st) return false;
       if (onlyGraded && !c.grade) return false;
       // Filtres prix : excluent les cartes sans prix ("Bientot en boutique")
@@ -107,7 +127,6 @@ export default function CardGallery({ cards }: Props) {
           value={etatFilter}
           onChange={setEtatFilter}
           options={etats}
-          renderOption={(o) => ETAT_LABELS[o] ?? o}
         />
         <div>
           <label className="mb-1 block text-xs font-medium text-slate-600">Prix (€)</label>
