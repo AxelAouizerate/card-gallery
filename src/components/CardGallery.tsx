@@ -93,10 +93,6 @@ export default function CardGallery({ cards }: Props) {
           {nWithoutPrice > 0 && (
             <span className="text-slate-400"> (+{nWithoutPrice} bientôt en boutique)</span>
           )}
-          {" · "}
-          <span className="font-mono text-xs text-fuchsia-700">
-            [DEBUG] cards prop = {cards.length}
-          </span>
         </p>
       </header>
 
@@ -168,8 +164,10 @@ export default function CardGallery({ cards }: Props) {
 
       {/* Grille */}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-        {filtered.map((c) => (
-          <CardTile key={c.id} c={c} onOpen={() => setSelected(c)} />
+        {filtered.map((c, i) => (
+          // Cle composee : ton CSV a quelques IDs dupliques (886, 887...)
+          // donc cles {c.id} seules embrouillent React lors des filtres.
+          <CardTile key={`${c.id}-${c.set}-${i}`} c={c} onOpen={() => setSelected(c)} />
         ))}
       </div>
 
