@@ -93,6 +93,10 @@ export default function CardGallery({ cards }: Props) {
           {nWithoutPrice > 0 && (
             <span className="text-slate-400"> (+{nWithoutPrice} bientôt en boutique)</span>
           )}
+          {" · "}
+          <span className="font-mono text-xs text-fuchsia-700">
+            [DEBUG] cards prop = {cards.length}
+          </span>
         </p>
       </header>
 
