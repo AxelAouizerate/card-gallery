@@ -31,20 +31,29 @@ const ETAT_LABELS: Record<string, string> = {
   "POOR": "Très played",
 };
 
-// Groupes pour le FILTRE : on regroupe les variantes (+, -, etc.) sous une
-// meme etiquette. La grille / le modal continuent d'afficher l'etat precis
-// via ETAT_LABELS.
+// Groupes pour le FILTRE : on regroupe les variantes (+, ++, +++, -, etc.)
+// sous une meme etiquette. La grille / le modal continuent d'afficher l'etat
+// precis via ETAT_LABELS.
 const ETAT_GROUP: Record<string, string> = {
   "GEM MINT": "MINT",  "MINT": "MINT",  "MINT+": "MINT",
   "NM": "NEAR MINT",   "NM+": "NEAR MINT",  "NM-": "NEAR MINT",
-  "EX": "EXCELLENT",   "EX+": "EXCELLENT",  "EX-": "EXCELLENT",
-  "EXC": "EXCELLENT",  "EXC+": "EXCELLENT", "EXC-": "EXCELLENT",
-  "LP": "LIGHTLY PLAYED", "LP+": "LIGHTLY PLAYED", "LP-": "LIGHTLY PLAYED",
+  "EX":  "EXCELLENT",  "EX+":  "EXCELLENT", "EX-":  "EXCELLENT", "EX++": "EXCELLENT",  "EX+++": "EXCELLENT",
+  "EXC": "EXCELLENT",  "EXC+": "EXCELLENT", "EXC-": "EXCELLENT", "EXC++": "EXCELLENT", "EXC+++": "EXCELLENT",
   "GOOD": "GOOD",      "GOOD+": "GOOD",     "GOOD-": "GOOD",
+  "LP": "LIGHT PLAYED", "LP+": "LIGHT PLAYED", "LP-": "LIGHT PLAYED",
   "PL": "PLAYED",      "PL+": "PLAYED",     "PL-": "PLAYED",
   "POOR": "POOR",
 };
 const etatGroup = (e: string) => ETAT_GROUP[e] ?? e;
+
+// Hierarchie du meilleur (rank 0) au pire. Sert pour le filtre "etat minimum".
+const ETAT_ORDER = [
+  "MINT", "NEAR MINT", "EXCELLENT", "GOOD", "LIGHT PLAYED", "PLAYED", "POOR",
+];
+const etatRank = (group: string): number => {
+  const i = ETAT_ORDER.indexOf(group);
+  return i === -1 ? 999 : i;   // groupe inconnu en dernier
+};
 
 export default function CardGallery({ cards }: Props) {
   const [search, setSearch] = useState("");
@@ -62,9 +71,10 @@ export default function CardGallery({ cards }: Props) {
   const sets = useMemo(() => uniq(cards.map((c) => c.set).filter(Boolean)).sort(), [cards]);
   const raretes = useMemo(() => uniq(cards.map((c) => c.rarete).filter(Boolean)).sort(), [cards]);
   const langs = useMemo(() => uniq(cards.map((c) => c.lang).filter(Boolean)).sort(), [cards]);
-  // Pour le dropdown, on liste les GROUPES uniques (MINT, NEAR MINT, etc.)
+  // Dropdown : groupes uniques tries du MEILLEUR au PIRE.
   const etats = useMemo(
-    () => uniq(cards.map((c) => etatGroup(c.etat)).filter(Boolean)).sort(),
+    () => uniq(cards.map((c) => etatGroup(c.etat)).filter(Boolean))
+      .sort((a, b) => etatRank(a) - etatRank(b)),
     [cards]
   );
 
@@ -74,7 +84,9 @@ export default function CardGallery({ cards }: Props) {
       if (setFilter && c.set !== setFilter) return false;
       if (rareteFilter && c.rarete !== rareteFilter) return false;
       if (langFilter && c.lang !== langFilter) return false;
-      if (etatFilter && etatGroup(c.etat) !== etatFilter) return false;
+      // Filtre "etat MINIMUM" : on garde les cartes au moins aussi bonnes
+      // que l'etat selectionne (rank <= rank du filtre).
+      if (etatFilter && etatRank(etatGroup(c.etat)) > etatRank(etatFilter)) return false;
       if (only1st && !c.is_1st) return false;
       if (onlyGraded && !c.grade) return false;
       // Filtres prix : excluent les cartes sans prix ("Bientot en boutique")
@@ -142,7 +154,7 @@ export default function CardGallery({ cards }: Props) {
         <Select label="Rareté" value={rareteFilter} onChange={setRareteFilter} options={raretes} />
         <Select label="Langue" value={langFilter} onChange={setLangFilter} options={langs} />
         <Select
-          label="État"
+          label="État minimum"
           value={etatFilter}
           onChange={setEtatFilter}
           options={etats}
