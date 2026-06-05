@@ -132,7 +132,6 @@ export default function CardGallery({ cards }: Props) {
           {nWithoutPrice > 0 && (
             <span className="text-amber-100/50"> (+{nWithoutPrice} bientôt en boutique)</span>
           )}
-          {" - "}{totalValue.toFixed(0)} €
         </p>
       </header>
 
