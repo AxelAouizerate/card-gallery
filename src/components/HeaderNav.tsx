@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { logout } from "@/app/actions/auth";
+import CartLink from "./CartLink";
 
 export default async function HeaderNav() {
   // Lecture user cote serveur (best-effort : si Supabase pas configure, on tombe gracieusement)
@@ -24,6 +25,7 @@ export default async function HeaderNav() {
           Card Gallery
         </Link>
         <nav className="flex items-center gap-3 text-sm">
+          <CartLink />
           {userEmail ? (
             <>
               <span className="text-amber-100/80">{userEmail}</span>

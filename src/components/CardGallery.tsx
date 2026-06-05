@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { Card } from "@/lib/cards";
+import { useCart } from "@/lib/cart";
 
 type Props = { cards: Card[] };
 
@@ -264,13 +265,20 @@ function Pagination({
 }
 
 function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
+  const { has } = useCart();
+  const inCart = has(c);
   return (
     <button
       type="button"
       onClick={onOpen}
-      className="overflow-hidden rounded-lg border border-slate-200 bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-slate-400"
+      className={"overflow-hidden rounded-lg border bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-amber-400 " + (inCart ? "border-amber-400 ring-2 ring-amber-300/60" : "border-slate-200")}
     >
       <div className="relative aspect-[3/4] w-full bg-slate-100">
+        {inCart && (
+          <span className="absolute right-2 top-2 z-10 inline-flex h-7 w-7 items-center justify-center rounded-full bg-amber-400 text-xs font-bold text-black shadow">
+            ✓
+          </span>
+        )}
         {c.photo_1 ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={c.photo_1} alt={c.nom} className="h-full w-full object-cover" loading="lazy" />
@@ -374,6 +382,8 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
             <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
             <Row label="Réservée">{card.reserve ? "Oui" : "Non"}</Row>
           </dl>
+
+          <CartButton card={card} className="mt-6" />
         </div>
       </div>
     </div>
