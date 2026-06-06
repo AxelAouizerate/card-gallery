@@ -532,18 +532,13 @@ function PhotoPending() {
 function ComingSoon() {
   return (
     <div
-      className="relative flex h-full w-full items-center justify-center bg-slate-900 bg-cover bg-center"
-      style={{ backgroundImage: "url(/photo-en-attente.jpg)" }}
+      className="relative flex h-full w-full items-center justify-center"
+      style={{
+        background: "linear-gradient(135deg, #1e1b4b 0%, #3b0764 100%)",
+      }}
     >
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(135deg, rgba(20,40,90,0.85), rgba(60,20,90,0.85))",
-        }}
-      />
       <span
-        className="relative px-2 text-center text-sm font-extrabold uppercase tracking-widest text-cyan-200"
+        className="px-2 text-center text-sm font-extrabold uppercase tracking-widest text-cyan-200"
         style={{ textShadow: "0 2px 6px rgba(0,0,0,0.9), 0 0 2px rgba(0,0,0,1)" }}
       >
         Bientôt en boutique
