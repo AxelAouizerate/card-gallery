@@ -13,8 +13,8 @@
     "prix": 500.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/896_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/896_2.jpg"
+    "photo_1": "/photos/896_1.jpg",
+    "photo_2": "/photos/896_2.jpg"
   },
   {
     "id": 504,
@@ -30,8 +30,8 @@
     "prix": 350.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/504_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/504_2.jpg"
+    "photo_1": "/photos/504_1.jpg",
+    "photo_2": "/photos/504_2.jpg"
   },
   {
     "id": 432,
@@ -47,8 +47,8 @@
     "prix": 250.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/432_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/432_2.jpg"
+    "photo_1": "/photos/432_1.jpg",
+    "photo_2": "/photos/432_2.jpg"
   },
   {
     "id": 207,
@@ -64,8 +64,8 @@
     "prix": 250.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/207_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/207_2.jpg"
+    "photo_1": "/photos/207_1.jpg",
+    "photo_2": "/photos/207_2.jpg"
   },
   {
     "id": 889,
@@ -81,8 +81,8 @@
     "prix": 200.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/889_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/889_2.jpg"
+    "photo_1": "/photos/889_1.jpg",
+    "photo_2": "/photos/889_2.jpg"
   },
   {
     "id": 60,
@@ -98,8 +98,8 @@
     "prix": 200.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/060_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/060_2.jpg"
+    "photo_1": "/photos/060_1.jpg",
+    "photo_2": "/photos/060_2.jpg"
   },
   {
     "id": 642,
@@ -115,8 +115,8 @@
     "prix": 200.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/642_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/642_2.jpg"
+    "photo_1": "/photos/642_1.jpg",
+    "photo_2": "/photos/642_2.jpg"
   },
   {
     "id": 1049,
@@ -132,8 +132,8 @@
     "prix": 200.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1049_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1049_2.jpg"
+    "photo_1": "/photos/1049_1.jpg",
+    "photo_2": "/photos/1049_2.jpg"
   },
   {
     "id": 1050,
@@ -149,8 +149,8 @@
     "prix": 200.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1050_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1050_2.jpg"
+    "photo_1": "/photos/1050_1.jpg",
+    "photo_2": "/photos/1050_2.jpg"
   },
   {
     "id": 1055,
@@ -166,8 +166,8 @@
     "prix": 200.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1055_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1055_2.jpg"
+    "photo_1": "/photos/1055_1.jpg",
+    "photo_2": "/photos/1055_2.jpg"
   },
   {
     "id": 1056,
@@ -183,8 +183,8 @@
     "prix": 200.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1056_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1056_2.jpg"
+    "photo_1": "/photos/1056_1.jpg",
+    "photo_2": "/photos/1056_2.jpg"
   },
   {
     "id": 1099,
@@ -217,8 +217,8 @@
     "prix": 180.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/301_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/301_2.jpg"
+    "photo_1": "/photos/301_1.jpg",
+    "photo_2": "/photos/301_2.jpg"
   },
   {
     "id": 518,
@@ -234,8 +234,8 @@
     "prix": 160.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/518_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/518_2.jpg"
+    "photo_1": "/photos/518_1.jpg",
+    "photo_2": "/photos/518_2.jpg"
   },
   {
     "id": 410,
@@ -251,8 +251,8 @@
     "prix": 150.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/410_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/410_2.jpg"
+    "photo_1": "/photos/410_1.jpg",
+    "photo_2": "/photos/410_2.jpg"
   },
   {
     "id": 449,
@@ -268,8 +268,8 @@
     "prix": 150.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/449_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/449_2.jpg"
+    "photo_1": "/photos/449_1.jpg",
+    "photo_2": "/photos/449_2.jpg"
   },
   {
     "id": 643,
@@ -285,8 +285,8 @@
     "prix": 150.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/643_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/643_2.jpg"
+    "photo_1": "/photos/643_1.jpg",
+    "photo_2": "/photos/643_2.jpg"
   },
   {
     "id": 883,
@@ -302,8 +302,8 @@
     "prix": 150.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/883_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/883_2.jpg"
+    "photo_1": "/photos/883_1.jpg",
+    "photo_2": "/photos/883_2.jpg"
   },
   {
     "id": 1047,
@@ -319,8 +319,8 @@
     "prix": 150.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1047_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1047_2.jpg"
+    "photo_1": "/photos/1047_1.jpg",
+    "photo_2": "/photos/1047_2.jpg"
   },
   {
     "id": 1063,
@@ -336,8 +336,8 @@
     "prix": 150.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1063_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1063_2.jpg"
+    "photo_1": "/photos/1063_1.jpg",
+    "photo_2": "/photos/1063_2.jpg"
   },
   {
     "id": 232,
@@ -353,8 +353,8 @@
     "prix": 120.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/232_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/232_2.jpg"
+    "photo_1": "/photos/232_1.jpg",
+    "photo_2": "/photos/232_2.jpg"
   },
   {
     "id": 246,
@@ -370,8 +370,8 @@
     "prix": 120.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/246_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/246_2.jpg"
+    "photo_1": "/photos/246_1.jpg",
+    "photo_2": "/photos/246_2.jpg"
   },
   {
     "id": 313,
@@ -387,8 +387,8 @@
     "prix": 120.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/313_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/313_2.jpg"
+    "photo_1": "/photos/313_1.jpg",
+    "photo_2": "/photos/313_2.jpg"
   },
   {
     "id": 886,
@@ -404,8 +404,8 @@
     "prix": 120.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/886_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/886_2.jpg"
+    "photo_1": "/photos/886_1.jpg",
+    "photo_2": "/photos/886_2.jpg"
   },
   {
     "id": 892,
@@ -421,8 +421,8 @@
     "prix": 120.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/892_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/892_2.jpg"
+    "photo_1": "/photos/892_1.jpg",
+    "photo_2": "/photos/892_2.jpg"
   },
   {
     "id": 303,
@@ -455,8 +455,8 @@
     "prix": 110.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/305_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/305_2.jpg"
+    "photo_1": "/photos/305_1.jpg",
+    "photo_2": "/photos/305_2.jpg"
   },
   {
     "id": 230,
@@ -472,8 +472,8 @@
     "prix": 110.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/230_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/230_2.jpg"
+    "photo_1": "/photos/230_1.jpg",
+    "photo_2": "/photos/230_2.jpg"
   },
   {
     "id": 1051,
@@ -489,8 +489,8 @@
     "prix": 110.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1051_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1051_2.jpg"
+    "photo_1": "/photos/1051_1.jpg",
+    "photo_2": "/photos/1051_2.jpg"
   },
   {
     "id": 308,
@@ -506,8 +506,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/308_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/308_2.jpg"
+    "photo_1": "/photos/308_1.jpg",
+    "photo_2": "/photos/308_2.jpg"
   },
   {
     "id": 310,
@@ -523,8 +523,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/310_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/310_2.jpg"
+    "photo_1": "/photos/310_1.jpg",
+    "photo_2": "/photos/310_2.jpg"
   },
   {
     "id": 472,
@@ -540,8 +540,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/472_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/472_2.jpg"
+    "photo_1": "/photos/472_1.jpg",
+    "photo_2": "/photos/472_2.jpg"
   },
   {
     "id": 489,
@@ -557,8 +557,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/489_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/489_2.jpg"
+    "photo_1": "/photos/489_1.jpg",
+    "photo_2": "/photos/489_2.jpg"
   },
   {
     "id": 550,
@@ -574,8 +574,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/550_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/550_2.jpg"
+    "photo_1": "/photos/550_1.jpg",
+    "photo_2": "/photos/550_2.jpg"
   },
   {
     "id": 1042,
@@ -591,8 +591,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1042_01.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1042_02.jpeg"
+    "photo_1": "/photos/1042_01.jpeg",
+    "photo_2": "/photos/1042_02.jpeg"
   },
   {
     "id": 431,
@@ -608,8 +608,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/431_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/431_2.jpg"
+    "photo_1": "/photos/431_1.jpg",
+    "photo_2": "/photos/431_2.jpg"
   },
   {
     "id": 513,
@@ -625,8 +625,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/513_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/513_2.jpg"
+    "photo_1": "/photos/513_1.jpg",
+    "photo_2": "/photos/513_2.jpg"
   },
   {
     "id": 1054,
@@ -642,8 +642,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1054_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1054_2.jpg"
+    "photo_1": "/photos/1054_1.jpg",
+    "photo_2": "/photos/1054_2.jpg"
   },
   {
     "id": 1058,
@@ -659,8 +659,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1058_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1058_2.jpg"
+    "photo_1": "/photos/1058_1.jpg",
+    "photo_2": "/photos/1058_2.jpg"
   },
   {
     "id": 1060,
@@ -676,8 +676,8 @@
     "prix": 100.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1060_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1060_2.jpg"
+    "photo_1": "/photos/1060_1.jpg",
+    "photo_2": "/photos/1060_2.jpg"
   },
   {
     "id": 497,
@@ -693,8 +693,8 @@
     "prix": 95.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/497_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/497_2.jpg"
+    "photo_1": "/photos/497_1.jpg",
+    "photo_2": "/photos/497_2.jpg"
   },
   {
     "id": 309,
@@ -710,8 +710,8 @@
     "prix": 90.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/309_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/309_2.jpg"
+    "photo_1": "/photos/309_1.jpg",
+    "photo_2": "/photos/309_2.jpg"
   },
   {
     "id": 415,
@@ -727,8 +727,8 @@
     "prix": 90.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/415_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/415_2.jpg"
+    "photo_1": "/photos/415_1.jpg",
+    "photo_2": "/photos/415_2.jpg"
   },
   {
     "id": 547,
@@ -744,8 +744,8 @@
     "prix": 90.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/547_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/547_2.jpg"
+    "photo_1": "/photos/547_1.jpg",
+    "photo_2": "/photos/547_2.jpg"
   },
   {
     "id": 584,
@@ -761,8 +761,8 @@
     "prix": 90.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/584_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/584_2.jpg"
+    "photo_1": "/photos/584_1.jpg",
+    "photo_2": "/photos/584_2.jpg"
   },
   {
     "id": 633,
@@ -778,8 +778,8 @@
     "prix": 90.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/633_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/633_2.jpg"
+    "photo_1": "/photos/633_1.jpg",
+    "photo_2": "/photos/633_2.jpg"
   },
   {
     "id": 1062,
@@ -795,8 +795,8 @@
     "prix": 90.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1062_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1062_2.jpg"
+    "photo_1": "/photos/1062_1.jpg",
+    "photo_2": "/photos/1062_2.jpg"
   },
   {
     "id": 645,
@@ -812,8 +812,8 @@
     "prix": 85.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/645_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/645_2.jpg"
+    "photo_1": "/photos/645_1.jpg",
+    "photo_2": "/photos/645_2.jpg"
   },
   {
     "id": 318,
@@ -829,8 +829,8 @@
     "prix": 80.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/318_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/318_2.jpg"
+    "photo_1": "/photos/318_1.jpg",
+    "photo_2": "/photos/318_2.jpg"
   },
   {
     "id": 463,
@@ -846,8 +846,8 @@
     "prix": 80.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/463_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/463_2.jpg"
+    "photo_1": "/photos/463_1.jpg",
+    "photo_2": "/photos/463_2.jpg"
   },
   {
     "id": 475,
@@ -863,8 +863,8 @@
     "prix": 80.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/475_1.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/475_2.jpeg"
+    "photo_1": "/photos/475_1.jpeg",
+    "photo_2": "/photos/475_2.jpeg"
   },
   {
     "id": 492,
@@ -880,8 +880,8 @@
     "prix": 80.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/492_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/492_2.jpg"
+    "photo_1": "/photos/492_1.jpg",
+    "photo_2": "/photos/492_2.jpg"
   },
   {
     "id": 498,
@@ -897,8 +897,8 @@
     "prix": 80.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/498_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/498_2.jpg"
+    "photo_1": "/photos/498_1.jpg",
+    "photo_2": "/photos/498_2.jpg"
   },
   {
     "id": 587,
@@ -914,8 +914,8 @@
     "prix": 80.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/587_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/587_2.jpg"
+    "photo_1": "/photos/587_1.jpg",
+    "photo_2": "/photos/587_2.jpg"
   },
   {
     "id": 614,
@@ -931,8 +931,8 @@
     "prix": 80.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/614_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/614_2.jpg"
+    "photo_1": "/photos/614_1.jpg",
+    "photo_2": "/photos/614_2.jpg"
   },
   {
     "id": 1041,
@@ -948,8 +948,8 @@
     "prix": 80.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1041_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1041_2.jpg"
+    "photo_1": "/photos/1041_1.jpg",
+    "photo_2": "/photos/1041_2.jpg"
   },
   {
     "id": 295,
@@ -965,8 +965,8 @@
     "prix": 75.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/295_01.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/295_02.jpg"
+    "photo_1": "/photos/295_01.jpg",
+    "photo_2": "/photos/295_02.jpg"
   },
   {
     "id": 494,
@@ -982,8 +982,8 @@
     "prix": 75.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/494_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/494_2.jpg"
+    "photo_1": "/photos/494_1.jpg",
+    "photo_2": "/photos/494_2.jpg"
   },
   {
     "id": 649,
@@ -999,8 +999,8 @@
     "prix": 75.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/649_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/649_2.jpg"
+    "photo_1": "/photos/649_1.jpg",
+    "photo_2": "/photos/649_2.jpg"
   },
   {
     "id": 894,
@@ -1016,8 +1016,8 @@
     "prix": 75.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/894_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/894_2.jpg"
+    "photo_1": "/photos/894_1.jpg",
+    "photo_2": "/photos/894_2.jpg"
   },
   {
     "id": 897,
@@ -1033,8 +1033,8 @@
     "prix": 75.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/897_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/897_2.jpg"
+    "photo_1": "/photos/897_1.jpg",
+    "photo_2": "/photos/897_2.jpg"
   },
   {
     "id": 1043,
@@ -1050,8 +1050,8 @@
     "prix": 75.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1043_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1043_2.jpg"
+    "photo_1": "/photos/1043_1.jpg",
+    "photo_2": "/photos/1043_2.jpg"
   },
   {
     "id": 30,
@@ -1067,8 +1067,8 @@
     "prix": 70.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/030_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/030_2.jpg"
+    "photo_1": "/photos/030_1.jpg",
+    "photo_2": "/photos/030_2.jpg"
   },
   {
     "id": 96,
@@ -1084,8 +1084,8 @@
     "prix": 70.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/096_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/096_2.jpg"
+    "photo_1": "/photos/096_1.jpg",
+    "photo_2": "/photos/096_2.jpg"
   },
   {
     "id": 319,
@@ -1101,8 +1101,8 @@
     "prix": 70.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/319_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/319_2.jpg"
+    "photo_1": "/photos/319_1.jpg",
+    "photo_2": "/photos/319_2.jpg"
   },
   {
     "id": 386,
@@ -1118,8 +1118,8 @@
     "prix": 70.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/386_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/386_2.jpg"
+    "photo_1": "/photos/386_1.jpg",
+    "photo_2": "/photos/386_2.jpg"
   },
   {
     "id": 454,
@@ -1135,8 +1135,8 @@
     "prix": 70.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/454_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/454_2.jpg"
+    "photo_1": "/photos/454_1.jpg",
+    "photo_2": "/photos/454_2.jpg"
   },
   {
     "id": 867,
@@ -1152,8 +1152,8 @@
     "prix": 70.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/867_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/867_2.jpg"
+    "photo_1": "/photos/867_1.jpg",
+    "photo_2": "/photos/867_2.jpg"
   },
   {
     "id": 888,
@@ -1169,8 +1169,8 @@
     "prix": 70.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/888_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/888_2.jpg"
+    "photo_1": "/photos/888_1.jpg",
+    "photo_2": "/photos/888_2.jpg"
   },
   {
     "id": 88,
@@ -1186,8 +1186,8 @@
     "prix": 65.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/088_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/088_2.jpg"
+    "photo_1": "/photos/088_1.jpg",
+    "photo_2": "/photos/088_2.jpg"
   },
   {
     "id": 901,
@@ -1203,8 +1203,8 @@
     "prix": 65.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/901_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/901_2.jpg"
+    "photo_1": "/photos/901_1.jpg",
+    "photo_2": "/photos/901_2.jpg"
   },
   {
     "id": 902,
@@ -1220,8 +1220,8 @@
     "prix": 65.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/902_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/902_2.jpg"
+    "photo_1": "/photos/902_1.jpg",
+    "photo_2": "/photos/902_2.jpg"
   },
   {
     "id": 320,
@@ -1237,8 +1237,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/320_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/320_2.jpg"
+    "photo_1": "/photos/320_1.jpg",
+    "photo_2": "/photos/320_2.jpg"
   },
   {
     "id": 321,
@@ -1254,8 +1254,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/321_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/321_2.jpg"
+    "photo_1": "/photos/321_1.jpg",
+    "photo_2": "/photos/321_2.jpg"
   },
   {
     "id": 322,
@@ -1271,8 +1271,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/322_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/322_2.jpg"
+    "photo_1": "/photos/322_1.jpg",
+    "photo_2": "/photos/322_2.jpg"
   },
   {
     "id": 323,
@@ -1288,8 +1288,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/323_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/323_2.jpg"
+    "photo_1": "/photos/323_1.jpg",
+    "photo_2": "/photos/323_2.jpg"
   },
   {
     "id": 388,
@@ -1305,8 +1305,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/388_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/388_2.jpg"
+    "photo_1": "/photos/388_1.jpg",
+    "photo_2": "/photos/388_2.jpg"
   },
   {
     "id": 490,
@@ -1322,8 +1322,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/490_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/490_2.jpg"
+    "photo_1": "/photos/490_1.jpg",
+    "photo_2": "/photos/490_2.jpg"
   },
   {
     "id": 522,
@@ -1339,8 +1339,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/522_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/522_2.jpg"
+    "photo_1": "/photos/522_1.jpg",
+    "photo_2": "/photos/522_2.jpg"
   },
   {
     "id": 569,
@@ -1356,8 +1356,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/569_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/569_2.jpg"
+    "photo_1": "/photos/569_1.jpg",
+    "photo_2": "/photos/569_2.jpg"
   },
   {
     "id": 755,
@@ -1373,8 +1373,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/755_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/755_2.jpg"
+    "photo_1": "/photos/755_1.jpg",
+    "photo_2": "/photos/755_2.jpg"
   },
   {
     "id": 903,
@@ -1390,8 +1390,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/903_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/903_2.jpg"
+    "photo_1": "/photos/903_1.jpg",
+    "photo_2": "/photos/903_2.jpg"
   },
   {
     "id": 1059,
@@ -1407,8 +1407,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1059_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1059_2.jpg"
+    "photo_1": "/photos/1059_1.jpg",
+    "photo_2": "/photos/1059_2.jpg"
   },
   {
     "id": 1061,
@@ -1424,8 +1424,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1061_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1061_2.jpg"
+    "photo_1": "/photos/1061_1.jpg",
+    "photo_2": "/photos/1061_2.jpg"
   },
   {
     "id": 887,
@@ -1441,8 +1441,8 @@
     "prix": 57.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/887_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/887_2.jpg"
+    "photo_1": "/photos/887_1.jpg",
+    "photo_2": "/photos/887_2.jpg"
   },
   {
     "id": 535,
@@ -1458,8 +1458,8 @@
     "prix": 55.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/535_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/535_2.jpg"
+    "photo_1": "/photos/535_1.jpg",
+    "photo_2": "/photos/535_2.jpg"
   },
   {
     "id": 636,
@@ -1475,8 +1475,8 @@
     "prix": 55.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/636_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/636_2.jpg"
+    "photo_1": "/photos/636_1.jpg",
+    "photo_2": "/photos/636_2.jpg"
   },
   {
     "id": 648,
@@ -1492,8 +1492,8 @@
     "prix": 55.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/648_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/648_2.jpg"
+    "photo_1": "/photos/648_1.jpg",
+    "photo_2": "/photos/648_2.jpg"
   },
   {
     "id": 895,
@@ -1509,8 +1509,8 @@
     "prix": 55.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/895_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/895_2.jpg"
+    "photo_1": "/photos/895_1.jpg",
+    "photo_2": "/photos/895_2.jpg"
   },
   {
     "id": 1052,
@@ -1526,8 +1526,8 @@
     "prix": 55.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1052_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1052_2.jpg"
+    "photo_1": "/photos/1052_1.jpg",
+    "photo_2": "/photos/1052_2.jpg"
   },
   {
     "id": 31,
@@ -1543,8 +1543,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/031_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/031_2.jpg"
+    "photo_1": "/photos/031_1.jpg",
+    "photo_2": "/photos/031_2.jpg"
   },
   {
     "id": 74,
@@ -1560,8 +1560,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/074_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/074_2.jpg"
+    "photo_1": "/photos/074_1.jpg",
+    "photo_2": "/photos/074_2.jpg"
   },
   {
     "id": 326,
@@ -1577,8 +1577,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/326_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/326_2.jpg"
+    "photo_1": "/photos/326_1.jpg",
+    "photo_2": "/photos/326_2.jpg"
   },
   {
     "id": 327,
@@ -1594,8 +1594,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/327_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/327_2.jpg"
+    "photo_1": "/photos/327_1.jpg",
+    "photo_2": "/photos/327_2.jpg"
   },
   {
     "id": 328,
@@ -1611,8 +1611,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/328_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/328_2.jpg"
+    "photo_1": "/photos/328_1.jpg",
+    "photo_2": "/photos/328_2.jpg"
   },
   {
     "id": 339,
@@ -1628,8 +1628,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/339_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/339_2.jpg"
+    "photo_1": "/photos/339_1.jpg",
+    "photo_2": "/photos/339_2.jpg"
   },
   {
     "id": 390,
@@ -1645,8 +1645,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/390_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/390_2.jpg"
+    "photo_1": "/photos/390_1.jpg",
+    "photo_2": "/photos/390_2.jpg"
   },
   {
     "id": 452,
@@ -1662,8 +1662,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/452_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/452_2.jpg"
+    "photo_1": "/photos/452_1.jpg",
+    "photo_2": "/photos/452_2.jpg"
   },
   {
     "id": 524,
@@ -1679,8 +1679,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/524_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/524_2.jpg"
+    "photo_1": "/photos/524_1.jpg",
+    "photo_2": "/photos/524_2.jpg"
   },
   {
     "id": 526,
@@ -1696,8 +1696,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/526_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/526_2.jpg"
+    "photo_1": "/photos/526_1.jpg",
+    "photo_2": "/photos/526_2.jpg"
   },
   {
     "id": 542,
@@ -1713,8 +1713,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/542_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/542_2.jpg"
+    "photo_1": "/photos/542_1.jpg",
+    "photo_2": "/photos/542_2.jpg"
   },
   {
     "id": 608,
@@ -1730,8 +1730,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/608_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/608_2.jpg"
+    "photo_1": "/photos/608_1.jpg",
+    "photo_2": "/photos/608_2.jpg"
   },
   {
     "id": 637,
@@ -1747,8 +1747,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/637_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/637_2.jpg"
+    "photo_1": "/photos/637_1.jpg",
+    "photo_2": "/photos/637_2.jpg"
   },
   {
     "id": 686,
@@ -1764,8 +1764,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/686_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/686_2.jpg"
+    "photo_1": "/photos/686_1.jpg",
+    "photo_2": "/photos/686_2.jpg"
   },
   {
     "id": 690,
@@ -1798,8 +1798,8 @@
     "prix": 50.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/851_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/851_2.jpg"
+    "photo_1": "/photos/851_1.jpg",
+    "photo_2": "/photos/851_2.jpg"
   },
   {
     "id": 1046,
@@ -1832,8 +1832,8 @@
     "prix": 45.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/095_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/095_2.jpg"
+    "photo_1": "/photos/095_1.jpg",
+    "photo_2": "/photos/095_2.jpg"
   },
   {
     "id": 142,
@@ -1849,8 +1849,8 @@
     "prix": 45.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/142_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/142_2.jpg"
+    "photo_1": "/photos/142_1.jpg",
+    "photo_2": "/photos/142_2.jpg"
   },
   {
     "id": 330,
@@ -1866,8 +1866,8 @@
     "prix": 45.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/330_01.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/330_02.jpeg"
+    "photo_1": "/photos/330_01.jpeg",
+    "photo_2": "/photos/330_02.jpeg"
   },
   {
     "id": 476,
@@ -1883,8 +1883,8 @@
     "prix": 45.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/476_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/476_2.jpg"
+    "photo_1": "/photos/476_1.jpg",
+    "photo_2": "/photos/476_2.jpg"
   },
   {
     "id": 491,
@@ -1900,8 +1900,8 @@
     "prix": 45.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/491_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/491_2.jpg"
+    "photo_1": "/photos/491_1.jpg",
+    "photo_2": "/photos/491_2.jpg"
   },
   {
     "id": 548,
@@ -1917,8 +1917,8 @@
     "prix": 45.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/548_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/548_2.jpg"
+    "photo_1": "/photos/548_1.jpg",
+    "photo_2": "/photos/548_2.jpg"
   },
   {
     "id": 559,
@@ -1951,8 +1951,8 @@
     "prix": 45.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/612_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/612_2.jpg"
+    "photo_1": "/photos/612_1.jpg",
+    "photo_2": "/photos/612_2.jpg"
   },
   {
     "id": 791,
@@ -2002,8 +2002,8 @@
     "prix": 45.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/899_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/899_2.jpg"
+    "photo_1": "/photos/899_1.jpg",
+    "photo_2": "/photos/899_2.jpg"
   },
   {
     "id": 908,
@@ -2087,8 +2087,8 @@
     "prix": 40.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/451_01.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/451_02.jpeg"
+    "photo_1": "/photos/451_01.jpeg",
+    "photo_2": "/photos/451_02.jpeg"
   },
   {
     "id": 501,
@@ -2104,8 +2104,8 @@
     "prix": 40.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/501_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/501_2.jpg"
+    "photo_1": "/photos/501_1.jpg",
+    "photo_2": "/photos/501_2.jpg"
   },
   {
     "id": 640,
@@ -2121,8 +2121,8 @@
     "prix": 40.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/640_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/640_2.jpg"
+    "photo_1": "/photos/640_1.jpg",
+    "photo_2": "/photos/640_2.jpg"
   },
   {
     "id": 761,
@@ -2155,8 +2155,8 @@
     "prix": 40.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/879_01.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/879_02.jpg"
+    "photo_1": "/photos/879_01.jpg",
+    "photo_2": "/photos/879_02.jpg"
   },
   {
     "id": 904,
@@ -2172,8 +2172,8 @@
     "prix": 40.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/904_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/904_2.jpg"
+    "photo_1": "/photos/904_1.jpg",
+    "photo_2": "/photos/904_2.jpg"
   },
   {
     "id": 909,
@@ -2223,8 +2223,8 @@
     "prix": 40.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1064_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1064_2.jpg"
+    "photo_1": "/photos/1064_1.jpg",
+    "photo_2": "/photos/1064_2.jpg"
   },
   {
     "id": 570,
@@ -2240,8 +2240,8 @@
     "prix": 38.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/570_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/570_2.jpg"
+    "photo_1": "/photos/570_1.jpg",
+    "photo_2": "/photos/570_2.jpg"
   },
   {
     "id": 123,
@@ -2257,8 +2257,8 @@
     "prix": 35.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/123_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/123_2.jpg"
+    "photo_1": "/photos/123_1.jpg",
+    "photo_2": "/photos/123_2.jpg"
   },
   {
     "id": 124,
@@ -2274,8 +2274,8 @@
     "prix": 35.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/124_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/124_2.jpg"
+    "photo_1": "/photos/124_1.jpg",
+    "photo_2": "/photos/124_2.jpg"
   },
   {
     "id": 126,
@@ -2291,8 +2291,8 @@
     "prix": 35.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/126_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/126_2.jpg"
+    "photo_1": "/photos/126_1.jpg",
+    "photo_2": "/photos/126_2.jpg"
   },
   {
     "id": 160,
@@ -2308,8 +2308,8 @@
     "prix": 35.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/160_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/160_2.jpg"
+    "photo_1": "/photos/160_1.jpg",
+    "photo_2": "/photos/160_2.jpg"
   },
   {
     "id": 283,
@@ -2444,8 +2444,8 @@
     "prix": 35.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/900_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/900_2.jpg"
+    "photo_1": "/photos/900_1.jpg",
+    "photo_2": "/photos/900_2.jpg"
   },
   {
     "id": 1065,
@@ -2461,8 +2461,8 @@
     "prix": 35.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1065_01.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/1065_02.jpg"
+    "photo_1": "/photos/1065_01.jpg",
+    "photo_2": "/photos/1065_02.jpg"
   },
   {
     "id": 616,
@@ -2478,8 +2478,8 @@
     "prix": 33.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/616_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/616_2.jpg"
+    "photo_1": "/photos/616_1.jpg",
+    "photo_2": "/photos/616_2.jpg"
   },
   {
     "id": 647,
@@ -2495,8 +2495,8 @@
     "prix": 32.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/647_01.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/647_02.jpg"
+    "photo_1": "/photos/647_01.jpg",
+    "photo_2": "/photos/647_02.jpg"
   },
   {
     "id": 13,
@@ -2512,8 +2512,8 @@
     "prix": 30.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/013_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/013_2.jpg"
+    "photo_1": "/photos/013_1.jpg",
+    "photo_2": "/photos/013_2.jpg"
   },
   {
     "id": 59,
@@ -2529,8 +2529,8 @@
     "prix": 30.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/059_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/059_2.jpg"
+    "photo_1": "/photos/059_1.jpg",
+    "photo_2": "/photos/059_2.jpg"
   },
   {
     "id": 122,
@@ -2597,8 +2597,8 @@
     "prix": 30.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/340_1.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/340_2.jpeg"
+    "photo_1": "/photos/340_1.jpeg",
+    "photo_2": "/photos/340_2.jpeg"
   },
   {
     "id": 345,
@@ -2631,8 +2631,8 @@
     "prix": 30.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/355_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/355_2.jpg"
+    "photo_1": "/photos/355_1.jpg",
+    "photo_2": "/photos/355_2.jpg"
   },
   {
     "id": 358,
@@ -2648,8 +2648,8 @@
     "prix": 30.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/358_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/358_2.jpg"
+    "photo_1": "/photos/358_1.jpg",
+    "photo_2": "/photos/358_2.jpg"
   },
   {
     "id": 557,
@@ -2733,8 +2733,8 @@
     "prix": 30.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/638_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/638_2.jpg"
+    "photo_1": "/photos/638_1.jpg",
+    "photo_2": "/photos/638_2.jpg"
   },
   {
     "id": 664,
@@ -2852,8 +2852,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/007_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/007_2.jpg"
+    "photo_1": "/photos/007_1.jpg",
+    "photo_2": "/photos/007_2.jpg"
   },
   {
     "id": 19,
@@ -2869,8 +2869,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/019_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/019_2.jpg"
+    "photo_1": "/photos/019_1.jpg",
+    "photo_2": "/photos/019_2.jpg"
   },
   {
     "id": 91,
@@ -2886,8 +2886,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/091_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/091_2.jpg"
+    "photo_1": "/photos/091_1.jpg",
+    "photo_2": "/photos/091_2.jpg"
   },
   {
     "id": 129,
@@ -2903,8 +2903,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/129_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/129_2.jpg"
+    "photo_1": "/photos/129_1.jpg",
+    "photo_2": "/photos/129_2.jpg"
   },
   {
     "id": 341,
@@ -2988,8 +2988,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/348_01.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/348_02.jpg"
+    "photo_1": "/photos/348_01.jpg",
+    "photo_2": "/photos/348_02.jpg"
   },
   {
     "id": 349,
@@ -3039,8 +3039,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/541_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/541_2.jpg"
+    "photo_1": "/photos/541_1.jpg",
+    "photo_2": "/photos/541_2.jpg"
   },
   {
     "id": 571,
@@ -3056,8 +3056,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/571_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/571_2.jpg"
+    "photo_1": "/photos/571_1.jpg",
+    "photo_2": "/photos/571_2.jpg"
   },
   {
     "id": 610,
@@ -3073,8 +3073,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/610_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/610_2.jpg"
+    "photo_1": "/photos/610_1.jpg",
+    "photo_2": "/photos/610_2.jpg"
   },
   {
     "id": 639,
@@ -3090,8 +3090,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/639_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/639_2.jpg"
+    "photo_1": "/photos/639_1.jpg",
+    "photo_2": "/photos/639_2.jpg"
   },
   {
     "id": 838,
@@ -3124,8 +3124,8 @@
     "prix": 25.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/891_01.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/891_02.jpg"
+    "photo_1": "/photos/891_01.jpg",
+    "photo_2": "/photos/891_02.jpg"
   },
   {
     "id": 907,
@@ -3328,8 +3328,8 @@
     "prix": 20.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/121_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/121_2.jpg"
+    "photo_1": "/photos/121_1.jpg",
+    "photo_2": "/photos/121_2.jpg"
   },
   {
     "id": 139,
@@ -3345,8 +3345,8 @@
     "prix": 20.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/139_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/139_2.jpg"
+    "photo_1": "/photos/139_1.jpg",
+    "photo_2": "/photos/139_2.jpg"
   },
   {
     "id": 350,
@@ -3413,8 +3413,8 @@
     "prix": 20.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/356_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/356_2.jpg"
+    "photo_1": "/photos/356_1.jpg",
+    "photo_2": "/photos/356_2.jpg"
   },
   {
     "id": 357,
@@ -3430,8 +3430,8 @@
     "prix": 20.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/357_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/357_2.jpg"
+    "photo_1": "/photos/357_1.jpg",
+    "photo_2": "/photos/357_2.jpg"
   },
   {
     "id": 359,
@@ -3498,8 +3498,8 @@
     "prix": 20.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/523_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/523_2.jpg"
+    "photo_1": "/photos/523_1.jpg",
+    "photo_2": "/photos/523_2.jpg"
   },
   {
     "id": 525,
@@ -3515,8 +3515,8 @@
     "prix": 20.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/525_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/525_2.jpg"
+    "photo_1": "/photos/525_1.jpg",
+    "photo_2": "/photos/525_2.jpg"
   },
   {
     "id": 655,
@@ -3685,8 +3685,8 @@
     "prix": 20.0,
     "status": "available",
     "statut_raw": "01/01/2026",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/083_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/083_2.jpg"
+    "photo_1": "/photos/083_1.jpg",
+    "photo_2": "/photos/083_2.jpg"
   },
   {
     "id": 516,
@@ -3702,8 +3702,8 @@
     "prix": 19.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/516_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/516_2.jpg"
+    "photo_1": "/photos/516_1.jpg",
+    "photo_2": "/photos/516_2.jpg"
   },
   {
     "id": 284,
@@ -3719,8 +3719,8 @@
     "prix": 18.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/284_1.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/284_2.jpeg"
+    "photo_1": "/photos/284_1.jpeg",
+    "photo_2": "/photos/284_2.jpeg"
   },
   {
     "id": 396,
@@ -3753,8 +3753,8 @@
     "prix": 18.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/528_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/528_2.jpg"
+    "photo_1": "/photos/528_1.jpg",
+    "photo_2": "/photos/528_2.jpg"
   },
   {
     "id": 1122,
@@ -3872,8 +3872,8 @@
     "prix": 15.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/024_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/024_2.jpg"
+    "photo_1": "/photos/024_1.jpg",
+    "photo_2": "/photos/024_2.jpg"
   },
   {
     "id": 138,
@@ -3889,8 +3889,8 @@
     "prix": 15.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/138_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/138_2.jpg"
+    "photo_1": "/photos/138_1.jpg",
+    "photo_2": "/photos/138_2.jpg"
   },
   {
     "id": 192,
@@ -3906,8 +3906,8 @@
     "prix": 15.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/192_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/192_2.jpg"
+    "photo_1": "/photos/192_1.jpg",
+    "photo_2": "/photos/192_2.jpg"
   },
   {
     "id": 360,
@@ -3923,8 +3923,8 @@
     "prix": 15.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/360_01.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/360_02.jpeg"
+    "photo_1": "/photos/360_01.jpeg",
+    "photo_2": "/photos/360_02.jpeg"
   },
   {
     "id": 362,
@@ -3940,8 +3940,8 @@
     "prix": 15.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/362_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/362_2.jpg"
+    "photo_1": "/photos/362_1.jpg",
+    "photo_2": "/photos/362_2.jpg"
   },
   {
     "id": 365,
@@ -4212,7 +4212,7 @@
     "prix": 14.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/271_1.jpeg",
+    "photo_1": "/photos/271_1.jpeg",
     "photo_2": null
   },
   {
@@ -4229,8 +4229,8 @@
     "prix": 14.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/546_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/546_2.jpg"
+    "photo_1": "/photos/546_1.jpg",
+    "photo_2": "/photos/546_2.jpg"
   },
   {
     "id": 853,
@@ -4416,8 +4416,8 @@
     "prix": 12.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/020_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/020_2.jpg"
+    "photo_1": "/photos/020_1.jpg",
+    "photo_2": "/photos/020_2.jpg"
   },
   {
     "id": 155,
@@ -4671,8 +4671,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/018_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/018_2.jpg"
+    "photo_1": "/photos/018_1.jpg",
+    "photo_2": "/photos/018_2.jpg"
   },
   {
     "id": 150,
@@ -4688,8 +4688,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/150_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/150_2.jpg"
+    "photo_1": "/photos/150_1.jpg",
+    "photo_2": "/photos/150_2.jpg"
   },
   {
     "id": 281,
@@ -4705,8 +4705,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/281_1.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/281_2.jpeg"
+    "photo_1": "/photos/281_1.jpeg",
+    "photo_2": "/photos/281_2.jpeg"
   },
   {
     "id": 286,
@@ -4773,8 +4773,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/367_01.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/367_02.jpeg"
+    "photo_1": "/photos/367_01.jpeg",
+    "photo_2": "/photos/367_02.jpeg"
   },
   {
     "id": 368,
@@ -4841,8 +4841,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/459_01.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/459_02.jpeg"
+    "photo_1": "/photos/459_01.jpeg",
+    "photo_2": "/photos/459_02.jpeg"
   },
   {
     "id": 511,
@@ -4892,8 +4892,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/529_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/529_2.jpg"
+    "photo_1": "/photos/529_1.jpg",
+    "photo_2": "/photos/529_2.jpg"
   },
   {
     "id": 549,
@@ -4909,8 +4909,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/549_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/549_2.jpg"
+    "photo_1": "/photos/549_1.jpg",
+    "photo_2": "/photos/549_2.jpg"
   },
   {
     "id": 597,
@@ -4926,8 +4926,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/597_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/597_2.jpg"
+    "photo_1": "/photos/597_1.jpg",
+    "photo_2": "/photos/597_2.jpg"
   },
   {
     "id": 613,
@@ -4943,8 +4943,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/613_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/613_2.jpg"
+    "photo_1": "/photos/613_1.jpg",
+    "photo_2": "/photos/613_2.jpg"
   },
   {
     "id": 646,
@@ -4960,8 +4960,8 @@
     "prix": 10.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/646_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/646_2.jpg"
+    "photo_1": "/photos/646_1.jpg",
+    "photo_2": "/photos/646_2.jpg"
   },
   {
     "id": 682,
@@ -5385,8 +5385,8 @@
     "prix": 9.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/604_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/604_2.jpg"
+    "photo_1": "/photos/604_1.jpg",
+    "photo_2": "/photos/604_2.jpg"
   },
   {
     "id": 770,
@@ -5419,8 +5419,8 @@
     "prix": 9.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/846_01.jpeg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/846_02.jpeg"
+    "photo_1": "/photos/846_01.jpeg",
+    "photo_2": "/photos/846_02.jpeg"
   },
   {
     "id": 861,
@@ -5623,8 +5623,8 @@
     "prix": 8.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/082_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/082_2.jpg"
+    "photo_1": "/photos/082_1.jpg",
+    "photo_2": "/photos/082_2.jpg"
   },
   {
     "id": 172,
@@ -5640,8 +5640,8 @@
     "prix": 8.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/172_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/172_2.jpg"
+    "photo_1": "/photos/172_1.jpg",
+    "photo_2": "/photos/172_2.jpg"
   },
   {
     "id": 369,
@@ -5708,8 +5708,8 @@
     "prix": 8.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/600_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/600_2.jpg"
+    "photo_1": "/photos/600_1.jpg",
+    "photo_2": "/photos/600_2.jpg"
   },
   {
     "id": 602,
@@ -5725,8 +5725,8 @@
     "prix": 8.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/602_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/602_2.jpg"
+    "photo_1": "/photos/602_1.jpg",
+    "photo_2": "/photos/602_2.jpg"
   },
   {
     "id": 606,
@@ -5742,8 +5742,8 @@
     "prix": 8.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/606_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/606_2.jpg"
+    "photo_1": "/photos/606_1.jpg",
+    "photo_2": "/photos/606_2.jpg"
   },
   {
     "id": 783,
@@ -6014,8 +6014,8 @@
     "prix": 7.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/016_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/016_2.jpg"
+    "photo_1": "/photos/016_1.jpg",
+    "photo_2": "/photos/016_2.jpg"
   },
   {
     "id": 213,
@@ -6048,7 +6048,7 @@
     "prix": 7.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/260_1.jpeg",
+    "photo_1": "/photos/260_1.jpeg",
     "photo_2": null
   },
   {
@@ -6133,8 +6133,8 @@
     "prix": 7.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/601_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/601_2.jpg"
+    "photo_1": "/photos/601_1.jpg",
+    "photo_2": "/photos/601_2.jpg"
   },
   {
     "id": 615,
@@ -6150,8 +6150,8 @@
     "prix": 7.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/615_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/615_2.jpg"
+    "photo_1": "/photos/615_1.jpg",
+    "photo_2": "/photos/615_2.jpg"
   },
   {
     "id": 748,
@@ -6388,8 +6388,8 @@
     "prix": 6.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/056_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/056_2.jpg"
+    "photo_1": "/photos/056_1.jpg",
+    "photo_2": "/photos/056_2.jpg"
   },
   {
     "id": 94,
@@ -6405,8 +6405,8 @@
     "prix": 6.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/094_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/094_2.jpg"
+    "photo_1": "/photos/094_1.jpg",
+    "photo_2": "/photos/094_2.jpg"
   },
   {
     "id": 99,
@@ -6422,8 +6422,8 @@
     "prix": 6.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/099_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/099_2.jpg"
+    "photo_1": "/photos/099_1.jpg",
+    "photo_2": "/photos/099_2.jpg"
   },
   {
     "id": 100,
@@ -6439,8 +6439,8 @@
     "prix": 6.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/100_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/100_2.jpg"
+    "photo_1": "/photos/100_1.jpg",
+    "photo_2": "/photos/100_2.jpg"
   },
   {
     "id": 372,
@@ -6490,8 +6490,8 @@
     "prix": 6.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/575_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/575_2.jpg"
+    "photo_1": "/photos/575_1.jpg",
+    "photo_2": "/photos/575_2.jpg"
   },
   {
     "id": 661,
@@ -6796,8 +6796,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/049_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/049_2.jpg"
+    "photo_1": "/photos/049_1.jpg",
+    "photo_2": "/photos/049_2.jpg"
   },
   {
     "id": 65,
@@ -6813,8 +6813,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/065_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/065_2.jpg"
+    "photo_1": "/photos/065_1.jpg",
+    "photo_2": "/photos/065_2.jpg"
   },
   {
     "id": 81,
@@ -6830,8 +6830,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/081_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/081_2.jpg"
+    "photo_1": "/photos/081_1.jpg",
+    "photo_2": "/photos/081_2.jpg"
   },
   {
     "id": 98,
@@ -6847,8 +6847,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/098_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/098_2.jpg"
+    "photo_1": "/photos/098_1.jpg",
+    "photo_2": "/photos/098_2.jpg"
   },
   {
     "id": 141,
@@ -6864,8 +6864,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/141_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/141_2.jpg"
+    "photo_1": "/photos/141_1.jpg",
+    "photo_2": "/photos/141_2.jpg"
   },
   {
     "id": 148,
@@ -6881,8 +6881,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/148_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/148_2.jpg"
+    "photo_1": "/photos/148_1.jpg",
+    "photo_2": "/photos/148_2.jpg"
   },
   {
     "id": 287,
@@ -7051,8 +7051,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/592_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/592_2.jpg"
+    "photo_1": "/photos/592_1.jpg",
+    "photo_2": "/photos/592_2.jpg"
   },
   {
     "id": 603,
@@ -7068,8 +7068,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/603_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/603_2.jpg"
+    "photo_1": "/photos/603_1.jpg",
+    "photo_2": "/photos/603_2.jpg"
   },
   {
     "id": 618,
@@ -7102,8 +7102,8 @@
     "prix": 5.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/625_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/625_2.jpg"
+    "photo_1": "/photos/625_1.jpg",
+    "photo_2": "/photos/625_2.jpg"
   },
   {
     "id": 656,
@@ -7527,8 +7527,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/055_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/055_2.jpg"
+    "photo_1": "/photos/055_1.jpg",
+    "photo_2": "/photos/055_2.jpg"
   },
   {
     "id": 64,
@@ -7544,8 +7544,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/064_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/064_2.jpg"
+    "photo_1": "/photos/064_1.jpg",
+    "photo_2": "/photos/064_2.jpg"
   },
   {
     "id": 132,
@@ -7561,8 +7561,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/132_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/132_2.jpg"
+    "photo_1": "/photos/132_1.jpg",
+    "photo_2": "/photos/132_2.jpg"
   },
   {
     "id": 133,
@@ -7578,8 +7578,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/133_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/133_2.jpg"
+    "photo_1": "/photos/133_1.jpg",
+    "photo_2": "/photos/133_2.jpg"
   },
   {
     "id": 134,
@@ -7595,8 +7595,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/134_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/134_2.jpg"
+    "photo_1": "/photos/134_1.jpg",
+    "photo_2": "/photos/134_2.jpg"
   },
   {
     "id": 143,
@@ -7612,8 +7612,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/143_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/143_2.jpg"
+    "photo_1": "/photos/143_1.jpg",
+    "photo_2": "/photos/143_2.jpg"
   },
   {
     "id": 147,
@@ -7646,8 +7646,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/201_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/201_2.jpg"
+    "photo_1": "/photos/201_1.jpg",
+    "photo_2": "/photos/201_2.jpg"
   },
   {
     "id": 215,
@@ -7663,8 +7663,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/215_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/215_2.jpg"
+    "photo_1": "/photos/215_1.jpg",
+    "photo_2": "/photos/215_2.jpg"
   },
   {
     "id": 374,
@@ -7782,8 +7782,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/594_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/594_2.jpg"
+    "photo_1": "/photos/594_1.jpg",
+    "photo_2": "/photos/594_2.jpg"
   },
   {
     "id": 605,
@@ -7799,8 +7799,8 @@
     "prix": 4.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/605_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/605_2.jpg"
+    "photo_1": "/photos/605_1.jpg",
+    "photo_2": "/photos/605_2.jpg"
   },
   {
     "id": 667,
@@ -8207,8 +8207,8 @@
     "prix": 3.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/128_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/128_2.jpg"
+    "photo_1": "/photos/128_1.jpg",
+    "photo_2": "/photos/128_2.jpg"
   },
   {
     "id": 161,
@@ -8224,8 +8224,8 @@
     "prix": 3.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/161_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/161_2.jpg"
+    "photo_1": "/photos/161_1.jpg",
+    "photo_2": "/photos/161_2.jpg"
   },
   {
     "id": 297,
@@ -8360,8 +8360,8 @@
     "prix": 3.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/582_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/582_2.jpg"
+    "photo_1": "/photos/582_1.jpg",
+    "photo_2": "/photos/582_2.jpg"
   },
   {
     "id": 628,
@@ -8377,8 +8377,8 @@
     "prix": 3.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/628_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/628_2.jpg"
+    "photo_1": "/photos/628_1.jpg",
+    "photo_2": "/photos/628_2.jpg"
   },
   {
     "id": 675,
@@ -9040,8 +9040,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/026_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/026_2.jpg"
+    "photo_1": "/photos/026_1.jpg",
+    "photo_2": "/photos/026_2.jpg"
   },
   {
     "id": 52,
@@ -9057,8 +9057,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/052_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/052_2.jpg"
+    "photo_1": "/photos/052_1.jpg",
+    "photo_2": "/photos/052_2.jpg"
   },
   {
     "id": 62,
@@ -9108,8 +9108,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/093_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/093_2.jpg"
+    "photo_1": "/photos/093_1.jpg",
+    "photo_2": "/photos/093_2.jpg"
   },
   {
     "id": 103,
@@ -9125,8 +9125,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/103_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/103_2.jpg"
+    "photo_1": "/photos/103_1.jpg",
+    "photo_2": "/photos/103_2.jpg"
   },
   {
     "id": 117,
@@ -9142,8 +9142,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/117_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/117_2.jpg"
+    "photo_1": "/photos/117_1.jpg",
+    "photo_2": "/photos/117_2.jpg"
   },
   {
     "id": 136,
@@ -9159,8 +9159,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/136_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/136_2.jpg"
+    "photo_1": "/photos/136_1.jpg",
+    "photo_2": "/photos/136_2.jpg"
   },
   {
     "id": 167,
@@ -9193,8 +9193,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/170_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/170_2.jpg"
+    "photo_1": "/photos/170_1.jpg",
+    "photo_2": "/photos/170_2.jpg"
   },
   {
     "id": 199,
@@ -9210,8 +9210,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/199_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/199_2.jpg"
+    "photo_1": "/photos/199_1.jpg",
+    "photo_2": "/photos/199_2.jpg"
   },
   {
     "id": 212,
@@ -9227,8 +9227,8 @@
     "prix": 2.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/212_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/212_2.jpg"
+    "photo_1": "/photos/212_1.jpg",
+    "photo_2": "/photos/212_2.jpg"
   },
   {
     "id": 380,
@@ -10077,8 +10077,8 @@
     "prix": 1.5,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/053_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/053_2.jpg"
+    "photo_1": "/photos/053_1.jpg",
+    "photo_2": "/photos/053_2.jpg"
   },
   {
     "id": 439,
@@ -10128,8 +10128,8 @@
     "prix": 1.5,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/593_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/593_2.jpg"
+    "photo_1": "/photos/593_1.jpg",
+    "photo_2": "/photos/593_2.jpg"
   },
   {
     "id": 706,
@@ -10264,8 +10264,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/044_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/044_2.jpg"
+    "photo_1": "/photos/044_1.jpg",
+    "photo_2": "/photos/044_2.jpg"
   },
   {
     "id": 48,
@@ -10298,8 +10298,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/072_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/072_2.jpg"
+    "photo_1": "/photos/072_1.jpg",
+    "photo_2": "/photos/072_2.jpg"
   },
   {
     "id": 97,
@@ -10315,8 +10315,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/097_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/097_2.jpg"
+    "photo_1": "/photos/097_1.jpg",
+    "photo_2": "/photos/097_2.jpg"
   },
   {
     "id": 127,
@@ -10332,8 +10332,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/127_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/127_2.jpg"
+    "photo_1": "/photos/127_1.jpg",
+    "photo_2": "/photos/127_2.jpg"
   },
   {
     "id": 152,
@@ -10349,8 +10349,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/152_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/152_2.jpg"
+    "photo_1": "/photos/152_1.jpg",
+    "photo_2": "/photos/152_2.jpg"
   },
   {
     "id": 153,
@@ -10366,8 +10366,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/153_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/153_2.jpg"
+    "photo_1": "/photos/153_1.jpg",
+    "photo_2": "/photos/153_2.jpg"
   },
   {
     "id": 166,
@@ -10400,8 +10400,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/195_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/195_2.jpg"
+    "photo_1": "/photos/195_1.jpg",
+    "photo_2": "/photos/195_2.jpg"
   },
   {
     "id": 208,
@@ -10536,8 +10536,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/595_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/595_2.jpg"
+    "photo_1": "/photos/595_1.jpg",
+    "photo_2": "/photos/595_2.jpg"
   },
   {
     "id": 596,
@@ -10570,8 +10570,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/623_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/623_2.jpg"
+    "photo_1": "/photos/623_1.jpg",
+    "photo_2": "/photos/623_2.jpg"
   },
   {
     "id": 624,
@@ -10587,8 +10587,8 @@
     "prix": 1.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/624_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/624_2.jpg"
+    "photo_1": "/photos/624_1.jpg",
+    "photo_2": "/photos/624_2.jpg"
   },
   {
     "id": 653,
@@ -10995,8 +10995,8 @@
     "prix": 0.5,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/140_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/140_2.jpg"
+    "photo_1": "/photos/140_1.jpg",
+    "photo_2": "/photos/140_2.jpg"
   },
   {
     "id": 151,
@@ -11029,8 +11029,8 @@
     "prix": 0.5,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/176_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/176_2.jpg"
+    "photo_1": "/photos/176_1.jpg",
+    "photo_2": "/photos/176_2.jpg"
   },
   {
     "id": 434,
@@ -11284,8 +11284,8 @@
     "prix": 0.2,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/626_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/626_2.jpg"
+    "photo_1": "/photos/626_1.jpg",
+    "photo_2": "/photos/626_2.jpg"
   },
   {
     "id": 627,
@@ -11301,8 +11301,8 @@
     "prix": 0.2,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/627_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/627_2.jpg"
+    "photo_1": "/photos/627_1.jpg",
+    "photo_2": "/photos/627_2.jpg"
   },
   {
     "id": 383,
@@ -11403,8 +11403,8 @@
     "prix": null,
     "status": "coming_soon",
     "statut_raw": "restauration",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/586_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/586_2.jpg"
+    "photo_1": "/photos/586_1.jpg",
+    "photo_2": "/photos/586_2.jpg"
   },
   {
     "id": 630,
@@ -11420,8 +11420,8 @@
     "prix": null,
     "status": "coming_soon",
     "statut_raw": "restauration",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/630_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/630_2.jpg"
+    "photo_1": "/photos/630_1.jpg",
+    "photo_2": "/photos/630_2.jpg"
   },
   {
     "id": 556,
@@ -11437,8 +11437,8 @@
     "prix": null,
     "status": "coming_soon",
     "statut_raw": "restauration",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/556_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/556_2.jpg"
+    "photo_1": "/photos/556_1.jpg",
+    "photo_2": "/photos/556_2.jpg"
   },
   {
     "id": 533,
@@ -11454,8 +11454,8 @@
     "prix": null,
     "status": "coming_soon",
     "statut_raw": "restauration",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/533_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/533_2.jpg"
+    "photo_1": "/photos/533_1.jpg",
+    "photo_2": "/photos/533_2.jpg"
   },
   {
     "id": 474,
@@ -11488,8 +11488,8 @@
     "prix": null,
     "status": "coming_soon",
     "statut_raw": "restauration",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/500_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/500_2.jpg"
+    "photo_1": "/photos/500_1.jpg",
+    "photo_2": "/photos/500_2.jpg"
   },
   {
     "id": 222,
@@ -11505,8 +11505,8 @@
     "prix": null,
     "status": "coming_soon",
     "statut_raw": "restauration",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/222_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/222_2.jpg"
+    "photo_1": "/photos/222_1.jpg",
+    "photo_2": "/photos/222_2.jpg"
   },
   {
     "id": 631,
@@ -11522,8 +11522,8 @@
     "prix": null,
     "status": "coming_soon",
     "statut_raw": "restauration",
-    "photo_1": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/631_1.jpg",
-    "photo_2": "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/631_2.jpg"
+    "photo_1": "/photos/631_1.jpg",
+    "photo_2": "/photos/631_2.jpg"
   },
   {
     "id": 893,

@@ -478,7 +478,9 @@ function RequestPhotosButton({ card }: { card: Card }) {
       `• Carte : ${card.nom}\n• Set : ${card.set}\n• Rareté : ${card.rarete}\n• Langue : ${card.lang}\n` +
       `• Référence : #${card.id}\n\nPourrais-tu m'envoyer des photos quand tu peux ?\n\nMerci !`
     );
-    window.location.href = `mailto:axel.ate3@gmail.com?subject=${subject}&body=${body}`;
+    // Email decode au clic (jamais en clair dans le bundle)
+    const e = atob("YXhlbC5hdGUzQGdtYWlsLmNvbQ==");
+    window.location.href = `mailto:${e}?subject=${subject}&body=${body}`;
   };
   return (
     <button
