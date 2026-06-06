@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Card Gallery — Collection Yu-Gi-Oh",
-  description: "Collection de cartes Yu-Gi-Oh à l'unité",
+  title: "horuscards — Collection Yu-Gi-Oh",
+  description: "horuscards : collection de cartes Yu-Gi-Oh à l'unité",
+  icons: { icon: "/horus-logo.png" },
 };
 
 export default function RootLayout({
