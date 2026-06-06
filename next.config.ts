@@ -1,17 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Proxy /photos/* vers le repo GitHub des photos pour masquer l'origine
-  // dans le DOM. Le browser voit /photos/NNN_X.jpg, jamais l'URL GitHub.
-  async rewrites() {
-    return [
-      {
-        source: "/photos/:path*",
-        destination:
-          "https://raw.githubusercontent.com/AxelAouizerate/cards-photos/main/:path*",
-      },
-    ];
-  },
+  /* Proxy d'images : cf src/app/img/[...path]/route.ts (utilise un token
+     serveur, marche meme avec un repo GitHub prive). */
 };
 
 export default nextConfig;
