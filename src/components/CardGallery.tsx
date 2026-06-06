@@ -266,15 +266,31 @@ function Pagination({
 }
 
 function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
-  const { has } = useCart();
-  const inCart = has(c);
+  const { has: hasCart } = useCart();
+  const { has: hasFav, toggle: toggleFav } = useFavorites();
+  const inCart = hasCart(c);
+  const liked = hasFav(c);
   return (
-    <button
-      type="button"
+    // <div> au lieu de <button> pour pouvoir imbriquer le bouton like
+    <div
+      role="button"
+      tabIndex={0}
       onClick={onOpen}
-      className={"overflow-hidden rounded-lg border bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-amber-400 " + (inCart ? "border-amber-400 ring-2 ring-amber-300/60" : "border-slate-200")}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onOpen(); } }}
+      className={"cursor-pointer overflow-hidden rounded-lg border bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-amber-400 " + (inCart ? "border-amber-400 ring-2 ring-amber-300/60" : "border-slate-200")}
     >
       <div className="relative aspect-[3/4] w-full bg-slate-100">
+        {/* Bouton Like en haut a gauche */}
+        <button
+          type="button"
+          onClick={(e) => { e.stopPropagation(); toggleFav(c); }}
+          aria-label={liked ? "Retirer des favoris" : "Ajouter aux favoris"}
+          className="absolute left-2 top-2 z-10 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/90 text-rose-500 shadow transition hover:scale-110 hover:bg-white"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill={liked ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
+            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/>
+          </svg>
+        </button>
         {inCart && (
           <span className="absolute right-2 top-2 z-10 inline-flex h-7 w-7 items-center justify-center rounded-full bg-amber-400 text-xs font-bold text-black shadow">
             ✓
