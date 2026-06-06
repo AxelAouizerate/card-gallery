@@ -65,6 +65,7 @@ export default function CardGallery({ cards }: Props) {
   const [etatFilter, setEtatFilter] = useState<string>("");
   const [only1st, setOnly1st] = useState(false);
   const [onlyGraded, setOnlyGraded] = useState(false);
+  const [onlyComingSoon, setOnlyComingSoon] = useState(false);
   const [priceMin, setPriceMin] = useState<number | "">("");
   const [priceMax, setPriceMax] = useState<number | "">("");
   const [sortBy, setSortBy] = useState<"price_desc" | "price_asc" | "name">("price_desc");
@@ -91,6 +92,7 @@ export default function CardGallery({ cards }: Props) {
       if (etatFilter && etatRank(etatGroup(c.etat)) > etatRank(etatFilter)) return false;
       if (only1st && !c.is_1st) return false;
       if (onlyGraded && !c.grade) return false;
+      if (onlyComingSoon && c.status !== "coming_soon") return false;
       // Filtres prix : excluent les cartes sans prix ("Bientot en boutique")
       if (priceMin !== "") {
         if (c.prix === null || c.prix < Number(priceMin)) return false;
@@ -111,7 +113,7 @@ export default function CardGallery({ cards }: Props) {
     if (sortBy === "price_asc") out = [...out].sort((a, b) => cmpPrice(a, b, false));
     if (sortBy === "name") out = [...out].sort((a, b) => a.nom.localeCompare(b.nom));
     return out;
-  }, [cards, search, setFilter, rareteFilter, langFilter, etatFilter, only1st, onlyGraded, priceMin, priceMax, sortBy]);
+  }, [cards, search, setFilter, rareteFilter, langFilter, etatFilter, only1st, onlyGraded, onlyComingSoon, priceMin, priceMax, sortBy]);
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
@@ -125,7 +127,7 @@ export default function CardGallery({ cards }: Props) {
   // Reset a la page 1 quand les filtres changent (filtered change de longueur)
   useEffect(() => { setPage(1); }, [
     search, setFilter, rareteFilter, langFilter, etatFilter,
-    only1st, onlyGraded, priceMin, priceMax, sortBy,
+    only1st, onlyGraded, onlyComingSoon, priceMin, priceMax, sortBy,
   ]);
   const safePage = Math.min(page, pageCount);
   const pageStart = (safePage - 1) * PAGE_SIZE;
@@ -210,6 +212,15 @@ export default function CardGallery({ cards }: Props) {
               className="h-4 w-4"
             />
             Gradée
+          </label>
+          <label className="flex items-center gap-2 text-sm text-cyan-200">
+            <input
+              type="checkbox"
+              checked={onlyComingSoon}
+              onChange={(e) => setOnlyComingSoon(e.target.checked)}
+              className="h-4 w-4"
+            />
+            Bientôt dispo
           </label>
         </div>
       </div>
