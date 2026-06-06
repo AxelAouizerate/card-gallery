@@ -307,11 +307,11 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
             ✓
           </span>
         )}
-        {c.photo_1 ? (
+        {c.status === "coming_soon" ? (
+          <ComingSoon />
+        ) : c.photo_1 ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={c.photo_1} alt={c.nom} className="h-full w-full object-cover" loading="lazy" />
-        ) : c.status === "coming_soon" ? (
-          <ComingSoon />
         ) : (
           <PhotoPending />
         )}
@@ -497,11 +497,11 @@ function Photo({ src, alt, label, status }: {
 }) {
   return (
     <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-100">
-      {src ? (
+      {status === "coming_soon" ? (
+        <ComingSoon />
+      ) : src ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={src} alt={alt} className="h-full w-full object-contain" />
-      ) : status === "coming_soon" ? (
-        <ComingSoon />
       ) : (
         <PhotoPending />
       )}
