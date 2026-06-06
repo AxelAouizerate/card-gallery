@@ -339,7 +339,7 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
           {c.etat && <span className="text-[10px] text-slate-500">{ETAT_LABELS[c.etat] ?? c.etat}</span>}
         </div>
       </div>
-    </button>
+    </div>
   );
 }
 
@@ -410,6 +410,24 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
         </div>
       </div>
     </div>
+  );
+}
+
+function CartButton({ card, className = "" }: { card: Card; className?: string }) {
+  const { has, toggle } = useCart();
+  const inCart = has(card);
+  return (
+    <button
+      type="button"
+      onClick={(e) => { e.stopPropagation(); toggle(card); }}
+      className={`${className} w-full rounded-md px-4 py-2.5 text-sm font-semibold transition ` + (
+        inCart
+          ? "border border-amber-500 bg-amber-100 text-amber-800 hover:bg-amber-200"
+          : "bg-slate-900 text-white hover:bg-slate-800"
+      )}
+    >
+      {inCart ? "✓ Dans le panier - Retirer" : "Ajouter au panier"}
+    </button>
   );
 }
 
