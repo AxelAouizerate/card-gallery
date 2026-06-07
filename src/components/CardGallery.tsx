@@ -197,7 +197,7 @@ export default function CardGallery({ cards }: Props) {
             <option value="name">Nom A-Z</option>
           </select>
         </div>
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+        <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
           <label className="flex items-center gap-2 whitespace-nowrap text-sm text-amber-100/90">
             <input
               type="checkbox"
