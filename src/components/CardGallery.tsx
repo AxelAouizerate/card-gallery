@@ -464,7 +464,7 @@ function FavoriteButton({ card }: { card: Card }) {
 }
 
 function RequestPhotosButton({ card }: { card: Card }) {
-  // Limite cote front (le rate-limit reel par utilisateur necessitera Supabase) :
+  // Limite cote front (rate-limit serveur additionnel cote Supabase si connecte) :
   // on enregistre dans localStorage le nombre de demandes du jour.
   const dailyKey = `req_photos_${new Date().toISOString().slice(0, 10)}`;
   const handleClick = () => {
@@ -475,6 +475,10 @@ function RequestPhotosButton({ card }: { card: Card }) {
       return;
     }
     try { localStorage.setItem(dailyKey, String(n + 1)); } catch {}
+    // Trace cote serveur si connecte (sinon noop) — alimente le digest.
+    import("@/app/actions/sync").then(m => m.requestPhotos({
+      cardId: card.id, cardSet: card.set, cardNom: card.nom,
+    })).catch(() => {});
     const subject = encodeURIComponent(`Demande de photos - ${card.nom} (${card.set})`);
     const body = encodeURIComponent(
       `Bonjour,\n\nJe serais intéressé(e) par cette carte mais les photos ne sont pas encore disponibles :\n\n` +

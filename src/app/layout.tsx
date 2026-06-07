@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Cinzel_Decorative } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart";
 import { FavoritesProvider } from "@/lib/favorites";
+import Tracker from "@/components/Tracker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,7 +38,12 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${cinzel.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <CartProvider><FavoritesProvider>{children}</FavoritesProvider></CartProvider>
+        <CartProvider>
+          <FavoritesProvider>
+            <Tracker />
+            {children}
+          </FavoritesProvider>
+        </CartProvider>
       </body>
     </html>
   );
