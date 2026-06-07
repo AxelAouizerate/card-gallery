@@ -197,31 +197,31 @@ export default function CardGallery({ cards }: Props) {
             <option value="name">Nom A-Z</option>
           </select>
         </div>
-        <div className="flex items-end gap-4">
-          <label className="flex items-center gap-2 text-sm text-amber-100/90">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <label className="flex items-center gap-2 whitespace-nowrap text-sm text-amber-100/90">
             <input
               type="checkbox"
               checked={only1st}
               onChange={(e) => setOnly1st(e.target.checked)}
-              className="h-4 w-4"
+              className="h-4 w-4 shrink-0"
             />
             1ère Édition
           </label>
-          <label className="flex items-center gap-2 text-sm text-amber-100/90">
+          <label className="flex items-center gap-2 whitespace-nowrap text-sm text-amber-100/90">
             <input
               type="checkbox"
               checked={onlyGraded}
               onChange={(e) => setOnlyGraded(e.target.checked)}
-              className="h-4 w-4"
+              className="h-4 w-4 shrink-0"
             />
             Gradée
           </label>
-          <label className="flex items-center gap-2 text-sm text-cyan-200">
+          <label className="flex items-center gap-2 whitespace-nowrap text-sm text-cyan-200">
             <input
               type="checkbox"
               checked={onlyComingSoon}
               onChange={(e) => setOnlyComingSoon(e.target.checked)}
-              className="h-4 w-4"
+              className="h-4 w-4 shrink-0"
             />
             Bientôt dispo
           </label>
