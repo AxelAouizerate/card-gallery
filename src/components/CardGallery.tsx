@@ -138,10 +138,13 @@ export default function CardGallery({ cards }: Props) {
     <div className="mx-auto max-w-7xl px-4 py-6">
       <header className="mb-6 flex flex-wrap items-baseline justify-between gap-2">
         <h1
-          className="font-serif text-3xl font-bold tracking-wide text-amber-300"
-          style={{ textShadow: "0 2px 0 #000, 0 0 14px rgba(212,175,55,0.35)" }}
+          className="text-3xl font-bold tracking-wide text-amber-300"
+          style={{
+            fontFamily: "var(--font-cinzel), serif",
+            textShadow: "0 2px 0 #000, 0 0 14px rgba(212,175,55,0.35)",
+          }}
         >
-          Ma collection
+          Cartes à l&apos;unité
         </h1>
         <p className="text-sm text-amber-100/80">
           {filtered.length} cartes

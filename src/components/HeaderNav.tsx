@@ -26,8 +26,12 @@ export default async function HeaderNav() {
             className="h-10 w-10 rounded-full ring-2 ring-amber-400/60 transition group-hover:ring-amber-300"
           />
           <span
-            className="font-serif text-xl font-bold tracking-wider text-amber-300"
-            style={{ textShadow: "0 1px 0 #000, 0 0 8px rgba(212,175,55,0.35)" }}
+            className="text-3xl font-black uppercase tracking-[0.2em] text-amber-300 sm:text-4xl"
+            style={{
+              fontFamily: "var(--font-cinzel), serif",
+              textShadow:
+                "0 2px 0 #000, 0 0 12px rgba(212,175,55,0.5), 0 0 2px rgba(0,0,0,1)",
+            }}
           >
             horuscards
           </span>
