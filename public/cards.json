@@ -8364,23 +8364,6 @@
     "photo_2": "/img/582_2.jpg"
   },
   {
-    "id": 628,
-    "nom": "Saturne Agent Du Jugement",
-    "set": "AST",
-    "rarete": "Ultra",
-    "lang": "FR",
-    "etat": "EX",
-    "is_1st": false,
-    "grade": null,
-    "grade_org": null,
-    "reserve": false,
-    "prix": 3.0,
-    "status": "available",
-    "statut_raw": "en vente",
-    "photo_1": "/img/628_1.jpg",
-    "photo_2": "/img/628_2.jpg"
-  },
-  {
     "id": 675,
     "nom": "Dragon Xyz De La Rebellion Des Ténèbres",
     "set": "CT12",
