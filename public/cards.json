@@ -3995,23 +3995,6 @@
     "photo_2": null
   },
   {
-    "id": 696,
-    "nom": "Le Renoncé",
-    "set": "DDP",
-    "rarete": "Ultra",
-    "lang": "FR",
-    "etat": "NM-",
-    "is_1st": false,
-    "grade": null,
-    "grade_org": null,
-    "reserve": false,
-    "prix": 15.0,
-    "status": "photo_pending",
-    "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null
-  },
-  {
     "id": 844,
     "nom": "Dragon Blanc Aux Yeux Bleu",
     "set": "LDD-C",
@@ -6849,23 +6832,6 @@
     "statut_raw": "en vente",
     "photo_1": "/img/098_1.jpg",
     "photo_2": "/img/098_2.jpg"
-  },
-  {
-    "id": 141,
-    "nom": "Zenmaines Automate",
-    "set": "PHSW",
-    "rarete": "Secret",
-    "lang": "FR",
-    "etat": "GOOD",
-    "is_1st": true,
-    "grade": null,
-    "grade_org": null,
-    "reserve": false,
-    "prix": 5.0,
-    "status": "available",
-    "statut_raw": "en vente",
-    "photo_1": "/img/141_1.jpg",
-    "photo_2": "/img/141_2.jpg"
   },
   {
     "id": 148,
