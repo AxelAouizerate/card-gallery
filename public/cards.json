@@ -1813,10 +1813,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 50.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "/img/1046_01.jpeg",
+    "photo_2": "/img/1046_02.jpeg"
   },
   {
     "id": 95,
@@ -1932,10 +1932,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 45.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "/img/559_01.jpeg",
+    "photo_2": "/img/559_02.jpeg"
   },
   {
     "id": 612,
@@ -3734,10 +3734,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 18.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "/img/396_01.jpeg",
+    "photo_2": "/img/396_02.jpeg"
   },
   {
     "id": 528,
@@ -4329,10 +4329,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 13.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "/img/738_01.jpeg",
+    "photo_2": "/img/738_02.jpeg"
   },
   {
     "id": 882,
@@ -4856,10 +4856,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 10.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "/img/519_01.jpeg",
+    "photo_2": "/img/519_02.jpeg"
   },
   {
     "id": 529,
