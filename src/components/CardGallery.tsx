@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { Card } from "@/lib/cards";
+import { isNewArrival, type Card } from "@/lib/cards";
 import { useCart } from "@/lib/cart";
 import { useFavorites } from "@/lib/favorites";
 
@@ -66,6 +66,7 @@ export default function CardGallery({ cards }: Props) {
   const [only1st, setOnly1st] = useState(false);
   const [onlyGraded, setOnlyGraded] = useState(false);
   const [onlyComingSoon, setOnlyComingSoon] = useState(false);
+  const [onlyNew, setOnlyNew] = useState(false);
   const [priceMin, setPriceMin] = useState<number | "">("");
   const [priceMax, setPriceMax] = useState<number | "">("");
   const [sortBy, setSortBy] = useState<"price_desc" | "price_asc" | "name">("price_desc");
@@ -93,6 +94,7 @@ export default function CardGallery({ cards }: Props) {
       if (only1st && !c.is_1st) return false;
       if (onlyGraded && !c.grade) return false;
       if (onlyComingSoon && c.status !== "coming_soon") return false;
+      if (onlyNew && !isNewArrival(c)) return false;
       // Filtres prix : excluent les cartes sans prix ("Bientot en boutique")
       if (priceMin !== "") {
         if (c.prix === null || c.prix < Number(priceMin)) return false;
@@ -113,7 +115,7 @@ export default function CardGallery({ cards }: Props) {
     if (sortBy === "price_asc") out = [...out].sort((a, b) => cmpPrice(a, b, false));
     if (sortBy === "name") out = [...out].sort((a, b) => a.nom.localeCompare(b.nom));
     return out;
-  }, [cards, search, setFilter, rareteFilter, langFilter, etatFilter, only1st, onlyGraded, onlyComingSoon, priceMin, priceMax, sortBy]);
+  }, [cards, search, setFilter, rareteFilter, langFilter, etatFilter, only1st, onlyGraded, onlyComingSoon, onlyNew, priceMin, priceMax, sortBy]);
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
@@ -127,7 +129,7 @@ export default function CardGallery({ cards }: Props) {
   // Reset a la page 1 quand les filtres changent (filtered change de longueur)
   useEffect(() => { setPage(1); }, [
     search, setFilter, rareteFilter, langFilter, etatFilter,
-    only1st, onlyGraded, onlyComingSoon, priceMin, priceMax, sortBy,
+    only1st, onlyGraded, onlyComingSoon, onlyNew, priceMin, priceMax, sortBy,
   ]);
   const safePage = Math.min(page, pageCount);
   const pageStart = (safePage - 1) * PAGE_SIZE;
@@ -224,6 +226,18 @@ export default function CardGallery({ cards }: Props) {
               className="h-4 w-4 shrink-0"
             />
             Bientôt dispo
+          </label>
+          <label className="flex items-center gap-2 whitespace-nowrap text-sm text-rose-200">
+            <input
+              type="checkbox"
+              checked={onlyNew}
+              onChange={(e) => setOnlyNew(e.target.checked)}
+              className="h-4 w-4 shrink-0"
+            />
+            Nouveautés
+            <span className="ml-1 inline-block rounded-sm bg-gradient-to-r from-rose-500 to-rose-400 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-wider text-white shadow-sm">
+              ‹ 14j
+            </span>
           </label>
         </div>
       </div>
@@ -331,6 +345,19 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
         {c.grade && (
           <span className="absolute bottom-2 left-2 rounded bg-slate-900/80 px-1.5 py-0.5 text-[10px] font-semibold text-white">
             {c.grade_org ?? "Grade"} {c.grade}
+          </span>
+        )}
+        {isNewArrival(c) && (
+          <span
+            className="absolute bottom-2 right-2 inline-flex items-center gap-1 overflow-hidden rounded-sm bg-gradient-to-r from-rose-600 via-red-500 to-rose-500 px-2 py-1 text-[10px] font-black uppercase tracking-widest text-white shadow-md ring-1 ring-rose-300/40 animate-pulse"
+            style={{
+              boxShadow:
+                "0 0 0 1px rgba(255,255,255,0.15) inset, 0 4px 12px rgba(244,63,94,0.45)",
+              textShadow: "0 1px 0 rgba(0,0,0,0.45)",
+            }}
+            title={`Ajoutée le ${c.first_seen ?? "récemment"}`}
+          >
+            ★ NEW
           </span>
         )}
       </div>

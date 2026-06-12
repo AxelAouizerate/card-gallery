@@ -14,7 +14,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/896_1.jpg",
-    "photo_2": "/img/896_2.jpg"
+    "photo_2": "/img/896_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 504,
@@ -31,7 +32,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/504_1.jpg",
-    "photo_2": "/img/504_2.jpg"
+    "photo_2": "/img/504_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 432,
@@ -48,7 +50,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/432_1.jpg",
-    "photo_2": "/img/432_2.jpg"
+    "photo_2": "/img/432_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 207,
@@ -65,7 +68,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/207_1.jpg",
-    "photo_2": "/img/207_2.jpg"
+    "photo_2": "/img/207_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 889,
@@ -82,7 +86,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/889_1.jpg",
-    "photo_2": "/img/889_2.jpg"
+    "photo_2": "/img/889_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 60,
@@ -99,7 +104,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/060_1.jpg",
-    "photo_2": "/img/060_2.jpg"
+    "photo_2": "/img/060_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 642,
@@ -116,7 +122,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/642_1.jpg",
-    "photo_2": "/img/642_2.jpg"
+    "photo_2": "/img/642_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1049,
@@ -133,7 +140,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1049_1.jpg",
-    "photo_2": "/img/1049_2.jpg"
+    "photo_2": "/img/1049_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1050,
@@ -150,7 +158,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1050_1.jpg",
-    "photo_2": "/img/1050_2.jpg"
+    "photo_2": "/img/1050_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1055,
@@ -167,7 +176,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1055_1.jpg",
-    "photo_2": "/img/1055_2.jpg"
+    "photo_2": "/img/1055_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1056,
@@ -184,7 +194,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1056_1.jpg",
-    "photo_2": "/img/1056_2.jpg"
+    "photo_2": "/img/1056_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1099,
@@ -201,7 +212,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 301,
@@ -218,7 +230,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/301_1.jpg",
-    "photo_2": "/img/301_2.jpg"
+    "photo_2": "/img/301_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 518,
@@ -235,7 +248,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/518_1.jpg",
-    "photo_2": "/img/518_2.jpg"
+    "photo_2": "/img/518_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 410,
@@ -252,7 +266,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/410_1.jpg",
-    "photo_2": "/img/410_2.jpg"
+    "photo_2": "/img/410_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 449,
@@ -269,7 +284,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/449_1.jpg",
-    "photo_2": "/img/449_2.jpg"
+    "photo_2": "/img/449_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 643,
@@ -286,7 +302,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/643_1.jpg",
-    "photo_2": "/img/643_2.jpg"
+    "photo_2": "/img/643_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 883,
@@ -303,7 +320,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/883_1.jpg",
-    "photo_2": "/img/883_2.jpg"
+    "photo_2": "/img/883_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1047,
@@ -320,7 +338,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1047_1.jpg",
-    "photo_2": "/img/1047_2.jpg"
+    "photo_2": "/img/1047_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1063,
@@ -337,7 +356,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1063_1.jpg",
-    "photo_2": "/img/1063_2.jpg"
+    "photo_2": "/img/1063_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 232,
@@ -351,10 +371,11 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 120.0,
-    "status": "available",
+    "status": "photo_pending",
     "statut_raw": "en vente",
-    "photo_1": "/img/232_1.jpg",
-    "photo_2": "/img/232_2.jpg"
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 246,
@@ -371,7 +392,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/246_1.jpg",
-    "photo_2": "/img/246_2.jpg"
+    "photo_2": "/img/246_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 313,
@@ -388,7 +410,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/313_1.jpg",
-    "photo_2": "/img/313_2.jpg"
+    "photo_2": "/img/313_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 886,
@@ -405,7 +428,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/886_1.jpg",
-    "photo_2": "/img/886_2.jpg"
+    "photo_2": "/img/886_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 892,
@@ -422,7 +446,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/892_1.jpg",
-    "photo_2": "/img/892_2.jpg"
+    "photo_2": "/img/892_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 303,
@@ -439,7 +464,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 305,
@@ -456,7 +482,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/305_1.jpg",
-    "photo_2": "/img/305_2.jpg"
+    "photo_2": "/img/305_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 230,
@@ -473,7 +500,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/230_1.jpg",
-    "photo_2": "/img/230_2.jpg"
+    "photo_2": "/img/230_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1051,
@@ -490,7 +518,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1051_1.jpg",
-    "photo_2": "/img/1051_2.jpg"
+    "photo_2": "/img/1051_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 308,
@@ -507,7 +536,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/308_1.jpg",
-    "photo_2": "/img/308_2.jpg"
+    "photo_2": "/img/308_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 310,
@@ -524,7 +554,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/310_1.jpg",
-    "photo_2": "/img/310_2.jpg"
+    "photo_2": "/img/310_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 472,
@@ -541,7 +572,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/472_1.jpg",
-    "photo_2": "/img/472_2.jpg"
+    "photo_2": "/img/472_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 489,
@@ -558,7 +590,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/489_1.jpg",
-    "photo_2": "/img/489_2.jpg"
+    "photo_2": "/img/489_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 550,
@@ -575,7 +608,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/550_1.jpg",
-    "photo_2": "/img/550_2.jpg"
+    "photo_2": "/img/550_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1042,
@@ -592,7 +626,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1042_01.jpeg",
-    "photo_2": "/img/1042_02.jpeg"
+    "photo_2": "/img/1042_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 431,
@@ -609,7 +644,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/431_1.jpg",
-    "photo_2": "/img/431_2.jpg"
+    "photo_2": "/img/431_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 513,
@@ -626,7 +662,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/513_1.jpg",
-    "photo_2": "/img/513_2.jpg"
+    "photo_2": "/img/513_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1054,
@@ -643,7 +680,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1054_1.jpg",
-    "photo_2": "/img/1054_2.jpg"
+    "photo_2": "/img/1054_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1058,
@@ -660,7 +698,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1058_1.jpg",
-    "photo_2": "/img/1058_2.jpg"
+    "photo_2": "/img/1058_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1060,
@@ -677,7 +716,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1060_1.jpg",
-    "photo_2": "/img/1060_2.jpg"
+    "photo_2": "/img/1060_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 497,
@@ -694,7 +734,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/497_1.jpg",
-    "photo_2": "/img/497_2.jpg"
+    "photo_2": "/img/497_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 309,
@@ -711,7 +752,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/309_1.jpg",
-    "photo_2": "/img/309_2.jpg"
+    "photo_2": "/img/309_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 415,
@@ -728,7 +770,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/415_1.jpg",
-    "photo_2": "/img/415_2.jpg"
+    "photo_2": "/img/415_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 547,
@@ -745,7 +788,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/547_1.jpg",
-    "photo_2": "/img/547_2.jpg"
+    "photo_2": "/img/547_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 584,
@@ -762,7 +806,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/584_1.jpg",
-    "photo_2": "/img/584_2.jpg"
+    "photo_2": "/img/584_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 633,
@@ -779,7 +824,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/633_1.jpg",
-    "photo_2": "/img/633_2.jpg"
+    "photo_2": "/img/633_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1062,
@@ -796,7 +842,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1062_1.jpg",
-    "photo_2": "/img/1062_2.jpg"
+    "photo_2": "/img/1062_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 645,
@@ -813,7 +860,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/645_1.jpg",
-    "photo_2": "/img/645_2.jpg"
+    "photo_2": "/img/645_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 318,
@@ -830,7 +878,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/318_1.jpg",
-    "photo_2": "/img/318_2.jpg"
+    "photo_2": "/img/318_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 463,
@@ -847,7 +896,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/463_1.jpg",
-    "photo_2": "/img/463_2.jpg"
+    "photo_2": "/img/463_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 475,
@@ -864,7 +914,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/475_1.jpeg",
-    "photo_2": "/img/475_2.jpeg"
+    "photo_2": "/img/475_2.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 492,
@@ -881,7 +932,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/492_1.jpg",
-    "photo_2": "/img/492_2.jpg"
+    "photo_2": "/img/492_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 498,
@@ -898,7 +950,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/498_1.jpg",
-    "photo_2": "/img/498_2.jpg"
+    "photo_2": "/img/498_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 587,
@@ -915,7 +968,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/587_1.jpg",
-    "photo_2": "/img/587_2.jpg"
+    "photo_2": "/img/587_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 614,
@@ -932,7 +986,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/614_1.jpg",
-    "photo_2": "/img/614_2.jpg"
+    "photo_2": "/img/614_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1041,
@@ -949,7 +1004,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1041_1.jpg",
-    "photo_2": "/img/1041_2.jpg"
+    "photo_2": "/img/1041_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 295,
@@ -966,7 +1022,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/295_01.jpg",
-    "photo_2": "/img/295_02.jpg"
+    "photo_2": "/img/295_02.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 494,
@@ -983,7 +1040,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/494_1.jpg",
-    "photo_2": "/img/494_2.jpg"
+    "photo_2": "/img/494_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 649,
@@ -1000,7 +1058,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/649_1.jpg",
-    "photo_2": "/img/649_2.jpg"
+    "photo_2": "/img/649_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 894,
@@ -1017,7 +1076,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/894_1.jpg",
-    "photo_2": "/img/894_2.jpg"
+    "photo_2": "/img/894_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 897,
@@ -1034,7 +1094,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/897_1.jpg",
-    "photo_2": "/img/897_2.jpg"
+    "photo_2": "/img/897_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1043,
@@ -1051,7 +1112,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1043_1.jpg",
-    "photo_2": "/img/1043_2.jpg"
+    "photo_2": "/img/1043_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 30,
@@ -1068,7 +1130,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/030_1.jpg",
-    "photo_2": "/img/030_2.jpg"
+    "photo_2": "/img/030_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 96,
@@ -1085,7 +1148,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/096_1.jpg",
-    "photo_2": "/img/096_2.jpg"
+    "photo_2": "/img/096_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 319,
@@ -1102,7 +1166,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/319_1.jpg",
-    "photo_2": "/img/319_2.jpg"
+    "photo_2": "/img/319_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 386,
@@ -1119,7 +1184,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/386_1.jpg",
-    "photo_2": "/img/386_2.jpg"
+    "photo_2": "/img/386_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 454,
@@ -1136,7 +1202,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/454_1.jpg",
-    "photo_2": "/img/454_2.jpg"
+    "photo_2": "/img/454_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 867,
@@ -1153,7 +1220,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/867_1.jpg",
-    "photo_2": "/img/867_2.jpg"
+    "photo_2": "/img/867_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 888,
@@ -1170,7 +1238,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/888_1.jpg",
-    "photo_2": "/img/888_2.jpg"
+    "photo_2": "/img/888_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 88,
@@ -1187,7 +1256,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/088_1.jpg",
-    "photo_2": "/img/088_2.jpg"
+    "photo_2": "/img/088_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 901,
@@ -1204,7 +1274,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/901_1.jpg",
-    "photo_2": "/img/901_2.jpg"
+    "photo_2": "/img/901_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 902,
@@ -1221,7 +1292,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/902_1.jpg",
-    "photo_2": "/img/902_2.jpg"
+    "photo_2": "/img/902_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 320,
@@ -1238,7 +1310,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/320_1.jpg",
-    "photo_2": "/img/320_2.jpg"
+    "photo_2": "/img/320_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 321,
@@ -1255,7 +1328,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/321_1.jpg",
-    "photo_2": "/img/321_2.jpg"
+    "photo_2": "/img/321_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 322,
@@ -1272,7 +1346,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/322_1.jpg",
-    "photo_2": "/img/322_2.jpg"
+    "photo_2": "/img/322_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 323,
@@ -1289,7 +1364,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/323_1.jpg",
-    "photo_2": "/img/323_2.jpg"
+    "photo_2": "/img/323_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 388,
@@ -1306,7 +1382,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/388_1.jpg",
-    "photo_2": "/img/388_2.jpg"
+    "photo_2": "/img/388_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 490,
@@ -1323,7 +1400,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/490_1.jpg",
-    "photo_2": "/img/490_2.jpg"
+    "photo_2": "/img/490_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 522,
@@ -1340,7 +1418,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/522_1.jpg",
-    "photo_2": "/img/522_2.jpg"
+    "photo_2": "/img/522_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 569,
@@ -1357,7 +1436,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/569_1.jpg",
-    "photo_2": "/img/569_2.jpg"
+    "photo_2": "/img/569_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 755,
@@ -1374,7 +1454,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/755_1.jpg",
-    "photo_2": "/img/755_2.jpg"
+    "photo_2": "/img/755_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 903,
@@ -1391,7 +1472,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/903_1.jpg",
-    "photo_2": "/img/903_2.jpg"
+    "photo_2": "/img/903_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1059,
@@ -1408,7 +1490,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1059_1.jpg",
-    "photo_2": "/img/1059_2.jpg"
+    "photo_2": "/img/1059_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1061,
@@ -1425,7 +1508,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1061_1.jpg",
-    "photo_2": "/img/1061_2.jpg"
+    "photo_2": "/img/1061_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 887,
@@ -1442,7 +1526,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/887_1.jpg",
-    "photo_2": "/img/887_2.jpg"
+    "photo_2": "/img/887_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 535,
@@ -1459,7 +1544,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/535_1.jpg",
-    "photo_2": "/img/535_2.jpg"
+    "photo_2": "/img/535_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 636,
@@ -1476,7 +1562,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/636_1.jpg",
-    "photo_2": "/img/636_2.jpg"
+    "photo_2": "/img/636_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 648,
@@ -1493,7 +1580,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/648_1.jpg",
-    "photo_2": "/img/648_2.jpg"
+    "photo_2": "/img/648_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 895,
@@ -1510,7 +1598,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/895_1.jpg",
-    "photo_2": "/img/895_2.jpg"
+    "photo_2": "/img/895_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1052,
@@ -1527,7 +1616,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1052_1.jpg",
-    "photo_2": "/img/1052_2.jpg"
+    "photo_2": "/img/1052_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 31,
@@ -1544,7 +1634,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/031_1.jpg",
-    "photo_2": "/img/031_2.jpg"
+    "photo_2": "/img/031_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 74,
@@ -1561,7 +1652,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/074_1.jpg",
-    "photo_2": "/img/074_2.jpg"
+    "photo_2": "/img/074_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 326,
@@ -1578,7 +1670,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/326_1.jpg",
-    "photo_2": "/img/326_2.jpg"
+    "photo_2": "/img/326_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 327,
@@ -1595,7 +1688,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/327_1.jpg",
-    "photo_2": "/img/327_2.jpg"
+    "photo_2": "/img/327_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 328,
@@ -1612,7 +1706,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/328_1.jpg",
-    "photo_2": "/img/328_2.jpg"
+    "photo_2": "/img/328_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 339,
@@ -1629,7 +1724,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/339_1.jpg",
-    "photo_2": "/img/339_2.jpg"
+    "photo_2": "/img/339_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 390,
@@ -1646,7 +1742,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/390_1.jpg",
-    "photo_2": "/img/390_2.jpg"
+    "photo_2": "/img/390_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 452,
@@ -1663,7 +1760,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/452_1.jpg",
-    "photo_2": "/img/452_2.jpg"
+    "photo_2": "/img/452_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 524,
@@ -1680,7 +1778,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/524_1.jpg",
-    "photo_2": "/img/524_2.jpg"
+    "photo_2": "/img/524_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 526,
@@ -1697,7 +1796,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/526_1.jpg",
-    "photo_2": "/img/526_2.jpg"
+    "photo_2": "/img/526_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 542,
@@ -1714,7 +1814,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/542_1.jpg",
-    "photo_2": "/img/542_2.jpg"
+    "photo_2": "/img/542_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 608,
@@ -1731,7 +1832,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/608_1.jpg",
-    "photo_2": "/img/608_2.jpg"
+    "photo_2": "/img/608_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 637,
@@ -1748,7 +1850,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/637_1.jpg",
-    "photo_2": "/img/637_2.jpg"
+    "photo_2": "/img/637_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 686,
@@ -1765,7 +1868,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/686_1.jpg",
-    "photo_2": "/img/686_2.jpg"
+    "photo_2": "/img/686_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 690,
@@ -1782,7 +1886,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 851,
@@ -1799,7 +1904,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/851_1.jpg",
-    "photo_2": "/img/851_2.jpg"
+    "photo_2": "/img/851_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1046,
@@ -1816,7 +1922,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1046_01.jpeg",
-    "photo_2": "/img/1046_02.jpeg"
+    "photo_2": "/img/1046_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 95,
@@ -1833,7 +1940,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/095_1.jpg",
-    "photo_2": "/img/095_2.jpg"
+    "photo_2": "/img/095_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 142,
@@ -1850,7 +1958,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/142_1.jpg",
-    "photo_2": "/img/142_2.jpg"
+    "photo_2": "/img/142_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 330,
@@ -1867,7 +1976,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/330_01.jpeg",
-    "photo_2": "/img/330_02.jpeg"
+    "photo_2": "/img/330_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 476,
@@ -1884,7 +1994,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/476_1.jpg",
-    "photo_2": "/img/476_2.jpg"
+    "photo_2": "/img/476_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 491,
@@ -1901,7 +2012,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/491_1.jpg",
-    "photo_2": "/img/491_2.jpg"
+    "photo_2": "/img/491_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 548,
@@ -1918,7 +2030,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/548_1.jpg",
-    "photo_2": "/img/548_2.jpg"
+    "photo_2": "/img/548_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 559,
@@ -1935,7 +2048,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/559_01.jpeg",
-    "photo_2": "/img/559_02.jpeg"
+    "photo_2": "/img/559_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 612,
@@ -1952,7 +2066,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/612_1.jpg",
-    "photo_2": "/img/612_2.jpg"
+    "photo_2": "/img/612_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 791,
@@ -1969,7 +2084,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 841,
@@ -1986,7 +2102,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 899,
@@ -2003,7 +2120,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/899_1.jpg",
-    "photo_2": "/img/899_2.jpg"
+    "photo_2": "/img/899_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 908,
@@ -2020,7 +2138,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 294,
@@ -2037,7 +2156,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 317,
@@ -2054,7 +2174,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 332,
@@ -2071,7 +2192,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 451,
@@ -2088,7 +2210,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/451_01.jpeg",
-    "photo_2": "/img/451_02.jpeg"
+    "photo_2": "/img/451_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 501,
@@ -2105,7 +2228,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/501_1.jpg",
-    "photo_2": "/img/501_2.jpg"
+    "photo_2": "/img/501_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 640,
@@ -2122,7 +2246,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/640_1.jpg",
-    "photo_2": "/img/640_2.jpg"
+    "photo_2": "/img/640_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 761,
@@ -2139,7 +2264,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 879,
@@ -2156,7 +2282,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/879_01.jpg",
-    "photo_2": "/img/879_02.jpg"
+    "photo_2": "/img/879_02.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 904,
@@ -2173,7 +2300,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/904_1.jpg",
-    "photo_2": "/img/904_2.jpg"
+    "photo_2": "/img/904_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 909,
@@ -2190,7 +2318,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 910,
@@ -2207,7 +2336,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1064,
@@ -2224,7 +2354,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1064_1.jpg",
-    "photo_2": "/img/1064_2.jpg"
+    "photo_2": "/img/1064_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 570,
@@ -2241,7 +2372,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/570_1.jpg",
-    "photo_2": "/img/570_2.jpg"
+    "photo_2": "/img/570_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 123,
@@ -2258,7 +2390,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/123_1.jpg",
-    "photo_2": "/img/123_2.jpg"
+    "photo_2": "/img/123_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 124,
@@ -2275,7 +2408,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/124_1.jpg",
-    "photo_2": "/img/124_2.jpg"
+    "photo_2": "/img/124_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 126,
@@ -2292,7 +2426,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/126_1.jpg",
-    "photo_2": "/img/126_2.jpg"
+    "photo_2": "/img/126_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 160,
@@ -2309,7 +2444,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/160_1.jpg",
-    "photo_2": "/img/160_2.jpg"
+    "photo_2": "/img/160_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 283,
@@ -2326,7 +2462,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 292,
@@ -2343,7 +2480,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 334,
@@ -2360,7 +2498,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 335,
@@ -2377,7 +2516,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 337,
@@ -2394,7 +2534,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 684,
@@ -2411,7 +2552,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 852,
@@ -2428,7 +2570,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 900,
@@ -2445,7 +2588,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/900_1.jpg",
-    "photo_2": "/img/900_2.jpg"
+    "photo_2": "/img/900_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1065,
@@ -2462,7 +2606,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/1065_01.jpg",
-    "photo_2": "/img/1065_02.jpg"
+    "photo_2": "/img/1065_02.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 616,
@@ -2479,7 +2624,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/616_1.jpg",
-    "photo_2": "/img/616_2.jpg"
+    "photo_2": "/img/616_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 647,
@@ -2496,7 +2642,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/647_01.jpg",
-    "photo_2": "/img/647_02.jpg"
+    "photo_2": "/img/647_02.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 13,
@@ -2513,7 +2660,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/013_1.jpg",
-    "photo_2": "/img/013_2.jpg"
+    "photo_2": "/img/013_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 59,
@@ -2530,7 +2678,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/059_1.jpg",
-    "photo_2": "/img/059_2.jpg"
+    "photo_2": "/img/059_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 122,
@@ -2547,7 +2696,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 275,
@@ -2564,7 +2714,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 338,
@@ -2581,7 +2732,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 340,
@@ -2598,7 +2750,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/340_1.jpeg",
-    "photo_2": "/img/340_2.jpeg"
+    "photo_2": "/img/340_2.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 345,
@@ -2615,7 +2768,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 355,
@@ -2632,7 +2786,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/355_1.jpg",
-    "photo_2": "/img/355_2.jpg"
+    "photo_2": "/img/355_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 358,
@@ -2649,7 +2804,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/358_1.jpg",
-    "photo_2": "/img/358_2.jpg"
+    "photo_2": "/img/358_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 557,
@@ -2666,7 +2822,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 619,
@@ -2683,7 +2840,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 620,
@@ -2700,7 +2858,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 621,
@@ -2717,7 +2876,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 638,
@@ -2734,7 +2894,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/638_1.jpg",
-    "photo_2": "/img/638_2.jpg"
+    "photo_2": "/img/638_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 664,
@@ -2751,7 +2912,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 858,
@@ -2768,7 +2930,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 885,
@@ -2785,7 +2948,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 911,
@@ -2802,7 +2966,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 912,
@@ -2819,7 +2984,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 913,
@@ -2836,7 +3002,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 7,
@@ -2853,7 +3020,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/007_1.jpg",
-    "photo_2": "/img/007_2.jpg"
+    "photo_2": "/img/007_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 19,
@@ -2870,7 +3038,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/019_1.jpg",
-    "photo_2": "/img/019_2.jpg"
+    "photo_2": "/img/019_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 91,
@@ -2887,7 +3056,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/091_1.jpg",
-    "photo_2": "/img/091_2.jpg"
+    "photo_2": "/img/091_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 129,
@@ -2904,7 +3074,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/129_1.jpg",
-    "photo_2": "/img/129_2.jpg"
+    "photo_2": "/img/129_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 341,
@@ -2921,7 +3092,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 343,
@@ -2938,7 +3110,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 344,
@@ -2955,7 +3128,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 346,
@@ -2972,7 +3146,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 348,
@@ -2989,7 +3164,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/348_01.jpg",
-    "photo_2": "/img/348_02.jpg"
+    "photo_2": "/img/348_02.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 349,
@@ -3006,7 +3182,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 502,
@@ -3023,7 +3200,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 541,
@@ -3040,7 +3218,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/541_1.jpg",
-    "photo_2": "/img/541_2.jpg"
+    "photo_2": "/img/541_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 571,
@@ -3057,7 +3236,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/571_1.jpg",
-    "photo_2": "/img/571_2.jpg"
+    "photo_2": "/img/571_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 610,
@@ -3074,7 +3254,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/610_1.jpg",
-    "photo_2": "/img/610_2.jpg"
+    "photo_2": "/img/610_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 639,
@@ -3091,7 +3272,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/639_1.jpg",
-    "photo_2": "/img/639_2.jpg"
+    "photo_2": "/img/639_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 838,
@@ -3108,7 +3290,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 891,
@@ -3125,7 +3308,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/891_01.jpg",
-    "photo_2": "/img/891_02.jpg"
+    "photo_2": "/img/891_02.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 907,
@@ -3142,7 +3326,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 914,
@@ -3159,7 +3344,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 915,
@@ -3176,7 +3362,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 916,
@@ -3193,7 +3380,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 917,
@@ -3210,7 +3398,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1044,
@@ -3227,7 +3416,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1045,
@@ -3244,7 +3434,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 918,
@@ -3261,7 +3452,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 865,
@@ -3278,7 +3470,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 881,
@@ -3295,7 +3488,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 919,
@@ -3312,7 +3506,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 121,
@@ -3329,7 +3524,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/121_1.jpg",
-    "photo_2": "/img/121_2.jpg"
+    "photo_2": "/img/121_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 139,
@@ -3346,7 +3542,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/139_1.jpg",
-    "photo_2": "/img/139_2.jpg"
+    "photo_2": "/img/139_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 350,
@@ -3363,7 +3560,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 352,
@@ -3380,7 +3578,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 354,
@@ -3397,7 +3596,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 356,
@@ -3414,7 +3614,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/356_1.jpg",
-    "photo_2": "/img/356_2.jpg"
+    "photo_2": "/img/356_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 357,
@@ -3431,7 +3632,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/357_1.jpg",
-    "photo_2": "/img/357_2.jpg"
+    "photo_2": "/img/357_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 359,
@@ -3448,7 +3650,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 465,
@@ -3465,7 +3668,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 503,
@@ -3482,7 +3686,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 523,
@@ -3499,7 +3704,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/523_1.jpg",
-    "photo_2": "/img/523_2.jpg"
+    "photo_2": "/img/523_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 525,
@@ -3516,7 +3722,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/525_1.jpg",
-    "photo_2": "/img/525_2.jpg"
+    "photo_2": "/img/525_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 655,
@@ -3533,7 +3740,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 751,
@@ -3550,7 +3758,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 800,
@@ -3567,7 +3776,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 859,
@@ -3584,7 +3794,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1124,
@@ -3601,7 +3812,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 920,
@@ -3618,7 +3830,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 921,
@@ -3635,7 +3848,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 922,
@@ -3652,7 +3866,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 923,
@@ -3669,7 +3884,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 83,
@@ -3686,7 +3902,8 @@
     "status": "available",
     "statut_raw": "01/01/2026",
     "photo_1": "/img/083_1.jpg",
-    "photo_2": "/img/083_2.jpg"
+    "photo_2": "/img/083_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 516,
@@ -3703,7 +3920,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/516_1.jpg",
-    "photo_2": "/img/516_2.jpg"
+    "photo_2": "/img/516_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 284,
@@ -3720,7 +3938,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/284_1.jpeg",
-    "photo_2": "/img/284_2.jpeg"
+    "photo_2": "/img/284_2.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 396,
@@ -3737,7 +3956,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/396_01.jpeg",
-    "photo_2": "/img/396_02.jpeg"
+    "photo_2": "/img/396_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 528,
@@ -3754,7 +3974,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/528_1.jpg",
-    "photo_2": "/img/528_2.jpg"
+    "photo_2": "/img/528_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1122,
@@ -3771,7 +3992,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 924,
@@ -3788,7 +4010,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 925,
@@ -3805,7 +4028,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 926,
@@ -3822,7 +4046,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 927,
@@ -3839,7 +4064,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 928,
@@ -3856,7 +4082,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 24,
@@ -3873,7 +4100,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/024_1.jpg",
-    "photo_2": "/img/024_2.jpg"
+    "photo_2": "/img/024_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 138,
@@ -3890,7 +4118,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/138_1.jpg",
-    "photo_2": "/img/138_2.jpg"
+    "photo_2": "/img/138_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 192,
@@ -3907,7 +4136,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/192_1.jpg",
-    "photo_2": "/img/192_2.jpg"
+    "photo_2": "/img/192_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 360,
@@ -3924,7 +4154,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/360_01.jpeg",
-    "photo_2": "/img/360_02.jpeg"
+    "photo_2": "/img/360_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 362,
@@ -3941,7 +4172,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/362_1.jpg",
-    "photo_2": "/img/362_2.jpg"
+    "photo_2": "/img/362_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 365,
@@ -3958,7 +4190,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 510,
@@ -3975,7 +4208,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 663,
@@ -3992,7 +4226,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 844,
@@ -4009,7 +4244,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 863,
@@ -4026,7 +4262,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 929,
@@ -4043,7 +4280,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 930,
@@ -4060,7 +4298,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 931,
@@ -4077,7 +4316,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 932,
@@ -4094,7 +4334,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 933,
@@ -4111,7 +4352,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 934,
@@ -4128,7 +4370,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 935,
@@ -4145,7 +4388,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 936,
@@ -4162,7 +4406,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 937,
@@ -4179,7 +4424,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 271,
@@ -4196,7 +4442,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/271_1.jpeg",
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 546,
@@ -4213,7 +4460,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/546_1.jpg",
-    "photo_2": "/img/546_2.jpg"
+    "photo_2": "/img/546_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 853,
@@ -4230,7 +4478,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 938,
@@ -4247,7 +4496,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 939,
@@ -4264,7 +4514,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 940,
@@ -4281,7 +4532,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 409,
@@ -4298,7 +4550,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 538,
@@ -4315,7 +4568,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 738,
@@ -4332,7 +4586,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/738_01.jpeg",
-    "photo_2": "/img/738_02.jpeg"
+    "photo_2": "/img/738_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 882,
@@ -4349,7 +4604,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 941,
@@ -4366,7 +4622,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 942,
@@ -4383,7 +4640,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 20,
@@ -4400,7 +4658,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/020_1.jpg",
-    "photo_2": "/img/020_2.jpg"
+    "photo_2": "/img/020_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 155,
@@ -4417,7 +4676,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 274,
@@ -4434,7 +4694,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 878,
@@ -4451,7 +4712,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 943,
@@ -4468,7 +4730,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 944,
@@ -4485,7 +4748,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 945,
@@ -4502,7 +4766,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 946,
@@ -4519,7 +4784,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 947,
@@ -4536,7 +4802,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 948,
@@ -4553,7 +4820,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 949,
@@ -4570,7 +4838,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 963,
@@ -4587,7 +4856,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 689,
@@ -4604,7 +4874,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 950,
@@ -4621,7 +4892,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 951,
@@ -4638,7 +4910,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 18,
@@ -4655,7 +4928,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/018_1.jpg",
-    "photo_2": "/img/018_2.jpg"
+    "photo_2": "/img/018_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 150,
@@ -4672,7 +4946,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/150_1.jpg",
-    "photo_2": "/img/150_2.jpg"
+    "photo_2": "/img/150_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 281,
@@ -4689,7 +4964,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/281_1.jpeg",
-    "photo_2": "/img/281_2.jpeg"
+    "photo_2": "/img/281_2.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 286,
@@ -4706,7 +4982,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 291,
@@ -4723,7 +5000,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 325,
@@ -4740,7 +5018,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 367,
@@ -4757,7 +5036,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/367_01.jpeg",
-    "photo_2": "/img/367_02.jpeg"
+    "photo_2": "/img/367_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 368,
@@ -4774,7 +5054,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 412,
@@ -4791,7 +5072,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 442,
@@ -4808,7 +5090,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 459,
@@ -4825,7 +5108,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/459_01.jpeg",
-    "photo_2": "/img/459_02.jpeg"
+    "photo_2": "/img/459_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 511,
@@ -4842,7 +5126,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 519,
@@ -4859,7 +5144,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/519_01.jpeg",
-    "photo_2": "/img/519_02.jpeg"
+    "photo_2": "/img/519_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 529,
@@ -4876,7 +5162,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/529_1.jpg",
-    "photo_2": "/img/529_2.jpg"
+    "photo_2": "/img/529_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 549,
@@ -4893,7 +5180,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/549_1.jpg",
-    "photo_2": "/img/549_2.jpg"
+    "photo_2": "/img/549_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 597,
@@ -4910,7 +5198,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/597_1.jpg",
-    "photo_2": "/img/597_2.jpg"
+    "photo_2": "/img/597_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 613,
@@ -4927,7 +5216,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/613_1.jpg",
-    "photo_2": "/img/613_2.jpg"
+    "photo_2": "/img/613_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 646,
@@ -4944,7 +5234,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/646_1.jpg",
-    "photo_2": "/img/646_2.jpg"
+    "photo_2": "/img/646_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 682,
@@ -4961,7 +5252,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 711,
@@ -4978,7 +5270,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 744,
@@ -4995,7 +5288,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 837,
@@ -5012,7 +5306,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 857,
@@ -5029,7 +5324,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 862,
@@ -5046,7 +5342,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 864,
@@ -5063,7 +5360,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 952,
@@ -5080,7 +5378,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 953,
@@ -5097,7 +5396,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 954,
@@ -5114,7 +5414,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 955,
@@ -5131,7 +5432,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 956,
@@ -5148,7 +5450,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 957,
@@ -5165,7 +5468,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 958,
@@ -5182,7 +5486,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 959,
@@ -5199,7 +5504,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 960,
@@ -5216,7 +5522,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 961,
@@ -5233,7 +5540,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 962,
@@ -5250,7 +5558,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 988,
@@ -5267,7 +5576,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1103,
@@ -5284,7 +5594,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 685,
@@ -5301,7 +5612,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 749,
@@ -5318,7 +5630,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 280,
@@ -5335,7 +5648,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 391,
@@ -5352,7 +5666,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 604,
@@ -5369,7 +5684,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/604_1.jpg",
-    "photo_2": "/img/604_2.jpg"
+    "photo_2": "/img/604_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 770,
@@ -5386,7 +5702,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 846,
@@ -5403,7 +5720,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/846_01.jpeg",
-    "photo_2": "/img/846_02.jpeg"
+    "photo_2": "/img/846_02.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 861,
@@ -5420,7 +5738,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 869,
@@ -5437,7 +5756,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 964,
@@ -5454,7 +5774,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 965,
@@ -5471,7 +5792,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 966,
@@ -5488,7 +5810,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 967,
@@ -5505,7 +5828,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 968,
@@ -5522,7 +5846,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 969,
@@ -5539,7 +5864,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 970,
@@ -5556,7 +5882,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 971,
@@ -5573,7 +5900,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 972,
@@ -5590,7 +5918,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 82,
@@ -5607,7 +5936,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/082_1.jpg",
-    "photo_2": "/img/082_2.jpg"
+    "photo_2": "/img/082_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 172,
@@ -5624,7 +5954,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/172_1.jpg",
-    "photo_2": "/img/172_2.jpg"
+    "photo_2": "/img/172_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 369,
@@ -5641,7 +5972,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 370,
@@ -5658,7 +5990,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 408,
@@ -5675,7 +6008,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 600,
@@ -5692,7 +6026,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/600_1.jpg",
-    "photo_2": "/img/600_2.jpg"
+    "photo_2": "/img/600_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 602,
@@ -5709,7 +6044,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/602_1.jpg",
-    "photo_2": "/img/602_2.jpg"
+    "photo_2": "/img/602_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 606,
@@ -5726,7 +6062,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/606_1.jpg",
-    "photo_2": "/img/606_2.jpg"
+    "photo_2": "/img/606_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 783,
@@ -5743,7 +6080,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 799,
@@ -5760,7 +6098,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 833,
@@ -5777,7 +6116,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 850,
@@ -5794,7 +6134,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 973,
@@ -5811,7 +6152,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 974,
@@ -5828,7 +6170,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 975,
@@ -5845,7 +6188,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 976,
@@ -5862,7 +6206,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 977,
@@ -5879,7 +6224,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 978,
@@ -5896,7 +6242,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 979,
@@ -5913,7 +6260,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 980,
@@ -5930,7 +6278,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 993,
@@ -5947,7 +6296,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 737,
@@ -5964,7 +6314,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 757,
@@ -5981,7 +6332,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 16,
@@ -5998,7 +6350,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/016_1.jpg",
-    "photo_2": "/img/016_2.jpg"
+    "photo_2": "/img/016_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 213,
@@ -6015,7 +6368,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 260,
@@ -6032,7 +6386,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/260_1.jpeg",
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 279,
@@ -6049,7 +6404,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 416,
@@ -6066,7 +6422,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 446,
@@ -6083,7 +6440,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 512,
@@ -6100,7 +6458,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 601,
@@ -6117,7 +6476,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/601_1.jpg",
-    "photo_2": "/img/601_2.jpg"
+    "photo_2": "/img/601_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 615,
@@ -6134,7 +6494,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/615_1.jpg",
-    "photo_2": "/img/615_2.jpg"
+    "photo_2": "/img/615_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 748,
@@ -6151,7 +6512,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 758,
@@ -6168,7 +6530,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 792,
@@ -6185,7 +6548,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 981,
@@ -6202,7 +6566,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 982,
@@ -6219,7 +6584,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 983,
@@ -6236,7 +6602,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 984,
@@ -6253,7 +6620,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 985,
@@ -6270,7 +6638,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 986,
@@ -6287,7 +6656,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 987,
@@ -6304,7 +6674,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 989,
@@ -6321,7 +6692,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 717,
@@ -6338,7 +6710,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 868,
@@ -6355,7 +6728,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 56,
@@ -6372,7 +6746,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/056_1.jpg",
-    "photo_2": "/img/056_2.jpg"
+    "photo_2": "/img/056_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 94,
@@ -6389,7 +6764,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/094_1.jpg",
-    "photo_2": "/img/094_2.jpg"
+    "photo_2": "/img/094_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 99,
@@ -6406,7 +6782,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/099_1.jpg",
-    "photo_2": "/img/099_2.jpg"
+    "photo_2": "/img/099_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 100,
@@ -6423,7 +6800,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/100_1.jpg",
-    "photo_2": "/img/100_2.jpg"
+    "photo_2": "/img/100_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 372,
@@ -6440,7 +6818,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 407,
@@ -6457,7 +6836,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 575,
@@ -6474,7 +6854,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/575_1.jpg",
-    "photo_2": "/img/575_2.jpg"
+    "photo_2": "/img/575_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 661,
@@ -6491,7 +6872,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 691,
@@ -6508,7 +6890,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 698,
@@ -6525,7 +6908,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 752,
@@ -6542,7 +6926,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 779,
@@ -6559,7 +6944,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 780,
@@ -6576,7 +6962,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 854,
@@ -6593,7 +6980,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 990,
@@ -6610,7 +6998,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 991,
@@ -6627,7 +7016,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 992,
@@ -6644,7 +7034,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 994,
@@ -6661,7 +7052,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 995,
@@ -6678,7 +7070,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 996,
@@ -6695,7 +7088,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 997,
@@ -6712,7 +7106,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1040,
@@ -6729,7 +7124,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 666,
@@ -6746,7 +7142,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 687,
@@ -6763,7 +7160,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 49,
@@ -6780,7 +7178,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/049_1.jpg",
-    "photo_2": "/img/049_2.jpg"
+    "photo_2": "/img/049_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 65,
@@ -6797,7 +7196,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/065_1.jpg",
-    "photo_2": "/img/065_2.jpg"
+    "photo_2": "/img/065_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 81,
@@ -6814,7 +7214,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/081_1.jpg",
-    "photo_2": "/img/081_2.jpg"
+    "photo_2": "/img/081_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 98,
@@ -6831,7 +7232,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/098_1.jpg",
-    "photo_2": "/img/098_2.jpg"
+    "photo_2": "/img/098_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 148,
@@ -6848,7 +7250,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/148_1.jpg",
-    "photo_2": "/img/148_2.jpg"
+    "photo_2": "/img/148_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 287,
@@ -6865,7 +7268,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 289,
@@ -6882,7 +7286,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 293,
@@ -6899,7 +7304,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 373,
@@ -6916,7 +7322,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 394,
@@ -6933,7 +7340,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 403,
@@ -6950,7 +7358,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 406,
@@ -6967,7 +7376,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 455,
@@ -6984,7 +7394,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 577,
@@ -7001,7 +7412,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 592,
@@ -7018,7 +7430,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/592_1.jpg",
-    "photo_2": "/img/592_2.jpg"
+    "photo_2": "/img/592_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 603,
@@ -7035,7 +7448,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/603_1.jpg",
-    "photo_2": "/img/603_2.jpg"
+    "photo_2": "/img/603_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 618,
@@ -7052,7 +7466,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 625,
@@ -7069,7 +7484,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/625_1.jpg",
-    "photo_2": "/img/625_2.jpg"
+    "photo_2": "/img/625_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 656,
@@ -7086,7 +7502,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 657,
@@ -7103,7 +7520,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 658,
@@ -7120,7 +7538,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 659,
@@ -7137,7 +7556,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 660,
@@ -7154,7 +7574,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 662,
@@ -7171,7 +7592,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 723,
@@ -7188,7 +7610,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 739,
@@ -7205,7 +7628,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 756,
@@ -7222,7 +7646,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 877,
@@ -7239,7 +7664,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1123,
@@ -7256,7 +7682,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 998,
@@ -7273,7 +7700,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 999,
@@ -7290,7 +7718,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1000,
@@ -7307,7 +7736,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1001,
@@ -7324,7 +7754,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1002,
@@ -7341,7 +7772,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1003,
@@ -7358,7 +7790,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1004,
@@ -7375,7 +7808,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1005,
@@ -7392,7 +7826,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1006,
@@ -7409,7 +7844,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1007,
@@ -7426,7 +7862,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1008,
@@ -7443,7 +7880,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1009,
@@ -7460,7 +7898,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 709,
@@ -7477,7 +7916,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 55,
@@ -7494,7 +7934,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/055_1.jpg",
-    "photo_2": "/img/055_2.jpg"
+    "photo_2": "/img/055_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 64,
@@ -7511,7 +7952,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/064_1.jpg",
-    "photo_2": "/img/064_2.jpg"
+    "photo_2": "/img/064_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 132,
@@ -7528,7 +7970,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/132_1.jpg",
-    "photo_2": "/img/132_2.jpg"
+    "photo_2": "/img/132_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 133,
@@ -7545,7 +7988,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/133_1.jpg",
-    "photo_2": "/img/133_2.jpg"
+    "photo_2": "/img/133_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 134,
@@ -7562,7 +8006,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/134_1.jpg",
-    "photo_2": "/img/134_2.jpg"
+    "photo_2": "/img/134_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 143,
@@ -7579,7 +8024,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/143_1.jpg",
-    "photo_2": "/img/143_2.jpg"
+    "photo_2": "/img/143_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 147,
@@ -7596,7 +8042,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 201,
@@ -7613,7 +8060,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/201_1.jpg",
-    "photo_2": "/img/201_2.jpg"
+    "photo_2": "/img/201_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 215,
@@ -7630,7 +8078,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/215_1.jpg",
-    "photo_2": "/img/215_2.jpg"
+    "photo_2": "/img/215_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 374,
@@ -7647,7 +8096,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 393,
@@ -7664,7 +8114,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 400,
@@ -7681,7 +8132,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 411,
@@ -7698,7 +8150,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 418,
@@ -7715,7 +8168,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 441,
@@ -7732,7 +8186,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 594,
@@ -7749,7 +8204,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/594_1.jpg",
-    "photo_2": "/img/594_2.jpg"
+    "photo_2": "/img/594_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 605,
@@ -7766,7 +8222,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/605_1.jpg",
-    "photo_2": "/img/605_2.jpg"
+    "photo_2": "/img/605_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 667,
@@ -7783,7 +8240,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 668,
@@ -7800,7 +8258,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 669,
@@ -7817,7 +8276,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 670,
@@ -7834,7 +8294,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 671,
@@ -7851,7 +8312,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 672,
@@ -7868,7 +8330,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 759,
@@ -7885,7 +8348,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 773,
@@ -7902,7 +8366,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 788,
@@ -7919,7 +8384,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 801,
@@ -7936,7 +8402,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 802,
@@ -7953,7 +8420,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 803,
@@ -7970,7 +8438,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1010,
@@ -7987,7 +8456,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1011,
@@ -8004,7 +8474,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1012,
@@ -8021,7 +8492,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1013,
@@ -8038,7 +8510,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1014,
@@ -8055,7 +8528,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 665,
@@ -8072,7 +8546,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 781,
@@ -8089,7 +8564,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 790,
@@ -8106,7 +8582,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1015,
@@ -8123,7 +8600,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1016,
@@ -8140,7 +8618,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 40,
@@ -8157,7 +8636,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 128,
@@ -8174,7 +8654,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/128_1.jpg",
-    "photo_2": "/img/128_2.jpg"
+    "photo_2": "/img/128_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 161,
@@ -8191,7 +8672,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/161_1.jpg",
-    "photo_2": "/img/161_2.jpg"
+    "photo_2": "/img/161_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 297,
@@ -8208,7 +8690,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 377,
@@ -8225,7 +8708,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 378,
@@ -8242,7 +8726,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 379,
@@ -8259,7 +8744,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 404,
@@ -8276,7 +8762,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 405,
@@ -8293,7 +8780,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 420,
@@ -8310,7 +8798,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 582,
@@ -8327,7 +8816,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/582_1.jpg",
-    "photo_2": "/img/582_2.jpg"
+    "photo_2": "/img/582_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 675,
@@ -8344,7 +8834,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 677,
@@ -8361,7 +8852,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 678,
@@ -8378,7 +8870,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 679,
@@ -8395,7 +8888,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 680,
@@ -8412,7 +8906,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 681,
@@ -8429,7 +8924,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 683,
@@ -8446,7 +8942,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 697,
@@ -8463,7 +8960,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 707,
@@ -8480,7 +8978,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 710,
@@ -8497,7 +8996,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 726,
@@ -8514,7 +9014,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 731,
@@ -8531,7 +9032,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 753,
@@ -8548,7 +9050,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 762,
@@ -8565,7 +9068,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 793,
@@ -8582,7 +9086,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 796,
@@ -8599,7 +9104,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 797,
@@ -8616,7 +9122,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 798,
@@ -8633,7 +9140,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 843,
@@ -8650,7 +9158,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 847,
@@ -8667,7 +9176,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1017,
@@ -8684,7 +9194,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1018,
@@ -8701,7 +9212,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1019,
@@ -8718,7 +9230,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1020,
@@ -8735,7 +9248,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1021,
@@ -8752,7 +9266,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1022,
@@ -8769,7 +9284,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1023,
@@ -8786,7 +9302,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1024,
@@ -8803,7 +9320,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1025,
@@ -8820,7 +9338,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1026,
@@ -8837,7 +9356,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1027,
@@ -8854,7 +9374,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1028,
@@ -8871,7 +9392,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1029,
@@ -8888,7 +9410,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1030,
@@ -8905,7 +9428,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 688,
@@ -8922,7 +9446,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 775,
@@ -8939,7 +9464,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 836,
@@ -8956,7 +9482,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1031,
@@ -8973,7 +9500,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 26,
@@ -8990,7 +9518,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/026_1.jpg",
-    "photo_2": "/img/026_2.jpg"
+    "photo_2": "/img/026_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 52,
@@ -9007,7 +9536,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/052_1.jpg",
-    "photo_2": "/img/052_2.jpg"
+    "photo_2": "/img/052_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 62,
@@ -9024,7 +9554,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 63,
@@ -9041,7 +9572,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 93,
@@ -9058,7 +9590,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/093_1.jpg",
-    "photo_2": "/img/093_2.jpg"
+    "photo_2": "/img/093_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 103,
@@ -9075,7 +9608,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/103_1.jpg",
-    "photo_2": "/img/103_2.jpg"
+    "photo_2": "/img/103_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 117,
@@ -9092,7 +9626,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/117_1.jpg",
-    "photo_2": "/img/117_2.jpg"
+    "photo_2": "/img/117_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 136,
@@ -9109,7 +9644,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/136_1.jpg",
-    "photo_2": "/img/136_2.jpg"
+    "photo_2": "/img/136_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 167,
@@ -9126,7 +9662,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 170,
@@ -9143,7 +9680,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/170_1.jpg",
-    "photo_2": "/img/170_2.jpg"
+    "photo_2": "/img/170_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 199,
@@ -9160,7 +9698,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/199_1.jpg",
-    "photo_2": "/img/199_2.jpg"
+    "photo_2": "/img/199_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 212,
@@ -9177,7 +9716,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/212_1.jpg",
-    "photo_2": "/img/212_2.jpg"
+    "photo_2": "/img/212_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 380,
@@ -9194,7 +9734,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 401,
@@ -9211,7 +9752,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 402,
@@ -9228,7 +9770,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 419,
@@ -9245,7 +9788,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 458,
@@ -9262,7 +9806,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 673,
@@ -9279,7 +9824,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 736,
@@ -9296,7 +9842,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 743,
@@ -9313,7 +9860,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 745,
@@ -9330,7 +9878,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 747,
@@ -9347,7 +9896,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 766,
@@ -9364,7 +9914,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 776,
@@ -9381,7 +9932,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 777,
@@ -9398,7 +9950,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 782,
@@ -9415,7 +9968,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 784,
@@ -9432,7 +9986,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 794,
@@ -9449,7 +10004,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 795,
@@ -9466,7 +10022,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 806,
@@ -9483,7 +10040,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 807,
@@ -9500,7 +10058,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 808,
@@ -9517,7 +10076,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 809,
@@ -9534,7 +10094,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 810,
@@ -9551,7 +10112,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 811,
@@ -9568,7 +10130,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 812,
@@ -9585,7 +10148,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 813,
@@ -9602,7 +10166,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 814,
@@ -9619,7 +10184,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 815,
@@ -9636,7 +10202,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 816,
@@ -9653,7 +10220,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 817,
@@ -9670,7 +10238,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 818,
@@ -9687,7 +10256,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 819,
@@ -9704,7 +10274,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 820,
@@ -9721,7 +10292,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 821,
@@ -9738,7 +10310,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 822,
@@ -9755,7 +10328,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 823,
@@ -9772,7 +10346,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 824,
@@ -9789,7 +10364,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 825,
@@ -9806,7 +10382,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 826,
@@ -9823,7 +10400,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 827,
@@ -9840,7 +10418,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 828,
@@ -9857,7 +10436,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 829,
@@ -9874,7 +10454,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 830,
@@ -9891,7 +10472,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 831,
@@ -9908,7 +10490,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 832,
@@ -9925,7 +10508,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 834,
@@ -9942,7 +10526,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 872,
@@ -9959,7 +10544,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1032,
@@ -9976,7 +10562,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1033,
@@ -9993,7 +10580,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1034,
@@ -10010,7 +10598,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 53,
@@ -10027,7 +10616,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/053_1.jpg",
-    "photo_2": "/img/053_2.jpg"
+    "photo_2": "/img/053_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 439,
@@ -10044,7 +10634,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 508,
@@ -10061,7 +10652,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 593,
@@ -10078,7 +10670,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/593_1.jpg",
-    "photo_2": "/img/593_2.jpg"
+    "photo_2": "/img/593_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 706,
@@ -10095,7 +10688,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 741,
@@ -10112,7 +10706,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 785,
@@ -10129,7 +10724,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 786,
@@ -10146,7 +10742,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 845,
@@ -10163,7 +10760,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 860,
@@ -10180,7 +10778,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 871,
@@ -10197,7 +10796,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 44,
@@ -10214,7 +10814,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/044_1.jpg",
-    "photo_2": "/img/044_2.jpg"
+    "photo_2": "/img/044_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 48,
@@ -10231,7 +10832,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 72,
@@ -10248,7 +10850,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/072_1.jpg",
-    "photo_2": "/img/072_2.jpg"
+    "photo_2": "/img/072_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 97,
@@ -10265,7 +10868,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/097_1.jpg",
-    "photo_2": "/img/097_2.jpg"
+    "photo_2": "/img/097_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 127,
@@ -10282,7 +10886,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/127_1.jpg",
-    "photo_2": "/img/127_2.jpg"
+    "photo_2": "/img/127_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 152,
@@ -10299,7 +10904,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/152_1.jpg",
-    "photo_2": "/img/152_2.jpg"
+    "photo_2": "/img/152_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 153,
@@ -10316,7 +10922,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/153_1.jpg",
-    "photo_2": "/img/153_2.jpg"
+    "photo_2": "/img/153_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 166,
@@ -10333,7 +10940,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 195,
@@ -10350,7 +10958,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/195_1.jpg",
-    "photo_2": "/img/195_2.jpg"
+    "photo_2": "/img/195_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 208,
@@ -10367,7 +10976,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 382,
@@ -10384,7 +10994,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 437,
@@ -10401,7 +11012,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 438,
@@ -10418,7 +11030,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 440,
@@ -10435,7 +11048,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 507,
@@ -10452,7 +11066,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 509,
@@ -10469,7 +11084,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 595,
@@ -10486,7 +11102,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/595_1.jpg",
-    "photo_2": "/img/595_2.jpg"
+    "photo_2": "/img/595_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 596,
@@ -10503,7 +11120,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 623,
@@ -10520,7 +11138,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/623_1.jpg",
-    "photo_2": "/img/623_2.jpg"
+    "photo_2": "/img/623_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 624,
@@ -10537,7 +11156,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/624_1.jpg",
-    "photo_2": "/img/624_2.jpg"
+    "photo_2": "/img/624_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 653,
@@ -10554,7 +11174,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 695,
@@ -10571,7 +11192,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 703,
@@ -10588,7 +11210,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 704,
@@ -10605,7 +11228,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 705,
@@ -10622,7 +11246,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 727,
@@ -10639,7 +11264,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 728,
@@ -10656,7 +11282,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 729,
@@ -10673,7 +11300,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 730,
@@ -10690,7 +11318,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 740,
@@ -10707,7 +11336,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 746,
@@ -10724,7 +11354,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 763,
@@ -10741,7 +11372,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 771,
@@ -10758,7 +11390,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 772,
@@ -10775,7 +11408,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 774,
@@ -10792,7 +11426,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 804,
@@ -10809,7 +11444,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 805,
@@ -10826,7 +11462,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 835,
@@ -10843,7 +11480,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 870,
@@ -10860,7 +11498,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1035,
@@ -10877,7 +11516,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1036,
@@ -10894,7 +11534,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1037,
@@ -10911,7 +11552,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1038,
@@ -10928,7 +11570,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 140,
@@ -10945,7 +11588,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/140_1.jpg",
-    "photo_2": "/img/140_2.jpg"
+    "photo_2": "/img/140_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 151,
@@ -10962,7 +11606,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 176,
@@ -10979,7 +11624,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/176_1.jpg",
-    "photo_2": "/img/176_2.jpg"
+    "photo_2": "/img/176_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 434,
@@ -10996,7 +11642,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 436,
@@ -11013,7 +11660,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 505,
@@ -11030,7 +11678,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 506,
@@ -11047,7 +11696,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 654,
@@ -11064,7 +11714,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 692,
@@ -11081,7 +11732,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 693,
@@ -11098,7 +11750,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 694,
@@ -11115,7 +11768,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 718,
@@ -11132,7 +11786,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 725,
@@ -11149,7 +11804,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1039,
@@ -11166,7 +11822,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 732,
@@ -11183,7 +11840,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 733,
@@ -11200,7 +11858,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 764,
@@ -11217,7 +11876,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 626,
@@ -11234,7 +11894,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/626_1.jpg",
-    "photo_2": "/img/626_2.jpg"
+    "photo_2": "/img/626_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 627,
@@ -11251,7 +11912,8 @@
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/627_1.jpg",
-    "photo_2": "/img/627_2.jpg"
+    "photo_2": "/img/627_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 383,
@@ -11268,7 +11930,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 724,
@@ -11285,7 +11948,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 767,
@@ -11302,7 +11966,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 768,
@@ -11319,7 +11984,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 769,
@@ -11336,7 +12002,8 @@
     "status": "photo_pending",
     "statut_raw": "en vente",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 586,
@@ -11353,7 +12020,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/586_1.jpg",
-    "photo_2": "/img/586_2.jpg"
+    "photo_2": "/img/586_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 630,
@@ -11370,7 +12038,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/630_1.jpeg",
-    "photo_2": "/img/630_2.jpeg"
+    "photo_2": "/img/630_2.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 556,
@@ -11387,7 +12056,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/556_1.jpg",
-    "photo_2": "/img/556_2.jpg"
+    "photo_2": "/img/556_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 533,
@@ -11404,7 +12074,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/533_1.jpg",
-    "photo_2": "/img/533_2.jpg"
+    "photo_2": "/img/533_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 474,
@@ -11421,7 +12092,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 500,
@@ -11438,7 +12110,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/500_1.jpg",
-    "photo_2": "/img/500_2.jpg"
+    "photo_2": "/img/500_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 222,
@@ -11454,8 +12127,9 @@
     "prix": null,
     "status": "coming_soon",
     "statut_raw": "restauration",
-    "photo_1": "/img/222_1.jpg",
-    "photo_2": "/img/222_2.jpg"
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 631,
@@ -11472,7 +12146,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/631_1.jpg",
-    "photo_2": "/img/631_2.jpg"
+    "photo_2": "/img/631_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 893,
@@ -11489,7 +12164,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/893_1.jpg",
-    "photo_2": "/img/893_2.jpg"
+    "photo_2": "/img/893_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 477,
@@ -11506,7 +12182,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 884,
@@ -11523,7 +12200,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 874,
@@ -11540,7 +12218,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1125,
@@ -11557,7 +12236,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1066,
@@ -11574,7 +12254,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1067,
@@ -11591,7 +12272,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1068,
@@ -11608,7 +12290,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1069,
@@ -11625,7 +12308,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1070,
@@ -11642,7 +12326,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1071,
@@ -11659,7 +12344,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1072,
@@ -11676,7 +12362,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1073,
@@ -11693,7 +12380,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1074,
@@ -11710,7 +12398,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1075,
@@ -11727,7 +12416,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1076,
@@ -11744,7 +12434,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1077,
@@ -11761,7 +12452,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1078,
@@ -11778,7 +12470,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1079,
@@ -11795,7 +12488,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1079_1.jpg",
-    "photo_2": "/img/1079_2.jpg"
+    "photo_2": "/img/1079_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1080,
@@ -11812,7 +12506,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1081,
@@ -11829,7 +12524,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1081_1.jpg",
-    "photo_2": "/img/1081_2.jpg"
+    "photo_2": "/img/1081_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1082,
@@ -11846,7 +12542,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1082_1.jpg",
-    "photo_2": "/img/1082_2.jpg"
+    "photo_2": "/img/1082_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1083,
@@ -11863,7 +12560,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1083_1.jpg",
-    "photo_2": "/img/1083_2.jpg"
+    "photo_2": "/img/1083_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1084,
@@ -11880,7 +12578,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1084_1.jpg",
-    "photo_2": "/img/1084_2.jpg"
+    "photo_2": "/img/1084_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1085,
@@ -11897,7 +12596,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1085_1.jpg",
-    "photo_2": "/img/1085_2.jpg"
+    "photo_2": "/img/1085_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1086,
@@ -11914,7 +12614,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1086_1.jpg",
-    "photo_2": "/img/1086_2.jpg"
+    "photo_2": "/img/1086_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1087,
@@ -11931,7 +12632,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": "/img/1087_2.jpeg"
+    "photo_2": "/img/1087_2.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1088,
@@ -11948,7 +12650,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1088_1.jpeg",
-    "photo_2": "/img/1088_2.jpeg"
+    "photo_2": "/img/1088_2.jpeg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1089,
@@ -11965,7 +12668,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1089_1.jpg",
-    "photo_2": "/img/1089_2.jpg"
+    "photo_2": "/img/1089_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1090,
@@ -11982,7 +12686,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1091,
@@ -11999,7 +12704,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1091_1.jpg",
-    "photo_2": "/img/1091_2.jpg"
+    "photo_2": "/img/1091_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1092,
@@ -12016,7 +12722,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1092_1.jpg",
-    "photo_2": "/img/1092_2.jpg"
+    "photo_2": "/img/1092_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1093,
@@ -12033,7 +12740,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1094,
@@ -12050,7 +12758,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1095,
@@ -12067,7 +12776,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1096,
@@ -12084,7 +12794,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1096_1.jpg",
-    "photo_2": "/img/1096_2.jpg"
+    "photo_2": "/img/1096_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1097,
@@ -12101,7 +12812,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1098,
@@ -12118,7 +12830,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1098_1.jpg",
-    "photo_2": "/img/1098_2.jpg"
+    "photo_2": "/img/1098_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1101,
@@ -12135,7 +12848,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1101_1.jpg",
-    "photo_2": "/img/1101_2.jpg"
+    "photo_2": "/img/1101_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1102,
@@ -12152,7 +12866,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1104,
@@ -12169,7 +12884,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1105,
@@ -12186,7 +12902,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1106,
@@ -12203,7 +12920,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1106_1.jpg",
-    "photo_2": "/img/1106_2.jpg"
+    "photo_2": "/img/1106_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1107,
@@ -12220,7 +12938,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1107_1.jpg",
-    "photo_2": "/img/1107_2.jpg"
+    "photo_2": "/img/1107_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1108,
@@ -12237,7 +12956,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1109,
@@ -12254,7 +12974,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1109_1.jpg",
-    "photo_2": "/img/1109_2.jpg"
+    "photo_2": "/img/1109_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1110,
@@ -12271,7 +12992,8 @@
     "status": "coming_soon",
     "statut_raw": "retour gradation",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1111,
@@ -12288,7 +13010,8 @@
     "status": "coming_soon",
     "statut_raw": "retour gradation",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1112,
@@ -12305,7 +13028,8 @@
     "status": "coming_soon",
     "statut_raw": "retour gradation",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1113,
@@ -12322,7 +13046,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1114,
@@ -12339,7 +13064,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1115,
@@ -12356,7 +13082,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1116,
@@ -12373,7 +13100,8 @@
     "status": "coming_soon",
     "statut_raw": "restauration",
     "photo_1": "/img/1116_1.jpg",
-    "photo_2": "/img/1116_2.jpg"
+    "photo_2": "/img/1116_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1117,
@@ -12390,7 +13118,8 @@
     "status": "coming_soon",
     "statut_raw": "retour gradation",
     "photo_1": "/img/1117_1.jpg",
-    "photo_2": "/img/1117_2.jpg"
+    "photo_2": "/img/1117_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1118,
@@ -12407,7 +13136,8 @@
     "status": "coming_soon",
     "statut_raw": "bientôt reçue",
     "photo_1": "/img/1118_1.jpg",
-    "photo_2": "/img/1118_2.jpg"
+    "photo_2": "/img/1118_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1119,
@@ -12424,7 +13154,8 @@
     "status": "coming_soon",
     "statut_raw": "retour gradation",
     "photo_1": "/img/1119_1.jpg",
-    "photo_2": "/img/1119_2.jpg"
+    "photo_2": "/img/1119_2.jpg",
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1120,
@@ -12441,7 +13172,8 @@
     "status": "coming_soon",
     "statut_raw": "retour gradation",
     "photo_1": null,
-    "photo_2": null
+    "photo_2": null,
+    "first_seen": "2026-05-01"
   },
   {
     "id": 1121,
@@ -12458,6 +13190,7 @@
     "status": "coming_soon",
     "statut_raw": "retour gradation",
     "photo_1": "/img/1121_1.jpg",
-    "photo_2": "/img/1121_2.jpg"
+    "photo_2": "/img/1121_2.jpg",
+    "first_seen": "2026-05-01"
   }
 ]

@@ -16,7 +16,21 @@ export type Card = {
   statut_raw: string;
   photo_1: string | null;
   photo_2: string | null;
+  // ISO date (YYYY-MM-DD) - 1ere apparition de la carte dans cards.json.
+  // Sert au badge "NEW" et au filtre "nouvelles arrivees" (< 14 jours).
+  first_seen?: string;
 };
+
+const NEW_WINDOW_DAYS = 14;
+
+/** Renvoie true si la carte est dans la fenetre "nouvelles arrivees" (< 14j). */
+export function isNewArrival(c: Card, now: Date = new Date()): boolean {
+  if (!c.first_seen) return false;
+  const seen = new Date(c.first_seen + "T00:00:00Z");
+  if (isNaN(seen.getTime())) return false;
+  const ageMs = now.getTime() - seen.getTime();
+  return ageMs >= 0 && ageMs <= NEW_WINDOW_DAYS * 24 * 60 * 60 * 1000;
+}
 
 export async function loadCards(): Promise<Card[]> {
   // Static JSON in /public, loaded at build time on the server

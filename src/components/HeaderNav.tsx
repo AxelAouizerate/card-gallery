@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { logout } from "@/app/actions/auth";
 import CartLink from "./CartLink";
 import FavLink from "./FavLink";
+import MobileMenu from "./MobileMenu";
 
 export default async function HeaderNav() {
   // Lecture user cote serveur (best-effort : si Supabase pas configure, on tombe gracieusement)
@@ -36,7 +37,8 @@ export default async function HeaderNav() {
             horuscards
           </span>
         </Link>
-        <nav className="flex items-center gap-3 text-sm">
+        {/* Desktop nav */}
+        <nav className="hidden items-center gap-3 text-sm sm:flex">
           <FavLink />
           <CartLink />
           {userEmail ? (
@@ -68,6 +70,9 @@ export default async function HeaderNav() {
             </>
           )}
         </nav>
+
+        {/* Mobile : burger + drawer */}
+        <MobileMenu userEmail={userEmail} />
       </div>
     </header>
   );
