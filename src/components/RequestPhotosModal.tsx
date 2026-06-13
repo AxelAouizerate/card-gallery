@@ -14,6 +14,8 @@ function getSessionId(): string | undefined {
 }
 
 export default function RequestPhotosModal({ card, onClose }: { card: Card; onClose: () => void }) {
+  const hasPhoto = card.status === "available" && Boolean(card.photo_1 || card.photo_2);
+  const modalTitle = hasPhoto ? "Demander des photos supplémentaires" : "Demander des photos";
   const [platform, setPlatform] = useState<Platform>("instagram");
   const [handle, setHandle] = useState("");
   const [pending, setPending] = useState(false);
@@ -91,7 +93,7 @@ export default function RequestPhotosModal({ card, onClose }: { card: Card; onCl
       >
         <header className="flex items-start justify-between gap-3 border-b border-amber-500/20 px-5 py-4">
           <div className="min-w-0">
-            <h2 className="text-lg font-semibold text-amber-200">Demander des photos</h2>
+            <h2 className="text-lg font-semibold text-amber-200">{modalTitle}</h2>
             <p className="mt-0.5 truncate text-sm text-amber-100/70">{card.nom}</p>
           </div>
           <button

@@ -447,7 +447,7 @@ function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
           <div className="mt-6 flex flex-col gap-2">
             <CartButton card={card} />
             <FavoriteButton card={card} />
-            {card.status === "photo_pending" && <RequestPhotosButton card={card} />}
+            {card.status !== "coming_soon" && <RequestPhotosButton card={card} />}
           </div>
         </div>
       </div>
@@ -493,6 +493,9 @@ function FavoriteButton({ card }: { card: Card }) {
 
 function RequestPhotosButton({ card }: { card: Card }) {
   const [open, setOpen] = useState(false);
+  // Libelle different si la carte a deja des photos (= demande supplementaire)
+  const hasPhoto = card.status === "available" && (card.photo_1 || card.photo_2);
+  const label = hasPhoto ? "📸 Demander des photos supplémentaires" : "📸 Demander des photos";
   return (
     <>
       <button
@@ -500,7 +503,7 @@ function RequestPhotosButton({ card }: { card: Card }) {
         onClick={() => setOpen(true)}
         className="w-full rounded-md border border-cyan-400 bg-cyan-50 px-4 py-2.5 text-sm font-semibold text-cyan-800 transition hover:bg-cyan-100"
       >
-        📸 Demander des photos
+        {label}
       </button>
       {open && <RequestPhotosModal card={card} onClose={() => setOpen(false)} />}
     </>
