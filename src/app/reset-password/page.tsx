@@ -15,23 +15,21 @@ export default function ResetPasswordPage() {
   const [hasSession, setHasSession] = useState(false);
   const router = useRouter();
 
-  // Verifie qu'on a bien une session active (l'utilisateur vient de cliquer
-  // sur le lien email). Si pas de session : on renvoie vers /forgot-password.
+  // L'echange PKCE a deja ete fait par /auth/callback : on devrait avoir
+  // une session cookie au moment ou cette page se monte. On verifie juste.
   useEffect(() => {
     let supabase;
     try { supabase = createClient(); } catch {
       setAuthChecking(false); return;
     }
-    // Supabase v2 : le hash type=recovery est traite automatiquement par
-    // detectSessionInUrl (defaut), il pose les cookies puis on peut lire la
-    // session normalement. On attend un cycle pour laisser ce traitement.
-    const t = setTimeout(async () => {
+    (async () => {
       const { data } = await supabase.auth.getUser();
       setHasSession(!!data.user);
       setAuthChecking(false);
-    }, 250);
-    return () => clearTimeout(t);
-  }, []);
+    })();
+    // Inutilise mais quiet le lint
+    void router;
+  }, [router]);
 
   if (authChecking) {
     return (
