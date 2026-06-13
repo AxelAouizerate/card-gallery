@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { isNewArrival, type Card } from "@/lib/cards";
+import RequestPhotosModal from "./RequestPhotosModal";
 import { useCart } from "@/lib/cart";
 import { useFavorites } from "@/lib/favorites";
 
@@ -491,39 +492,18 @@ function FavoriteButton({ card }: { card: Card }) {
 }
 
 function RequestPhotosButton({ card }: { card: Card }) {
-  // Limite cote front (rate-limit serveur additionnel cote Supabase si connecte) :
-  // on enregistre dans localStorage le nombre de demandes du jour.
-  const dailyKey = `req_photos_${new Date().toISOString().slice(0, 10)}`;
-  const handleClick = () => {
-    let n = 0;
-    try { n = parseInt(localStorage.getItem(dailyKey) || "0", 10); } catch {}
-    if (n >= 5) {
-      alert("Tu as déjà demandé 5 séries de photos aujourd'hui. Reviens demain !");
-      return;
-    }
-    try { localStorage.setItem(dailyKey, String(n + 1)); } catch {}
-    // Trace cote serveur si connecte (sinon noop) — alimente le digest.
-    import("@/app/actions/sync").then(m => m.requestPhotos({
-      cardId: card.id, cardSet: card.set, cardNom: card.nom,
-    })).catch(() => {});
-    const subject = encodeURIComponent(`Demande de photos - ${card.nom} (${card.set})`);
-    const body = encodeURIComponent(
-      `Bonjour,\n\nJe serais intéressé(e) par cette carte mais les photos ne sont pas encore disponibles :\n\n` +
-      `• Carte : ${card.nom}\n• Set : ${card.set}\n• Rareté : ${card.rarete}\n• Langue : ${card.lang}\n` +
-      `• Référence : #${card.id}\n\nPourrais-tu m'envoyer des photos quand tu peux ?\n\nMerci !`
-    );
-    // Email decode au clic (jamais en clair dans le bundle)
-    const e = atob("YXhlbC5hdGUzQGdtYWlsLmNvbQ==");
-    window.location.href = `mailto:${e}?subject=${subject}&body=${body}`;
-  };
+  const [open, setOpen] = useState(false);
   return (
-    <button
-      type="button"
-      onClick={handleClick}
-      className="w-full rounded-md border border-cyan-400 bg-cyan-50 px-4 py-2.5 text-sm font-semibold text-cyan-800 transition hover:bg-cyan-100"
-    >
-      📸 Demander des photos
-    </button>
+    <>
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="w-full rounded-md border border-cyan-400 bg-cyan-50 px-4 py-2.5 text-sm font-semibold text-cyan-800 transition hover:bg-cyan-100"
+      >
+        📸 Demander des photos
+      </button>
+      {open && <RequestPhotosModal card={card} onClose={() => setOpen(false)} />}
+    </>
   );
 }
 
