@@ -31,6 +31,11 @@ export default function LoginPage() {
             {pending ? "Connexion…" : "Se connecter"}
           </button>
         </form>
+        <p className="mt-3 text-center text-xs">
+          <Link href="/forgot-password" className="text-slate-600 underline hover:text-slate-900">
+            Mot de passe oublié ?
+          </Link>
+        </p>
       </div>
     </main>
   );
