@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Cinzel_Decorative } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart";
@@ -70,8 +70,13 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     images: ["/horus-logo.png"],
   },
-  themeColor: "#0e0a18",
   formatDetection: { telephone: false, email: false, address: false },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0e0a18",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
