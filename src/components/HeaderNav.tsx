@@ -39,6 +39,12 @@ export default async function HeaderNav() {
         </Link>
         {/* Desktop nav */}
         <nav className="hidden items-center gap-3 text-sm sm:flex">
+          <Link
+            href="/comment-acheter"
+            className="rounded-md px-3 py-1.5 text-amber-100 hover:bg-amber-500/10"
+          >
+            Comment acheter
+          </Link>
           <FavLink />
           <CartLink />
           {userEmail ? (

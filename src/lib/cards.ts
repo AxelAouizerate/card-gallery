@@ -19,7 +19,30 @@ export type Card = {
   // ISO date (YYYY-MM-DD) - 1ere apparition de la carte dans cards.json.
   // Sert au badge "NEW" et au filtre "nouvelles arrivees" (< 14 jours).
   first_seen?: string;
+  // Vendeur proprietaire de la carte (onglet du Google Sheet : Axel/Marvin/Quentin).
+  // Sert au bouton "Acheter via Instagram" (mapping vendeur -> compte dans lib/site.ts).
+  vendeur?: string | null;
 };
+
+// Groupe de sets "bey". Regroupe toutes les variantes de langue d'un même set
+// (LDD-F, TLM-JP, SDP-F -> sdp, ...). "sdp" = base de SDP-F après strip régional.
+export const BEY_SET_CODES = new Set([
+  "ldd", "lob", "mdm", "mrd", "lod", "ldc",
+  "pgd", "mfc", "sdp",
+  "tlm", "crv", "een", "soi", "eoj", "potd", "ston", "fotb", "taev", "glas", "ptdn",
+]);
+
+/** Code de set sans le suffixe régional (LDD-F -> ldd, TLM-JP -> tlm). */
+export function setBaseCode(set: string): string {
+  return (set || "").toLowerCase().replace(/[-\s](f|fr|en|jp|jap|kr|de|it|sp|c|25|2014)$/, "");
+}
+
+/** true si la carte appartient au groupe de sets "bey". */
+export function isBeySet(set: string): boolean {
+  return BEY_SET_CODES.has(setBaseCode(set));
+}
+
+export const BEY_FILTER_VALUE = "bey";
 
 const NEW_WINDOW_DAYS = 14;
 

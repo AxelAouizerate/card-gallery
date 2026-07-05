@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { Card } from "@/lib/cards";
 import { cardKey } from "@/lib/cart";
 import { useFavorites } from "@/lib/favorites";
+import CardModal from "./CardModal";
 
 export default function FavoritesPageClient({ cards }: { cards: Card[] }) {
   const { ids, remove, clear } = useFavorites();
+  const [selected, setSelected] = useState<Card | null>(null);
   const items = useMemo(
     () => cards.filter((c) => ids.has(cardKey(c))),
     [cards, ids]
@@ -38,7 +40,14 @@ export default function FavoritesPageClient({ cards }: { cards: Card[] }) {
         <>
           <ul className="divide-y divide-amber-500/20 rounded-lg border border-amber-500/30 bg-black/55 backdrop-blur">
             {items.map((c) => (
-              <li key={cardKey(c)} className="flex items-center gap-4 p-3">
+              <li
+                key={cardKey(c)}
+                role="button"
+                tabIndex={0}
+                onClick={() => setSelected(c)}
+                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setSelected(c); } }}
+                className="flex cursor-pointer items-center gap-4 p-3 transition hover:bg-amber-500/10 focus:bg-amber-500/10 focus:outline-none"
+              >
                 <div className="relative h-20 w-16 shrink-0 overflow-hidden rounded bg-slate-200">
                   {c.photo_1 ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -64,7 +73,7 @@ export default function FavoritesPageClient({ cards }: { cards: Card[] }) {
                 </p>
                 <button
                   type="button"
-                  onClick={() => remove(c)}
+                  onClick={(e) => { e.stopPropagation(); remove(c); }}
                   className="shrink-0 rounded p-1.5 text-rose-300 hover:bg-rose-500/10 hover:text-rose-200"
                   aria-label="Retirer des favoris"
                   title="Retirer"
@@ -89,6 +98,8 @@ export default function FavoritesPageClient({ cards }: { cards: Card[] }) {
           </div>
         </>
       )}
+
+      {selected && <CardModal card={selected} onClose={() => setSelected(null)} />}
     </div>
   );
 }
