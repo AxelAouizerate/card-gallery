@@ -1,23 +1,5 @@
 [
   {
-    "id": 1155,
-    "nom": "Milliers D'Ultra Secret Etc. Nouvelles",
-    "set": "",
-    "rarete": "",
-    "lang": "?",
-    "etat": "",
-    "is_1st": false,
-    "grade": null,
-    "grade_org": null,
-    "reserve": false,
-    "prix": 1000.0,
-    "status": "photo_pending",
-    "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null,
-    "first_seen": "2026-07-05"
-  },
-  {
     "id": 1081,
     "nom": "Néos Aérien Héros Élémentaire",
     "set": "STON",
@@ -396,24 +378,6 @@
     "first_seen": "2026-05-01"
   },
   {
-    "id": 1156,
-    "nom": "Plein De Deck Box Protections Etc.",
-    "set": "",
-    "rarete": "",
-    "lang": "?",
-    "etat": "",
-    "is_1st": false,
-    "grade": null,
-    "grade_org": null,
-    "reserve": false,
-    "prix": 200.0,
-    "status": "photo_pending",
-    "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null,
-    "first_seen": "2026-07-05"
-  },
-  {
     "id": 1116,
     "nom": "Dragon Armé Des Ténèbres",
     "set": "PTDN",
@@ -466,24 +430,6 @@
     "photo_1": "/img/301_1.jpg",
     "photo_2": "/img/301_2.jpg",
     "first_seen": "2026-05-01"
-  },
-  {
-    "id": 1157,
-    "nom": "Beaucoup De Decks",
-    "set": "",
-    "rarete": "",
-    "lang": "?",
-    "etat": "",
-    "is_1st": false,
-    "grade": null,
-    "grade_org": null,
-    "reserve": false,
-    "prix": 180.0,
-    "status": "photo_pending",
-    "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null,
-    "first_seen": "2026-07-05"
   },
   {
     "id": 556,
