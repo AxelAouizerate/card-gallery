@@ -29,10 +29,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 700.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1165_1.jpg",
+    "photo_2": "/img/1165_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -155,10 +155,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 400.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1177_1.jpg",
+    "photo_2": "/img/1177_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -173,10 +173,10 @@
     "grade_org": "CCC",
     "reserve": false,
     "prix": 375.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1194_1.jpg",
+    "photo_2": "/img/1194_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -209,10 +209,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 350.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1167_1.jpg",
+    "photo_2": "/img/1167_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -227,10 +227,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 300.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1171_1.jpg",
+    "photo_2": "/img/1171_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -533,10 +533,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 200.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1188_1.jpg",
+    "photo_2": "/img/1188_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -605,10 +605,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 180.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1166_1.jpg",
+    "photo_2": "/img/1166_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -659,10 +659,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 160.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1184_1.jpg",
+    "photo_2": "/img/1184_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -857,10 +857,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 140.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1169_1.jpg",
+    "photo_2": "/img/1169_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -893,10 +893,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 130.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1173_1.jpg",
+    "photo_2": "/img/1173_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -911,10 +911,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 130.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1176_1.jpg",
+    "photo_2": "/img/1176_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1037,10 +1037,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 120.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1174_1.jpg",
+    "photo_2": "/img/1174_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1055,10 +1055,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 120.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1182_1.jpg",
+    "photo_2": "/img/1182_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1073,10 +1073,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 120.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1191_1.jpg",
+    "photo_2": "/img/1191_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1163,10 +1163,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 110.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1185_1.jpg",
+    "photo_2": "/img/1185_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1181,10 +1181,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 110.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1186_1.jpg",
+    "photo_2": "/img/1186_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1343,10 +1343,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 100.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1168_1.jpg",
+    "photo_2": "/img/1168_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1361,10 +1361,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 100.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1187_1.jpg",
+    "photo_2": "/img/1187_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1433,10 +1433,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 95.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1179_1.jpg",
+    "photo_2": "/img/1179_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1595,9 +1595,9 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 90.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
+    "photo_1": "/img/1190_1.jpg",
     "photo_2": null,
     "first_seen": "2026-07-07"
   },
@@ -1757,10 +1757,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 80.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1170_1.jpg",
+    "photo_2": "/img/1170_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1775,10 +1775,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 80.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1180_1.jpg",
+    "photo_2": "/img/1180_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -1991,10 +1991,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 70.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1178_1.jpg",
+    "photo_2": "/img/1178_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -2243,10 +2243,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 60.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1189_1.jpg",
+    "photo_2": "/img/1189_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -2261,10 +2261,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 60.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1193_1.jpg",
+    "photo_2": "/img/1193_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -2603,10 +2603,10 @@
     "grade_org": null,
     "reserve": false,
     "prix": 50.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1192_1.jpg",
+    "photo_2": "/img/1192_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
@@ -3161,10 +3161,10 @@
     "grade_org": "COLLECTAURA",
     "reserve": false,
     "prix": 35.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/1172_1.jpg",
+    "photo_2": "/img/1172_2.jpg",
     "first_seen": "2026-07-07"
   },
   {
