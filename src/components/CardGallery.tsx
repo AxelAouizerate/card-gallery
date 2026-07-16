@@ -153,9 +153,9 @@ export default function CardGallery({ cards }: Props) {
         </div>
         </div>
 
-        {/* Filtres rapides : chips toggles, propre et aéré */}
-        <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-amber-500/15 pt-4">
-          <span className="mr-1 text-xs font-semibold uppercase tracking-wider text-amber-100/40">Filtres</span>
+        {/* Filtres rapides : chips toggles, centrés + séparés des menus déroulants */}
+        <div className="mt-4 border-t border-amber-500/15 pt-4">
+          <div className="flex flex-wrap items-center justify-center gap-2.5">
           <ToggleChip active={only1st} onClick={() => setOnly1st(!only1st)} tone="amber">1ère Édition</ToggleChip>
           <ToggleChip active={onlyGraded} onClick={() => setOnlyGraded(!onlyGraded)} tone="amber">Gradée</ToggleChip>
           <ToggleChip active={onlyPop1} onClick={() => setOnlyPop1(!onlyPop1)} tone="amber">★ Pop 1</ToggleChip>
@@ -168,6 +168,7 @@ export default function CardGallery({ cards }: Props) {
               ‹ 14j
             </span>
           </ToggleChip>
+          </div>
         </div>
       </div>
 
