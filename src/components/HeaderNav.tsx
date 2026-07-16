@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { logout } from "@/app/actions/auth";
-import CartLink from "./CartLink";
 import FavLink from "./FavLink";
 import MobileMenu from "./MobileMenu";
 
@@ -46,7 +45,6 @@ export default async function HeaderNav() {
             Comment acheter
           </Link>
           <FavLink />
-          <CartLink />
           {userEmail ? (
             <>
               <span className="text-amber-100/80">{userEmail}</span>

@@ -3,9 +3,8 @@
 import { useEffect, useState } from "react";
 import type { Card } from "@/lib/cards";
 import RequestPhotosModal from "./RequestPhotosModal";
-import { useCart } from "@/lib/cart";
 import { useFavorites } from "@/lib/favorites";
-import { sellerInstagramUrl } from "@/lib/site";
+import { sellerInstagramUrl, sellerVintedUrl } from "@/lib/site";
 
 // Libelles fins (affiches sur les cartes) — "joué" remplace par "played"
 export const ETAT_LABELS: Record<string, string> = {
@@ -85,7 +84,7 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           </div>
 
           <dl className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
-            <Row label="État">{ETAT_LABELS[card.etat] ?? card.etat ?? "-"}</Row>
+            <Row label="État">Visible sur les photos</Row>
             <Row label="Édition">{card.set || "-"}</Row>
             <Row label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Row>
             <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
@@ -93,8 +92,8 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           </dl>
 
           <div className="mt-6 flex flex-col gap-2">
+            <VintedBuyButton card={card} />
             <InstagramBuyButton card={card} />
-            <CartButton card={card} />
             <FavoriteButton card={card} />
             {card.status !== "coming_soon" && <RequestPhotosButton card={card} />}
           </div>
@@ -120,21 +119,20 @@ function InstagramBuyButton({ card }: { card: Card }) {
   );
 }
 
-function CartButton({ card, className = "" }: { card: Card; className?: string }) {
-  const { has, toggle } = useCart();
-  const inCart = has(card);
+function VintedBuyButton({ card }: { card: Card }) {
+  const url = sellerVintedUrl(card.vendeur);
+  // Achat indirect : on redirige vers la page Vinted du vendeur (pas de paiement
+  // sur le site). Masqué si vendeur inconnu ou carte pas encore en boutique.
+  if (!url || card.status === "coming_soon") return null;
   return (
-    <button
-      type="button"
-      onClick={(e) => { e.stopPropagation(); toggle(card); }}
-      className={`${className} w-full rounded-md px-4 py-2.5 text-sm font-semibold transition ` + (
-        inCart
-          ? "border border-amber-500 bg-amber-100 text-amber-800 hover:bg-amber-200"
-          : "bg-slate-900 text-white hover:bg-slate-800"
-      )}
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full rounded-md bg-[#007782] px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
     >
-      {inCart ? "✓ Dans le panier - Retirer" : "Ajouter au panier"}
-    </button>
+      Acheter sur Vinted{card.vendeur ? ` — ${card.vendeur}` : ""}
+    </a>
   );
 }
 

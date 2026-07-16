@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { logout } from "@/app/actions/auth";
-import CartLink from "./CartLink";
 import FavLink from "./FavLink";
 
 export default function MobileMenu({ userEmail }: { userEmail: string | null }) {
@@ -86,7 +85,6 @@ export default function MobileMenu({ userEmail }: { userEmail: string | null }) 
                 </Link>
               </li>
               <li className="px-3 py-1"><FavLink /></li>
-              <li className="px-3 py-1"><CartLink /></li>
             </ul>
 
             <hr className="my-5 border-amber-500/20" />

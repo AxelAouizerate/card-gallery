@@ -2,42 +2,16 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { isNewArrival, isBeySet, BEY_FILTER_VALUE, type Card } from "@/lib/cards";
-import { useCart } from "@/lib/cart";
 import { useFavorites } from "@/lib/favorites";
-import CardModal, { ETAT_LABELS, PhotoPending, ComingSoon } from "./CardModal";
+import CardModal, { PhotoPending, ComingSoon } from "./CardModal";
 
 type Props = { cards: Card[] };
-
-// Groupes pour le FILTRE : on regroupe les variantes (+, ++, +++, -, etc.)
-// sous une meme etiquette. La grille / le modal continuent d'afficher l'etat
-// precis via ETAT_LABELS.
-const ETAT_GROUP: Record<string, string> = {
-  "GEM MINT": "MINT",  "MINT": "MINT",  "MINT+": "MINT",
-  "NM": "NEAR MINT",   "NM+": "NEAR MINT",  "NM-": "NEAR MINT",
-  "EX":  "EXCELLENT",  "EX+":  "EXCELLENT", "EX-":  "EXCELLENT", "EX++": "EXCELLENT",  "EX+++": "EXCELLENT",
-  "EXC": "EXCELLENT",  "EXC+": "EXCELLENT", "EXC-": "EXCELLENT", "EXC++": "EXCELLENT", "EXC+++": "EXCELLENT",
-  "GOOD": "GOOD",      "GOOD+": "GOOD",     "GOOD-": "GOOD",
-  "LP": "LIGHT PLAYED", "LP+": "LIGHT PLAYED", "LP-": "LIGHT PLAYED",
-  "PL": "PLAYED",      "PL+": "PLAYED",     "PL-": "PLAYED",
-  "POOR": "POOR",
-};
-const etatGroup = (e: string) => ETAT_GROUP[e] ?? e;
-
-// Hierarchie du meilleur (rank 0) au pire. Sert pour le filtre "etat minimum".
-const ETAT_ORDER = [
-  "MINT", "NEAR MINT", "EXCELLENT", "GOOD", "LIGHT PLAYED", "PLAYED", "POOR",
-];
-const etatRank = (group: string): number => {
-  const i = ETAT_ORDER.indexOf(group);
-  return i === -1 ? 999 : i;   // groupe inconnu en dernier
-};
 
 export default function CardGallery({ cards }: Props) {
   const [search, setSearch] = useState("");
   const [setFilter, setSetFilter] = useState<string>("");
   const [rareteFilter, setRareteFilter] = useState<string>("");
   const [langFilter, setLangFilter] = useState<string>("");
-  const [etatFilter, setEtatFilter] = useState<string>("");
   const [only1st, setOnly1st] = useState(false);
   const [onlyGraded, setOnlyGraded] = useState(false);
   const [onlyComingSoon, setOnlyComingSoon] = useState(false);
@@ -52,12 +26,6 @@ export default function CardGallery({ cards }: Props) {
   const setOptions = useMemo(() => [BEY_FILTER_VALUE, ...sets], [sets]);
   const raretes = useMemo(() => uniq(cards.map((c) => c.rarete).filter(Boolean)).sort(), [cards]);
   const langs = useMemo(() => uniq(cards.map((c) => c.lang).filter(Boolean)).sort(), [cards]);
-  // Dropdown : groupes uniques tries du MEILLEUR au PIRE.
-  const etats = useMemo(
-    () => uniq(cards.map((c) => etatGroup(c.etat)).filter(Boolean))
-      .sort((a, b) => etatRank(a) - etatRank(b)),
-    [cards]
-  );
 
   const filtered = useMemo(() => {
     let out = cards.filter((c) => {
@@ -68,9 +36,6 @@ export default function CardGallery({ cards }: Props) {
       }
       if (rareteFilter && c.rarete !== rareteFilter) return false;
       if (langFilter && c.lang !== langFilter) return false;
-      // Filtre "etat MINIMUM" : on garde les cartes au moins aussi bonnes
-      // que l'etat selectionne (rank <= rank du filtre).
-      if (etatFilter && etatRank(etatGroup(c.etat)) > etatRank(etatFilter)) return false;
       if (only1st && !c.is_1st) return false;
       if (onlyGraded && !c.grade) return false;
       if (onlyComingSoon && c.status !== "coming_soon") return false;
@@ -95,7 +60,7 @@ export default function CardGallery({ cards }: Props) {
     if (sortBy === "price_asc") out = [...out].sort((a, b) => cmpPrice(a, b, false));
     if (sortBy === "name") out = [...out].sort((a, b) => a.nom.localeCompare(b.nom));
     return out;
-  }, [cards, search, setFilter, rareteFilter, langFilter, etatFilter, only1st, onlyGraded, onlyComingSoon, onlyNew, priceMin, priceMax, sortBy]);
+  }, [cards, search, setFilter, rareteFilter, langFilter, only1st, onlyGraded, onlyComingSoon, onlyNew, priceMin, priceMax, sortBy]);
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
@@ -108,7 +73,7 @@ export default function CardGallery({ cards }: Props) {
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   // Reset a la page 1 quand les filtres changent (filtered change de longueur)
   useEffect(() => { setPage(1); }, [
-    search, setFilter, rareteFilter, langFilter, etatFilter,
+    search, setFilter, rareteFilter, langFilter,
     only1st, onlyGraded, onlyComingSoon, onlyNew, priceMin, priceMax, sortBy,
   ]);
   const safePage = Math.min(page, pageCount);
@@ -148,12 +113,6 @@ export default function CardGallery({ cards }: Props) {
         />
         <Select label="Rareté" value={rareteFilter} onChange={setRareteFilter} options={raretes} />
         <Select label="Langue" value={langFilter} onChange={setLangFilter} options={langs} />
-        <Select
-          label="État minimum"
-          value={etatFilter}
-          onChange={setEtatFilter}
-          options={etats}
-        />
         <div>
           <label className="mb-1 block text-xs font-medium text-amber-100/80">Prix (€)</label>
           <div className="flex gap-2">
@@ -280,9 +239,7 @@ function Pagination({
 }
 
 function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
-  const { has: hasCart } = useCart();
   const { has: hasFav, toggle: toggleFav } = useFavorites();
-  const inCart = hasCart(c);
   const liked = hasFav(c);
   return (
     // <div> au lieu de <button> pour pouvoir imbriquer le bouton like
@@ -291,7 +248,7 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
       tabIndex={0}
       onClick={onOpen}
       onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onOpen(); } }}
-      className={"cursor-pointer overflow-hidden rounded-lg border bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-amber-400 " + (inCart ? "border-amber-400 ring-2 ring-amber-300/60" : "border-slate-200")}
+      className="cursor-pointer overflow-hidden rounded-lg border border-slate-200 bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-amber-400"
     >
       <div className="relative aspect-[3/4] w-full bg-slate-100">
         {/* Bouton Like en haut a gauche */}
@@ -305,11 +262,6 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
             <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/>
           </svg>
         </button>
-        {inCart && (
-          <span className="absolute right-2 top-2 z-10 inline-flex h-7 w-7 items-center justify-center rounded-full bg-amber-400 text-xs font-bold text-black shadow">
-            ✓
-          </span>
-        )}
         {c.status === "coming_soon" ? (
           <ComingSoon />
         ) : c.photo_1 ? (
@@ -363,7 +315,6 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
               Bientôt en boutique
             </p>
           )}
-          {c.etat && <span className="text-[10px] text-slate-500">{ETAT_LABELS[c.etat] ?? c.etat}</span>}
         </div>
       </div>
     </div>

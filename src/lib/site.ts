@@ -29,12 +29,12 @@ export const SITE_KEYWORDS = [
 
 // Les trois vendeurs (= les 3 onglets du Google Sheet). La clé doit
 // correspondre à la valeur `vendeur` des cartes (nom de l'onglet).
-// TODO: renseigner les vrais identifiants Instagram (sans le @).
-// Tant que `instagram` est vide, le bouton "Acheter via Instagram" reste masqué.
-export const SELLERS: Record<string, { instagram: string }> = {
-  Axel: { instagram: "" },
-  Marvin: { instagram: "" },
-  Quentin: { instagram: "" },
+// `vinted` = page Vinted du vendeur : l'achat se fait indirectement là-bas
+// (on ne paie pas sur le site). `instagram` reste optionnel (bouton masqué si vide).
+export const SELLERS: Record<string, { instagram: string; vinted: string }> = {
+  Axel: { instagram: "", vinted: "https://www.vinted.com/member/241859388" },
+  Marvin: { instagram: "", vinted: "https://www.vinted.com/member/59915583" },
+  Quentin: { instagram: "", vinted: "https://www.vinted.com/member/33433064" },
 };
 
 /** URL du compte Instagram du vendeur, ou null si vendeur inconnu / handle non renseigné. */
@@ -43,4 +43,12 @@ export function sellerInstagramUrl(vendeur?: string | null): string | null {
   const key = Object.keys(SELLERS).find((k) => k.toLowerCase() === vendeur.toLowerCase());
   const handle = key ? SELLERS[key].instagram.trim().replace(/^@/, "") : "";
   return handle ? `https://www.instagram.com/${handle}/` : null;
+}
+
+/** URL de la page Vinted du vendeur, ou null si vendeur inconnu / non renseigné. */
+export function sellerVintedUrl(vendeur?: string | null): string | null {
+  if (!vendeur) return null;
+  const key = Object.keys(SELLERS).find((k) => k.toLowerCase() === vendeur.toLowerCase());
+  const url = key ? SELLERS[key].vinted.trim() : "";
+  return url || null;
 }
