@@ -32,9 +32,9 @@ export const SITE_KEYWORDS = [
 // `vinted` = page Vinted du vendeur : l'achat se fait indirectement là-bas
 // (on ne paie pas sur le site). `instagram` reste optionnel (bouton masqué si vide).
 export const SELLERS: Record<string, { instagram: string; vinted: string }> = {
-  Axel: { instagram: "", vinted: "https://www.vinted.com/member/241859388" },
-  Marvin: { instagram: "", vinted: "https://www.vinted.com/member/59915583" },
-  Quentin: { instagram: "", vinted: "https://www.vinted.com/member/33433064" },
+  Axel: { instagram: "horuscards_", vinted: "https://www.vinted.com/member/241859388" },
+  Marvin: { instagram: "marvinyugi", vinted: "https://www.vinted.com/member/59915583" },
+  Quentin: { instagram: "sr4madrid", vinted: "https://www.vinted.com/member/33433064" },
 };
 
 /** URL du compte Instagram du vendeur, ou null si vendeur inconnu / handle non renseigné. */

@@ -107,7 +107,6 @@ export function SeoFooter() {
           <Link href="/" className="hover:text-amber-200">Catalogue des cartes</Link>
           <Link href="/comment-acheter" className="hover:text-amber-200">Comment acheter</Link>
           <Link href="/favorites" className="hover:text-amber-200">Mes favoris</Link>
-          <Link href="/cart" className="hover:text-amber-200">Mon panier</Link>
           <Link href="/stats" className="hover:text-amber-200">Statistiques de la boutique</Link>
         </nav>
 
