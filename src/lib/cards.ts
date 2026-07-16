@@ -1,4 +1,4 @@
-export type CardStatus = "available" | "photo_pending" | "coming_soon";
+export type CardStatus = "available" | "photo_pending" | "coming_soon" | "sold";
 
 export type Card = {
   id: number;

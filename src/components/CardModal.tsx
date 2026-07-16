@@ -74,7 +74,9 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           </p>
 
           <div className="mt-4">
-            {card.prix !== null ? (
+            {card.status === "sold" ? (
+              <p className="text-2xl font-black uppercase tracking-widest text-red-600">Vendue</p>
+            ) : card.prix !== null ? (
               <p className="text-3xl font-semibold text-slate-900">{card.prix.toFixed(0)} €</p>
             ) : (
               <p className="text-base font-medium uppercase tracking-wide text-amber-700">
@@ -95,7 +97,7 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
             <VintedBuyButton card={card} />
             <InstagramBuyButton card={card} />
             <FavoriteButton card={card} />
-            {card.status !== "coming_soon" && <RequestPhotosButton card={card} />}
+            {card.status !== "coming_soon" && card.status !== "sold" && <RequestPhotosButton card={card} />}
           </div>
         </div>
       </div>
@@ -105,8 +107,8 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
 
 function InstagramBuyButton({ card }: { card: Card }) {
   const url = sellerInstagramUrl(card.vendeur);
-  // Masqué tant qu'on ne connaît pas le compte Instagram du vendeur.
-  if (!url || card.status === "coming_soon") return null;
+  // Masqué tant qu'on ne connaît pas le compte Instagram du vendeur, ou si vendue.
+  if (!url || card.status === "coming_soon" || card.status === "sold") return null;
   return (
     <a
       href={url}
@@ -122,8 +124,8 @@ function InstagramBuyButton({ card }: { card: Card }) {
 function VintedBuyButton({ card }: { card: Card }) {
   const url = sellerVintedUrl(card.vendeur);
   // Achat indirect : on redirige vers la page Vinted du vendeur (pas de paiement
-  // sur le site). Masqué si vendeur inconnu ou carte pas encore en boutique.
-  if (!url || card.status === "coming_soon") return null;
+  // sur le site). Masqué si vendeur inconnu, carte pas encore en boutique, ou vendue.
+  if (!url || card.status === "coming_soon" || card.status === "sold") return null;
   return (
     <a
       href={url}
@@ -175,7 +177,7 @@ function RequestPhotosButton({ card }: { card: Card }) {
 
 function Photo({ src, alt, label, status }: {
   src: string | null; alt: string; label: string;
-  status?: "available" | "photo_pending" | "coming_soon";
+  status?: Card["status"];
 }) {
   return (
     <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-100">
@@ -187,8 +189,24 @@ function Photo({ src, alt, label, status }: {
       ) : (
         <PhotoPending />
       )}
+      {status === "sold" && <SoldOutBadge />}
       <span className="absolute left-2 top-2 rounded bg-slate-900/70 px-1.5 py-0.5 text-[10px] font-semibold uppercase text-white">
         {label}
+      </span>
+    </div>
+  );
+}
+
+// Bandeau rouge "SOLD OUT" superposé (photo assombrie + ruban incliné).
+export function SoldOutBadge() {
+  return (
+    <div className="pointer-events-none absolute inset-0 z-20 flex items-center justify-center">
+      <div className="absolute inset-0 bg-black/45" />
+      <span
+        className="relative -rotate-12 select-none rounded-md border-2 border-white/85 bg-gradient-to-r from-red-700 via-red-500 to-red-700 px-4 py-1.5 text-lg font-black uppercase tracking-[0.2em] text-white"
+        style={{ textShadow: "0 2px 4px rgba(0,0,0,0.7)", boxShadow: "0 6px 18px rgba(220,38,38,0.6)" }}
+      >
+        Sold Out
       </span>
     </div>
   );

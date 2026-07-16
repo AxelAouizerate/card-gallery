@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { isNewArrival, isBeySet, BEY_FILTER_VALUE, type Card } from "@/lib/cards";
 import { useFavorites } from "@/lib/favorites";
-import CardModal, { PhotoPending, ComingSoon } from "./CardModal";
+import CardModal, { PhotoPending, ComingSoon, SoldOutBadge } from "./CardModal";
 
 type Props = { cards: Card[] };
 
@@ -16,6 +16,8 @@ export default function CardGallery({ cards }: Props) {
   const [onlyGraded, setOnlyGraded] = useState(false);
   const [onlyComingSoon, setOnlyComingSoon] = useState(false);
   const [onlyNew, setOnlyNew] = useState(false);
+  const [onlySold, setOnlySold] = useState(false);
+  const [onlyDispo, setOnlyDispo] = useState(false);
   const [priceMin, setPriceMin] = useState<number | "">("");
   const [priceMax, setPriceMax] = useState<number | "">("");
   const [sortBy, setSortBy] = useState<"price_desc" | "price_asc" | "name">("price_desc");
@@ -40,6 +42,8 @@ export default function CardGallery({ cards }: Props) {
       if (onlyGraded && !c.grade) return false;
       if (onlyComingSoon && c.status !== "coming_soon") return false;
       if (onlyNew && !isNewArrival(c)) return false;
+      if (onlySold && c.status !== "sold") return false;
+      if (onlyDispo && (c.status === "sold" || c.status === "coming_soon")) return false;
       // Filtres prix : excluent les cartes sans prix ("Bientot en boutique")
       if (priceMin !== "") {
         if (c.prix === null || c.prix < Number(priceMin)) return false;
@@ -60,7 +64,7 @@ export default function CardGallery({ cards }: Props) {
     if (sortBy === "price_asc") out = [...out].sort((a, b) => cmpPrice(a, b, false));
     if (sortBy === "name") out = [...out].sort((a, b) => a.nom.localeCompare(b.nom));
     return out;
-  }, [cards, search, setFilter, rareteFilter, langFilter, only1st, onlyGraded, onlyComingSoon, onlyNew, priceMin, priceMax, sortBy]);
+  }, [cards, search, setFilter, rareteFilter, langFilter, only1st, onlyGraded, onlyComingSoon, onlyNew, onlySold, onlyDispo, priceMin, priceMax, sortBy]);
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
@@ -74,7 +78,7 @@ export default function CardGallery({ cards }: Props) {
   // Reset a la page 1 quand les filtres changent (filtered change de longueur)
   useEffect(() => { setPage(1); }, [
     search, setFilter, rareteFilter, langFilter,
-    only1st, onlyGraded, onlyComingSoon, onlyNew, priceMin, priceMax, sortBy,
+    only1st, onlyGraded, onlyComingSoon, onlyNew, onlySold, onlyDispo, priceMin, priceMax, sortBy,
   ]);
   const safePage = Math.min(page, pageCount);
   const pageStart = (safePage - 1) * PAGE_SIZE;
@@ -184,6 +188,24 @@ export default function CardGallery({ cards }: Props) {
               ‹ 14j
             </span>
           </label>
+          <label className="flex items-center gap-2 whitespace-nowrap text-sm text-emerald-200">
+            <input
+              type="checkbox"
+              checked={onlyDispo}
+              onChange={(e) => setOnlyDispo(e.target.checked)}
+              className="h-4 w-4 shrink-0"
+            />
+            Disponible
+          </label>
+          <label className="flex items-center gap-2 whitespace-nowrap text-sm text-red-300">
+            <input
+              type="checkbox"
+              checked={onlySold}
+              onChange={(e) => setOnlySold(e.target.checked)}
+              className="h-4 w-4 shrink-0"
+            />
+            Sold out
+          </label>
         </div>
       </div>
 
@@ -270,6 +292,7 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
         ) : (
           <PhotoPending />
         )}
+        {c.status === "sold" && <SoldOutBadge />}
         {c.reserve && (
           <span className="absolute right-2 top-2 rounded bg-amber-500 px-1.5 py-0.5 text-[10px] font-semibold uppercase text-white">
             Réservée
@@ -308,7 +331,9 @@ function CardTile({ c, onOpen }: { c: Card; onOpen: () => void }) {
           {c.is_1st && " · 1ère édition"}
         </p>
         <div className="mt-2 flex items-center justify-between">
-          {c.prix !== null ? (
+          {c.status === "sold" ? (
+            <p className="text-xs font-bold uppercase tracking-wide text-red-600">Vendue</p>
+          ) : c.prix !== null ? (
             <p className="text-base font-semibold text-slate-900">{c.prix.toFixed(0)} €</p>
           ) : (
             <p className="text-xs font-medium uppercase tracking-wide text-amber-700">
