@@ -72,6 +72,21 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           <p className="mt-1 text-sm text-slate-500">
             {card.set} · {card.rarete} · {card.lang}
           </p>
+          {card.pop != null && card.pop <= 2 && (
+            <span
+              className={
+                "mt-2 inline-flex w-fit items-center gap-1.5 rounded-full px-3 py-1 text-xs font-black uppercase tracking-wider text-white shadow-sm " +
+                (card.pop === 1
+                  ? "bg-gradient-to-r from-amber-500 to-yellow-500"
+                  : "bg-gradient-to-r from-slate-400 to-slate-500")
+              }
+            >
+              ★ Pop {card.pop}
+              <span className="font-semibold normal-case tracking-normal opacity-90">
+                {card.pop === 1 ? "— unique à ce grade" : "— 2 exemplaires à ce grade"}
+              </span>
+            </span>
+          )}
 
           <div className="mt-4">
             {card.status === "sold" ? (
@@ -116,7 +131,7 @@ function InstagramBuyButton({ card }: { card: Card }) {
       rel="noopener noreferrer"
       className="w-full rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
     >
-      Acheter via Instagram{card.vendeur ? ` — ${card.vendeur}` : ""}
+      Acheter via Instagram — DM le vendeur
     </a>
   );
 }
@@ -133,7 +148,7 @@ function VintedBuyButton({ card }: { card: Card }) {
       rel="noopener noreferrer"
       className="w-full rounded-md bg-[#007782] px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
     >
-      Acheter sur Vinted{card.vendeur ? ` — ${card.vendeur}` : ""}
+      Acheter sur Vinted — DM le vendeur
     </a>
   );
 }

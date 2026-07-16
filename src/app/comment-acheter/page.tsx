@@ -4,9 +4,9 @@ import HeaderNav from "@/components/HeaderNav";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
-const TITLE = "Comment acheter — achat direct & offres via Instagram";
+const TITLE = "Comment acheter — DM le vendeur sur Vinted ou Instagram";
 const DESCRIPTION =
-  "Comment acheter une carte Yu-Gi-Oh! chez horuscards : depuis chaque fiche, cliquez sur « Acheter via Instagram » pour contacter directement le vendeur (Axel, Marvin ou Quentin). Achat au prix indiqué ou proposez votre offre. Paiement et livraison convenus avec le vendeur.";
+  "Comment acheter une carte Yu-Gi-Oh! chez horuscards : depuis chaque fiche, cliquez sur « Acheter sur Vinted » ou « Acheter via Instagram » pour contacter directement le vendeur en message privé (DM). Achat au prix indiqué ou proposez votre offre. Paiement et livraison convenus avec le vendeur.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -32,12 +32,12 @@ const STEPS: { name: string; text: string }[] = [
     text: "Cliquez sur une carte pour voir les photos recto/verso, l'état exact, la rareté, la langue, la 1ère édition et l'éventuelle gradation.",
   },
   {
-    name: "Cliquez sur « Acheter via Instagram »",
-    text: "Le bouton vous redirige vers le compte Instagram du vendeur de la carte (Axel, Marvin ou Quentin).",
+    name: "Cliquez sur « Acheter sur Vinted » ou « Acheter via Instagram »",
+    text: "Chaque fiche propose deux boutons : ils vous mènent à la page Vinted ou au compte Instagram du vendeur. Choisissez la plateforme que vous préférez pour lui écrire.",
   },
   {
-    name: "Envoyez votre message au vendeur",
-    text: "En message privé, indiquez le nom de la carte (et son set) qui vous intéresse. Vous pouvez copier le nom et le prix affichés sur la fiche pour aller plus vite.",
+    name: "Envoyez un message privé (DM) au vendeur",
+    text: "En DM (sur Vinted ou Instagram), indiquez le nom de la carte (et son set) qui vous intéresse. Vous pouvez copier le nom et le prix affichés sur la fiche pour aller plus vite.",
   },
   {
     name: "Achat au prix indiqué ou faites une offre",
@@ -98,11 +98,10 @@ export default function CommentAcheterPage() {
 
         <p className="mt-4 text-sm leading-relaxed text-amber-100/85">
           Chez <strong>horuscards</strong>, l&apos;achat se fait{" "}
-          <strong>directement auprès du vendeur via Instagram</strong>. Notre site sert de
-          vitrine : vous y consultez le stock, les photos, l&apos;état et le prix de chaque carte,
-          puis vous contactez le vendeur en un clic pour finaliser. Nous sommes{" "}
-          <strong>trois vendeurs</strong> — Axel, Marvin et Quentin — et chaque carte est reliée à
-          son vendeur.
+          <strong>directement auprès du vendeur, en DM sur Vinted ou Instagram</strong>. Notre site
+          sert de vitrine : vous y consultez le stock, les photos, l&apos;état et le prix de chaque
+          carte, puis vous contactez le vendeur en un clic (bouton Vinted ou Instagram) pour
+          finaliser. Le paiement ne se fait pas sur le site.
         </p>
 
         <section className="mt-8">
@@ -134,8 +133,8 @@ export default function CommentAcheterPage() {
             <h2 className="text-lg font-semibold text-amber-200">Faire une offre</h2>
             <p className="mt-2 text-sm leading-relaxed text-amber-100/75">
               Vous pouvez aussi <strong>proposer un montant inférieur</strong> au prix affiché. Envoyez
-              votre offre au vendeur via Instagram : il reste libre de l&apos;accepter, de refuser ou de
-              faire une contre-proposition. Groupez plusieurs cartes pour négocier un lot.
+              votre offre au vendeur en DM (Vinted ou Instagram) : il reste libre de l&apos;accepter, de
+              refuser ou de faire une contre-proposition. Groupez plusieurs cartes pour négocier un lot.
             </p>
           </div>
         </section>
@@ -143,9 +142,9 @@ export default function CommentAcheterPage() {
         <section className="mt-10 rounded-lg border border-amber-500/20 bg-black/30 p-5">
           <h2 className="text-lg font-semibold text-amber-200">Bon à savoir</h2>
           <ul className="mt-3 space-y-2 text-sm text-amber-100/75">
-            <li>• Le bouton <strong>« Acheter via Instagram »</strong> se trouve sur chaque fiche carte.</li>
-            <li>• Instagram ne permet pas de message pré-rempli : pensez à <strong>préciser le nom de la carte</strong> (et son set) dans votre message.</li>
-            <li>• Une même carte est vendue par un seul des trois vendeurs — le bouton vous mène au bon compte.</li>
+            <li>• Deux boutons <strong>« Acheter sur Vinted »</strong> et <strong>« Acheter via Instagram »</strong> se trouvent sur chaque fiche carte : à vous de choisir.</li>
+            <li>• Pensez à <strong>préciser le nom de la carte</strong> (et son set) dans votre message : le DM n&apos;est pas pré-rempli.</li>
+            <li>• Une même carte est vendue par un seul vendeur — les boutons vous mènent au bon compte Vinted / Instagram.</li>
             <li>• Ajoutez vos cartes en <Link href="/favorites" className="underline hover:text-amber-200">favoris</Link> pour les retrouver facilement avant de contacter le vendeur.</li>
           </ul>
         </section>
