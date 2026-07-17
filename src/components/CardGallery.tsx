@@ -9,6 +9,7 @@ type Props = { cards: Card[] };
 
 export default function CardGallery({ cards }: Props) {
   const [search, setSearch] = useState("");
+  const [produitFilter, setProduitFilter] = useState<string>("carte");
   const [setFilter, setSetFilter] = useState<string>("");
   const [rareteFilter, setRareteFilter] = useState<string>("");
   const [langFilter, setLangFilter] = useState<string>("");
@@ -34,6 +35,7 @@ export default function CardGallery({ cards }: Props) {
 
   const filtered = useMemo(() => {
     let out = cards.filter((c) => {
+      if (produitFilter && (c.produit ?? "carte") !== produitFilter) return false;
       if (search && !c.nom.toLowerCase().includes(search.toLowerCase())) return false;
       if (setFilter) {
         if (setFilter === BEY_FILTER_VALUE) { if (!isBeySet(c.set)) return false; }
@@ -68,7 +70,7 @@ export default function CardGallery({ cards }: Props) {
     if (sortBy === "price_asc") out = [...out].sort((a, b) => cmpPrice(a, b, false));
     if (sortBy === "name") out = [...out].sort((a, b) => a.nom.localeCompare(b.nom));
     return out;
-  }, [cards, search, setFilter, rareteFilter, langFilter, only1st, onlyGraded, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy]);
+  }, [cards, produitFilter, search, setFilter, rareteFilter, langFilter, only1st, onlyGraded, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy]);
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
@@ -81,7 +83,7 @@ export default function CardGallery({ cards }: Props) {
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   // Reset a la page 1 quand les filtres changent (filtered change de longueur)
   useEffect(() => { setPage(1); }, [
-    search, setFilter, rareteFilter, langFilter,
+    produitFilter, search, setFilter, rareteFilter, langFilter,
     only1st, onlyGraded, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy,
   ]);
   const safePage = Math.min(page, pageCount);
@@ -102,7 +104,8 @@ export default function CardGallery({ cards }: Props) {
           Cartes à l&apos;unité
         </h2>
         <p className="text-sm text-amber-100/80">
-          {filtered.length} cartes
+          {filtered.length}{" "}
+          {produitFilter === "display" ? "displays" : produitFilter === "booster" ? "boosters" : "cartes"}
           {nWithoutPrice > 0 && (
             <span className="text-amber-100/50"> (+{nWithoutPrice} bientôt en boutique)</span>
           )}
@@ -111,6 +114,29 @@ export default function CardGallery({ cards }: Props) {
 
       {/* Filtres : panneau "papyrus" sombre */}
       <div className="mb-6 rounded-lg border border-amber-500/30 bg-black/55 p-4 backdrop-blur supports-[backdrop-filter]:bg-black/40">
+        {/* Sélecteur de produit (segmenté, centré) : Cartes par défaut */}
+        <div className="mb-4 flex justify-center">
+          <div className="inline-flex rounded-lg border border-amber-500/25 bg-black/40 p-1">
+            {([["carte", "Cartes"], ["display", "Displays"], ["booster", "Boosters"]] as const).map(
+              ([val, lbl]) => (
+                <button
+                  key={val}
+                  type="button"
+                  onClick={() => setProduitFilter(val)}
+                  aria-pressed={produitFilter === val}
+                  className={
+                    "rounded-md px-5 py-1.5 text-sm font-semibold transition " +
+                    (produitFilter === val
+                      ? "bg-amber-500/25 text-amber-100 shadow-sm"
+                      : "text-amber-100/55 hover:text-amber-100")
+                  }
+                >
+                  {lbl}
+                </button>
+              )
+            )}
+          </div>
+        </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
         <Input label="Rechercher" placeholder="Nom de la carte..." value={search} onChange={setSearch} />
         <Select

@@ -13,6 +13,8 @@ export type Card = {
   // Population chez le grader (nb de cartes gradées à ce grade) -> badge "Pop N".
   // Notable surtout pour pop 1 (unique) et pop 2. null/absent si inconnu.
   pop?: number | null;
+  // Type de produit : "carte" (défaut), "display" ou "booster".
+  produit?: string;
   reserve: boolean;
   prix: number | null;
   status: CardStatus;
