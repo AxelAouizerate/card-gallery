@@ -44,12 +44,13 @@ export function SeoIntro() {
       </h1>
       <p className="mt-3 max-w-3xl text-sm leading-relaxed text-amber-100/80">
         Bienvenue sur <strong>horuscards</strong>, la boutique française dédiée aux{" "}
-        <strong>cartes Yu-Gi-Oh! à l&apos;unité</strong> pour les{" "}
+        <strong>cartes Yu-Gi-Oh! à l&apos;unité et aux produits scellés</strong> en{" "}
+        <strong>français, anglais et japonais</strong>, pour les{" "}
         <strong>duellistes</strong> comme pour les <strong>collectionneurs</strong>. Vous
         trouverez ici des <strong>éditions françaises rares</strong>, des{" "}
         <strong>1ère édition</strong>, des raretés <em>secret rare</em>, <em>ultimate rare</em>,{" "}
         <em>ghost rare</em>, des <strong>cartes gradées</strong> (CCC, PSA, CollectAura) ainsi
-        que des <strong>pièces inédites en français</strong> quasi introuvables ailleurs :
+        que des <strong>pièces inédites en français</strong>{" "}quasi introuvables ailleurs :
         Magicien Sombre, Dragon Blanc aux Yeux Bleus, Néos, Héros Élémentaires, Dieux Égyptiens
         et bien d&apos;autres. Filtrez par set, rareté, langue, état ou prix pour trouver la
         carte qu&apos;il vous manque.
