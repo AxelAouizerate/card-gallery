@@ -126,13 +126,14 @@ export default function CommentAcheterPage() {
             <h2 className="text-lg font-semibold text-amber-200">Acheter au prix indiqué</h2>
             <p className="mt-2 text-sm leading-relaxed text-amber-100/75">
               Le prix affiché sur la fiche est le prix de vente direct. Dites simplement au vendeur
-              que vous prenez la carte à ce prix, et convenez ensemble du paiement et de l&apos;envoi.
+              que vous prenez la carte à ce prix, et convenez ensemble du paiement et de l&apos;envoi.{" "}
+              <strong>Le paiement en plusieurs fois est proposé par tous nos vendeurs.</strong>
             </p>
           </div>
           <div className="rounded-lg border border-amber-500/30 bg-black/40 p-5">
             <h2 className="text-lg font-semibold text-amber-200">Faire une offre</h2>
             <p className="mt-2 text-sm leading-relaxed text-amber-100/75">
-              Vous pouvez aussi <strong>proposer un montant inférieur</strong> au prix affiché. Envoyez
+              Vous pouvez aussi <strong>proposer un montant inférieur au prix affiché</strong>. Envoyez
               votre offre au vendeur en DM (Vinted ou Instagram) : il reste libre de l&apos;accepter, de
               refuser ou de faire une contre-proposition. Groupez plusieurs cartes pour négocier un lot.
             </p>
