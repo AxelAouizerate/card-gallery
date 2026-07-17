@@ -25,8 +25,10 @@ export default function CardGallery({ cards }: Props) {
 
   // Build unique lists for select options
   const sets = useMemo(() => uniq(cards.map((c) => c.set).filter(Boolean)).sort(), [cards]);
-  // "bey" est un groupe de sets (voir lib/cards) proposé en tête de liste.
-  const setOptions = useMemo(() => [BEY_FILTER_VALUE, ...sets], [sets]);
+  // "bey" (groupe de sets, voir lib/cards) est MASQUÉ du menu déroulant, mais
+  // toute la logique est conservée (BEY_SET_CODES / isBeySet + le filtrage plus
+  // bas) pour pouvoir le réactiver : remettre [BEY_FILTER_VALUE, ...sets].
+  const setOptions = sets;
   const raretes = useMemo(() => uniq(cards.map((c) => c.rarete).filter(Boolean)).sort(), [cards]);
   const langs = useMemo(() => uniq(cards.map((c) => c.lang).filter(Boolean)).sort(), [cards]);
 
