@@ -391,9 +391,9 @@
     "produit": "carte",
     "reserve": false,
     "prix": 250.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
+    "photo_1": "/img/1163_1.jpg",
     "photo_2": null,
     "first_seen": "2026-07-07",
     "vendeur": "Axel"
@@ -1861,9 +1861,9 @@
     "produit": "carte",
     "reserve": false,
     "prix": 90.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "",
-    "photo_1": null,
+    "photo_1": "/img/1162_1.jpg",
     "photo_2": null,
     "first_seen": "2026-07-07",
     "vendeur": "Axel"
@@ -3417,7 +3417,7 @@
     "prix": 40.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "/img/451_01.jpeg",
+    "photo_1": "/img/451_1.jpg",
     "photo_2": "/img/451_02.jpeg",
     "first_seen": "2026-05-01",
     "vendeur": "Axel"
