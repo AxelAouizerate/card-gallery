@@ -26,7 +26,7 @@ export const FAQ_ITEMS: Faq[] = [
   },
   {
     q: "Comment se passe la livraison en France ?",
-    a: "Envoi rapide et soigné partout en France : sleeve + toploader rigide + renfort, sous enveloppe protégée, avec suivi. Remise en main propre possible selon la région.",
+    a: "Envoi rapide et soigné partout en France : sleeve + toploader rigide + renfort, sous enveloppe protégée, avec suivi. La remise en main propre est possible selon les cartes : en région parisienne, autour de Mont-de-Marsan et Bordeaux, et entre Givors et Saint-Étienne.",
   },
   {
     q: "Peut-on négocier les prix ou acheter en lot ?",

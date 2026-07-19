@@ -45,7 +45,7 @@ const STEPS: { name: string; text: string }[] = [
   },
   {
     name: "Convenez du paiement et de la livraison",
-    text: "Le paiement et l'envoi (protégé, avec suivi) se règlent directement avec le vendeur lors de la conversation.",
+    text: "Le paiement et l'envoi (protégé, avec suivi) se règlent directement avec le vendeur lors de la conversation. La remise en main propre est possible selon les cartes : en région parisienne, autour de Mont-de-Marsan et Bordeaux, et entre Givors et Saint-Étienne.",
   },
 ];
 
