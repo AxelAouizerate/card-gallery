@@ -17,20 +17,32 @@ export default function SignupPage() {
             Se connecter
           </Link>
         </p>
-        <form action={formAction} className="space-y-3">
-          <Field name="email" label="Email" type="email" required />
-          <Field name="password" label="Mot de passe (min 6 caractères)" type="password" required />
-          {state?.error && (
-            <p className="rounded bg-red-50 px-3 py-2 text-sm text-red-700">{state.error}</p>
-          )}
-          <button
-            type="submit"
-            disabled={pending}
-            className="w-full rounded-md bg-slate-900 px-3 py-2 text-sm font-medium text-white hover:bg-slate-800 disabled:opacity-60"
-          >
-            {pending ? "Création…" : "Créer le compte"}
-          </button>
-        </form>
+        {state?.needsConfirmation ? (
+          <div className="rounded-md bg-green-50 px-3 py-3 text-sm text-green-800">
+            <p className="font-medium">Compte créé — presque terminé !</p>
+            <p className="mt-1">
+              Un email de confirmation vient d&apos;être envoyé à ton adresse. Clique sur le
+              lien qu&apos;il contient pour activer ton compte. Pense à vérifier tes{" "}
+              <strong>spams / courriers indésirables</strong> si tu ne le vois pas d&apos;ici
+              quelques minutes.
+            </p>
+          </div>
+        ) : (
+          <form action={formAction} className="space-y-3">
+            <Field name="email" label="Email" type="email" required />
+            <Field name="password" label="Mot de passe (min 6 caractères)" type="password" required />
+            {state?.error && (
+              <p className="rounded bg-red-50 px-3 py-2 text-sm text-red-700">{state.error}</p>
+            )}
+            <button
+              type="submit"
+              disabled={pending}
+              className="w-full rounded-md bg-slate-900 px-3 py-2 text-sm font-medium text-white hover:bg-slate-800 disabled:opacity-60"
+            >
+              {pending ? "Création…" : "Créer le compte"}
+            </button>
+          </form>
+        )}
       </div>
     </main>
   );

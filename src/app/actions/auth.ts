@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 
-export type AuthState = { error?: string };
+export type AuthState = { error?: string; needsConfirmation?: boolean };
 
 export async function signup(_prev: AuthState, formData: FormData): Promise<AuthState> {
   const email = String(formData.get("email") || "").trim();
@@ -13,8 +13,28 @@ export async function signup(_prev: AuthState, formData: FormData): Promise<Auth
   if (password.length < 6) return { error: "Mot de passe trop court (min 6 caractères)." };
 
   const supabase = await createClient();
-  const { error } = await supabase.auth.signUp({ email, password });
+  // emailRedirectTo : le lien de confirmation doit passer par /auth/callback
+  // (echange PKCE -> session cookie), sinon le clic ne connecte pas. L'URL doit
+  // etre whitelistee dans Supabase > Authentication > URL Configuration.
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: { emailRedirectTo: `${siteUrl()}/auth/callback?next=/` },
+  });
   if (error) return { error: error.message };
+
+  // Email deja enregistre : Supabase renvoie un user avec identities vide
+  // (pour ne pas divulguer l'existence du compte). On oriente l'utilisateur.
+  if (data.user && data.user.identities && data.user.identities.length === 0) {
+    return { error: "Un compte existe déjà avec cet email. Connectez-vous ou réinitialisez votre mot de passe." };
+  }
+
+  // Confirmation d'email activee : pas de session tant que le lien n'est pas
+  // clique. On affiche "verifiez vos emails" au lieu de faire comme si c'etait bon.
+  if (!data.session) {
+    return { needsConfirmation: true };
+  }
+
   revalidatePath("/", "layout");
   redirect("/");
 }
