@@ -14,7 +14,7 @@ export const FAQ_ITEMS: Faq[] = [
   },
   {
     q: "Les cartes sont-elles authentiques et bien décrites ?",
-    a: "Chaque carte est 100 % authentique et originale. L'état exact (Mint, Near Mint, Excellent, etc.) est indiqué, avec photos recto/verso, et vous pouvez demander des photos supplémentaires avant d'acheter.",
+    a: "Chaque carte est 100 % authentique et originale. L'état est visible directement sur les photos recto/verso, et vous pouvez demander des photos supplémentaires avant d'acheter.",
   },
   {
     q: "Proposez-vous des cartes gradées ?",
@@ -52,7 +52,7 @@ export function SeoIntro() {
         <em>ghost rare</em>, des <strong>cartes gradées</strong> (CCC, PSA, CollectAura) ainsi
         que des <strong>pièces inédites en français</strong>{" "}quasi introuvables ailleurs :
         Magicien Sombre, Dragon Blanc aux Yeux Bleus, Néos, Héros Élémentaires, Dieux Égyptiens
-        et bien d&apos;autres. Filtrez par set, rareté, langue, état ou prix pour trouver la
+        et bien d&apos;autres. Filtrez par set, rareté, langue ou prix pour trouver la
         carte qu&apos;il vous manque.
       </p>
     </section>
@@ -71,7 +71,7 @@ export function SeoFooter() {
             <li>✅ <strong>Éditions françaises &amp; inédits FR</strong> : un stock rare, du vintage aux sets récents.</li>
             <li>🏅 <strong>Cartes gradées</strong> CCC, PSA et CollectAura, note et organisme affichés.</li>
             <li>✨ <strong>1ère édition</strong> et raretés secret / ultimate / ghost.</li>
-            <li>🔎 <strong>État détaillé</strong> et photos recto/verso, photos supplémentaires sur demande.</li>
+            <li>🔎 <strong>État visible sur les photos</strong> recto/verso, photos supplémentaires sur demande.</li>
             <li>📦 <strong>Envoi protégé et rapide</strong> partout en France, avec suivi.</li>
             <li>🤝 <strong>Prix négociables</strong> et réductions sur les lots.</li>
           </ul>

@@ -25,11 +25,11 @@ export const metadata: Metadata = {
 const STEPS: { name: string; text: string }[] = [
   {
     name: "Parcourez le catalogue",
-    text: "Filtrez les cartes par set, rareté, langue, état ou prix pour trouver celle qu'il vous manque.",
+    text: "Filtrez les cartes par set, rareté, langue ou prix pour trouver celle qu'il vous manque.",
   },
   {
     name: "Ouvrez la fiche de la carte",
-    text: "Cliquez sur une carte pour voir les photos recto/verso, l'état exact, la rareté, la langue, la 1ère édition et l'éventuelle gradation.",
+    text: "Cliquez sur une carte pour voir les photos recto/verso, la rareté, la langue, la 1ère édition et l'éventuelle gradation.",
   },
   {
     name: "Cliquez sur « Acheter sur Vinted » ou « Acheter via Instagram »",

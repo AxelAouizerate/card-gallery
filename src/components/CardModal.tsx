@@ -6,32 +6,6 @@ import RequestPhotosModal from "./RequestPhotosModal";
 import { useFavorites } from "@/lib/favorites";
 import { sellerInstagramUrl, sellerVintedUrl } from "@/lib/site";
 
-// Libelles fins (affiches sur les cartes) — "joué" remplace par "played"
-export const ETAT_LABELS: Record<string, string> = {
-  "MINT": "Mint",
-  "MINT+": "Mint+",
-  "GEM MINT": "Gem Mint",
-  "NM": "Near Mint",
-  "NM+": "Near Mint+",
-  "NM-": "Near Mint-",
-  "EX": "Excellent",
-  "EX+": "Excellent+",
-  "EX-": "Excellent-",
-  "EXC": "Excellent",
-  "EXC+": "Excellent+",
-  "EXC-": "Excellent-",
-  "LP": "Légèrement played",
-  "LP+": "Légèrement played+",
-  "LP-": "Légèrement played-",
-  "GOOD": "Bon",
-  "GOOD+": "Bon+",
-  "GOOD-": "Bon-",
-  "PL": "Played",
-  "PL+": "Played+",
-  "PL-": "Played-",
-  "POOR": "Très played",
-};
-
 export default function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
   // Echap pour fermer
   useEffect(() => {
