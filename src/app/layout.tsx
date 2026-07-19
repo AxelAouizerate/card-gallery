@@ -24,14 +24,14 @@ const cinzel = Cinzel_Decorative({
 });
 
 const TITLE_DEFAULT =
-  "horuscards — Cartes Yu-Gi-Oh! françaises à l'unité (éditions FR & inédits)";
+  "horuscards — Cartes Yu-Gi-Oh! à l'unité (FR, EN & JP) — raretés & gradées";
 const DESCRIPTION = SITE_DESCRIPTION;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE_DEFAULT,
-    template: "%s · horuscards — cartes Yu-Gi-Oh! FR",
+    template: "%s · horuscards — cartes Yu-Gi-Oh! FR / EN / JP",
   },
   description: DESCRIPTION,
   applicationName: SITE_NAME,
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     images: [{
       url: "/horus-logo.png",
       width: 800, height: 800,
-      alt: "horuscards — cartes Yu-Gi-Oh! françaises, éditions FR rares et inédits",
+      alt: "horuscards — cartes Yu-Gi-Oh! rares en français, anglais et japonais, gradées et Pop 1",
     }],
   },
   twitter: {
@@ -97,7 +97,7 @@ const storeJsonLd = {
   paymentAccepted: "Carte bancaire, PayPal, Virement",
   knowsLanguage: ["fr-FR"],
   areaServed: { "@type": "Country", name: "France" },
-  slogan: "Cartes Yu-Gi-Oh! françaises, éditions rares et inédits pour duellistes et collectionneurs.",
+  slogan: "Cartes Yu-Gi-Oh! rares en français, anglais et japonais — dont des Pop 1 — pour duellistes et collectionneurs.",
 };
 
 const websiteJsonLd = {

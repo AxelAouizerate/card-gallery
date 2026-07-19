@@ -5,18 +5,18 @@ export const SITE_URL = "https://horuscards.fr";
 export const SITE_NAME = "horuscards";
 
 export const SITE_DESCRIPTION =
-  "horuscards — boutique française de cartes Yu-Gi-Oh! à l'unité : éditions FR rares et inédits, magicien sombre, dragon blanc aux yeux bleus, néos, cartes gradées CCC/PSA/CollectAura, 1ère édition, secret/ultimate/ghost rare. Pour duellistes et collectionneurs. Photos sur demande, lots négociables, envoi rapide et protégé partout en France.";
+  "horuscards — boutique française de cartes Yu-Gi-Oh! à l'unité en français, anglais et japonais : raretés secret/ultimate/ghost rare, 1ère édition, cartes gradées CCC/PSA/CollectAura et pièces très rares dont des Pop 1. Magicien sombre, dragon blanc aux yeux bleus, néos… Pour duellistes et collectionneurs. Photos sur demande, lots négociables, envoi rapide et protégé partout en France.";
 
 // Mots-cles orientes acheteurs francophones (joueurs + collectionneurs).
 export const SITE_KEYWORDS = [
   // Jeu / génériques
   "Yu-Gi-Oh", "YuGiOh", "YGO", "cartes Yu-Gi-Oh", "cartes à collectionner", "TCG", "JCC",
   "carte magic yugioh", "deck yugioh", "duelliste", "collectionneur",
-  // Langue / rareté (cœur de cible FR)
+  // Langue / rareté (français, anglais, japonais)
   "cartes Yu-Gi-Oh françaises", "édition française", "carte FR", "carte française",
-  "carte inédite", "inédit français", "exclusivité française", "carte rare française",
+  "carte anglaise", "carte EN", "carte japonaise", "carte JP", "carte rare française",
   "1ère édition", "premiere edition", "secret rare", "ultimate rare", "ghost rare",
-  "quarter century secret rare", "carte OCG", "import japonais",
+  "quarter century secret rare", "carte OCG", "import japonais", "Pop 1", "pop 1 yugioh",
   // Cartes / archétypes recherchés
   "magicien sombre", "dragon blanc aux yeux bleus", "blue-eyes white dragon",
   "néos", "héros élémentaire", "dieux égyptiens", "exodia", "yubel", "cyber dragon",

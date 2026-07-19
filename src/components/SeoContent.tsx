@@ -9,8 +9,12 @@ export type Faq = { q: string; a: string };
 // Source unique : reutilisee pour l'affichage visible ET le JSON-LD FAQPage.
 export const FAQ_ITEMS: Faq[] = [
   {
-    q: "Vendez-vous des cartes Yu-Gi-Oh! en édition française ?",
-    a: "Oui. horuscards est spécialisé dans les cartes Yu-Gi-Oh! françaises : de nombreuses éditions FR rares, des 1ère édition, des raretés secret / ultimate / ghost et surtout des pièces inédites en français très difficiles à trouver ailleurs.",
+    q: "Vendez-vous seulement des cartes en français ?",
+    a: "Non : nous vendons des cartes Yu-Gi-Oh! à l'unité en français, en anglais et en japonais. De nombreuses éditions rares, des 1ère édition et des raretés secret / ultimate / ghost, souvent très difficiles à trouver ailleurs.",
+  },
+  {
+    q: "Avez-vous des cartes très rares ?",
+    a: "Oui. Au-delà des secret / ultimate / ghost rare, certaines de nos cartes gradées sont en population très basse chez l'organisme de gradation — dont des Pop 1 (parfois uniques à ce grade). La note et l'organisme de gradation sont indiqués sur la fiche de la carte.",
   },
   {
     q: "Les cartes sont-elles authentiques et bien décrites ?",
@@ -40,17 +44,17 @@ export function SeoIntro() {
           textShadow: "0 2px 0 #000, 0 0 14px rgba(212,175,55,0.35)",
         }}
       >
-        Cartes Yu-Gi-Oh! françaises à l&apos;unité — éditions FR rares &amp; inédits
+        Cartes Yu-Gi-Oh! à l&apos;unité — français, anglais &amp; japonais, raretés &amp; gradées
       </h1>
       <p className="mt-3 max-w-3xl text-sm leading-relaxed text-amber-100/80">
         Bienvenue sur <strong>horuscards</strong>, la boutique française dédiée aux{" "}
         <strong>cartes Yu-Gi-Oh! à l&apos;unité et aux produits scellés</strong> en{" "}
         <strong>français, anglais et japonais</strong>, pour les{" "}
         <strong>duellistes</strong> comme pour les <strong>collectionneurs</strong>. Vous
-        trouverez ici des <strong>éditions françaises rares</strong>, des{" "}
+        trouverez ici des <strong>éditions rares en français, anglais et japonais</strong>, des{" "}
         <strong>1ère édition</strong>, des raretés <em>secret rare</em>, <em>ultimate rare</em>,{" "}
         <em>ghost rare</em>, des <strong>cartes gradées</strong> (CCC, PSA, CollectAura) ainsi
-        que des <strong>pièces inédites en français</strong>{" "}quasi introuvables ailleurs :
+        que des <strong>pièces très rares — dont des Pop 1</strong>{" "}quasi introuvables ailleurs :
         Magicien Sombre, Dragon Blanc aux Yeux Bleus, Néos, Héros Élémentaires, Dieux Égyptiens
         et bien d&apos;autres. Filtrez par set, rareté, langue ou prix pour trouver la
         carte qu&apos;il vous manque.
@@ -68,8 +72,8 @@ export function SeoFooter() {
             Pourquoi acheter ses cartes Yu-Gi-Oh! chez horuscards ?
           </h2>
           <ul className="mt-4 grid grid-cols-1 gap-3 text-sm text-amber-100/80 sm:grid-cols-2 lg:grid-cols-3">
-            <li>✅ <strong>Éditions françaises &amp; inédits FR</strong> : un stock rare, du vintage aux sets récents.</li>
-            <li>🏅 <strong>Cartes gradées</strong> CCC, PSA et CollectAura, note et organisme affichés.</li>
+            <li>✅ <strong>Français, anglais &amp; japonais</strong> : un stock rare, du vintage aux sets récents.</li>
+            <li>🏅 <strong>Cartes gradées</strong> CCC, PSA et CollectAura, note et organisme affichés — dont des <strong>Pop 1</strong>.</li>
             <li>✨ <strong>1ère édition</strong> et raretés secret / ultimate / ghost.</li>
             <li>🔎 <strong>État visible sur les photos</strong> recto/verso, photos supplémentaires sur demande.</li>
             <li>📦 <strong>Envoi protégé et rapide</strong> partout en France, avec suivi.</li>
@@ -79,14 +83,14 @@ export function SeoFooter() {
 
         <section className="mt-10">
           <h2 className="text-xl font-semibold text-amber-200">
-            Une collection française rare, pensée pour joueurs et collectionneurs
+            Une collection rare (FR, EN &amp; JP), pensée pour joueurs et collectionneurs
           </h2>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-amber-100/75">
             Que vous montiez un <strong>deck compétitif</strong>, que vous cherchiez une carte
             précise pour compléter un <strong>archétype</strong>, ou que vous chassiez une{" "}
-            <strong>pièce de collection en édition française</strong>, notre catalogue est trié
+            <strong>pièce de collection en français, anglais ou japonais</strong>, notre catalogue est trié
             pour vous faire gagner du temps. Nous mettons régulièrement en ligne de{" "}
-            <strong>nouvelles arrivées</strong> et des <strong>cartes inédites en FR</strong> :
+            <strong>nouvelles arrivées</strong> et des <strong>cartes très rares (dont des Pop 1)</strong> :
             revenez souvent, le stock évolue vite. Toutes les cartes sont vendues à l&apos;unité,
             authentiques, et expédiées avec le plus grand soin.
           </p>
@@ -112,9 +116,9 @@ export function SeoFooter() {
         </nav>
 
         <p className="mt-6 text-xs text-amber-100/50">
-          horuscards — boutique française de cartes Yu-Gi-Oh! à l&apos;unité : éditions FR,
-          inédits, 1ère édition, secret / ultimate / ghost rare et cartes gradées. Livraison
-          en France.
+          horuscards — boutique française de cartes Yu-Gi-Oh! à l&apos;unité en français, anglais
+          et japonais : 1ère édition, secret / ultimate / ghost rare, cartes gradées et Pop 1.
+          Livraison en France.
         </p>
       </div>
     </footer>
