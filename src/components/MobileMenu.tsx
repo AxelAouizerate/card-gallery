@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { logout } from "@/app/actions/auth";
@@ -8,7 +9,12 @@ import FavLink from "./FavLink";
 
 export default function MobileMenu({ userEmail }: { userEmail: string | null }) {
   const [open, setOpen] = useState(false);
+  // `mounted` : createPortal ne peut cibler document.body qu'apres montage
+  // cote client (evite un mismatch SSR).
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => { setMounted(true); }, []);
 
   // Ferme le menu quand on change de page
   useEffect(() => { setOpen(false); }, [pathname]);
@@ -45,7 +51,10 @@ export default function MobileMenu({ userEmail }: { userEmail: string | null }) 
         </svg>
       </button>
 
-      {open && (
+      {/* Rendu via portail sur document.body : le <header> parent a un
+          backdrop-filter qui, sinon, confine ces elements `fixed` a sa propre
+          boite (~64px) au lieu du viewport → le drawer devenait invisible. */}
+      {open && mounted && createPortal(
         <>
           <button
             type="button"
@@ -124,7 +133,8 @@ export default function MobileMenu({ userEmail }: { userEmail: string | null }) 
               </div>
             )}
           </nav>
-        </>
+        </>,
+        document.body,
       )}
     </>
   );
