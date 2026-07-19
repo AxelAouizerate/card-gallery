@@ -84,6 +84,11 @@ export default function MobileMenu({ userEmail }: { userEmail: string | null }) 
                   Galerie
                 </Link>
               </li>
+              <li>
+                <Link href="/comment-acheter" className="block rounded-md px-3 py-2.5 text-amber-100 hover:bg-amber-500/10">
+                  Comment acheter
+                </Link>
+              </li>
               <li className="px-3 py-1"><FavLink /></li>
             </ul>
 

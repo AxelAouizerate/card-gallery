@@ -27,14 +27,15 @@ export const SITE_KEYWORDS = [
   "carte yugioh pas cher", "carte yugioh collector", "boutique en ligne France",
 ];
 
-// Les trois vendeurs (= les 3 onglets du Google Sheet). La clé doit
-// correspondre à la valeur `vendeur` des cartes (nom de l'onglet).
+// Les trois vendeurs. La clé est un CODE NEUTRE (s1/s2/s3) — jamais le vrai
+// prénom — pour ne pas exposer d'info personnelle dans les données servies au
+// navigateur. Elle doit correspondre à la valeur `vendeur` des cartes.
 // `vinted` = page Vinted du vendeur : l'achat se fait indirectement là-bas
 // (on ne paie pas sur le site). `instagram` reste optionnel (bouton masqué si vide).
 export const SELLERS: Record<string, { instagram: string; vinted: string }> = {
-  Axel: { instagram: "horuscards_", vinted: "https://www.vinted.com/member/241859388" },
-  Marvin: { instagram: "marvinyugi", vinted: "https://www.vinted.com/member/59915583" },
-  Quentin: { instagram: "sr4madrid", vinted: "https://www.vinted.com/member/33433064" },
+  s1: { instagram: "horuscards_", vinted: "https://www.vinted.com/member/241859388" },
+  s2: { instagram: "marvinyugi", vinted: "https://www.vinted.com/member/59915583" },
+  s3: { instagram: "sr4madrid", vinted: "https://www.vinted.com/member/33433064" },
 };
 
 /** URL du compte Instagram du vendeur, ou null si vendeur inconnu / handle non renseigné. */
