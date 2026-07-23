@@ -4,6 +4,20 @@
 export const SITE_URL = "https://horuscards.fr";
 export const SITE_NAME = "horuscards";
 
+// Emails proprietaires (acces /stats). Liste separee par des virgules via
+// STATS_OWNER_EMAIL (Vercel). Defaut : les deux comptes connus du proprio.
+export function ownerEmails(): string[] {
+  return (process.env.STATS_OWNER_EMAIL || "axel.ate3@gmail.com,wols918wols@gmail.com")
+    .split(",")
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+export function isOwnerEmail(email?: string | null): boolean {
+  if (!email) return false;
+  return ownerEmails().includes(email.toLowerCase());
+}
+
 export const SITE_DESCRIPTION =
   "horuscards — boutique française de cartes Yu-Gi-Oh! à l'unité en français, anglais et japonais : raretés secret/ultimate/ghost rare, 1ère édition, cartes gradées CCC/PSA/CollectAura et pièces très rares dont des Pop 1. Magicien sombre, dragon blanc aux yeux bleus, néos… Pour duellistes et collectionneurs. Photos sur demande, lots négociables, envoi rapide et protégé partout en France.";
 

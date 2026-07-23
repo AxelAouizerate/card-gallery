@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { logout } from "@/app/actions/auth";
+import { isOwnerEmail } from "@/lib/site";
 import FavLink from "./FavLink";
 import MobileMenu from "./MobileMenu";
 
@@ -14,6 +15,7 @@ export default async function HeaderNav() {
   } catch {
     // Supabase env vars not set yet — affiche le header en mode anonyme
   }
+  const owner = isOwnerEmail(userEmail);
 
   return (
     <header className="border-b border-amber-500/30 bg-black/60 backdrop-blur supports-[backdrop-filter]:bg-black/40">
@@ -44,6 +46,14 @@ export default async function HeaderNav() {
           >
             Comment acheter
           </Link>
+          {owner && (
+            <Link
+              href="/stats"
+              className="rounded-md px-3 py-1.5 font-medium text-emerald-200 hover:bg-emerald-500/10"
+            >
+              📊 Tableau de bord
+            </Link>
+          )}
           <FavLink />
           {userEmail ? (
             <>
@@ -76,7 +86,7 @@ export default async function HeaderNav() {
         </nav>
 
         {/* Mobile : burger + drawer */}
-        <MobileMenu userEmail={userEmail} />
+        <MobileMenu userEmail={userEmail} owner={owner} />
       </div>
     </header>
   );

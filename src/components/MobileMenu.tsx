@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { logout } from "@/app/actions/auth";
 import FavLink from "./FavLink";
 
-export default function MobileMenu({ userEmail }: { userEmail: string | null }) {
+export default function MobileMenu({ userEmail, owner }: { userEmail: string | null; owner?: boolean }) {
   const [open, setOpen] = useState(false);
   // `mounted` : createPortal ne peut cibler document.body qu'apres montage
   // cote client (evite un mismatch SSR).
@@ -98,6 +98,13 @@ export default function MobileMenu({ userEmail }: { userEmail: string | null }) 
                   Comment acheter
                 </Link>
               </li>
+              {owner && (
+                <li>
+                  <Link href="/stats" className="block rounded-md px-3 py-2.5 font-medium text-emerald-200 hover:bg-emerald-500/10">
+                    📊 Tableau de bord
+                  </Link>
+                </li>
+              )}
               <li className="px-3 py-1"><FavLink /></li>
             </ul>
 

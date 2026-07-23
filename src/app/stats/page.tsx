@@ -2,13 +2,12 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { isOwnerEmail } from "@/lib/site";
 
 // /stats — tableau de bord proprio (24h glissantes).
-// Acces : utilisateur connecte ET email = STATS_OWNER_EMAIL (axel.ate3@gmail.com par defaut).
+// Acces : utilisateur connecte ET email dans STATS_OWNER_EMAIL (cf lib/site).
 
 export const dynamic = "force-dynamic";
-
-const OWNER_EMAIL = (process.env.STATS_OWNER_EMAIL || "axel.ate3@gmail.com").toLowerCase();
 
 type Row = { card_id: number; card_set: string; card_nom: string | null; created_at: string };
 type OfferRow = {
@@ -115,7 +114,7 @@ export default async function StatsPage() {
   } catch { /* Supabase non configure */ }
 
   if (!email) redirect("/login?next=/stats");
-  if (email !== OWNER_EMAIL) {
+  if (!isOwnerEmail(email)) {
     return (
       <main className="mx-auto max-w-2xl px-4 py-12 text-amber-100">
         <h1 className="text-2xl font-bold">Accès refusé</h1>
