@@ -3,10 +3,26 @@
 import { useEffect, useState } from "react";
 import type { Card } from "@/lib/cards";
 import RequestPhotosModal from "./RequestPhotosModal";
+import PhotoLightbox, { type Shot } from "./PhotoLightbox";
 import { useFavorites } from "@/lib/favorites";
 import { sellerInstagramUrl, sellerVintedUrl } from "@/lib/site";
 
 export default function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
+  // Visionneuse plein écran (index de la photo ouverte, ou null)
+  const [lightbox, setLightbox] = useState<number | null>(null);
+
+  // Photos réellement affichables (recto/verso avec image) = zoomables
+  const shots: Shot[] = [];
+  if (card.status !== "coming_soon") {
+    if (card.photo_1) shots.push({ src: card.photo_1, label: "Recto" });
+    if (card.photo_2) shots.push({ src: card.photo_2, label: "Verso" });
+  }
+  const openShot = (src: string | null) => {
+    if (!src) return;
+    const i = shots.findIndex((s) => s.src === src);
+    if (i >= 0) setLightbox(i);
+  };
+
   // Echap pour fermer
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
@@ -36,8 +52,8 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
 
         {/* Photos */}
         <div className="grid grid-cols-2 gap-3 md:grid-cols-1">
-          <Photo src={card.photo_1} alt={`${card.nom} - recto`} label="Recto" status={card.status} />
-          <Photo src={card.photo_2} alt={`${card.nom} - verso`} label="Verso" status={card.status} />
+          <Photo src={card.photo_1} alt={`${card.nom} - recto`} label="Recto" status={card.status} onOpen={openShot} />
+          <Photo src={card.photo_2} alt={`${card.nom} - verso`} label="Verso" status={card.status} onOpen={openShot} />
         </div>
 
         {/* Infos */}
@@ -90,6 +106,15 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           </div>
         </div>
       </div>
+
+      {lightbox !== null && shots.length > 0 && (
+        <PhotoLightbox
+          shots={shots}
+          index={lightbox}
+          onIndex={setLightbox}
+          onClose={() => setLightbox(null)}
+        />
+      )}
     </div>
   );
 }
@@ -164,12 +189,20 @@ function RequestPhotosButton({ card }: { card: Card }) {
   );
 }
 
-function Photo({ src, alt, label, status }: {
+function Photo({ src, alt, label, status, onOpen }: {
   src: string | null; alt: string; label: string;
   status?: Card["status"];
+  onOpen?: (src: string | null) => void;
 }) {
+  const zoomable = status !== "coming_soon" && Boolean(src);
   return (
-    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-100">
+    <div
+      className={
+        "group relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-100 " +
+        (zoomable ? "cursor-zoom-in" : "")
+      }
+      onClick={zoomable ? (e) => { e.stopPropagation(); onOpen?.(src); } : undefined}
+    >
       {status === "coming_soon" ? (
         <ComingSoon />
       ) : src ? (
@@ -182,6 +215,12 @@ function Photo({ src, alt, label, status }: {
       <span className="absolute left-2 top-2 rounded bg-slate-900/70 px-1.5 py-0.5 text-[10px] font-semibold uppercase text-white">
         {label}
       </span>
+      {zoomable && (
+        <span className="pointer-events-none absolute bottom-2 right-2 z-20 flex items-center gap-1 rounded-full bg-black/60 px-2 py-1 text-[10px] font-semibold text-white opacity-0 transition-opacity group-hover:opacity-100">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
+          Zoom
+        </span>
+      )}
     </div>
   );
 }
