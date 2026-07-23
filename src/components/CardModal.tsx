@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import type { Card } from "@/lib/cards";
-import RequestPhotosModal from "./RequestPhotosModal";
 import MakeOfferModal from "./MakeOfferModal";
 import PhotoLightbox, { type Shot } from "./PhotoLightbox";
 import { useFavorites } from "@/lib/favorites";
@@ -104,7 +103,6 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
             <InstagramBuyButton card={card} />
             {card.status === "available" && card.prix !== null && <MakeOfferButton card={card} />}
             <FavoriteButton card={card} />
-            {card.status !== "coming_soon" && card.status !== "sold" && <RequestPhotosButton card={card} />}
           </div>
         </div>
       </div>
@@ -184,25 +182,6 @@ function MakeOfferButton({ card }: { card: Card }) {
         💶 Faire une offre
       </button>
       {open && <MakeOfferModal card={card} onClose={() => setOpen(false)} />}
-    </>
-  );
-}
-
-function RequestPhotosButton({ card }: { card: Card }) {
-  const [open, setOpen] = useState(false);
-  // Libelle different si la carte a deja des photos (= demande supplementaire)
-  const hasPhoto = card.status === "available" && (card.photo_1 || card.photo_2);
-  const label = hasPhoto ? "📸 Demander des photos supplémentaires" : "📸 Demander des photos";
-  return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="w-full rounded-md border border-cyan-400 bg-cyan-50 px-4 py-2.5 text-sm font-semibold text-cyan-800 transition hover:bg-cyan-100"
-      >
-        {label}
-      </button>
-      {open && <RequestPhotosModal card={card} onClose={() => setOpen(false)} />}
     </>
   );
 }
