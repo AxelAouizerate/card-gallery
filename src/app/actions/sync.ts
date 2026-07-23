@@ -199,3 +199,100 @@ async function notifyOwnerPhotoRequest(p: {
     });
   } catch { /* swallow */ }
 }
+
+// ─── OFFRE (bouton "Faire une offre") ────────────────────────────────────
+// L'acheteur laisse son contact (Instagram/Facebook) + un prix proposé.
+// Stocké dans la table `offers` ; consultable sur /stats ; notif email best-effort.
+type OfferPlatform = "instagram" | "facebook";
+
+export type OfferInput = CardRef & {
+  contactHandle: string;
+  contactPlatform: OfferPlatform;
+  offerPrice: number;
+  sessionId?: string;
+};
+
+export async function submitOffer(c: OfferInput) {
+  const platform = c.contactPlatform;
+  const handle = (c.contactHandle || "").trim();
+  const err = validateContact(platform, handle);
+  if (err) return { ok: false, reason: err };
+
+  const price = Number(c.offerPrice);
+  if (!Number.isFinite(price) || price <= 0) return { ok: false, reason: "Montant de l'offre invalide." };
+  if (price > 1_000_000) return { ok: false, reason: "Montant trop élevé." };
+  const offerPrice = Math.round(price * 100) / 100;
+
+  const { supabase, userId } = await uid();
+  const session = (c.sessionId || "").slice(0, 64) || null;
+
+  // Soft rate-limit serveur : 20 offres/jour par session_id
+  if (session) {
+    const since = new Date(); since.setHours(0, 0, 0, 0);
+    const { count } = await supabase
+      .from("offers")
+      .select("id", { count: "exact", head: true })
+      .eq("session_id", session)
+      .gte("created_at", since.toISOString());
+    if ((count ?? 0) >= 20) {
+      return { ok: false, reason: "Trop d'offres aujourd'hui. Reviens demain !" };
+    }
+  }
+
+  const normalizedHandle = handle.replace(/^@+/, "");
+  const { error } = await supabase.from("offers").insert({
+    user_id: userId,
+    card_id: c.cardId,
+    card_set: c.cardSet,
+    card_nom: c.cardNom ?? null,
+    card_prix: c.cardPrix ?? null,
+    offer_price: offerPrice,
+    contact_handle: normalizedHandle,
+    contact_platform: platform,
+    session_id: session,
+  });
+  if (error) return { ok: false, reason: error.message };
+
+  void notifyOwnerOffer({
+    cardId: c.cardId, cardSet: c.cardSet, cardNom: c.cardNom ?? null,
+    cardPrix: c.cardPrix ?? null, offerPrice,
+    contactHandle: normalizedHandle, contactPlatform: platform,
+  });
+
+  return { ok: true };
+}
+
+async function notifyOwnerOffer(p: {
+  cardId: number; cardSet: string; cardNom: string | null;
+  cardPrix: number | null; offerPrice: number;
+  contactHandle: string; contactPlatform: OfferPlatform;
+}) {
+  const resendKey = process.env.RESEND_API_KEY;
+  const to = process.env.STATS_OWNER_EMAIL || process.env.DIGEST_RECIPIENT_EMAIL;
+  if (!resendKey || !to) return;
+  const from = process.env.DIGEST_FROM_EMAIL || "horuscards <onboarding@resend.dev>";
+  const cardLabel = p.cardNom || `${p.cardSet} #${p.cardId}`;
+  const platformLabel = p.contactPlatform === "instagram" ? "Instagram" : "Facebook";
+  const prixLine = p.cardPrix != null ? `${p.cardPrix} €` : "—";
+  const subject = `💶 Offre reçue : ${p.offerPrice} € — ${cardLabel}`;
+  const html = `
+    <div style="font-family:-apple-system,system-ui,sans-serif;max-width:560px;margin:0 auto;padding:24px;color:#1a1a1a">
+      <h2 style="margin:0 0 12px 0;font-size:18px">Nouvelle offre reçue</h2>
+      <table style="border-collapse:collapse;width:100%">
+        <tr><td style="padding:6px 0;color:#666">Carte</td><td style="padding:6px 0"><b>${cardLabel}</b></td></tr>
+        <tr><td style="padding:6px 0;color:#666">Set</td><td style="padding:6px 0">${p.cardSet} (#${p.cardId})</td></tr>
+        <tr><td style="padding:6px 0;color:#666">Prix affiché</td><td style="padding:6px 0">${prixLine}</td></tr>
+        <tr><td style="padding:6px 0;color:#666">Offre proposée</td><td style="padding:6px 0"><b style="font-size:16px">${p.offerPrice} €</b></td></tr>
+        <tr><td style="padding:6px 0;color:#666">Contact</td><td style="padding:6px 0"><b>@${p.contactHandle}</b> (${platformLabel})</td></tr>
+      </table>
+      <p style="margin-top:16px;color:#666;font-size:13px">Retrouve toutes les offres sur ta page /stats.</p>
+    </div>
+  `;
+  try {
+    await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${resendKey}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ from, to, subject, html }),
+    });
+  } catch { /* swallow */ }
+}

@@ -11,6 +11,11 @@ export const dynamic = "force-dynamic";
 const OWNER_EMAIL = (process.env.STATS_OWNER_EMAIL || "axel.ate3@gmail.com").toLowerCase();
 
 type Row = { card_id: number; card_set: string; card_nom: string | null; created_at: string };
+type OfferRow = {
+  card_id: number; card_set: string; card_nom: string | null;
+  card_prix: number | null; offer_price: number;
+  contact_handle: string; contact_platform: string; created_at: string;
+};
 
 function topCards(rows: Row[], limit = 10): Array<{ name: string; count: number; lastAt: string }> {
   const m = new Map<string, { name: string; count: number; lastAt: string }>();
@@ -41,7 +46,7 @@ async function loadStats() {
   const supabase = createAdminClient();
   const start = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
 
-  const [vRes, lRes, cRes, pRes] = await Promise.all([
+  const [vRes, lRes, cRes, pRes, oRes] = await Promise.all([
     supabase.from("page_views")
       .select("session_id, path, user_id, user_agent, created_at", { count: "exact" })
       .gte("created_at", start)
@@ -58,6 +63,13 @@ async function loadStats() {
       .select("card_id, card_set, card_nom, user_id, created_at", { count: "exact" })
       .gte("created_at", start)
       .order("created_at", { ascending: false }),
+    // Offres : PAS de filtre 24h — le vendeur doit voir toutes les offres en
+    // attente. Si la table `offers` n'existe pas encore, oRes.error est non
+    // nul et on tombe simplement sur une liste vide (pas de crash).
+    supabase.from("offers")
+      .select("card_id, card_set, card_nom, card_prix, offer_price, contact_handle, contact_platform, created_at", { count: "exact" })
+      .order("created_at", { ascending: false })
+      .limit(50),
   ]);
 
   const views = vRes.data ?? [];
@@ -78,7 +90,9 @@ async function loadStats() {
       likes: lRes.count ?? 0,
       cart: cRes.count ?? 0,
       photoReqs: pRes.count ?? 0,
+      offers: oRes.count ?? 0,
     },
+    offers: (oRes.data ?? []) as OfferRow[],
     topLikes: topCards((lRes.data ?? []) as Row[]),
     topCart: topCards((cRes.data ?? []) as Row[]),
     topPhoto: topCards((pRes.data ?? []) as Row[]),
@@ -131,7 +145,7 @@ export default async function StatsPage() {
     );
   }
 
-  const { counts, topLikes, topCart, topPhoto, topPaths, recent } = data;
+  const { counts, topLikes, topCart, topPhoto, topPaths, recent, offers } = data;
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-6">
@@ -156,11 +170,21 @@ export default async function StatsPage() {
       </header>
 
       {/* KPI cards */}
-      <section className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <section className="grid grid-cols-2 gap-3 sm:grid-cols-5">
         <Kpi label="Visites" value={counts.views} accent="from-cyan-500 to-blue-500" sub={`${counts.uniqueSessions} sessions`} />
         <Kpi label="Likes" value={counts.likes} accent="from-rose-500 to-pink-500" />
         <Kpi label="Paniers" value={counts.cart} accent="from-amber-500 to-yellow-500" />
         <Kpi label="Demandes photos" value={counts.photoReqs} accent="from-purple-500 to-indigo-500" />
+        <Kpi label="Offres" value={counts.offers} accent="from-emerald-500 to-teal-500" />
+      </section>
+
+      {/* Offres reçues — mises en avant */}
+      <section className="mt-8 rounded-lg border border-emerald-500/40 bg-black/55 p-4 backdrop-blur">
+        <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-emerald-200">
+          💶 Offres reçues
+          <span className="rounded-full bg-emerald-500/20 px-2 py-0.5 text-xs font-semibold text-emerald-200">{counts.offers}</span>
+        </h2>
+        <OffersList offers={offers} />
       </section>
 
       <p className="mt-2 text-xs text-amber-100/50">
@@ -198,6 +222,41 @@ export default async function StatsPage() {
         <RecentList title="Demandes récentes" items={recent.photo} accent="purple" />
       </section>
     </main>
+  );
+}
+
+function OffersList({ offers }: { offers: OfferRow[] }) {
+  if (offers.length === 0) {
+    return <p className="text-sm text-amber-100/60">Aucune offre pour le moment.</p>;
+  }
+  return (
+    <ul className="space-y-2 text-sm">
+      {offers.map((o, i) => {
+        const label = o.card_nom || `${o.card_set} #${o.card_id}`;
+        const contactUrl = o.contact_platform === "instagram"
+          ? `https://www.instagram.com/${o.contact_handle}/`
+          : `https://www.facebook.com/${o.contact_handle}`;
+        const under = o.card_prix != null && o.offer_price < o.card_prix;
+        return (
+          <li key={i} className="flex flex-wrap items-center gap-x-3 gap-y-1 rounded-md border border-emerald-500/20 bg-emerald-500/[0.06] px-3 py-2">
+            <span className="min-w-0 flex-1 truncate font-medium text-amber-100/90">{label}</span>
+            <span className={"rounded px-2 py-0.5 text-xs font-bold " + (under ? "bg-amber-500/20 text-amber-200" : "bg-emerald-500/25 text-emerald-100")}>
+              {o.offer_price.toLocaleString("fr-FR")} €
+              {o.card_prix != null && <span className="ml-1 font-normal opacity-70">/ {o.card_prix.toLocaleString("fr-FR")} €</span>}
+            </span>
+            <a
+              href={contactUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded bg-black/40 px-2 py-0.5 text-xs font-semibold text-cyan-200 underline decoration-cyan-400/40 hover:text-cyan-100"
+            >
+              @{o.contact_handle} · {o.contact_platform === "instagram" ? "IG" : "FB"}
+            </a>
+            <span className="text-xs text-amber-100/50">{fmtTimeAgo(o.created_at)}</span>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 

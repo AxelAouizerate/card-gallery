@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import type { Card } from "@/lib/cards";
 import RequestPhotosModal from "./RequestPhotosModal";
+import MakeOfferModal from "./MakeOfferModal";
 import PhotoLightbox, { type Shot } from "./PhotoLightbox";
 import { useFavorites } from "@/lib/favorites";
 import { sellerInstagramUrl, sellerVintedUrl } from "@/lib/site";
@@ -101,6 +102,7 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           <div className="mt-6 flex flex-col gap-2">
             <VintedBuyButton card={card} />
             <InstagramBuyButton card={card} />
+            {card.status === "available" && card.prix !== null && <MakeOfferButton card={card} />}
             <FavoriteButton card={card} />
             {card.status !== "coming_soon" && card.status !== "sold" && <RequestPhotosButton card={card} />}
           </div>
@@ -167,6 +169,22 @@ function FavoriteButton({ card }: { card: Card }) {
     >
       {liked ? "❤ Aimé - Retirer des favoris" : "♡ Ajouter aux favoris"}
     </button>
+  );
+}
+
+function MakeOfferButton({ card }: { card: Card }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="w-full rounded-md border border-emerald-500 bg-emerald-50 px-4 py-2.5 text-sm font-semibold text-emerald-800 transition hover:bg-emerald-100"
+      >
+        💶 Faire une offre
+      </button>
+      {open && <MakeOfferModal card={card} onClose={() => setOpen(false)} />}
+    </>
   );
 }
 
