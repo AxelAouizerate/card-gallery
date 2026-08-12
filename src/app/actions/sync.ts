@@ -268,9 +268,13 @@ async function notifyOwnerOffer(p: {
   contactHandle: string; contactPlatform: OfferPlatform;
 }) {
   const resendKey = process.env.RESEND_API_KEY;
-  const to = process.env.STATS_OWNER_EMAIL || process.env.DIGEST_RECIPIENT_EMAIL;
-  if (!resendKey || !to) return;
-  const from = process.env.DIGEST_FROM_EMAIL || "horuscards <onboarding@resend.dev>";
+  if (!resendKey) { console.error("[offer-notify] RESEND_API_KEY manquant"); return; }
+  // Destinataire de la notif : env var, sinon repli sur l'email proprio
+  // (on ne saute JAMAIS l'envoi faute de variable).
+  const to = process.env.STATS_OWNER_EMAIL || process.env.DIGEST_RECIPIENT_EMAIL || "axel.ate3@gmail.com";
+  // Expéditeur : domaine vérifié dans Resend (noreply@horuscards.fr). Pas
+  // besoin d'une boîte réelle, juste la vérif du domaine (DNS) côté Resend.
+  const from = process.env.DIGEST_FROM_EMAIL || "horuscards <noreply@horuscards.fr>";
   const cardLabel = p.cardNom || `${p.cardSet} #${p.cardId}`;
   const platformLabel = p.contactPlatform === "instagram" ? "Instagram" : "Facebook";
   const prixLine = p.cardPrix != null ? `${p.cardPrix} €` : "—";
@@ -289,10 +293,11 @@ async function notifyOwnerOffer(p: {
     </div>
   `;
   try {
-    await fetch("https://api.resend.com/emails", {
+    const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { Authorization: `Bearer ${resendKey}`, "Content-Type": "application/json" },
       body: JSON.stringify({ from, to, subject, html }),
     });
-  } catch { /* swallow */ }
+    if (!res.ok) console.error("[offer-notify] Resend", res.status, await res.text().catch(() => ""));
+  } catch (e) { console.error("[offer-notify]", e); }
 }
