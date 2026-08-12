@@ -269,9 +269,12 @@ async function notifyOwnerOffer(p: {
 }) {
   const resendKey = process.env.RESEND_API_KEY;
   if (!resendKey) { console.error("[offer-notify] RESEND_API_KEY manquant"); return; }
-  // Destinataire de la notif : env var, sinon repli sur l'email proprio
-  // (on ne saute JAMAIS l'envoi faute de variable).
-  const to = process.env.STATS_OWNER_EMAIL || process.env.DIGEST_RECIPIENT_EMAIL || "axel.ate3@gmail.com";
+  // Destinataires de la notif d'offre : variable DÉDIÉE `OFFER_NOTIFY_EMAILS`
+  // (une ou plusieurs adresses séparées par des virgules, ex. l'adresse
+  // partagée + les collaborateurs). Replis si non définie. Resend accepte
+  // une liste dans `to`.
+  const to = (process.env.OFFER_NOTIFY_EMAILS || process.env.STATS_OWNER_EMAIL || process.env.DIGEST_RECIPIENT_EMAIL || "axel.ate3@gmail.com")
+    .split(",").map((s) => s.trim()).filter(Boolean);
   // Expéditeur : domaine vérifié dans Resend (noreply@horuscards.fr). Pas
   // besoin d'une boîte réelle, juste la vérif du domaine (DNS) côté Resend.
   const from = process.env.DIGEST_FROM_EMAIL || "horuscards <noreply@horuscards.fr>";
