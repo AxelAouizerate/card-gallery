@@ -18,6 +18,8 @@ export default function CardGallery({ cards }: Props) {
   const [gradeFilter, setGradeFilter] = useState("");
   // "" = tous les TCG | "yugioh" | "pokemon"
   const [jeuFilter, setJeuFilter] = useState("");
+  // "" = pas de filtre (gradees ET non gradees). Sinon : note plancher.
+  const [noteMin, setNoteMin] = useState("");
   const [onlyComingSoon, setOnlyComingSoon] = useState(false);
   const [onlyNew, setOnlyNew] = useState(false);
   const [onlySold, setOnlySold] = useState(false);
@@ -48,6 +50,11 @@ export default function CardGallery({ cards }: Props) {
       if (langFilter && c.lang !== langFilter) return false;
       if (only1st && !c.is_1st) return false;
       if (jeuFilter && jeuDeLaCarte(c) !== jeuFilter) return false;
+      if (noteMin) {
+        // une note minimum n'a de sens que sur une carte gradee
+        const note = c.grade ? parseFloat(c.grade) : null;
+        if (note === null || Number.isNaN(note) || note < parseFloat(noteMin)) return false;
+      }
       if (gradeFilter === "gradee" && !c.grade) return false;
       if (gradeFilter === "non-gradee" && c.grade) return false;
       if (onlyComingSoon && c.status !== "coming_soon") return false;
@@ -75,7 +82,7 @@ export default function CardGallery({ cards }: Props) {
     if (sortBy === "price_asc") out = [...out].sort((a, b) => cmpPrice(a, b, false));
     if (sortBy === "name") out = [...out].sort((a, b) => a.nom.localeCompare(b.nom));
     return out;
-  }, [cards, produitFilter, search, setFilter, rareteFilter, langFilter, only1st, gradeFilter, jeuFilter, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy]);
+  }, [cards, produitFilter, search, setFilter, rareteFilter, langFilter, only1st, gradeFilter, jeuFilter, noteMin, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy]);
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
@@ -89,7 +96,7 @@ export default function CardGallery({ cards }: Props) {
   // Reset a la page 1 quand les filtres changent (filtered change de longueur)
   useEffect(() => { setPage(1); }, [
     produitFilter, search, setFilter, rareteFilter, langFilter,
-    only1st, gradeFilter, jeuFilter, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy,
+    only1st, gradeFilter, jeuFilter, noteMin, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy,
   ]);
   const safePage = Math.min(page, pageCount);
   const pageStart = (safePage - 1) * PAGE_SIZE;
@@ -160,6 +167,14 @@ export default function CardGallery({ cards }: Props) {
           options={["yugioh", "pokemon"]}
           renderOption={(o) => (o === "yugioh" ? "Yu-Gi-Oh!" : "Pokémon")}
           allLabel="Tous TCG"
+        />
+        <Select
+          label="Note minimum"
+          value={noteMin}
+          onChange={setNoteMin}
+          options={["10", "9", "8", "7", "6", "5", "4", "3", "2", "1"]}
+          renderOption={(o) => `${o} et plus`}
+          allLabel="Toutes notes"
         />
         <Select
           label="Gradation"
