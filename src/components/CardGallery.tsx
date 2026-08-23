@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { isNewArrival, isBeySet, BEY_FILTER_VALUE, type Card } from "@/lib/cards";
+import { isNewArrival, isBeySet, BEY_FILTER_VALUE, type Card, jeuDeLaCarte } from "@/lib/cards";
 import { useFavorites } from "@/lib/favorites";
 import CardModal, { PhotoPending, ComingSoon, SoldOutBadge } from "./CardModal";
 
@@ -16,6 +16,8 @@ export default function CardGallery({ cards }: Props) {
   const [only1st, setOnly1st] = useState(false);
   // "" = grade et non grade | "gradee" | "non-gradee"
   const [gradeFilter, setGradeFilter] = useState("");
+  // "" = tous les TCG | "yugioh" | "pokemon"
+  const [jeuFilter, setJeuFilter] = useState("");
   const [onlyComingSoon, setOnlyComingSoon] = useState(false);
   const [onlyNew, setOnlyNew] = useState(false);
   const [onlySold, setOnlySold] = useState(false);
@@ -45,6 +47,7 @@ export default function CardGallery({ cards }: Props) {
       if (rareteFilter && c.rarete !== rareteFilter) return false;
       if (langFilter && c.lang !== langFilter) return false;
       if (only1st && !c.is_1st) return false;
+      if (jeuFilter && jeuDeLaCarte(c) !== jeuFilter) return false;
       if (gradeFilter === "gradee" && !c.grade) return false;
       if (gradeFilter === "non-gradee" && c.grade) return false;
       if (onlyComingSoon && c.status !== "coming_soon") return false;
@@ -72,7 +75,7 @@ export default function CardGallery({ cards }: Props) {
     if (sortBy === "price_asc") out = [...out].sort((a, b) => cmpPrice(a, b, false));
     if (sortBy === "name") out = [...out].sort((a, b) => a.nom.localeCompare(b.nom));
     return out;
-  }, [cards, produitFilter, search, setFilter, rareteFilter, langFilter, only1st, gradeFilter, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy]);
+  }, [cards, produitFilter, search, setFilter, rareteFilter, langFilter, only1st, gradeFilter, jeuFilter, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy]);
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
@@ -86,7 +89,7 @@ export default function CardGallery({ cards }: Props) {
   // Reset a la page 1 quand les filtres changent (filtered change de longueur)
   useEffect(() => { setPage(1); }, [
     produitFilter, search, setFilter, rareteFilter, langFilter,
-    only1st, gradeFilter, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy,
+    only1st, gradeFilter, jeuFilter, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy,
   ]);
   const safePage = Math.min(page, pageCount);
   const pageStart = (safePage - 1) * PAGE_SIZE;
@@ -150,6 +153,14 @@ export default function CardGallery({ cards }: Props) {
         />
         <Select label="Rareté" value={rareteFilter} onChange={setRareteFilter} options={raretes} />
         <Select label="Langue" value={langFilter} onChange={setLangFilter} options={langs} />
+        <Select
+          label="TCG"
+          value={jeuFilter}
+          onChange={setJeuFilter}
+          options={["yugioh", "pokemon"]}
+          renderOption={(o) => (o === "yugioh" ? "Yu-Gi-Oh!" : "Pokémon")}
+          allLabel="Tous TCG"
+        />
         <Select
           label="Gradation"
           value={gradeFilter}

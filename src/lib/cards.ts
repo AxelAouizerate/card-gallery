@@ -29,6 +29,29 @@ export type Card = {
   vendeur?: string | null;
 };
 
+export type Jeu = "yugioh" | "pokemon";
+
+// Le catalogue n'a pas de champ "jeu" : on le deduit du set.
+// Le Yu-Gi-Oh est le defaut, on ne liste donc que les sets Pokemon.
+// AJOUTER ICI tout nouveau set Pokemon (comparaison sans accents ni casse).
+export const SETS_POKEMON = new Set([
+  "aquapolis",
+  "call of legends",
+  "dragons",
+  "eveil des legendes",
+  "bw promos",
+  "bw promo",
+]);
+
+function sansAccents(s: string): string {
+  return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
+}
+
+/** Jeu auquel appartient la carte, deduit de son set. */
+export function jeuDeLaCarte(c: Card): Jeu {
+  return SETS_POKEMON.has(sansAccents(c.set)) ? "pokemon" : "yugioh";
+}
+
 // Groupe de sets "bey". Regroupe toutes les variantes de langue d'un même set
 // (LDD-F, TLM-JP, SDP-F -> sdp, ...). "sdp" = base de SDP-F après strip régional.
 export const BEY_SET_CODES = new Set([
