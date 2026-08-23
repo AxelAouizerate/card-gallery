@@ -2,10 +2,41 @@
 
 import { useEffect, useState } from "react";
 import type { Card } from "@/lib/cards";
-import MakeOfferModal from "./MakeOfferModal";
 import PhotoLightbox, { type Shot } from "./PhotoLightbox";
 import { useFavorites } from "@/lib/favorites";
-import { sellerInstagramUrl, sellerVintedUrl } from "@/lib/site";
+import { sellerInstagramUrl } from "@/lib/site";
+
+// Libelles lisibles des etats bruts du Google Sheet.
+// Affiches UNIQUEMENT pour les cartes sans photo : des qu'il y a des photos,
+// l'etat se juge dessus et on ne promet pas d'etat exact (decision du 2026-07-19).
+const ETAT_LABELS: Record<string, string> = {
+  "GEM MINT": "Gem Mint",
+  "MINT": "Mint",
+  "MINT+": "Mint+",
+  "NM": "Near Mint",
+  "NM+": "Near Mint+",
+  "NM-": "Near Mint-",
+  "EX": "Excellent",
+  "EX+": "Excellent+",
+  "EX-": "Excellent-",
+  "EXC": "Excellent",
+  "EXC+": "Excellent+",
+  "EXC++": "Excellent++",
+  "EXC-": "Excellent-",
+  "LP": "Légèrement played",
+  "LP+": "Légèrement played+",
+  "LP-": "Légèrement played-",
+  "GOOD": "Bon",
+  "GOOD+": "Bon+",
+  "GOOD++": "Bon++",
+  "GOOD-": "Bon-",
+  "PL": "Played",
+  "PL+": "Played+",
+  "PL-": "Played-",
+  "PLAYED": "Played",
+  "POOR": "Très played",
+  "SCELLÉ": "Scellé",
+};
 
 export default function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
   // Visionneuse plein écran (index de la photo ouverte, ou null)
@@ -91,7 +122,11 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           </div>
 
           <dl className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
-            <Row label="État">Visible sur les photos</Row>
+            <Row label="État">
+              {shots.length > 0
+                ? "Visible sur les photos"
+                : (ETAT_LABELS[card.etat] ?? card.etat ?? "-")}
+            </Row>
             <Row label="Édition">{card.set || "-"}</Row>
             <Row label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Row>
             <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
@@ -99,9 +134,7 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           </dl>
 
           <div className="mt-6 flex flex-col gap-2">
-            <VintedBuyButton card={card} />
             <InstagramBuyButton card={card} />
-            {card.status === "available" && card.prix !== null && <MakeOfferButton card={card} />}
             <FavoriteButton card={card} />
           </div>
         </div>
@@ -124,33 +157,24 @@ function InstagramBuyButton({ card }: { card: Card }) {
   // Masqué tant qu'on ne connaît pas le compte Instagram du vendeur, ou si vendue.
   if (!url || card.status === "coming_soon" || card.status === "sold") return null;
   return (
+    <div className="flex flex-col gap-1.5">
     <a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
       className="w-full rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
     >
-      Acheter via Instagram — DM le vendeur
+      Contacter le vendeur sur Instagram
     </a>
+    <p className="text-center text-xs leading-relaxed text-slate-500">
+      Un seul bouton pour tout : <strong className="text-slate-700">acheter au prix indiqué</strong>,{" "}
+      <strong className="text-slate-700">faire une offre</strong> ou{" "}
+      <strong className="text-slate-700">demander des photos</strong>.
+    </p>
+    </div>
   );
 }
 
-function VintedBuyButton({ card }: { card: Card }) {
-  const url = sellerVintedUrl(card.vendeur);
-  // Achat indirect : on redirige vers la page Vinted du vendeur (pas de paiement
-  // sur le site). Masqué si vendeur inconnu, carte pas encore en boutique, ou vendue.
-  if (!url || card.status === "coming_soon" || card.status === "sold") return null;
-  return (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="w-full rounded-md bg-[#007782] px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
-    >
-      Acheter sur Vinted — DM le vendeur
-    </a>
-  );
-}
 
 function FavoriteButton({ card }: { card: Card }) {
   const { has, toggle } = useFavorites();
@@ -170,21 +194,6 @@ function FavoriteButton({ card }: { card: Card }) {
   );
 }
 
-function MakeOfferButton({ card }: { card: Card }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="w-full rounded-md border border-emerald-500 bg-emerald-50 px-4 py-2.5 text-sm font-semibold text-emerald-800 transition hover:bg-emerald-100"
-      >
-        💶 Faire une offre
-      </button>
-      {open && <MakeOfferModal card={card} onClose={() => setOpen(false)} />}
-    </>
-  );
-}
 
 function Photo({ src, alt, label, status, onOpen }: {
   src: string | null; alt: string; label: string;
@@ -248,7 +257,13 @@ export function PhotoPending() {
         className="relative px-2 text-center text-sm font-extrabold uppercase tracking-widest text-yellow-300"
         style={{ textShadow: "0 2px 6px rgba(0,0,0,0.9), 0 0 2px rgba(0,0,0,1)" }}
       >
-        Photo en attente
+        Disponible
+      </span>
+      <span
+        className="absolute bottom-2 left-0 right-0 px-2 text-center text-[10px] font-semibold uppercase tracking-wide text-amber-100/90"
+        style={{ textShadow: "0 1px 4px rgba(0,0,0,0.95)" }}
+      >
+        Photos sur demande
       </span>
     </div>
   );

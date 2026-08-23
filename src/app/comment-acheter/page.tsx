@@ -4,9 +4,9 @@ import HeaderNav from "@/components/HeaderNav";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
-const TITLE = "Comment acheter — DM le vendeur sur Vinted ou Instagram";
+const TITLE = "Comment acheter — un seul bouton : contacter le vendeur sur Instagram";
 const DESCRIPTION =
-  "Comment acheter une carte Yu-Gi-Oh! chez horuscards : depuis chaque fiche, cliquez sur « Acheter sur Vinted » ou « Acheter via Instagram » pour contacter directement le vendeur en message privé (DM). Achat au prix indiqué ou proposez votre offre. Paiement et livraison convenus avec le vendeur.";
+  "Comment acheter une carte Yu-Gi-Oh! chez horuscards : sur chaque fiche, cliquez sur « Contacter le vendeur sur Instagram ». Ce bouton unique sert à tout : acheter au prix indiqué, faire une offre, ou demander des photos. Paiement et livraison convenus directement avec le vendeur en message privé.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -29,23 +29,19 @@ const STEPS: { name: string; text: string }[] = [
   },
   {
     name: "Ouvrez la fiche de la carte",
-    text: "Cliquez sur une carte pour voir les photos recto/verso, la rareté, la langue, la 1ère édition et l'éventuelle gradation.",
+    text: "Cliquez sur une carte pour voir les photos recto/verso quand elles existent, la rareté, la langue, l'état, la 1ère édition et l'éventuelle gradation.",
   },
   {
-    name: "Cliquez sur « Acheter sur Vinted » ou « Acheter via Instagram »",
-    text: "Chaque fiche propose deux boutons : ils vous mènent à la page Vinted ou au compte Instagram du vendeur. Choisissez la plateforme que vous préférez pour lui écrire.",
+    name: "Cliquez sur « Contacter le vendeur sur Instagram »",
+    text: "C'est le seul bouton d'achat du site, et il sert aux trois cas : acheter au prix indiqué, faire une offre, ou demander des photos. Il ouvre la messagerie Instagram du vendeur qui possède cette carte.",
   },
   {
-    name: "Envoyez un message privé (DM) au vendeur",
-    text: "En DM (sur Vinted ou Instagram), indiquez le nom de la carte (et son set) qui vous intéresse. Vous pouvez copier le nom et le prix affichés sur la fiche pour aller plus vite.",
-  },
-  {
-    name: "Achat au prix indiqué ou faites une offre",
-    text: "Vous pouvez acheter directement au prix indiqué sur le site, ou proposer une offre à un montant inférieur : le vendeur est libre de l'accepter.",
+    name: "Envoyez-lui un message privé",
+    text: "Le message n'est pas pré-rempli : indiquez le nom de la carte et son set, puis dites ce que vous voulez — la prendre au prix affiché, proposer un montant, ou voir des photos supplémentaires.",
   },
   {
     name: "Convenez du paiement et de la livraison",
-    text: "Le paiement et l'envoi (protégé, avec suivi) se règlent directement avec le vendeur lors de la conversation. La remise en main propre est possible selon les cartes : en région parisienne, autour de Mont-de-Marsan et Bordeaux, et entre Givors et Saint-Étienne.",
+    text: "Le paiement et l'envoi (protégé, avec suivi) se règlent directement avec le vendeur dans la conversation. Le paiement en plusieurs fois est proposé par tous nos vendeurs. La remise en main propre est possible selon les cartes : en région parisienne, autour de Mont-de-Marsan et Bordeaux, et entre Givors et Saint-Étienne.",
   },
 ];
 
@@ -72,6 +68,28 @@ const breadcrumbJsonLd = {
   ],
 };
 
+// Les 3 usages du bouton unique : c'est le message central de la page.
+const USAGES: { titre: string; texte: string; icone: string }[] = [
+  {
+    icone: "🏷️",
+    titre: "Acheter au prix indiqué",
+    texte:
+      "Le prix affiché sur la fiche est le prix de vente. Dites au vendeur que vous prenez la carte à ce prix, et convenez du paiement et de l'envoi.",
+  },
+  {
+    icone: "💶",
+    titre: "Faire une offre",
+    texte:
+      "Vous pouvez proposer un montant inférieur : le vendeur reste libre d'accepter, de refuser ou de contre-proposer. Groupez plusieurs cartes pour négocier un lot.",
+  },
+  {
+    icone: "📸",
+    titre: "Demander des photos",
+    texte:
+      "Certaines cartes n'ont pas encore de photos en ligne. Elles sont bien disponibles : demandez au vendeur des photos recto/verso, il vous les envoie.",
+  },
+];
+
 export default function CommentAcheterPage() {
   return (
     <main className="min-h-screen">
@@ -96,15 +114,40 @@ export default function CommentAcheterPage() {
           Comment acheter chez horuscards ?
         </h1>
 
-        <p className="mt-4 text-sm leading-relaxed text-amber-100/85">
-          Chez <strong>horuscards</strong>, l&apos;achat se fait{" "}
-          <strong>directement auprès du vendeur, en DM sur Vinted ou Instagram</strong>. Notre site
-          sert de vitrine : vous y consultez le stock, les photos, l&apos;état et le prix de chaque
-          carte, puis vous contactez le vendeur en un clic (bouton Vinted ou Instagram) pour
-          finaliser. Le paiement ne se fait pas sur le site.
-        </p>
+        {/* Message central : un seul bouton, trois usages. */}
+        <section className="mt-6 rounded-xl border-2 border-amber-400/60 bg-gradient-to-b from-amber-500/15 to-black/50 p-6">
+          <p className="text-sm font-medium uppercase tracking-widest text-amber-300/90">
+            La seule chose à retenir
+          </p>
+          <p className="mt-3 text-lg leading-relaxed text-amber-50">
+            Sur chaque fiche carte, il y a <strong>un seul bouton</strong> :{" "}
+            <span className="inline-block rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-2.5 py-1 font-semibold text-white">
+              Contacter le vendeur sur Instagram
+            </span>
+          </p>
+          <p className="mt-3 text-sm leading-relaxed text-amber-100/85">
+            Que vous vouliez <strong>acheter au prix indiqué</strong>, <strong>faire une offre</strong>{" "}
+            ou <strong>demander des photos</strong>, c&apos;est toujours ce bouton. Il ouvre la
+            messagerie Instagram du vendeur : vous lui écrivez, et tout se règle avec lui.{" "}
+            <strong>Aucun paiement ne se fait sur le site</strong> — horuscards est une vitrine, pas
+            une boutique en ligne.
+          </p>
+        </section>
 
-        <section className="mt-8">
+        <section className="mt-8 grid gap-4 sm:grid-cols-3">
+          {USAGES.map((u) => (
+            <div key={u.titre} className="rounded-lg border border-amber-500/30 bg-black/40 p-5">
+              <p className="text-2xl" aria-hidden>{u.icone}</p>
+              <h2 className="mt-2 text-base font-semibold text-amber-200">{u.titre}</h2>
+              <p className="mt-2 text-sm leading-relaxed text-amber-100/75">{u.texte}</p>
+              <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-amber-300/80">
+                → Même bouton Instagram
+              </p>
+            </div>
+          ))}
+        </section>
+
+        <section className="mt-10">
           <h2 className="text-xl font-semibold text-amber-200">Les étapes</h2>
           <ol className="mt-4 space-y-4">
             {STEPS.map((s, i) => (
@@ -121,32 +164,14 @@ export default function CommentAcheterPage() {
           </ol>
         </section>
 
-        <section className="mt-10 grid gap-4 sm:grid-cols-2">
-          <div className="rounded-lg border border-amber-500/30 bg-black/40 p-5">
-            <h2 className="text-lg font-semibold text-amber-200">Acheter au prix indiqué</h2>
-            <p className="mt-2 text-sm leading-relaxed text-amber-100/75">
-              Le prix affiché sur la fiche est le prix de vente direct. Dites simplement au vendeur
-              que vous prenez la carte à ce prix, et convenez ensemble du paiement et de l&apos;envoi.{" "}
-              <strong>Le paiement en plusieurs fois est proposé par tous nos vendeurs.</strong>
-            </p>
-          </div>
-          <div className="rounded-lg border border-amber-500/30 bg-black/40 p-5">
-            <h2 className="text-lg font-semibold text-amber-200">Faire une offre</h2>
-            <p className="mt-2 text-sm leading-relaxed text-amber-100/75">
-              Vous pouvez aussi <strong>proposer un montant inférieur au prix affiché</strong>. Envoyez
-              votre offre au vendeur en DM (Vinted ou Instagram) : il reste libre de l&apos;accepter, de
-              refuser ou de faire une contre-proposition. Groupez plusieurs cartes pour négocier un lot.
-            </p>
-          </div>
-        </section>
-
         <section className="mt-10 rounded-lg border border-amber-500/20 bg-black/30 p-5">
           <h2 className="text-lg font-semibold text-amber-200">Bon à savoir</h2>
           <ul className="mt-3 space-y-2 text-sm text-amber-100/75">
-            <li>• Deux boutons <strong>« Acheter sur Vinted »</strong> et <strong>« Acheter via Instagram »</strong> se trouvent sur chaque fiche carte : à vous de choisir.</li>
-            <li>• Pensez à <strong>préciser le nom de la carte</strong> (et son set) dans votre message : le DM n&apos;est pas pré-rempli.</li>
-            <li>• Une même carte est vendue par un seul vendeur — les boutons vous mènent au bon compte Vinted / Instagram.</li>
-            <li>• Ajoutez vos cartes en <Link href="/favorites" className="underline hover:text-amber-200">favoris</Link> pour les retrouver facilement avant de contacter le vendeur.</li>
+            <li>• Une carte marquée <strong>« Disponible » sans photo</strong> est bien en stock : ses photos ne sont juste pas encore en ligne. Demandez-les au vendeur.</li>
+            <li>• Pensez à <strong>préciser le nom de la carte</strong> et son set dans votre message : le DM n&apos;est pas pré-rempli.</li>
+            <li>• Une même carte n&apos;est vendue que par un seul vendeur — le bouton vous mène toujours au bon compte.</li>
+            <li>• Le <strong>paiement en plusieurs fois</strong> est proposé par tous nos vendeurs.</li>
+            <li>• Ajoutez vos cartes en <Link href="/favorites" className="underline hover:text-amber-200">favoris</Link> pour les retrouver avant de contacter le vendeur.</li>
           </ul>
         </section>
 

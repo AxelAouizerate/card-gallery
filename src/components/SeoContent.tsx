@@ -18,7 +18,7 @@ export const FAQ_ITEMS: Faq[] = [
   },
   {
     q: "Les cartes sont-elles authentiques et bien décrites ?",
-    a: "Chaque carte est 100 % authentique et originale. L'état est visible directement sur les photos recto/verso, et vous pouvez demander des photos supplémentaires avant d'acheter.",
+    a: "Chaque carte est 100 % authentique et originale. L'état est visible directement sur les photos recto/verso ; pour les cartes dont les photos ne sont pas encore en ligne, l'état est indiqué sur la fiche et vous pouvez demander les photos au vendeur via le bouton Instagram.",
   },
   {
     q: "Proposez-vous des cartes gradées ?",
@@ -75,7 +75,7 @@ export function SeoFooter() {
             <li>✅ <strong>Français, anglais &amp; japonais</strong> : un stock rare, du vintage aux sets récents.</li>
             <li>🏅 <strong>Cartes gradées</strong> CCC, PSA et CollectAura, note et organisme affichés — dont des <strong>Pop 1</strong>.</li>
             <li>✨ <strong>1ère édition</strong> et raretés secret / ultimate / ghost.</li>
-            <li>🔎 <strong>État visible sur les photos</strong> recto/verso, photos supplémentaires sur demande.</li>
+            <li>🔎 <strong>État visible sur les photos</strong> recto/verso — et indiqué sur la fiche pour les cartes en attente de photos, disponibles sur demande.</li>
             <li>📦 <strong>Envoi protégé et rapide</strong> partout en France, avec suivi.</li>
             <li>🤝 <strong>Prix négociables</strong> et réductions sur les lots.</li>
           </ul>

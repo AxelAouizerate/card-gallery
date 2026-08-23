@@ -14,7 +14,8 @@ export default function CardGallery({ cards }: Props) {
   const [rareteFilter, setRareteFilter] = useState<string>("");
   const [langFilter, setLangFilter] = useState<string>("");
   const [only1st, setOnly1st] = useState(false);
-  const [onlyGraded, setOnlyGraded] = useState(false);
+  // "" = grade et non grade | "gradee" | "non-gradee"
+  const [gradeFilter, setGradeFilter] = useState("");
   const [onlyComingSoon, setOnlyComingSoon] = useState(false);
   const [onlyNew, setOnlyNew] = useState(false);
   const [onlySold, setOnlySold] = useState(false);
@@ -44,7 +45,8 @@ export default function CardGallery({ cards }: Props) {
       if (rareteFilter && c.rarete !== rareteFilter) return false;
       if (langFilter && c.lang !== langFilter) return false;
       if (only1st && !c.is_1st) return false;
-      if (onlyGraded && !c.grade) return false;
+      if (gradeFilter === "gradee" && !c.grade) return false;
+      if (gradeFilter === "non-gradee" && c.grade) return false;
       if (onlyComingSoon && c.status !== "coming_soon") return false;
       if (onlyNew && !isNewArrival(c)) return false;
       if (onlySold && c.status !== "sold") return false;
@@ -70,7 +72,7 @@ export default function CardGallery({ cards }: Props) {
     if (sortBy === "price_asc") out = [...out].sort((a, b) => cmpPrice(a, b, false));
     if (sortBy === "name") out = [...out].sort((a, b) => a.nom.localeCompare(b.nom));
     return out;
-  }, [cards, produitFilter, search, setFilter, rareteFilter, langFilter, only1st, onlyGraded, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy]);
+  }, [cards, produitFilter, search, setFilter, rareteFilter, langFilter, only1st, gradeFilter, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy]);
 
   const totalValue = filtered.reduce((s, c) => s + (c.prix ?? 0), 0);
   const nWithoutPrice = filtered.filter((c) => c.prix === null).length;
@@ -84,7 +86,7 @@ export default function CardGallery({ cards }: Props) {
   // Reset a la page 1 quand les filtres changent (filtered change de longueur)
   useEffect(() => { setPage(1); }, [
     produitFilter, search, setFilter, rareteFilter, langFilter,
-    only1st, onlyGraded, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy,
+    only1st, gradeFilter, onlyComingSoon, onlyNew, onlySold, onlyDispo, onlyPop1, priceMin, priceMax, sortBy,
   ]);
   const safePage = Math.min(page, pageCount);
   const pageStart = (safePage - 1) * PAGE_SIZE;
@@ -148,6 +150,14 @@ export default function CardGallery({ cards }: Props) {
         />
         <Select label="Rareté" value={rareteFilter} onChange={setRareteFilter} options={raretes} />
         <Select label="Langue" value={langFilter} onChange={setLangFilter} options={langs} />
+        <Select
+          label="Gradation"
+          value={gradeFilter}
+          onChange={setGradeFilter}
+          options={["gradee", "non-gradee"]}
+          renderOption={(o) => (o === "gradee" ? "Gradé" : "Non gradé")}
+          allLabel="Gradé et non gradé"
+        />
         <div>
           <label className="mb-1 block text-xs font-medium text-amber-100/80">Prix (€)</label>
           <div className="flex gap-2">
@@ -185,7 +195,6 @@ export default function CardGallery({ cards }: Props) {
         <div className="mt-4 border-t border-amber-500/15 pt-4">
           <div className="flex flex-wrap items-center justify-center gap-2.5">
           <ToggleChip active={only1st} onClick={() => setOnly1st(!only1st)} tone="amber">1ère Édition</ToggleChip>
-          <ToggleChip active={onlyGraded} onClick={() => setOnlyGraded(!onlyGraded)} tone="amber">Gradée</ToggleChip>
           <ToggleChip active={onlyPop1} onClick={() => setOnlyPop1(!onlyPop1)} tone="amber">★ Pop 1</ToggleChip>
           <ToggleChip active={onlyDispo} onClick={() => setOnlyDispo(!onlyDispo)} tone="emerald">Disponible</ToggleChip>
           <ToggleChip active={onlyComingSoon} onClick={() => setOnlyComingSoon(!onlyComingSoon)} tone="cyan">Bientôt dispo</ToggleChip>
@@ -386,13 +395,14 @@ function Input({
 }
 
 function Select({
-  label, value, onChange, options, renderOption,
+  label, value, onChange, options, renderOption, allLabel = "Tous",
 }: {
   label: string;
   value: string;
   onChange: (v: string) => void;
   options: string[];
   renderOption?: (o: string) => string;
+  allLabel?: string;
 }) {
   return (
     <div>
@@ -402,7 +412,7 @@ function Select({
         onChange={(e) => onChange(e.target.value)}
         className="w-full rounded-md border border-amber-500/40 bg-black/40 px-2 py-1.5 text-sm text-amber-50 placeholder:text-amber-100/40 focus:border-amber-300 focus:outline-none"
       >
-        <option value="">Tous</option>
+        <option value="">{allLabel}</option>
         {options.map((o) => (
           <option key={o} value={o}>
             {renderOption ? renderOption(o) : o}
