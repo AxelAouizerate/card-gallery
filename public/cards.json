@@ -1,6 +1,6 @@
 [
   {
-    "id": 1161,
+    "id": "1161",
     "nom": "Magicien Sombre",
     "set": "GFP2",
     "rarete": "Ghost",
@@ -21,7 +21,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1165,
+    "id": "1165",
     "nom": "Dragon Arc-En-Ciel",
     "set": "TAEV",
     "rarete": "Ghost",
@@ -42,7 +42,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1082,
+    "id": "1082",
     "nom": "Néos Chaos Héros Élémentaire",
     "set": "GLAS",
     "rarete": "Ghost",
@@ -63,7 +63,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1086,
+    "id": "1086",
     "nom": "Dragon Rayonnant Aux Yeux Bleus",
     "set": "RP02",
     "rarete": "Secret",
@@ -84,7 +84,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1160,
+    "id": "1160",
     "nom": "Odin Dieu Des Ases",
     "set": "STOR",
     "rarete": "Ghost",
@@ -105,7 +105,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1096,
+    "id": "1096",
     "nom": "Chimeratech Over-Dragon",
     "set": "POTD",
     "rarete": "Ultimate",
@@ -126,7 +126,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1092,
+    "id": "1092",
     "nom": "Raviel Empereur Des Phantasmes",
     "set": "SOI",
     "rarete": "Ultimate",
@@ -147,7 +147,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1177,
+    "id": "1177",
     "nom": "Souffle D'Aile Du Phoenix",
     "set": "FET",
     "rarete": "Ultimate",
@@ -168,7 +168,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1194,
+    "id": "1194",
     "nom": "Dragon Toon Aux Yeux Bleus",
     "set": "MDM",
     "rarete": "Secret",
@@ -189,7 +189,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 504,
+    "id": "504",
     "nom": "Maitre De L'Effroi Héros De La Destiné",
     "set": "EOJ",
     "rarete": "Ultimate",
@@ -210,7 +210,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1167,
+    "id": "1167",
     "nom": "Dragon Poussières D'Étoiles",
     "set": "TDGS",
     "rarete": "Ghost",
@@ -231,7 +231,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1171,
+    "id": "1171",
     "nom": "Dragon Gatling",
     "set": "FET",
     "rarete": "Ultimate",
@@ -252,7 +252,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1079,
+    "id": "1079",
     "nom": "Crane Invoqué",
     "set": "MRD",
     "rarete": "Ultra",
@@ -273,7 +273,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 432,
+    "id": "432",
     "nom": "Super Vehicroid Jumbo Drill",
     "set": "POTD",
     "rarete": "Ultimate",
@@ -294,7 +294,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1083,
+    "id": "1083",
     "nom": "Rayquaza Ex",
     "set": "DRAGONS",
     "rarete": "Ultra",
@@ -315,7 +315,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1106,
+    "id": "1106",
     "nom": "Dragon Rouge Archdémon",
     "set": "TDGS",
     "rarete": "Ultimate",
@@ -336,7 +336,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1118,
+    "id": "1118",
     "nom": "Elemental Hero Flame Wingman",
     "set": "TLM-EN",
     "rarete": "Ultimate",
@@ -357,7 +357,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1163,
+    "id": "1163",
     "nom": "Néo Dragon Photon Aux Yeux Galactiques",
     "set": "GAOV",
     "rarete": "Ghost",
@@ -378,7 +378,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1195,
+    "id": "1195",
     "nom": "Homme-Oiseau À L'Éclat Lumineux",
     "set": "EEN",
     "rarete": "Ultimate",
@@ -399,7 +399,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1196,
+    "id": "1196",
     "nom": "Crane Invoqué",
     "set": "MRD",
     "rarete": "Ultra",
@@ -420,7 +420,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1117,
+    "id": "1117",
     "nom": "Le Créateur",
     "set": "RDS",
     "rarete": "Ultimate",
@@ -441,7 +441,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 642,
+    "id": "642",
     "nom": "Dragon Blanc Aux Yeux Bleus",
     "set": "LOB-FR",
     "rarete": "Ultra",
@@ -462,7 +462,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 889,
+    "id": "889",
     "nom": "Archange Kristya",
     "set": "SOVR",
     "rarete": "Secret",
@@ -483,7 +483,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1049,
+    "id": "1049",
     "nom": "Rituel De La Noire Illusion",
     "set": "MDM",
     "rarete": "Super",
@@ -504,7 +504,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1050,
+    "id": "1050",
     "nom": "Ruse Des Six Samourais",
     "set": "GLAS",
     "rarete": "Ultimate",
@@ -525,7 +525,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1055,
+    "id": "1055",
     "nom": "Winged Dragon Of Ra",
     "set": "REPLICA",
     "rarete": "Ultra",
@@ -546,7 +546,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1056,
+    "id": "1056",
     "nom": "Obelisk The Tormentor",
     "set": "REPLICA",
     "rarete": "Ultra",
@@ -567,7 +567,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1088,
+    "id": "1088",
     "nom": "Mewtwo Niv.X",
     "set": "EVEIL DES LÉGENDES",
     "rarete": "Ultra",
@@ -588,7 +588,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1099,
+    "id": "1099",
     "nom": "Gardien Eatos",
     "set": "SOVR",
     "rarete": "Secret",
@@ -609,7 +609,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1188,
+    "id": "1188",
     "nom": "Tableau De La Destinée",
     "set": "LDC",
     "rarete": "Ultra",
@@ -630,7 +630,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1116,
+    "id": "1116",
     "nom": "Dragon Armé Des Ténèbres",
     "set": "PTDN",
     "rarete": "Secret",
@@ -651,7 +651,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1119,
+    "id": "1119",
     "nom": "Agresseur Nocturne",
     "set": "CP01",
     "rarete": "Super",
@@ -672,7 +672,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 301,
+    "id": "301",
     "nom": "Magicien Sombre",
     "set": "2018-JPP02",
     "rarete": "Special",
@@ -693,7 +693,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1166,
+    "id": "1166",
     "nom": "Dragon Léviathan",
     "set": "GENF",
     "rarete": "Ghost",
@@ -714,7 +714,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 556,
+    "id": "556",
     "nom": "Draco Equiste Paladin Dragon",
     "set": "DREV",
     "rarete": "Ghost",
@@ -735,7 +735,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1184,
+    "id": "1184",
     "nom": "Soldat Lumineux",
     "set": "TP5",
     "rarete": "Ultra",
@@ -756,7 +756,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 518,
+    "id": "518",
     "nom": "Dekoichi La Locomotive De Guerre",
     "set": "RDS",
     "rarete": "Ultimate",
@@ -777,7 +777,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 410,
+    "id": "410",
     "nom": "Goldd Chef Suprême Du Monde Ténébreux",
     "set": "EEN",
     "rarete": "Ultimate",
@@ -798,7 +798,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 643,
+    "id": "643",
     "nom": "Dragon Blanc Aux Yeux Bleus",
     "set": "QCDB-JP",
     "rarete": "Qcr",
@@ -819,7 +819,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 883,
+    "id": "883",
     "nom": "Darkbright Héros Élémentaire",
     "set": "TAEV",
     "rarete": "Ultimate",
@@ -840,7 +840,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1047,
+    "id": "1047",
     "nom": "Numéro 62 : Dragon Photon Primordial Aux Yeux Galactiques",
     "set": "PRIO",
     "rarete": "Ultimate",
@@ -861,7 +861,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1063,
+    "id": "1063",
     "nom": "Gemini Elf",
     "set": "LON-EN",
     "rarete": "Secret",
@@ -882,7 +882,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1109,
+    "id": "1109",
     "nom": "Noadkoko",
     "set": "AQUAPOLIS",
     "rarete": "Holo",
@@ -903,7 +903,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1174,
+    "id": "1174",
     "nom": "Empereur Dragon De La Damnation",
     "set": "CSOC",
     "rarete": "Ultimate",
@@ -924,7 +924,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1098,
+    "id": "1098",
     "nom": "Archange Kristya",
     "set": "SOVR",
     "rarete": "Secret",
@@ -945,7 +945,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 533,
+    "id": "533",
     "nom": "Dauphin Aquatique Néo Spacien",
     "set": "POTD",
     "rarete": "Ultimate",
@@ -966,7 +966,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1169,
+    "id": "1169",
     "nom": "Golem Rouages Ancients",
     "set": "TLM-JP",
     "rarete": "Ultimate",
@@ -987,7 +987,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1107,
+    "id": "1107",
     "nom": "Dragon Rouge Archdémon Mode Assaut",
     "set": "CRMS",
     "rarete": "Ghost",
@@ -1008,7 +1008,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1164,
+    "id": "1164",
     "nom": "Néo Dragon Photon Aux Yeux Galactiques",
     "set": "GAOV",
     "rarete": "Ghost",
@@ -1029,7 +1029,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1173,
+    "id": "1173",
     "nom": "Le Créateur",
     "set": "RDS",
     "rarete": "Ultimate",
@@ -1050,7 +1050,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1176,
+    "id": "1176",
     "nom": "Granmarg Le Monarque Des Roches",
     "set": "FET",
     "rarete": "Ultimate",
@@ -1071,7 +1071,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1182,
+    "id": "1182",
     "nom": "Force De Miroir",
     "set": "MRD",
     "rarete": "Ultra",
@@ -1092,7 +1092,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 232,
+    "id": "232",
     "nom": "Dragon Armé Des Ténèbres",
     "set": "PTDN",
     "rarete": "Secret",
@@ -1113,7 +1113,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 246,
+    "id": "246",
     "nom": "Dragon Yamata",
     "set": "DB2",
     "rarete": "Super",
@@ -1134,7 +1134,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 313,
+    "id": "313",
     "nom": "Formule Magique",
     "set": "GLAS",
     "rarete": "Secret",
@@ -1155,7 +1155,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 886,
+    "id": "886",
     "nom": "Kalidor Allié De La Justice",
     "set": "TU07",
     "rarete": "Ultimate",
@@ -1176,7 +1176,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1101,
+    "id": "1101",
     "nom": "Jinzo",
     "set": "SDP-F",
     "rarete": "Secret",
@@ -1197,7 +1197,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1168,
+    "id": "1168",
     "nom": "Fusée Volcanique",
     "set": "FOTB",
     "rarete": "Secret",
@@ -1218,7 +1218,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1175,
+    "id": "1175",
     "nom": "Horus Dragon De La Flamme Noire Lv6",
     "set": "SOD",
     "rarete": "Ultimate",
@@ -1239,7 +1239,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1191,
+    "id": "1191",
     "nom": "Jarre De Cupidité",
     "set": "LDC",
     "rarete": "Super",
@@ -1260,7 +1260,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 303,
+    "id": "303",
     "nom": "Dragon Noir Aux Yeux Rouges",
     "set": "2019-JPP01",
     "rarete": "Special",
@@ -1281,7 +1281,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 230,
+    "id": "230",
     "nom": "Unité Des Magiciens",
     "set": "CP03",
     "rarete": "Ultra",
@@ -1302,7 +1302,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 305,
+    "id": "305",
     "nom": "Magicien Sombre Légendaire",
     "set": "EP13",
     "rarete": "Special",
@@ -1323,7 +1323,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1051,
+    "id": "1051",
     "nom": "Hydre Dragonne",
     "set": "RGBT",
     "rarete": "Ultimate",
@@ -1344,7 +1344,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1185,
+    "id": "1185",
     "nom": "Sorcier Du Chaos",
     "set": "TU02",
     "rarete": "Ultra",
@@ -1365,7 +1365,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1186,
+    "id": "1186",
     "nom": "Exécuteur Phoenix Héros Élémentaire",
     "set": "EOJ",
     "rarete": "Ultra",
@@ -1386,7 +1386,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 310,
+    "id": "310",
     "nom": "Dragon Légendaire Blanc",
     "set": "EP13",
     "rarete": "Special",
@@ -1407,7 +1407,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 431,
+    "id": "431",
     "nom": "Néos Des Ténèbres",
     "set": "POTD",
     "rarete": "Ultra",
@@ -1428,7 +1428,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 489,
+    "id": "489",
     "nom": "Permutation Des Mondes",
     "set": "RP01",
     "rarete": "Secret",
@@ -1449,7 +1449,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 513,
+    "id": "513",
     "nom": "Miroir Mystique",
     "set": "DREV",
     "rarete": "Secret",
@@ -1470,7 +1470,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 550,
+    "id": "550",
     "nom": "Soldat Du Lustre Noir - Soldat Du Chaos",
     "set": "GTFP",
     "rarete": "Ghost",
@@ -1491,7 +1491,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1042,
+    "id": "1042",
     "nom": "Lumière De La Destruction",
     "set": "LODT",
     "rarete": "Booster",
@@ -1512,7 +1512,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1054,
+    "id": "1054",
     "nom": "Slifer The Sky Dragon",
     "set": "REPLICA",
     "rarete": "Ultra",
@@ -1533,7 +1533,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1060,
+    "id": "1060",
     "nom": "Obelisk The Tormentor",
     "set": "20DS",
     "rarete": "Special",
@@ -1554,7 +1554,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1187,
+    "id": "1187",
     "nom": "D.D. Warrior",
     "set": "TP7-EN",
     "rarete": "Ultra",
@@ -1575,7 +1575,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 497,
+    "id": "497",
     "nom": "Réglage",
     "set": "STBL",
     "rarete": "Ultimate",
@@ -1596,7 +1596,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1179,
+    "id": "1179",
     "nom": "Uria Seigneur Des Flammes Aveuglantes",
     "set": "SOI",
     "rarete": "Ultra",
@@ -1617,7 +1617,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 415,
+    "id": "415",
     "nom": "Super Vehicroid Alliance Furtive",
     "set": "GLAS",
     "rarete": "Secret",
@@ -1638,7 +1638,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 547,
+    "id": "547",
     "nom": "Armityle Le Spectre Du Chaos",
     "set": "ANPR",
     "rarete": "Secret",
@@ -1659,7 +1659,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 584,
+    "id": "584",
     "nom": "Feu Grégois Volcanique",
     "set": "FOTB",
     "rarete": "Ultimate",
@@ -1680,7 +1680,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 633,
+    "id": "633",
     "nom": "Offrande Suprême",
     "set": "CP04",
     "rarete": "Super",
@@ -1701,7 +1701,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1062,
+    "id": "1062",
     "nom": "Numéro C101 Honneur Silencieux Des Ténèbres",
     "set": "LVAL",
     "rarete": "Ultimate",
@@ -1722,7 +1722,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1151,
+    "id": "1151",
     "nom": "Rainbow Neos",
     "set": "PTDN",
     "rarete": "Ghost",
@@ -1743,7 +1743,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1159,
+    "id": "1159",
     "nom": "Ordre Impérial",
     "set": "SDP-F",
     "rarete": "Secret",
@@ -1764,7 +1764,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1162,
+    "id": "1162",
     "nom": "Numéro C32 Requin Drakonien",
     "set": "ABYR",
     "rarete": "Ghost",
@@ -1785,7 +1785,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1183,
+    "id": "1183",
     "nom": "The Masked Beast",
     "set": "LON-EN",
     "rarete": "Ultra",
@@ -1806,7 +1806,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1190,
+    "id": "1190",
     "nom": "Tortue Catapulte",
     "set": "MRD",
     "rarete": "Super",
@@ -1827,7 +1827,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 318,
+    "id": "318",
     "nom": "Dragon Rose Noir",
     "set": "CSOC",
     "rarete": "Ultimate",
@@ -1848,7 +1848,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 463,
+    "id": "463",
     "nom": "Néo Dragon Photon Aux Yeux Galactiques",
     "set": "GAOV",
     "rarete": "Ghost",
@@ -1869,7 +1869,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 475,
+    "id": "475",
     "nom": "Vieux Magicien Vindicatif",
     "set": "CP06",
     "rarete": "Super",
@@ -1890,7 +1890,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 492,
+    "id": "492",
     "nom": "Zorc Maitre Des Ténèbres",
     "set": "DCR",
     "rarete": "Super",
@@ -1911,7 +1911,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 498,
+    "id": "498",
     "nom": "Réglage",
     "set": "STBL",
     "rarete": "Ultimate",
@@ -1932,7 +1932,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 587,
+    "id": "587",
     "nom": "Darkbright Héros Élémentaire",
     "set": "TAEV",
     "rarete": "Ultimate",
@@ -1953,7 +1953,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 614,
+    "id": "614",
     "nom": "Numéro C107 Neo Dragon Tachyon Aux Yeux Galactiques",
     "set": "PRIO",
     "rarete": "Ultimate",
@@ -1974,7 +1974,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1041,
+    "id": "1041",
     "nom": "L'Explosion Des Étoiles",
     "set": "STBL",
     "rarete": "Booster",
@@ -1995,7 +1995,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1170,
+    "id": "1170",
     "nom": "Lancer De Plume",
     "set": "EEN",
     "rarete": "Ultimate",
@@ -2016,7 +2016,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 295,
+    "id": "295",
     "nom": "I.P. Masquerena",
     "set": "RA02",
     "rarete": "Qcr",
@@ -2037,7 +2037,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 897,
+    "id": "897",
     "nom": "Stardust Dragon Victim Sanctuary",
     "set": "LOCH-JP",
     "rarete": "Secret Parallel",
@@ -2058,7 +2058,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1043,
+    "id": "1043",
     "nom": "L'Avènement Du Destin",
     "set": "RDS",
     "rarete": "Booster",
@@ -2079,7 +2079,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1125,
+    "id": "1125",
     "nom": "Suicune",
     "set": "CALL OF LEGENDS",
     "rarete": "Holo",
@@ -2100,7 +2100,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 96,
+    "id": "96",
     "nom": "Fossil Dyna Pachycéphalo",
     "set": "LODT",
     "rarete": "Secret",
@@ -2121,7 +2121,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 319,
+    "id": "319",
     "nom": "Zera",
     "set": "PP01",
     "rarete": "Secret",
@@ -2142,7 +2142,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 386,
+    "id": "386",
     "nom": "Armityle Le Spectre Du Chaos",
     "set": "ANPR",
     "rarete": "Secret",
@@ -2163,7 +2163,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 454,
+    "id": "454",
     "nom": "Appel De L'Être Hanté",
     "set": "SDP-F",
     "rarete": "Ultra",
@@ -2184,7 +2184,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 867,
+    "id": "867",
     "nom": "Snatch Steal",
     "set": "MRL",
     "rarete": "Ultra",
@@ -2205,7 +2205,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 888,
+    "id": "888",
     "nom": "Seigneur Ancestral Zerato",
     "set": "AST",
     "rarete": "Ultra",
@@ -2226,7 +2226,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 893,
+    "id": "893",
     "nom": "Crane Invoqué",
     "set": "MRD",
     "rarete": "Ultra",
@@ -2247,7 +2247,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1178,
+    "id": "1178",
     "nom": "Dragon Étincelant",
     "set": "TP5",
     "rarete": "Ultra",
@@ -2268,7 +2268,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1203,
+    "id": "1203",
     "nom": "Chaos Emperor Dragon - Envoy Of The End",
     "set": "IOC",
     "rarete": "Secret",
@@ -2289,7 +2289,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 901,
+    "id": "901",
     "nom": "Cyber End Dragon The Decisive Strike Dragon",
     "set": "LOCR-JP",
     "rarete": "Secret Parallel",
@@ -2310,7 +2310,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 902,
+    "id": "902",
     "nom": "Revolution Cyber Dragon",
     "set": "LOCR-JP",
     "rarete": "Secret Parallel",
@@ -2331,7 +2331,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 321,
+    "id": "321",
     "nom": "Construction Marionette De L'Ombre El",
     "set": "DUEA",
     "rarete": "Ultimate",
@@ -2352,7 +2352,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 322,
+    "id": "322",
     "nom": "Le Dragon Ailé De Ra",
     "set": "G4",
     "rarete": "Secret",
@@ -2373,7 +2373,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 323,
+    "id": "323",
     "nom": "Slifer Le Dragon Céleste",
     "set": "G4",
     "rarete": "Secret",
@@ -2394,7 +2394,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 388,
+    "id": "388",
     "nom": "Lucius Ténébreux Lv6",
     "set": "CDIP",
     "rarete": "Ultimate",
@@ -2415,7 +2415,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 490,
+    "id": "490",
     "nom": "Dragon De La Nuit Blanche",
     "set": "ANPR",
     "rarete": "Secret",
@@ -2436,7 +2436,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 522,
+    "id": "522",
     "nom": "Construction Marionnette De L'Ombre El",
     "set": "DUEA",
     "rarete": "Ultimate",
@@ -2457,7 +2457,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 755,
+    "id": "755",
     "nom": "Toon Dark Magician Girl",
     "set": "SP2",
     "rarete": "Ultra",
@@ -2478,7 +2478,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 903,
+    "id": "903",
     "nom": "Crimson Dragon Quetzacoatl",
     "set": "LOCR-JP",
     "rarete": "Secret Parallel",
@@ -2499,7 +2499,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1059,
+    "id": "1059",
     "nom": "Grand Moth Ultimement Parfait",
     "set": "ROD",
     "rarete": "Secret",
@@ -2520,7 +2520,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1061,
+    "id": "1061",
     "nom": "Le Plumeau De Dame Harpie",
     "set": "WC4",
     "rarete": "Secret",
@@ -2541,7 +2541,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 569,
+    "id": "569",
     "nom": "Gaia Le Dragon Champion",
     "set": "LDD-F",
     "rarete": "Secret",
@@ -2562,7 +2562,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1181,
+    "id": "1181",
     "nom": "Magicien Sombre Du Chaos",
     "set": "IOC",
     "rarete": "Ultra",
@@ -2583,7 +2583,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1189,
+    "id": "1189",
     "nom": "Fissure Dimensionnelle",
     "set": "CP08",
     "rarete": "Super",
@@ -2604,7 +2604,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1193,
+    "id": "1193",
     "nom": "Monde Des Toons",
     "set": "MDM",
     "rarete": "Super",
@@ -2625,7 +2625,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 887,
+    "id": "887",
     "nom": "Dandylion",
     "set": "SD8-KRDS1",
     "rarete": "Secret",
@@ -2646,7 +2646,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 636,
+    "id": "636",
     "nom": "Aile Noir Vent D'Argent Le Suprême",
     "set": "SOVR",
     "rarete": "Ultra",
@@ -2667,7 +2667,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 648,
+    "id": "648",
     "nom": "Néos Flamboyant Héros Élémentaire",
     "set": "POTD",
     "rarete": "Ultra",
@@ -2688,7 +2688,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 895,
+    "id": "895",
     "nom": "Aile Noir Vent D'Argent Le Suprême",
     "set": "SOVR",
     "rarete": "Ultimate",
@@ -2709,7 +2709,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1052,
+    "id": "1052",
     "nom": "Guerrier Nitro",
     "set": "TDGS",
     "rarete": "Ultimate",
@@ -2730,7 +2730,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1153,
+    "id": "1153",
     "nom": "Dragon Des Étoiles Majestueux",
     "set": "SOVR",
     "rarete": "Ghost",
@@ -2751,7 +2751,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 31,
+    "id": "31",
     "nom": "Dragon Rose Noir",
     "set": "CSOC",
     "rarete": "Ultra",
@@ -2772,7 +2772,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 74,
+    "id": "74",
     "nom": "Numéro C104 Mascarade Horreur De L'Ombre",
     "set": "JOTL",
     "rarete": "Ultra",
@@ -2793,7 +2793,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 327,
+    "id": "327",
     "nom": "Raigeki",
     "set": "DP22",
     "rarete": "Ghost",
@@ -2814,7 +2814,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 328,
+    "id": "328",
     "nom": "Obelisk Le Tourmenteur",
     "set": "G4",
     "rarete": "Secret",
@@ -2835,7 +2835,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 390,
+    "id": "390",
     "nom": "Infernoid Tierra",
     "set": "CORE",
     "rarete": "Ultimate",
@@ -2856,7 +2856,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 542,
+    "id": "542",
     "nom": "Dragon Yamata",
     "set": "DB2",
     "rarete": "Super",
@@ -2877,7 +2877,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 608,
+    "id": "608",
     "nom": "Salamangrande Loup Du Soleil",
     "set": "LD10",
     "rarete": "Ghost",
@@ -2898,7 +2898,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 690,
+    "id": "690",
     "nom": "Orichalcos Shunoros",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -2919,7 +2919,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 851,
+    "id": "851",
     "nom": "Héraut De La Lumière Mauve",
     "set": "EOJ",
     "rarete": "Ultimate",
@@ -2940,7 +2940,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1046,
+    "id": "1046",
     "nom": "Metal Raiders",
     "set": "MRD",
     "rarete": "Booster",
@@ -2961,7 +2961,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1158,
+    "id": "1158",
     "nom": "Buster Blader",
     "set": "SDP-F",
     "rarete": "Ultra",
@@ -2982,7 +2982,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1192,
+    "id": "1192",
     "nom": "Dragon Ultime Aux Yeux Bleus",
     "set": "P3",
     "rarete": "Super",
@@ -3003,7 +3003,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 95,
+    "id": "95",
     "nom": "Fossil Dyna Pachycéphalo",
     "set": "LODT",
     "rarete": "Secret",
@@ -3024,7 +3024,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 142,
+    "id": "142",
     "nom": "Dragon Photon Aux Yeux Galactiques",
     "set": "PHSW",
     "rarete": "Ultimate",
@@ -3045,7 +3045,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 330,
+    "id": "330",
     "nom": "Syrenmure Abysmegalo",
     "set": "ABYR",
     "rarete": "Secret",
@@ -3066,7 +3066,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 476,
+    "id": "476",
     "nom": "Bouc Émissaire",
     "set": "RP01",
     "rarete": "Ultra",
@@ -3087,7 +3087,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 548,
+    "id": "548",
     "nom": "Yubel Terreur Incarnée",
     "set": "PTDN",
     "rarete": "Ultimate",
@@ -3108,7 +3108,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 559,
+    "id": "559",
     "nom": "Ruine Reine De L'Oubli",
     "set": "SOI",
     "rarete": "Ultimate",
@@ -3129,7 +3129,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 612,
+    "id": "612",
     "nom": "Cyber Ogre 2",
     "set": "CDIP",
     "rarete": "Ultimate",
@@ -3150,7 +3150,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 791,
+    "id": "791",
     "nom": "Nyan-Nyan Du Tonnerre",
     "set": "PC5",
     "rarete": "Commune",
@@ -3171,7 +3171,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 841,
+    "id": "841",
     "nom": "Insecte Assassin À La Faux",
     "set": "RP02",
     "rarete": "Secret",
@@ -3192,7 +3192,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 899,
+    "id": "899",
     "nom": "Number 39 Utopia The Envoy Of The Light",
     "set": "LOCH-JP",
     "rarete": "Secret Parallel",
@@ -3213,7 +3213,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 908,
+    "id": "908",
     "nom": "Dragon Toon Aux Yeux Bleus",
     "set": "PS",
     "rarete": "Secret",
@@ -3234,7 +3234,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 294,
+    "id": "294",
     "nom": "Soldat Dragon Sombre Aux Yeux Rouges",
     "set": "RA02",
     "rarete": "Qcr",
@@ -3255,7 +3255,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 317,
+    "id": "317",
     "nom": "Exodia L'Interdit",
     "set": "307",
     "rarete": "Ultimate",
@@ -3276,7 +3276,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 332,
+    "id": "332",
     "nom": "Le Créateur",
     "set": "RDS-JP",
     "rarete": "Ultimate",
@@ -3297,7 +3297,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 451,
+    "id": "451",
     "nom": "Dragon Tornade",
     "set": "RGBT",
     "rarete": "Ultimate",
@@ -3318,7 +3318,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 501,
+    "id": "501",
     "nom": "Magicien Du Temps",
     "set": "MRD",
     "rarete": "Ultra",
@@ -3339,7 +3339,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 640,
+    "id": "640",
     "nom": "Loup De Guerre Géno Perverti",
     "set": "STON",
     "rarete": "Ultimate",
@@ -3360,7 +3360,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 879,
+    "id": "879",
     "nom": "Scrap Dragon",
     "set": "DREV",
     "rarete": "Ultimate",
@@ -3381,7 +3381,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 904,
+    "id": "904",
     "nom": "Galaxy-Eyes Photon Change Dragon",
     "set": "LOCR-JP",
     "rarete": "Secret Parallel",
@@ -3402,7 +3402,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 909,
+    "id": "909",
     "nom": "Charité Gracieuse",
     "set": "BC",
     "rarete": "Super",
@@ -3423,7 +3423,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1064,
+    "id": "1064",
     "nom": "Kuriboh Ailé Lv10",
     "set": "CRV",
     "rarete": "Ultra",
@@ -3444,7 +3444,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1121,
+    "id": "1121",
     "nom": "Magicien Sombre",
     "set": "EX-JP",
     "rarete": "Ultra",
@@ -3465,7 +3465,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 123,
+    "id": "123",
     "nom": "Brouilleur Magique",
     "set": "MRD",
     "rarete": "Ultra",
@@ -3486,7 +3486,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 124,
+    "id": "124",
     "nom": "Jugement Solennel",
     "set": "MRD",
     "rarete": "Ultra",
@@ -3507,7 +3507,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 283,
+    "id": "283",
     "nom": "Seigneur Ancestral Zerato",
     "set": "AST",
     "rarete": "Ultra",
@@ -3528,7 +3528,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 334,
+    "id": "334",
     "nom": "Monster Reborn",
     "set": "2019-JPP",
     "rarete": "Special",
@@ -3549,7 +3549,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 335,
+    "id": "335",
     "nom": "Gemini Elf",
     "set": "BC",
     "rarete": "Ultimate",
@@ -3570,7 +3570,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 852,
+    "id": "852",
     "nom": "Kuriboh Ailé Lv10",
     "set": "DR04",
     "rarete": "Ultra",
@@ -3591,7 +3591,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1065,
+    "id": "1065",
     "nom": "Scrap Dragon",
     "set": "DREV",
     "rarete": "Ultimate",
@@ -3612,7 +3612,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1154,
+    "id": "1154",
     "nom": "Dragon De Vitalité",
     "set": "EXVC",
     "rarete": "Ultimate",
@@ -3633,7 +3633,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1172,
+    "id": "1172",
     "nom": "Dragon Empereur Du Chaos",
     "set": "BPT-JP",
     "rarete": "Ultimate",
@@ -3654,7 +3654,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 616,
+    "id": "616",
     "nom": "Baleine Forteresse",
     "set": "STP2",
     "rarete": "Ultra",
@@ -3675,7 +3675,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 13,
+    "id": "13",
     "nom": "Ancien Dragon Féerique",
     "set": "ANPR",
     "rarete": "Ultimate",
@@ -3696,7 +3696,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 122,
+    "id": "122",
     "nom": "Solemn Judgment",
     "set": "MRD",
     "rarete": "Ultra",
@@ -3717,7 +3717,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 275,
+    "id": "275",
     "nom": "Crane Invoqué",
     "set": "MRD",
     "rarete": "Ultra",
@@ -3738,7 +3738,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 338,
+    "id": "338",
     "nom": "Plume De Harpie",
     "set": "DP21",
     "rarete": "Ghost",
@@ -3759,7 +3759,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 340,
+    "id": "340",
     "nom": "Souffle Du Feu De L'Enfer",
     "set": "SOD",
     "rarete": "Ultra",
@@ -3780,7 +3780,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 345,
+    "id": "345",
     "nom": "Dragon Du Jugement",
     "set": "LODT-JP",
     "rarete": "Ultimate",
@@ -3801,7 +3801,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 619,
+    "id": "619",
     "nom": "Obelisk Le Tourmenteur",
     "set": "REPLICA 2014",
     "rarete": "Ultra",
@@ -3822,7 +3822,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 620,
+    "id": "620",
     "nom": "Slifer Le Dragon Céleste",
     "set": "REPLICA 2014",
     "rarete": "Ultra",
@@ -3843,7 +3843,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 621,
+    "id": "621",
     "nom": "Le Dragon Ailé De Ra",
     "set": "REPLICA 2014",
     "rarete": "Ultra",
@@ -3864,7 +3864,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 664,
+    "id": "664",
     "nom": "Bls Envoy Of The Beginning",
     "set": "MC2",
     "rarete": "Secret",
@@ -3885,7 +3885,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 858,
+    "id": "858",
     "nom": "Chaine De La Destinée",
     "set": "POTD",
     "rarete": "Ultimate",
@@ -3906,7 +3906,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 885,
+    "id": "885",
     "nom": "Lightning Storm",
     "set": "IGAS-JP",
     "rarete": "Secret",
@@ -3927,7 +3927,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 911,
+    "id": "911",
     "nom": "Numéro 107 Dragon Tachyon",
     "set": "LTGY-JP",
     "rarete": "Ultimate",
@@ -3948,7 +3948,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 912,
+    "id": "912",
     "nom": "Numéro 104",
     "set": "JOTL-JP",
     "rarete": "Ultimate",
@@ -3969,7 +3969,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 913,
+    "id": "913",
     "nom": "Enishi Chancelier De Shien",
     "set": "GLAS",
     "rarete": "Ultimate",
@@ -3990,7 +3990,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1045,
+    "id": "1045",
     "nom": "Legend Of Blue-Eyes White Dragon",
     "set": "LOB",
     "rarete": "Booster",
@@ -4011,7 +4011,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1151,
+    "id": "1151",
     "nom": "Bras Droit De L'Interdit",
     "set": "LDD-F",
     "rarete": "Ultra",
@@ -4032,7 +4032,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1180,
+    "id": "1180",
     "nom": "Dragon Blanc Aux Yeux Bleus",
     "set": "RP01",
     "rarete": "Ultra",
@@ -4053,7 +4053,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 7,
+    "id": "7",
     "nom": "Guerrier Forreur",
     "set": "ABPF",
     "rarete": "Ultimate",
@@ -4074,7 +4074,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 19,
+    "id": "19",
     "nom": "Esprit Du Pharaon",
     "set": "AST",
     "rarete": "Ultra",
@@ -4095,7 +4095,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 91,
+    "id": "91",
     "nom": "Yamata Dragon",
     "set": "LOD",
     "rarete": "Super",
@@ -4116,7 +4116,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 341,
+    "id": "341",
     "nom": "Homme-Oiseau Lumineux",
     "set": "CT3",
     "rarete": "Secret",
@@ -4137,7 +4137,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 344,
+    "id": "344",
     "nom": "Échange Solaire",
     "set": "LODT",
     "rarete": "Ultimate",
@@ -4158,7 +4158,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 346,
+    "id": "346",
     "nom": "Chaleur Héros Élémentaire",
     "set": "PP02",
     "rarete": "Secret",
@@ -4179,7 +4179,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 348,
+    "id": "348",
     "nom": "Dragon Ailé Seigneur Des Explosions",
     "set": "RGBT",
     "rarete": "Ultimate",
@@ -4200,7 +4200,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 349,
+    "id": "349",
     "nom": "Mobius Le Monarque De Glace",
     "set": "SOD-JP",
     "rarete": "Ultimate",
@@ -4221,7 +4221,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 502,
+    "id": "502",
     "nom": "Queue Cyberténébreuse",
     "set": "CDIP",
     "rarete": "Ultimate",
@@ -4242,7 +4242,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 541,
+    "id": "541",
     "nom": "Dragon Arc-En-Ciel",
     "set": "CT04",
     "rarete": "Secret",
@@ -4263,7 +4263,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 610,
+    "id": "610",
     "nom": "Sanga Du Tonnerre",
     "set": "MRD",
     "rarete": "Super",
@@ -4284,7 +4284,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 639,
+    "id": "639",
     "nom": "Dupplication Des Clones",
     "set": "RP01",
     "rarete": "Secret",
@@ -4305,7 +4305,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 838,
+    "id": "838",
     "nom": "Dé-Fusion",
     "set": "LDC",
     "rarete": "Super",
@@ -4326,7 +4326,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 891,
+    "id": "891",
     "nom": "Parshath",
     "set": "TDGS",
     "rarete": "Secret",
@@ -4347,7 +4347,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 907,
+    "id": "907",
     "nom": "Future Fusion Nova",
     "set": "LOCR-JP",
     "rarete": "Secret Parallel",
@@ -4368,7 +4368,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 914,
+    "id": "914",
     "nom": "Magi Magi Magician Girl",
     "set": "WJMP",
     "rarete": "Ultra",
@@ -4389,7 +4389,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 915,
+    "id": "915",
     "nom": "Raigeki",
     "set": "DP22",
     "rarete": "Ghost",
@@ -4410,7 +4410,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 916,
+    "id": "916",
     "nom": "Dragon Xyz De La Rebellion",
     "set": "NECH-JP",
     "rarete": "Ultimate",
@@ -4431,7 +4431,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 917,
+    "id": "917",
     "nom": "Contrôle Cérabral",
     "set": "TLM-JP",
     "rarete": "Ultimate",
@@ -4452,7 +4452,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1044,
+    "id": "1044",
     "nom": "Legend Of Blue-Eyes White Dragon",
     "set": "LOB",
     "rarete": "Booster",
@@ -4473,7 +4473,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 918,
+    "id": "918",
     "nom": "Dragon Du Jugement",
     "set": "LODT-JP",
     "rarete": "Ultimate",
@@ -4494,7 +4494,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 865,
+    "id": "865",
     "nom": "Magic Cylinder",
     "set": "LON-E",
     "rarete": "Secret",
@@ -4515,7 +4515,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 881,
+    "id": "881",
     "nom": "Sanga Du Tonnerre",
     "set": "MRD",
     "rarete": "Super",
@@ -4536,7 +4536,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 919,
+    "id": "919",
     "nom": "Ristourne",
     "set": "304",
     "rarete": "Secret",
@@ -4557,7 +4557,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 121,
+    "id": "121",
     "nom": "Corne Du Paradis",
     "set": "MRD",
     "rarete": "Ultra",
@@ -4578,7 +4578,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 139,
+    "id": "139",
     "nom": "Sphinx Gardien",
     "set": "PGD",
     "rarete": "Ultra",
@@ -4599,7 +4599,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 350,
+    "id": "350",
     "nom": "Dragon Ailé De Ra",
     "set": "WP01",
     "rarete": "Special",
@@ -4620,7 +4620,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 352,
+    "id": "352",
     "nom": "Vortex Foudroyant",
     "set": "FET-JP",
     "rarete": "Ultimate",
@@ -4641,7 +4641,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 354,
+    "id": "354",
     "nom": "Numéro 107 Dragon Tachyon Aux Yeux Galactiques",
     "set": "LTGY-JP",
     "rarete": "Ultimate",
@@ -4662,7 +4662,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 359,
+    "id": "359",
     "nom": "Contrôle Cérébral",
     "set": "TLM-KR",
     "rarete": "Ultimate",
@@ -4683,7 +4683,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 465,
+    "id": "465",
     "nom": "Kuriboh",
     "set": "MRD",
     "rarete": "Super",
@@ -4704,7 +4704,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 503,
+    "id": "503",
     "nom": "Chat Sauveteur",
     "set": "TU03",
     "rarete": "Super",
@@ -4725,7 +4725,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 523,
+    "id": "523",
     "nom": "Card Of Sanctity",
     "set": "TLM",
     "rarete": "Ultimate",
@@ -4746,7 +4746,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 525,
+    "id": "525",
     "nom": "Géant Du Tonnerre Héros Élémentaire",
     "set": "TLM-JP",
     "rarete": "Ultimate",
@@ -4767,7 +4767,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 655,
+    "id": "655",
     "nom": "Dragon Du Jugement",
     "set": "LODT-JP",
     "rarete": "Ultimate",
@@ -4788,7 +4788,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 751,
+    "id": "751",
     "nom": "Zéro Absolu Héros Élementaire",
     "set": "YG04",
     "rarete": "Ultra",
@@ -4809,7 +4809,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 800,
+    "id": "800",
     "nom": "Doomcaliber Knight",
     "set": "PP01-KR",
     "rarete": "Ultra",
@@ -4830,7 +4830,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 859,
+    "id": "859",
     "nom": "Elemental Hero Ocean",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -4851,7 +4851,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 920,
+    "id": "920",
     "nom": "Cercle Envoutant",
     "set": "MR",
     "rarete": "Ultra",
@@ -4872,7 +4872,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 921,
+    "id": "921",
     "nom": "Plumeau De Dame Harpie",
     "set": "DP21",
     "rarete": "Ghost",
@@ -4893,7 +4893,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 922,
+    "id": "922",
     "nom": "Don Zaloog",
     "set": "PH-JP",
     "rarete": "Ultra",
@@ -4914,7 +4914,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1124,
+    "id": "1124",
     "nom": "Chimeratech Over-Dragon",
     "set": "POTD",
     "rarete": "Ultra",
@@ -4935,7 +4935,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1149,
+    "id": "1149",
     "nom": "Virus Broyeur De Carte",
     "set": "GLD1",
     "rarete": "Ultra",
@@ -4956,7 +4956,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1152,
+    "id": "1152",
     "nom": "Jugement Solennel",
     "set": "MRD",
     "rarete": "Ultra",
@@ -4977,7 +4977,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 516,
+    "id": "516",
     "nom": "Métalmorphe Rare",
     "set": "RDS",
     "rarete": "Ultimate",
@@ -4998,7 +4998,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1139,
+    "id": "1139",
     "nom": "Bouillant Dragon Rouge Archdémon Du Brisement",
     "set": "HSRD",
     "rarete": "Secret",
@@ -5019,7 +5019,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 284,
+    "id": "284",
     "nom": "Le Chevalier Fantôme Du Chacal",
     "set": "AST",
     "rarete": "Ultra",
@@ -5040,7 +5040,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 396,
+    "id": "396",
     "nom": "Téléporteur Multiple",
     "set": "CSOC",
     "rarete": "Secret",
@@ -5061,7 +5061,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 528,
+    "id": "528",
     "nom": "Exécuteur Phoenix Héros Élémentaire",
     "set": "EOJ-JP",
     "rarete": "Ultimate",
@@ -5082,7 +5082,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 924,
+    "id": "924",
     "nom": "Dragon Synchro De L'Aile De Cristal",
     "set": "SHVI-JP",
     "rarete": "Ultimate",
@@ -5103,7 +5103,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 925,
+    "id": "925",
     "nom": "Jambe Droite De L'Interdit",
     "set": "PG",
     "rarete": "Secret",
@@ -5124,7 +5124,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 926,
+    "id": "926",
     "nom": "Obelisk Le Tourmenteur",
     "set": "VJMP",
     "rarete": "Ultra",
@@ -5145,7 +5145,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 927,
+    "id": "927",
     "nom": "Obelisk Le Tourmenteur",
     "set": "VJMP",
     "rarete": "Ultra",
@@ -5166,7 +5166,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 928,
+    "id": "928",
     "nom": "Marshmallon",
     "set": "PP6",
     "rarete": "Secret",
@@ -5187,7 +5187,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 24,
+    "id": "24",
     "nom": "Cyber Dragon Infini",
     "set": "BOSH",
     "rarete": "Secret",
@@ -5208,7 +5208,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 138,
+    "id": "138",
     "nom": "Mystical Knight Of Jackal",
     "set": "PGD",
     "rarete": "Ultra",
@@ -5229,7 +5229,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 271,
+    "id": "271",
     "nom": "Malédiction D'Anubis",
     "set": "AST",
     "rarete": "Ultra",
@@ -5250,7 +5250,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 360,
+    "id": "360",
     "nom": "Minerva La Déesse",
     "set": "CORE",
     "rarete": "Secret",
@@ -5271,7 +5271,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 365,
+    "id": "365",
     "nom": "Contrôle Cérébral",
     "set": "TLM-JP",
     "rarete": "Ultimate",
@@ -5292,7 +5292,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 510,
+    "id": "510",
     "nom": "Yubel",
     "set": "PTDN",
     "rarete": "Super",
@@ -5313,7 +5313,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 663,
+    "id": "663",
     "nom": "Dragon Arc-En-Ciel",
     "set": "CT4",
     "rarete": "Secret",
@@ -5334,7 +5334,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 696,
+    "id": "696",
     "nom": "Le Renoncé",
     "set": "DDP",
     "rarete": "Ultra",
@@ -5355,7 +5355,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 844,
+    "id": "844",
     "nom": "Dragon Blanc Aux Yeux Bleu",
     "set": "LDD-C",
     "rarete": "Ultra",
@@ -5376,7 +5376,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 863,
+    "id": "863",
     "nom": "Cyber Canon D'Invocation",
     "set": "POTD",
     "rarete": "Ultimate",
@@ -5397,7 +5397,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 929,
+    "id": "929",
     "nom": "Pot De Dualité",
     "set": "DREV-JP",
     "rarete": "Secret",
@@ -5418,7 +5418,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 930,
+    "id": "930",
     "nom": "Pot De Dualité",
     "set": "DREV-JP",
     "rarete": "Secret",
@@ -5439,7 +5439,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 931,
+    "id": "931",
     "nom": "Pot De Dualité",
     "set": "DREV-JP",
     "rarete": "Secret",
@@ -5460,7 +5460,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 932,
+    "id": "932",
     "nom": "Bourse Des Ames",
     "set": "EX",
     "rarete": "Secret",
@@ -5481,7 +5481,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 933,
+    "id": "933",
     "nom": "Force De Miroir",
     "set": "ME",
     "rarete": "Ultra",
@@ -5502,7 +5502,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 934,
+    "id": "934",
     "nom": "Soldat Du Lustre Noir Émissaire De L'Achèvement",
     "set": "306",
     "rarete": "Ultra",
@@ -5523,7 +5523,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 935,
+    "id": "935",
     "nom": "Gaia Le Dragon Champion",
     "set": "PG",
     "rarete": "Ultra",
@@ -5544,7 +5544,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 936,
+    "id": "936",
     "nom": "Le Renoncé Aux Milles Yeux",
     "set": "TB",
     "rarete": "Ultra",
@@ -5565,7 +5565,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 937,
+    "id": "937",
     "nom": "Canon Satellite",
     "set": "EE04",
     "rarete": "Secret",
@@ -5586,7 +5586,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1201,
+    "id": "1201",
     "nom": "Chasseur De Lumière",
     "set": "MDM",
     "rarete": "Super",
@@ -5607,7 +5607,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 546,
+    "id": "546",
     "nom": "Envoyé Des Six Samurai",
     "set": "TDGS",
     "rarete": "Secret",
@@ -5628,7 +5628,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 938,
+    "id": "938",
     "nom": "Slifer Le Dragon Céleste",
     "set": "VJMP",
     "rarete": "Ultra",
@@ -5649,7 +5649,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 939,
+    "id": "939",
     "nom": "Le Dragon Ailé De Ra",
     "set": "VJMP",
     "rarete": "Special",
@@ -5670,7 +5670,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 940,
+    "id": "940",
     "nom": "Mahad Oracle Palladium",
     "set": "20TH-S",
     "rarete": "Special",
@@ -5691,7 +5691,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1138,
+    "id": "1138",
     "nom": "Numéro 62 : Dragon Photon Primordial Aux Yeux Galactiques",
     "set": "PRIO",
     "rarete": "Ultra",
@@ -5712,7 +5712,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 409,
+    "id": "409",
     "nom": "Cyber Trancheuse",
     "set": "EEN",
     "rarete": "Ultimate",
@@ -5733,7 +5733,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 538,
+    "id": "538",
     "nom": "Néos Des Tempêtes",
     "set": "PTDN",
     "rarete": "Super",
@@ -5754,7 +5754,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 882,
+    "id": "882",
     "nom": "Dragon Yamata",
     "set": "DB2",
     "rarete": "Super",
@@ -5775,7 +5775,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 941,
+    "id": "941",
     "nom": "Grand Dezard",
     "set": "PH-JP",
     "rarete": "Ultra",
@@ -5796,7 +5796,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 942,
+    "id": "942",
     "nom": "Force De Miroir",
     "set": "ME",
     "rarete": "Ultra",
@@ -5817,7 +5817,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1131,
+    "id": "1131",
     "nom": "Maxx C",
     "set": "LC5D",
     "rarete": "Ultra",
@@ -5838,7 +5838,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 150,
+    "id": "150",
     "nom": "Dragon Attaquant",
     "set": "RA01",
     "rarete": "Qcr",
@@ -5859,7 +5859,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 155,
+    "id": "155",
     "nom": "Insecte Ultime Lv3",
     "set": "RDS",
     "rarete": "Ultimate",
@@ -5880,7 +5880,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 274,
+    "id": "274",
     "nom": "Flot Rugissant De Destruction",
     "set": "AST",
     "rarete": "Ultra",
@@ -5901,7 +5901,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 878,
+    "id": "878",
     "nom": "Xyz-Dragon Cannon",
     "set": "MFC",
     "rarete": "Ultra",
@@ -5922,7 +5922,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 943,
+    "id": "943",
     "nom": "Numéro 11",
     "set": "VB",
     "rarete": "Ultra",
@@ -5943,7 +5943,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 944,
+    "id": "944",
     "nom": "Gorz L'Émissaire Des Ténèbres",
     "set": "YR03",
     "rarete": "Ultra",
@@ -5964,7 +5964,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 945,
+    "id": "945",
     "nom": "Force De Miroir",
     "set": "ME",
     "rarete": "Ultra",
@@ -5985,7 +5985,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 946,
+    "id": "946",
     "nom": "La Fin D'Anubis",
     "set": "309",
     "rarete": "Secret",
@@ -6006,7 +6006,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 947,
+    "id": "947",
     "nom": "La Fin D'Anubis",
     "set": "309",
     "rarete": "Secret",
@@ -6027,7 +6027,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 948,
+    "id": "948",
     "nom": "Dragon Millénaire",
     "set": "ME",
     "rarete": "Ultra",
@@ -6048,7 +6048,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 949,
+    "id": "949",
     "nom": "Dragon Empereur Du Chaos Émissaire De L'Achèvement",
     "set": "306",
     "rarete": "Secret",
@@ -6069,7 +6069,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 963,
+    "id": "963",
     "nom": "Planneur Du Kaiser",
     "set": "304",
     "rarete": "Ultimate",
@@ -6090,7 +6090,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 689,
+    "id": "689",
     "nom": "Tragoedia",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -6111,7 +6111,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 950,
+    "id": "950",
     "nom": "Sanga Du Tonnerre",
     "set": "V5",
     "rarete": "Super",
@@ -6132,7 +6132,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1137,
+    "id": "1137",
     "nom": "Dragon Jumelé D'Explosion Aux Yeux Bleus",
     "set": "SHVI",
     "rarete": "Secret",
@@ -6153,7 +6153,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 951,
+    "id": "951",
     "nom": "Jinzo",
     "set": "CA",
     "rarete": "Secret",
@@ -6174,7 +6174,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 291,
+    "id": "291",
     "nom": "Rituel Du Lion De Guerre",
     "set": "PP02",
     "rarete": "Secret",
@@ -6195,7 +6195,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 367,
+    "id": "367",
     "nom": "Garlandolf Roi De La Destruction",
     "set": "ABPF",
     "rarete": "Ultra",
@@ -6216,7 +6216,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 368,
+    "id": "368",
     "nom": "Bête Fantôme Meca Dracossac",
     "set": "LTGY-JP",
     "rarete": "Ultimate",
@@ -6237,7 +6237,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 412,
+    "id": "412",
     "nom": "Destructosaure",
     "set": "FOTB",
     "rarete": "Ultimate",
@@ -6258,7 +6258,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 442,
+    "id": "442",
     "nom": "Yubel",
     "set": "PTDN",
     "rarete": "Super",
@@ -6279,7 +6279,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 459,
+    "id": "459",
     "nom": "Envoyé Des Six Samurais",
     "set": "TDGS",
     "rarete": "Secret",
@@ -6300,7 +6300,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 511,
+    "id": "511",
     "nom": "Yubel Terreur Incarnée",
     "set": "PTDN",
     "rarete": "Ultimate",
@@ -6321,7 +6321,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 529,
+    "id": "529",
     "nom": "Homme-Oiseau Sauvage Héros Élémentaire",
     "set": "EOJ-JP",
     "rarete": "Ultimate",
@@ -6342,7 +6342,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 549,
+    "id": "549",
     "nom": "Yubel",
     "set": "PTDN",
     "rarete": "Super",
@@ -6363,7 +6363,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 597,
+    "id": "597",
     "nom": "Virus Démoniaque De Destruction",
     "set": "PP01-KR",
     "rarete": "Ultra",
@@ -6384,7 +6384,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 682,
+    "id": "682",
     "nom": "Chaine Lavalval",
     "set": "HA07",
     "rarete": "Secret",
@@ -6405,7 +6405,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 711,
+    "id": "711",
     "nom": "Annule Attaque",
     "set": "ROD",
     "rarete": "Secret",
@@ -6426,7 +6426,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 744,
+    "id": "744",
     "nom": "Dragon Furieux",
     "set": "DR1",
     "rarete": "Super",
@@ -6447,7 +6447,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 837,
+    "id": "837",
     "nom": "Exécuteur Phoenix",
     "set": "EOJ",
     "rarete": "Ultra",
@@ -6468,7 +6468,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 857,
+    "id": "857",
     "nom": "Interdimensional Matter Transporter",
     "set": "DCR",
     "rarete": "Ultra",
@@ -6489,7 +6489,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 862,
+    "id": "862",
     "nom": "Grand Maju Garzett",
     "set": "DCR",
     "rarete": "Rare",
@@ -6510,7 +6510,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 864,
+    "id": "864",
     "nom": "Gardien Celtique Recyclé",
     "set": "CT1",
     "rarete": "Secret",
@@ -6531,7 +6531,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 952,
+    "id": "952",
     "nom": "Suijin",
     "set": "V5",
     "rarete": "Super",
@@ -6552,7 +6552,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 953,
+    "id": "953",
     "nom": "D.D. Warrior",
     "set": "V7",
     "rarete": "Super",
@@ -6573,7 +6573,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 954,
+    "id": "954",
     "nom": "Knight'S Title",
     "set": "GB8",
     "rarete": "Secret",
@@ -6594,7 +6594,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 955,
+    "id": "955",
     "nom": "Bourse Des Ames",
     "set": "EX",
     "rarete": "Secret",
@@ -6615,7 +6615,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 956,
+    "id": "956",
     "nom": "Numéro 23 Lancelot",
     "set": "YZ07",
     "rarete": "Ultra",
@@ -6636,7 +6636,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 957,
+    "id": "957",
     "nom": "Uria",
     "set": "SOI-JP",
     "rarete": "Ultra",
@@ -6657,7 +6657,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 958,
+    "id": "958",
     "nom": "Wicked Avatar",
     "set": "VJMP",
     "rarete": "Ultra",
@@ -6678,7 +6678,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 959,
+    "id": "959",
     "nom": "Monster Reborn",
     "set": "BE1",
     "rarete": "Ultra",
@@ -6699,7 +6699,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 960,
+    "id": "960",
     "nom": "Sage Stone",
     "set": "GB8",
     "rarete": "Secret",
@@ -6720,7 +6720,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 961,
+    "id": "961",
     "nom": "Bourse Des Ames",
     "set": "EX",
     "rarete": "Ultra",
@@ -6741,7 +6741,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 962,
+    "id": "962",
     "nom": "Numéro 101",
     "set": "LVAL-JP",
     "rarete": "Ultra",
@@ -6762,7 +6762,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 988,
+    "id": "988",
     "nom": "Berfomet",
     "set": "G4-B1",
     "rarete": "Ultra",
@@ -6783,7 +6783,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1103,
+    "id": "1103",
     "nom": "Trappe D.D.",
     "set": "CRV",
     "rarete": "Ultimate",
@@ -6804,7 +6804,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1147,
+    "id": "1147",
     "nom": "Numéro 99 : Dragon Utopique",
     "set": "MP15",
     "rarete": "Secret",
@@ -6825,7 +6825,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 749,
+    "id": "749",
     "nom": "Torrential Tribute",
     "set": "DB1",
     "rarete": "Ultra",
@@ -6846,7 +6846,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 280,
+    "id": "280",
     "nom": "Le Plumeau De Dame Harpie",
     "set": "WC4",
     "rarete": "Secret",
@@ -6867,7 +6867,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 391,
+    "id": "391",
     "nom": "Cyber Dragon Ultime",
     "set": "CRV",
     "rarete": "Ultra",
@@ -6888,7 +6888,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 680,
+    "id": "680",
     "nom": "Chevalier Dragunité Trident",
     "set": "HA04",
     "rarete": "Secret",
@@ -6909,7 +6909,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 846,
+    "id": "846",
     "nom": "Androide Magique",
     "set": "TDGS",
     "rarete": "Super",
@@ -6930,7 +6930,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 869,
+    "id": "869",
     "nom": "Rope Of Life",
     "set": "PGD",
     "rarete": "Ultra",
@@ -6951,7 +6951,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 964,
+    "id": "964",
     "nom": "Kazejin",
     "set": "V5",
     "rarete": "Super",
@@ -6972,7 +6972,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 965,
+    "id": "965",
     "nom": "Dragon De La Lumière Et Des Ténèbres",
     "set": "YG01",
     "rarete": "Ultra",
@@ -6993,7 +6993,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 966,
+    "id": "966",
     "nom": "Dandylion",
     "set": "VJC",
     "rarete": "Ultra",
@@ -7014,7 +7014,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 967,
+    "id": "967",
     "nom": "Dragon De La Lumière Et Des Ténèbres",
     "set": "YG01",
     "rarete": "Ultra",
@@ -7035,7 +7035,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 968,
+    "id": "968",
     "nom": "Dragon De La Lumière Et Des Ténèbres",
     "set": "YG01",
     "rarete": "Ultra",
@@ -7056,7 +7056,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 969,
+    "id": "969",
     "nom": "Seigneur Vampire",
     "set": "DL4",
     "rarete": "Ultra",
@@ -7077,7 +7077,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 971,
+    "id": "971",
     "nom": "Le Renoncé Aux Milles Yeux",
     "set": "TB",
     "rarete": "Ultra Parallel",
@@ -7098,7 +7098,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1126,
+    "id": "1126",
     "nom": "The Winged Dragon Of Ra",
     "set": "PGLD",
     "rarete": "Gold Secret",
@@ -7119,7 +7119,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1154,
+    "id": "1154",
     "nom": "Magicien Des Arcanes Mode Assaut",
     "set": "CRMS",
     "rarete": "Ultimate",
@@ -7140,7 +7140,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1202,
+    "id": "1202",
     "nom": "Serviteur Du Fossoyeur",
     "set": "MDM",
     "rarete": "Commune",
@@ -7161,7 +7161,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 972,
+    "id": "972",
     "nom": "Le Renoncé Aux Milles Yeux",
     "set": "TB",
     "rarete": "Ultra",
@@ -7182,7 +7182,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 172,
+    "id": "172",
     "nom": "Démon Mégacyber",
     "set": "SDP-F",
     "rarete": "Ultra",
@@ -7203,7 +7203,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 369,
+    "id": "369",
     "nom": "Spirit Of The Pharaoh",
     "set": "AST",
     "rarete": "Ultra",
@@ -7224,7 +7224,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 370,
+    "id": "370",
     "nom": "Hieracosphinx",
     "set": "TLM-JP",
     "rarete": "Ultimate",
@@ -7245,7 +7245,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 408,
+    "id": "408",
     "nom": "Horus Dragon De La Flamme Noir Lv8",
     "set": "EEN",
     "rarete": "Secret",
@@ -7266,7 +7266,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 606,
+    "id": "606",
     "nom": "Stop Défense",
     "set": "LDD-F",
     "rarete": "Rare",
@@ -7287,7 +7287,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 783,
+    "id": "783",
     "nom": "Archdémon Du Monde Mental",
     "set": "LC5D",
     "rarete": "Secret",
@@ -7308,7 +7308,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 799,
+    "id": "799",
     "nom": "Gobelin Parvenu",
     "set": "LCYW",
     "rarete": "Ultra",
@@ -7329,7 +7329,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 833,
+    "id": "833",
     "nom": "Mangeur D'Étoile",
     "set": "MP14",
     "rarete": "Secret",
@@ -7350,7 +7350,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 973,
+    "id": "973",
     "nom": "La Sentinelle Inflexible",
     "set": "MR",
     "rarete": "Super",
@@ -7371,7 +7371,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 974,
+    "id": "974",
     "nom": "Raviel",
     "set": "SOI-JP",
     "rarete": "Ultra",
@@ -7392,7 +7392,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 975,
+    "id": "975",
     "nom": "Fracas Le Guerrier Magique",
     "set": "303",
     "rarete": "Ultra",
@@ -7413,7 +7413,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 976,
+    "id": "976",
     "nom": "Phoenix Sacré De Nephthys",
     "set": "FET-JP",
     "rarete": "Ultra",
@@ -7434,7 +7434,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 977,
+    "id": "977",
     "nom": "Gorz L'Émissaire Des Ténèbres",
     "set": "YR03",
     "rarete": "Ultra",
@@ -7455,7 +7455,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 978,
+    "id": "978",
     "nom": "Zoma The Spirit",
     "set": "MG1-JP001",
     "rarete": "Ultra",
@@ -7476,7 +7476,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 979,
+    "id": "979",
     "nom": "Magicien Sombre Du Chaos",
     "set": "307",
     "rarete": "Ultra",
@@ -7497,7 +7497,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 980,
+    "id": "980",
     "nom": "Mega Dracossac",
     "set": "LTGY-JP",
     "rarete": "Ultimate",
@@ -7518,7 +7518,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 993,
+    "id": "993",
     "nom": "Temple Of The Kings",
     "set": "G6-B1",
     "rarete": "Ultra",
@@ -7539,7 +7539,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1127,
+    "id": "1127",
     "nom": "Caius, Le Monarque Des Ombres",
     "set": "PGLD",
     "rarete": "Gold",
@@ -7560,7 +7560,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1129,
+    "id": "1129",
     "nom": "Néo Dragon Ultime Aux Yeux Bleus",
     "set": "MVP1",
     "rarete": "Secret",
@@ -7581,7 +7581,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1145,
+    "id": "1145",
     "nom": "Magicien Sombre",
     "set": "DDY-F",
     "rarete": "Ultra",
@@ -7602,7 +7602,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1197,
+    "id": "1197",
     "nom": "Pendentif Noir",
     "set": "MDM",
     "rarete": "Super",
@@ -7623,7 +7623,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1198,
+    "id": "1198",
     "nom": "Impact De Météores Féeriques",
     "set": "SDP-F",
     "rarete": "Super",
@@ -7644,7 +7644,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 737,
+    "id": "737",
     "nom": "Elemental Hero Shininx Phoenix Enforcer",
     "set": "LCGX",
     "rarete": "Secret",
@@ -7665,7 +7665,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 757,
+    "id": "757",
     "nom": "Le Livre De La Lune",
     "set": "TU07",
     "rarete": "Ultra",
@@ -7686,7 +7686,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 16,
+    "id": "16",
     "nom": "Flot Rugissant De Destruction",
     "set": "AST",
     "rarete": "Ultra",
@@ -7707,7 +7707,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 213,
+    "id": "213",
     "nom": "Number 52 Diamond Crab King",
     "set": "YZ06",
     "rarete": "Secret",
@@ -7728,7 +7728,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 260,
+    "id": "260",
     "nom": "Debilmazera",
     "set": "AST",
     "rarete": "Secret",
@@ -7749,7 +7749,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 279,
+    "id": "279",
     "nom": "Guerrier Ardoise",
     "set": "TFK",
     "rarete": "Super",
@@ -7770,7 +7770,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 446,
+    "id": "446",
     "nom": "Le Créateur Des Ténèbres",
     "set": "PTDN",
     "rarete": "Secret",
@@ -7791,7 +7791,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 512,
+    "id": "512",
     "nom": "Yubel Terreur Incarnée",
     "set": "PTDN",
     "rarete": "Ultra",
@@ -7812,7 +7812,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 748,
+    "id": "748",
     "nom": "Table Des Matières Toon",
     "set": "DB2",
     "rarete": "Commune",
@@ -7833,7 +7833,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 792,
+    "id": "792",
     "nom": "Pashuul Sabre X",
     "set": "TU07",
     "rarete": "Super",
@@ -7854,7 +7854,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 981,
+    "id": "981",
     "nom": "Magicien De La Foi",
     "set": "RB",
     "rarete": "Super",
@@ -7875,7 +7875,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 982,
+    "id": "982",
     "nom": "Miroir Mystique",
     "set": "L3",
     "rarete": "Ultra",
@@ -7896,7 +7896,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 983,
+    "id": "983",
     "nom": "Force De Miroir",
     "set": "ME",
     "rarete": "Ultra",
@@ -7917,7 +7917,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 984,
+    "id": "984",
     "nom": "Numéro 106 Main De Géant",
     "set": "VJMP",
     "rarete": "Ultra",
@@ -7938,7 +7938,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 985,
+    "id": "985",
     "nom": "Annihilateur De Magie",
     "set": "IGAS",
     "rarete": "Ultra",
@@ -7959,7 +7959,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 986,
+    "id": "986",
     "nom": "Chimera The Flying Mythical Beast",
     "set": "G4-B2",
     "rarete": "Ultra",
@@ -7980,7 +7980,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 987,
+    "id": "987",
     "nom": "Annihilateur De Magie",
     "set": "307",
     "rarete": "Ultra",
@@ -8001,7 +8001,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 989,
+    "id": "989",
     "nom": "Multiplicateur De Dommages",
     "set": "TR",
     "rarete": "Ultra",
@@ -8022,7 +8022,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1128,
+    "id": "1128",
     "nom": "Aile Noire - Maître Des Armures",
     "set": "PGLD",
     "rarete": "Gold",
@@ -8043,7 +8043,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1132,
+    "id": "1132",
     "nom": "Dragon Ultime Aux Yeux Bleus",
     "set": "PGLD",
     "rarete": "Gold",
@@ -8064,7 +8064,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 717,
+    "id": "717",
     "nom": "Contrôle Mental",
     "set": "WC5",
     "rarete": "Super",
@@ -8085,7 +8085,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 868,
+    "id": "868",
     "nom": "Relieve Monster",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -8106,7 +8106,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 99,
+    "id": "99",
     "nom": "Bête Fantôme Méca Hamstrat",
     "set": "LTGY",
     "rarete": "Ultimate",
@@ -8127,7 +8127,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 100,
+    "id": "100",
     "nom": "Bête Fantôme Méca Hamstrat",
     "set": "LTGY",
     "rarete": "Ultimate",
@@ -8148,7 +8148,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 372,
+    "id": "372",
     "nom": "Cyber Phoenix",
     "set": "EOJ-JP",
     "rarete": "Ultimate",
@@ -8169,7 +8169,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 407,
+    "id": "407",
     "nom": "Table Des Matières Toon",
     "set": "DB2",
     "rarete": "Commune",
@@ -8190,7 +8190,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 575,
+    "id": "575",
     "nom": "Venus Splendide",
     "set": "TDGS",
     "rarete": "Secret",
@@ -8211,7 +8211,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 661,
+    "id": "661",
     "nom": "Exodia The Forbidden",
     "set": "MC1",
     "rarete": "Secret",
@@ -8232,7 +8232,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 691,
+    "id": "691",
     "nom": "Darkness Neosphere",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -8253,7 +8253,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 698,
+    "id": "698",
     "nom": "Theinen Le Grand Sphinx",
     "set": "YMM",
     "rarete": "Secret",
@@ -8274,7 +8274,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 752,
+    "id": "752",
     "nom": "Graceful Charity",
     "set": "HL04",
     "rarete": "Ultra",
@@ -8295,7 +8295,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 779,
+    "id": "779",
     "nom": "Yubel The Ultimate Nightmare",
     "set": "LCGX",
     "rarete": "Secret",
@@ -8316,7 +8316,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 780,
+    "id": "780",
     "nom": "Yubel Terror Incarnate",
     "set": "LCGX",
     "rarete": "Secret",
@@ -8337,7 +8337,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 854,
+    "id": "854",
     "nom": "Archfiend Of Gilfer",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -8358,7 +8358,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 990,
+    "id": "990",
     "nom": "Permutation Des Mondes",
     "set": "WJ",
     "rarete": "Ultra",
@@ -8379,7 +8379,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 991,
+    "id": "991",
     "nom": "Spell Shattering Arrow",
     "set": "GB7",
     "rarete": "Secret",
@@ -8400,7 +8400,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 992,
+    "id": "992",
     "nom": "Hamon",
     "set": "SOI-JP",
     "rarete": "Ultra",
@@ -8421,7 +8421,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 994,
+    "id": "994",
     "nom": "Cylindre Magique",
     "set": "P4",
     "rarete": "Ultra",
@@ -8442,7 +8442,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 995,
+    "id": "995",
     "nom": "Cylindre Magique",
     "set": "P4",
     "rarete": "Ultra",
@@ -8463,7 +8463,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 996,
+    "id": "996",
     "nom": "Aile Sombre Chevalier De Gaia",
     "set": "YU",
     "rarete": "Ultra",
@@ -8484,7 +8484,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 997,
+    "id": "997",
     "nom": "Gardien Goyo",
     "set": "TDGS-FR",
     "rarete": "Ultra",
@@ -8505,7 +8505,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1040,
+    "id": "1040",
     "nom": "Blaster À Bulles",
     "set": "DP1",
     "rarete": "Super",
@@ -8526,7 +8526,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1135,
+    "id": "1135",
     "nom": "Les Six Samouraïs - Zanji",
     "set": "RYMP",
     "rarete": "Ultra",
@@ -8547,7 +8547,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1140,
+    "id": "1140",
     "nom": "Tyran Dragon Rouge Archdémon",
     "set": "TDIL",
     "rarete": "Ultra",
@@ -8568,7 +8568,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1141,
+    "id": "1141",
     "nom": "Dragon Synchro De L'Aile De Cristal",
     "set": "SHVL",
     "rarete": "Secret",
@@ -8589,7 +8589,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1142,
+    "id": "1142",
     "nom": "Barkion Naturia",
     "set": "HA03",
     "rarete": "Secret",
@@ -8610,7 +8610,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 666,
+    "id": "666",
     "nom": "Dragon Poussière D'Étoiles",
     "set": "CT05",
     "rarete": "Secret",
@@ -8631,7 +8631,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 687,
+    "id": "687",
     "nom": "Gandora The Dragon Of Destruction",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -8652,7 +8652,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 49,
+    "id": "49",
     "nom": "Scarabée Néo-Spacien",
     "set": "FOTB",
     "rarete": "Super",
@@ -8673,7 +8673,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 65,
+    "id": "65",
     "nom": "Ring Of Destruction",
     "set": "IOC",
     "rarete": "Ultra",
@@ -8694,7 +8694,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 98,
+    "id": "98",
     "nom": "Bête Fantôme Méca Hamstrat",
     "set": "LTGY",
     "rarete": "Ultimate",
@@ -8715,7 +8715,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 289,
+    "id": "289",
     "nom": "Épée Amazonesse",
     "set": "TP7",
     "rarete": "Rare",
@@ -8736,7 +8736,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 293,
+    "id": "293",
     "nom": "Buster Blader",
     "set": "RP02",
     "rarete": "Super",
@@ -8757,7 +8757,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 373,
+    "id": "373",
     "nom": "Goyo Guardian",
     "set": "TDGS-JP",
     "rarete": "Ultimate",
@@ -8778,7 +8778,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 394,
+    "id": "394",
     "nom": "Tytanial Princesse Des Camelias",
     "set": "CSOC",
     "rarete": "Ultra",
@@ -8799,7 +8799,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 403,
+    "id": "403",
     "nom": "Dragon Rose Noir",
     "set": "CT05",
     "rarete": "Secret",
@@ -8820,7 +8820,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 406,
+    "id": "406",
     "nom": "Néos Héros Élémentaire",
     "set": "CT3",
     "rarete": "Secret",
@@ -8841,7 +8841,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 455,
+    "id": "455",
     "nom": "Troupe D'Assaut Gobeline",
     "set": "SDP-F",
     "rarete": "Ultra",
@@ -8862,7 +8862,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 577,
+    "id": "577",
     "nom": "Artilleur Hyper Psychique Mode Assaut",
     "set": "CRMS",
     "rarete": "Ultimate",
@@ -8883,7 +8883,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 592,
+    "id": "592",
     "nom": "Sorcier Du Chaos",
     "set": "PGLD",
     "rarete": "Gold",
@@ -8904,7 +8904,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 618,
+    "id": "618",
     "nom": "Ristourne",
     "set": "DR1",
     "rarete": "Ultra",
@@ -8925,7 +8925,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 625,
+    "id": "625",
     "nom": "Controleur D'Ennemi",
     "set": "AST",
     "rarete": "Ultra",
@@ -8946,7 +8946,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 656,
+    "id": "656",
     "nom": "Le Plumeau De Dame Harpie",
     "set": "VP19",
     "rarete": "Prismatic Secret Rare",
@@ -8967,7 +8967,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 657,
+    "id": "657",
     "nom": "Reine Insecte",
     "set": "CT1",
     "rarete": "Secret",
@@ -8988,7 +8988,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 658,
+    "id": "658",
     "nom": "Chevalier Épée",
     "set": "CT1",
     "rarete": "Secret",
@@ -9009,7 +9009,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 659,
+    "id": "659",
     "nom": "Univers Exarion",
     "set": "CT2",
     "rarete": "Secret",
@@ -9030,7 +9030,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 660,
+    "id": "660",
     "nom": "Néos Géant Héros Élémentaire",
     "set": "CT04",
     "rarete": "Secret",
@@ -9051,7 +9051,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 662,
+    "id": "662",
     "nom": "Dragon Arc-En-Ciel",
     "set": "CT4",
     "rarete": "Secret",
@@ -9072,7 +9072,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 723,
+    "id": "723",
     "nom": "Dragon Arc-En-Ciel Corrompu",
     "set": "YMP1",
     "rarete": "Secret",
@@ -9093,7 +9093,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 731,
+    "id": "731",
     "nom": "Griffe D'Arsenal",
     "set": "DP08",
     "rarete": "Ultra",
@@ -9114,7 +9114,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 739,
+    "id": "739",
     "nom": "Cyber Dragon",
     "set": "LCGX",
     "rarete": "Secret",
@@ -9135,7 +9135,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 756,
+    "id": "756",
     "nom": "Horus Dragon De La Flamme Noire Lv8",
     "set": "EEN",
     "rarete": "Secret",
@@ -9156,7 +9156,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 877,
+    "id": "877",
     "nom": "Thousand Dragon",
     "set": "MRD",
     "rarete": "Secret",
@@ -9177,7 +9177,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 998,
+    "id": "998",
     "nom": "Question",
     "set": "DR1",
     "rarete": "Super",
@@ -9198,7 +9198,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 999,
+    "id": "999",
     "nom": "Numéro 101",
     "set": "LVAL-JP",
     "rarete": "Ultra",
@@ -9219,7 +9219,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1000,
+    "id": "1000",
     "nom": "Wicked Dreadroot",
     "set": "VJMP",
     "rarete": "Ultra",
@@ -9240,7 +9240,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1001,
+    "id": "1001",
     "nom": "Doomcaliber Knight",
     "set": "VB8",
     "rarete": "Ultra",
@@ -9261,7 +9261,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1002,
+    "id": "1002",
     "nom": "Onde De Diffusion",
     "set": "EE1",
     "rarete": "Ultra",
@@ -9282,7 +9282,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1003,
+    "id": "1003",
     "nom": "Dragon À Recul",
     "set": "308",
     "rarete": "Ultra",
@@ -9303,7 +9303,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1004,
+    "id": "1004",
     "nom": "Dragon À Recul",
     "set": "308",
     "rarete": "Ultra",
@@ -9324,7 +9324,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1005,
+    "id": "1005",
     "nom": "Bouc Émissaire",
     "set": "L3",
     "rarete": "Ultra",
@@ -9345,7 +9345,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1006,
+    "id": "1006",
     "nom": "Démon Mégacyber",
     "set": "TB",
     "rarete": "Ultra",
@@ -9366,7 +9366,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1007,
+    "id": "1007",
     "nom": "Two-Headed King Rex",
     "set": "BC-46",
     "rarete": "Ultra",
@@ -9387,7 +9387,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1008,
+    "id": "1008",
     "nom": "Trou Noir",
     "set": "LB",
     "rarete": "Ultra",
@@ -9408,7 +9408,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1009,
+    "id": "1009",
     "nom": "Chevalier Divin Grand Dragon D'Or",
     "set": "SHSP-JP",
     "rarete": "Ultimate",
@@ -9429,7 +9429,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1123,
+    "id": "1123",
     "nom": "Ring Of Destruction",
     "set": "PP01-KR",
     "rarete": "Ultra",
@@ -9450,7 +9450,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1148,
+    "id": "1148",
     "nom": "Griffe D'Arsenal",
     "set": "DP08",
     "rarete": "Ultra",
@@ -9471,7 +9471,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1150,
+    "id": "1150",
     "nom": "Monster Reborn",
     "set": "LDD-F",
     "rarete": "Ultra",
@@ -9492,7 +9492,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1199,
+    "id": "1199",
     "nom": "Polymérisation",
     "set": "LDD-F",
     "rarete": "Super",
@@ -9513,7 +9513,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 709,
+    "id": "709",
     "nom": "Benediction De Sabek",
     "set": "PCJ",
     "rarete": "Secret",
@@ -9534,7 +9534,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 55,
+    "id": "55",
     "nom": "Numéro 17 Dragon Léviathan",
     "set": "GENF",
     "rarete": "Ultra",
@@ -9555,7 +9555,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 64,
+    "id": "64",
     "nom": "Guardian Angel Joan",
     "set": "IOC",
     "rarete": "Ultra",
@@ -9576,7 +9576,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 133,
+    "id": "133",
     "nom": "Gagaga Girl",
     "set": "ORCS",
     "rarete": "Secret",
@@ -9597,7 +9597,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 134,
+    "id": "134",
     "nom": "Gagaga Girl",
     "set": "ORCS",
     "rarete": "Secret",
@@ -9618,7 +9618,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 143,
+    "id": "143",
     "nom": "Megacyber Fiend",
     "set": "SDP-F",
     "rarete": "Ultra",
@@ -9639,7 +9639,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 147,
+    "id": "147",
     "nom": "Triceratops Volcanique",
     "set": "PTDN",
     "rarete": "Super",
@@ -9660,7 +9660,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 148,
+    "id": "148",
     "nom": "Enchanteur Écarlate",
     "set": "PTDN",
     "rarete": "Secret",
@@ -9681,7 +9681,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 201,
+    "id": "201",
     "nom": "Gardien Goyo",
     "set": "TDGS",
     "rarete": "Ultra",
@@ -9702,7 +9702,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 215,
+    "id": "215",
     "nom": "Numéro 61 Volcasaure",
     "set": "ZTIN",
     "rarete": "Ultra",
@@ -9723,7 +9723,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 393,
+    "id": "393",
     "nom": "Machine À Voyager Dans Le Temps",
     "set": "CSOC",
     "rarete": "Secret",
@@ -9744,7 +9744,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 400,
+    "id": "400",
     "nom": "Ha Des Ressucité",
     "set": "CSOC",
     "rarete": "Ultra",
@@ -9765,7 +9765,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 411,
+    "id": "411",
     "nom": "Chevalier Néos Héros Élémentaire",
     "set": "EXVC",
     "rarete": "Ultra",
@@ -9786,7 +9786,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 418,
+    "id": "418",
     "nom": "Échange Solaire",
     "set": "LODT",
     "rarete": "Ultra",
@@ -9807,7 +9807,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 441,
+    "id": "441",
     "nom": "Invitation Des Ténèbres",
     "set": "PTDN",
     "rarete": "Ultra",
@@ -9828,7 +9828,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 594,
+    "id": "594",
     "nom": "Seigneur Vampire",
     "set": "DCR-25",
     "rarete": "Secret",
@@ -9849,7 +9849,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 667,
+    "id": "667",
     "nom": "Gardien Goyo",
     "set": "CT05",
     "rarete": "Secret",
@@ -9870,7 +9870,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 668,
+    "id": "668",
     "nom": "Dragon Électromécanique",
     "set": "CT06",
     "rarete": "Secret",
@@ -9891,7 +9891,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 669,
+    "id": "669",
     "nom": "Dragon Électromécanique",
     "set": "CT06",
     "rarete": "Secret",
@@ -9912,7 +9912,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 671,
+    "id": "671",
     "nom": "Dragon Léviathan",
     "set": "CT08",
     "rarete": "Secret",
@@ -9933,7 +9933,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 672,
+    "id": "672",
     "nom": "Dragon Photon Aux Yeux Galactiques",
     "set": "CT08",
     "rarete": "Secret",
@@ -9954,7 +9954,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 759,
+    "id": "759",
     "nom": "Choc De Byser",
     "set": "DR1",
     "rarete": "Ultra",
@@ -9975,7 +9975,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 773,
+    "id": "773",
     "nom": "Dragon Photon Aux Yeux Galactiques",
     "set": "CT08",
     "rarete": "Secret",
@@ -9996,7 +9996,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 788,
+    "id": "788",
     "nom": "Jinzo Superposé",
     "set": "DLCS",
     "rarete": "Secret",
@@ -10017,7 +10017,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 801,
+    "id": "801",
     "nom": "Reine Harpie",
     "set": "LART",
     "rarete": "Ultra",
@@ -10038,7 +10038,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 802,
+    "id": "802",
     "nom": "Appel De L'Être Hanté",
     "set": "LART",
     "rarete": "Ultra",
@@ -10059,7 +10059,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1010,
+    "id": "1010",
     "nom": "Numéro 22",
     "set": "YZ",
     "rarete": "Ultra",
@@ -10080,7 +10080,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1011,
+    "id": "1011",
     "nom": "Ninja D'Intervention",
     "set": "306",
     "rarete": "Ultra",
@@ -10101,7 +10101,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1012,
+    "id": "1012",
     "nom": "Dragon À La Corne Blanche",
     "set": "VJC",
     "rarete": "Ultra",
@@ -10122,7 +10122,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1013,
+    "id": "1013",
     "nom": "Dragon À La Corne Blanche",
     "set": "VJC",
     "rarete": "Ultra",
@@ -10143,7 +10143,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1014,
+    "id": "1014",
     "nom": "Magicienne Des Ténèbres",
     "set": "P4",
     "rarete": "Ultra",
@@ -10164,7 +10164,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1130,
+    "id": "1130",
     "nom": "Dragon Méca Électromécanique",
     "set": "PGLD",
     "rarete": "Gold",
@@ -10185,7 +10185,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1133,
+    "id": "1133",
     "nom": "Brionac, Dragon De La Barrière De Glace",
     "set": "GLD5",
     "rarete": "Gold",
@@ -10206,7 +10206,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1134,
+    "id": "1134",
     "nom": "Néo Dragon Ultime Aux Yeux Bleus",
     "set": "MVP1",
     "rarete": "Gold",
@@ -10227,7 +10227,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1143,
+    "id": "1143",
     "nom": "Magicienne Des Ténèbres Le Dragon Chevalier",
     "set": "DLCS",
     "rarete": "Ultra",
@@ -10248,7 +10248,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1144,
+    "id": "1144",
     "nom": "Magicienne Des Ténèbres Le Dragon Chevalier",
     "set": "DLCS",
     "rarete": "Ultra",
@@ -10269,7 +10269,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1146,
+    "id": "1146",
     "nom": "Magicien Sombre",
     "set": "DDY-F",
     "rarete": "Ultra",
@@ -10290,7 +10290,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1200,
+    "id": "1200",
     "nom": "Elfe Mystique",
     "set": "LDD-F",
     "rarete": "Super",
@@ -10311,7 +10311,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 665,
+    "id": "665",
     "nom": "Destiny Hero Plasma",
     "set": "CT04",
     "rarete": "Secret",
@@ -10332,7 +10332,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 781,
+    "id": "781",
     "nom": "Dandylion",
     "set": "LCGX",
     "rarete": "Secret",
@@ -10353,7 +10353,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 790,
+    "id": "790",
     "nom": "Royaume Toon",
     "set": "DLCS",
     "rarete": "Ultra",
@@ -10374,7 +10374,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1015,
+    "id": "1015",
     "nom": "Kuriboh",
     "set": "TLM-JP",
     "rarete": "Super",
@@ -10395,7 +10395,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1016,
+    "id": "1016",
     "nom": "Paladin Du Dragon Blanc",
     "set": "302",
     "rarete": "Ultra",
@@ -10416,7 +10416,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 40,
+    "id": "40",
     "nom": "Goldd Wu Lord Of Dark World",
     "set": "EEN",
     "rarete": "Super",
@@ -10437,7 +10437,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 128,
+    "id": "128",
     "nom": "Numéro 74 Maître Des Lames",
     "set": "NUMH",
     "rarete": "Secret",
@@ -10458,7 +10458,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 161,
+    "id": "161",
     "nom": "Dragon Gishilnodon Seigneur Des Mers",
     "set": "RGBT",
     "rarete": "Super",
@@ -10479,7 +10479,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 297,
+    "id": "297",
     "nom": "Guerrier Turbo",
     "set": "CT05",
     "rarete": "Secret",
@@ -10500,7 +10500,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 377,
+    "id": "377",
     "nom": "Garde Des Cartes",
     "set": "ANPR",
     "rarete": "Secret",
@@ -10521,7 +10521,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 378,
+    "id": "378",
     "nom": "Y-Dragon-Head",
     "set": "MFC",
     "rarete": "Super",
@@ -10542,7 +10542,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 379,
+    "id": "379",
     "nom": "Tragigue",
     "set": "RDS",
     "rarete": "Ultimate",
@@ -10563,7 +10563,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 405,
+    "id": "405",
     "nom": "Dragon Rouge Archdémon",
     "set": "CT05",
     "rarete": "Secret",
@@ -10584,7 +10584,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 420,
+    "id": "420",
     "nom": "Dragon Fantôme",
     "set": "LODT",
     "rarete": "Ultra",
@@ -10605,7 +10605,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 582,
+    "id": "582",
     "nom": "Pommes D'Or",
     "set": "STOR",
     "rarete": "Secret",
@@ -10626,7 +10626,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 628,
+    "id": "628",
     "nom": "Saturne Agent Du Jugement",
     "set": "AST",
     "rarete": "Ultra",
@@ -10647,7 +10647,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 675,
+    "id": "675",
     "nom": "Dragon Xyz De La Rebellion Des Ténèbres",
     "set": "CT12",
     "rarete": "Secret",
@@ -10668,7 +10668,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 677,
+    "id": "677",
     "nom": "Neptune Le Tyran",
     "set": "CT08",
     "rarete": "Super",
@@ -10689,7 +10689,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 678,
+    "id": "678",
     "nom": "Kalidor Allié De La Justice",
     "set": "HA01",
     "rarete": "Secret",
@@ -10710,7 +10710,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 679,
+    "id": "679",
     "nom": "Gae Bulg Chevalier Dragunité",
     "set": "HA03",
     "rarete": "Secret",
@@ -10731,7 +10731,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 683,
+    "id": "683",
     "nom": "Pléiades De La Constellée",
     "set": "HA07",
     "rarete": "Secret",
@@ -10752,7 +10752,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 697,
+    "id": "697",
     "nom": "Magicien Sombre",
     "set": "YSYR",
     "rarete": "Ultimate",
@@ -10773,7 +10773,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 707,
+    "id": "707",
     "nom": "Magicien Sombre",
     "set": "PCY",
     "rarete": "Secret",
@@ -10794,7 +10794,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 710,
+    "id": "710",
     "nom": "Sage'S Stone",
     "set": "ROD",
     "rarete": "Secret",
@@ -10815,7 +10815,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 726,
+    "id": "726",
     "nom": "Dragon Abominable",
     "set": "DP04",
     "rarete": "Ultra",
@@ -10836,7 +10836,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 753,
+    "id": "753",
     "nom": "Monster Reborn",
     "set": "HL07",
     "rarete": "Ultra",
@@ -10857,7 +10857,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 762,
+    "id": "762",
     "nom": "Dé Crane",
     "set": "TSC",
     "rarete": "Secret",
@@ -10878,7 +10878,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 793,
+    "id": "793",
     "nom": "Naturia Exterio",
     "set": "HA04",
     "rarete": "Secret",
@@ -10899,7 +10899,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 796,
+    "id": "796",
     "nom": "Black Horn Of Heaven",
     "set": "LCJW",
     "rarete": "Secret",
@@ -10920,7 +10920,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 797,
+    "id": "797",
     "nom": "Black Horn Of Heaven",
     "set": "LCJW",
     "rarete": "Secret",
@@ -10941,7 +10941,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 798,
+    "id": "798",
     "nom": "Black Horn Of Heaven",
     "set": "LCJW",
     "rarete": "Secret",
@@ -10962,7 +10962,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 843,
+    "id": "843",
     "nom": "Univers Exarion",
     "set": "CT2",
     "rarete": "Secret",
@@ -10983,7 +10983,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 847,
+    "id": "847",
     "nom": "Le Renoncé",
     "set": "DDP",
     "rarete": "Ultra",
@@ -11004,7 +11004,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1017,
+    "id": "1017",
     "nom": "Sixième Sens",
     "set": "VB6-003",
     "rarete": "Ultra",
@@ -11025,7 +11025,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1018,
+    "id": "1018",
     "nom": "Sixième Sens",
     "set": "VB6-003",
     "rarete": "Ultra",
@@ -11046,7 +11046,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1020,
+    "id": "1020",
     "nom": "Virus Destructeur Démoniaque",
     "set": "P5",
     "rarete": "Ultra",
@@ -11067,7 +11067,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1021,
+    "id": "1021",
     "nom": "Numéro 50",
     "set": "YZ02",
     "rarete": "Ultra",
@@ -11088,7 +11088,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1022,
+    "id": "1022",
     "nom": "Wicked Eraser",
     "set": "VJMP",
     "rarete": "Ultra",
@@ -11109,7 +11109,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1023,
+    "id": "1023",
     "nom": "The Silent Sword",
     "set": "DS14-JP113",
     "rarete": "Ultra",
@@ -11130,7 +11130,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1024,
+    "id": "1024",
     "nom": "Marshmallon",
     "set": "PP6",
     "rarete": "Ultra",
@@ -11151,7 +11151,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1025,
+    "id": "1025",
     "nom": "Paladin Des Ténèbres",
     "set": "SY2",
     "rarete": "Ultra",
@@ -11172,7 +11172,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1026,
+    "id": "1026",
     "nom": "Rituel De Magie Noire",
     "set": "P4",
     "rarete": "Ultra",
@@ -11193,7 +11193,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1027,
+    "id": "1027",
     "nom": "Rituel De Magie Noire",
     "set": "P4",
     "rarete": "Ultra",
@@ -11214,7 +11214,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1028,
+    "id": "1028",
     "nom": "Milles Couteaux",
     "set": "P4",
     "rarete": "Ultra",
@@ -11235,7 +11235,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1029,
+    "id": "1029",
     "nom": "Magicien Sombre",
     "set": "P4",
     "rarete": "Ultra",
@@ -11256,7 +11256,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1030,
+    "id": "1030",
     "nom": "Dragon Yamata",
     "set": "MA",
     "rarete": "Ultra",
@@ -11277,7 +11277,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 688,
+    "id": "688",
     "nom": "Beast King Barbaros",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -11298,7 +11298,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 775,
+    "id": "775",
     "nom": "Numéro F0 Futur Dragon Utopique",
     "set": "BLCR",
     "rarete": "Secret",
@@ -11319,7 +11319,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 836,
+    "id": "836",
     "nom": "Black Rose Dragon",
     "set": "TN23",
     "rarete": "Qcr",
@@ -11340,7 +11340,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1031,
+    "id": "1031",
     "nom": "Archdémon De Gilfer",
     "set": "WJ",
     "rarete": "Ultra",
@@ -11361,7 +11361,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 26,
+    "id": "26",
     "nom": "Uforoid",
     "set": "CRV",
     "rarete": "Super",
@@ -11382,7 +11382,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 52,
+    "id": "52",
     "nom": "Transformation Zekt",
     "set": "GAOV",
     "rarete": "Ultimate",
@@ -11403,7 +11403,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 62,
+    "id": "62",
     "nom": "Reload",
     "set": "IOC",
     "rarete": "Super",
@@ -11424,7 +11424,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 63,
+    "id": "63",
     "nom": "Trap Jammer",
     "set": "IOC",
     "rarete": "Ultra",
@@ -11445,7 +11445,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 93,
+    "id": "93",
     "nom": "Gardien De L'Ordre",
     "set": "LODT",
     "rarete": "Super",
@@ -11466,7 +11466,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 103,
+    "id": "103",
     "nom": "Confiscation",
     "set": "MDM",
     "rarete": "Super",
@@ -11487,7 +11487,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 117,
+    "id": "117",
     "nom": "Tribute To The Doomed",
     "set": "MRD",
     "rarete": "Super",
@@ -11508,7 +11508,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 136,
+    "id": "136",
     "nom": "Great Dezard",
     "set": "PGD",
     "rarete": "Ultra",
@@ -11529,7 +11529,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 167,
+    "id": "167",
     "nom": "Gearfried",
     "set": "SDP-F",
     "rarete": "Super",
@@ -11550,7 +11550,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 170,
+    "id": "170",
     "nom": "Impact De Météores Féeriques",
     "set": "SDP-F",
     "rarete": "Super",
@@ -11571,7 +11571,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 199,
+    "id": "199",
     "nom": "Venominon Roi Des Serpents Venimeux",
     "set": "TAEV",
     "rarete": "Ultra",
@@ -11592,7 +11592,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 212,
+    "id": "212",
     "nom": "Numéro 11 Gros Œil",
     "set": "WGRT",
     "rarete": "Ultra",
@@ -11613,7 +11613,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 380,
+    "id": "380",
     "nom": "I.P Masquerena",
     "set": "BLMR",
     "rarete": "Secret",
@@ -11634,7 +11634,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 382,
+    "id": "382",
     "nom": "Numéro 101 Honneur Silencieux Arche",
     "set": "LVAL",
     "rarete": "Ultra",
@@ -11655,7 +11655,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 401,
+    "id": "401",
     "nom": "Bête Cristalline Pégase De Saphir",
     "set": "CT04",
     "rarete": "Secret",
@@ -11676,7 +11676,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 402,
+    "id": "402",
     "nom": "Dragon Hybride",
     "set": "CT05",
     "rarete": "Secret",
@@ -11697,7 +11697,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 419,
+    "id": "419",
     "nom": "Échange Solaire",
     "set": "LODT",
     "rarete": "Ultra",
@@ -11718,7 +11718,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 458,
+    "id": "458",
     "nom": "Cyber Dragon Ultime",
     "set": "STON",
     "rarete": "Super",
@@ -11739,7 +11739,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 673,
+    "id": "673",
     "nom": "Leviair",
     "set": "CT09",
     "rarete": "Super",
@@ -11760,7 +11760,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 736,
+    "id": "736",
     "nom": "Corne Du Paradis",
     "set": "LCYW",
     "rarete": "Secret",
@@ -11781,7 +11781,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 743,
+    "id": "743",
     "nom": "Reflect Bounder",
     "set": "DR1",
     "rarete": "Super",
@@ -11802,7 +11802,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 745,
+    "id": "745",
     "nom": "Seigneur De La Flamme Légendaire",
     "set": "DR1",
     "rarete": "Rare",
@@ -11823,7 +11823,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 766,
+    "id": "766",
     "nom": "Adreus Gardien De L'Armageddon",
     "set": "BP01",
     "rarete": "Super",
@@ -11844,7 +11844,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 776,
+    "id": "776",
     "nom": "Gorz L'Émissaire Des Ténèbres",
     "set": "LCYW",
     "rarete": "Ultra",
@@ -11865,7 +11865,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 777,
+    "id": "777",
     "nom": "Gorz L'Émissaire Des Ténèbres",
     "set": "LCYW",
     "rarete": "Ultra",
@@ -11886,7 +11886,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 782,
+    "id": "782",
     "nom": "Magicien Sombre Le Chevalier De La Magie Du Dragon",
     "set": "BLMR",
     "rarete": "Secret",
@@ -11907,7 +11907,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 784,
+    "id": "784",
     "nom": "Plumeau De Dame Harpie",
     "set": "MAMA",
     "rarete": "Ultra",
@@ -11928,7 +11928,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 794,
+    "id": "794",
     "nom": "Dispositif D'Évacuation Obligatoire",
     "set": "LCYW",
     "rarete": "Secret",
@@ -11949,7 +11949,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 795,
+    "id": "795",
     "nom": "Dispositif D'Évacuation Obligatoire",
     "set": "LCYW",
     "rarete": "Secret",
@@ -11970,7 +11970,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 806,
+    "id": "806",
     "nom": "Retour Inutile",
     "set": "LART",
     "rarete": "Ultra",
@@ -11991,7 +11991,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 807,
+    "id": "807",
     "nom": "Vamp Vampire",
     "set": "LART",
     "rarete": "Ultra",
@@ -12012,7 +12012,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 808,
+    "id": "808",
     "nom": "Yu-Gi-Oh! Zexal",
     "set": "LART",
     "rarete": "Ultra",
@@ -12033,7 +12033,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 809,
+    "id": "809",
     "nom": "Don Zaloog",
     "set": "LART",
     "rarete": "Ultra",
@@ -12054,7 +12054,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 810,
+    "id": "810",
     "nom": "Hache Du Desespoir",
     "set": "LART",
     "rarete": "Ultra",
@@ -12075,7 +12075,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 811,
+    "id": "811",
     "nom": "Genlisea Traptrix",
     "set": "LART",
     "rarete": "Ultra",
@@ -12096,7 +12096,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 812,
+    "id": "812",
     "nom": "Parasite Paracide",
     "set": "LART",
     "rarete": "Ultra",
@@ -12117,7 +12117,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 813,
+    "id": "813",
     "nom": "Senju Aux Mille Mains",
     "set": "LART",
     "rarete": "Ultra",
@@ -12138,7 +12138,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 814,
+    "id": "814",
     "nom": "Zombyra La Ténébreuse",
     "set": "LART",
     "rarete": "Ultra",
@@ -12159,7 +12159,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 815,
+    "id": "815",
     "nom": "Chef D'Orchestre Harpie",
     "set": "LART",
     "rarete": "Ultra",
@@ -12180,7 +12180,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 816,
+    "id": "816",
     "nom": "Allomérus Traptrix",
     "set": "LART",
     "rarete": "Ultra",
@@ -12201,7 +12201,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 817,
+    "id": "817",
     "nom": "Ange Cyber Benten",
     "set": "LART",
     "rarete": "Ultra",
@@ -12222,7 +12222,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 818,
+    "id": "818",
     "nom": "Sacrifice Inutile",
     "set": "LART",
     "rarete": "Ultra",
@@ -12243,7 +12243,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 819,
+    "id": "819",
     "nom": "Gemini Elf",
     "set": "LART",
     "rarete": "Ultra",
@@ -12264,7 +12264,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 820,
+    "id": "820",
     "nom": "L'Exhumation Du Tribut",
     "set": "LART",
     "rarete": "Ultra",
@@ -12285,7 +12285,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 821,
+    "id": "821",
     "nom": "Idaten Ange Cyber",
     "set": "LART",
     "rarete": "Ultra",
@@ -12306,7 +12306,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 822,
+    "id": "822",
     "nom": "Infirmière Dragonirène",
     "set": "LART",
     "rarete": "Ultra",
@@ -12327,7 +12327,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 824,
+    "id": "824",
     "nom": "Médium Harpie",
     "set": "LART",
     "rarete": "Ultra",
@@ -12348,7 +12348,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 825,
+    "id": "825",
     "nom": "Hiita La Flamboyante",
     "set": "LART",
     "rarete": "Ultra",
@@ -12369,7 +12369,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 826,
+    "id": "826",
     "nom": "Lion Frourreur",
     "set": "LART",
     "rarete": "Ultra",
@@ -12390,7 +12390,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 827,
+    "id": "827",
     "nom": "Rivalarrivée",
     "set": "LART",
     "rarete": "Ultra",
@@ -12411,7 +12411,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 828,
+    "id": "828",
     "nom": "Canon Dragon Catapulte Vwxyz",
     "set": "LART",
     "rarete": "Ultra",
@@ -12432,7 +12432,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 829,
+    "id": "829",
     "nom": "Lumina L'Invocatrice Seigneur Lumière",
     "set": "LART",
     "rarete": "Ultra",
@@ -12453,7 +12453,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 830,
+    "id": "830",
     "nom": "Eria La Déchainée",
     "set": "LART",
     "rarete": "Ultra",
@@ -12474,7 +12474,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 831,
+    "id": "831",
     "nom": "Super Cuirassé Canon Ferroviaire",
     "set": "LART",
     "rarete": "Ultra",
@@ -12495,7 +12495,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 832,
+    "id": "832",
     "nom": "Super Cuirassé Canon Ferroviaire",
     "set": "LART",
     "rarete": "Ultra",
@@ -12516,7 +12516,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 834,
+    "id": "834",
     "nom": "Stardust Dragon",
     "set": "GDB1",
     "rarete": "Gold",
@@ -12537,7 +12537,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 872,
+    "id": "872",
     "nom": "Giant Rat",
     "set": "HL03",
     "rarete": "Ultra",
@@ -12558,7 +12558,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1032,
+    "id": "1032",
     "nom": "Spadassin Mystique Lv4",
     "set": "SOD-JP",
     "rarete": "Ultra",
@@ -12579,7 +12579,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1033,
+    "id": "1033",
     "nom": "Tyrano Noir",
     "set": "307",
     "rarete": "Ultra",
@@ -12600,7 +12600,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1034,
+    "id": "1034",
     "nom": "Helpoemer",
     "set": "301",
     "rarete": "Ultra",
@@ -12621,7 +12621,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1136,
+    "id": "1136",
     "nom": "Malédiction Du Vampire",
     "set": "PTDN",
     "rarete": "Ultra",
@@ -12642,7 +12642,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 53,
+    "id": "53",
     "nom": "Transformation Zekt",
     "set": "GAOV",
     "rarete": "Ultimate",
@@ -12663,7 +12663,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 439,
+    "id": "439",
     "nom": "Brasier Héros Élémentaire",
     "set": "PP02",
     "rarete": "Secret",
@@ -12684,7 +12684,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 593,
+    "id": "593",
     "nom": "Trishula Dragon Of The Ice Barrier",
     "set": "HSRD",
     "rarete": "Secret",
@@ -12705,7 +12705,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 741,
+    "id": "741",
     "nom": "Dragon Aux Cornes Blanches",
     "set": "LCYW",
     "rarete": "Super",
@@ -12726,7 +12726,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 785,
+    "id": "785",
     "nom": "Le Livre De La Lune",
     "set": "LCJW",
     "rarete": "Ultra",
@@ -12747,7 +12747,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 786,
+    "id": "786",
     "nom": "Le Livre De La Lune",
     "set": "LCJW",
     "rarete": "Ultra",
@@ -12768,7 +12768,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 845,
+    "id": "845",
     "nom": "Reine Insecte",
     "set": "CT1",
     "rarete": "Secret",
@@ -12789,7 +12789,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 860,
+    "id": "860",
     "nom": "Neutron Genex",
     "set": "TSHD",
     "rarete": "Secret",
@@ -12810,7 +12810,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 871,
+    "id": "871",
     "nom": "Statue Of The Wicked",
     "set": "PGD",
     "rarete": "Super",
@@ -12831,7 +12831,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 44,
+    "id": "44",
     "nom": "Dojo De Shien",
     "set": "EXVC",
     "rarete": "Super",
@@ -12852,7 +12852,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 48,
+    "id": "48",
     "nom": "Ame De Feu",
     "set": "FOTB",
     "rarete": "Super",
@@ -12873,7 +12873,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 72,
+    "id": "72",
     "nom": "Galaxion Seigneur Des Étoiles",
     "set": "JOTL",
     "rarete": "Secret",
@@ -12894,7 +12894,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 72,
+    "id": "72",
     "nom": "Galaxion Seigneur Des Étoiles",
     "set": "JOTL",
     "rarete": "Secret",
@@ -12915,7 +12915,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 152,
+    "id": "152",
     "nom": "Tragique",
     "set": "RDS",
     "rarete": "Super",
@@ -12936,7 +12936,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 166,
+    "id": "166",
     "nom": "Soldat De Réserve",
     "set": "SDP-F",
     "rarete": "Super",
@@ -12957,7 +12957,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 195,
+    "id": "195",
     "nom": "Lance Interdite",
     "set": "STOR",
     "rarete": "Super",
@@ -12978,7 +12978,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 208,
+    "id": "208",
     "nom": "Envahisseur Des Ténèbres",
     "set": "TLM",
     "rarete": "Ultra",
@@ -12999,7 +12999,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 383,
+    "id": "383",
     "nom": "Numéro 27 Cuirassé Cuiranoid",
     "set": "DUOV",
     "rarete": "Ultra",
@@ -13020,7 +13020,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 437,
+    "id": "437",
     "nom": "Noueux Héros Élémentaire",
     "set": "PP02",
     "rarete": "Secret",
@@ -13041,7 +13041,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 438,
+    "id": "438",
     "nom": "Lien Des Héros",
     "set": "PP02",
     "rarete": "Secret",
@@ -13062,7 +13062,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 440,
+    "id": "440",
     "nom": "Le Début De La Fin",
     "set": "PTDN",
     "rarete": "Ultra",
@@ -13083,7 +13083,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 507,
+    "id": "507",
     "nom": "Maha Vailo",
     "set": "MRL",
     "rarete": "Super",
@@ -13104,7 +13104,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 509,
+    "id": "509",
     "nom": "Etincelle D'Extase Triangulaire",
     "set": "RDS",
     "rarete": "Super",
@@ -13125,7 +13125,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 595,
+    "id": "595",
     "nom": "Dragon Armé Des Ténèbres",
     "set": "GS02",
     "rarete": "Gold",
@@ -13146,7 +13146,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 596,
+    "id": "596",
     "nom": "Dragon Armé Des Ténèbres",
     "set": "GS02",
     "rarete": "Gold",
@@ -13167,7 +13167,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 623,
+    "id": "623",
     "nom": "Le Sanctuaire Céleste",
     "set": "AST",
     "rarete": "Super",
@@ -13188,7 +13188,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 624,
+    "id": "624",
     "nom": "Chasseur D'Héritage",
     "set": "AST",
     "rarete": "Super",
@@ -13209,7 +13209,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 681,
+    "id": "681",
     "nom": "Landoise Naturia",
     "set": "HA04",
     "rarete": "Secret",
@@ -13230,7 +13230,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 695,
+    "id": "695",
     "nom": "The Supremacy Sun",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -13251,7 +13251,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 703,
+    "id": "703",
     "nom": "Salamandra",
     "set": "SDD-E",
     "rarete": "Secret",
@@ -13272,7 +13272,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 704,
+    "id": "704",
     "nom": "Acid Trap Hole",
     "set": "SDD-E",
     "rarete": "Secret",
@@ -13293,7 +13293,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 705,
+    "id": "705",
     "nom": "Salamandra",
     "set": "SDD-E",
     "rarete": "Secret",
@@ -13314,7 +13314,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 727,
+    "id": "727",
     "nom": "Cyclone Sauvage Héros Du Mal",
     "set": "DP06",
     "rarete": "Ultra",
@@ -13335,7 +13335,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 728,
+    "id": "728",
     "nom": "Prodige Infernal Héros Du Mal",
     "set": "DP06",
     "rarete": "Super",
@@ -13356,7 +13356,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 729,
+    "id": "729",
     "nom": "Prodige Infernal Héros Du Mal",
     "set": "DP06",
     "rarete": "Super",
@@ -13377,7 +13377,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 730,
+    "id": "730",
     "nom": "Prodige Infernal Héros Du Mal",
     "set": "DP06",
     "rarete": "Super",
@@ -13398,7 +13398,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 732,
+    "id": "732",
     "nom": "Robot Synchronique",
     "set": "DPCT",
     "rarete": "Ultra",
@@ -13419,7 +13419,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 733,
+    "id": "733",
     "nom": "Hérisson À Boulons",
     "set": "DPCT",
     "rarete": "Super",
@@ -13440,7 +13440,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 740,
+    "id": "740",
     "nom": "Phoenix Sacré De Nephthys",
     "set": "LCYW",
     "rarete": "Super",
@@ -13461,7 +13461,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 746,
+    "id": "746",
     "nom": "Diffusion Ondulatoire",
     "set": "DR1",
     "rarete": "Ultra",
@@ -13482,7 +13482,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 763,
+    "id": "763",
     "nom": "Robot Synchronique",
     "set": "DPCT",
     "rarete": "Ultra",
@@ -13503,7 +13503,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 771,
+    "id": "771",
     "nom": "Robot Synchronique",
     "set": "DPCT",
     "rarete": "Ultra",
@@ -13524,7 +13524,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 772,
+    "id": "772",
     "nom": "Milles Couteaux",
     "set": "PCY",
     "rarete": "Secret",
@@ -13545,7 +13545,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 774,
+    "id": "774",
     "nom": "Robot Synchronique",
     "set": "DPCT",
     "rarete": "Ultra",
@@ -13566,7 +13566,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 804,
+    "id": "804",
     "nom": "Revolver Dragon",
     "set": "LART",
     "rarete": "Ultra",
@@ -13587,7 +13587,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 805,
+    "id": "805",
     "nom": "Ravissant Soldat D'Essayage",
     "set": "LART",
     "rarete": "Ultra",
@@ -13608,7 +13608,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 835,
+    "id": "835",
     "nom": "Black Rose Dragon",
     "set": "GS05",
     "rarete": "Gold",
@@ -13629,7 +13629,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 870,
+    "id": "870",
     "nom": "Marauding Captain",
     "set": "HL2",
     "rarete": "Ultra",
@@ -13650,7 +13650,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1035,
+    "id": "1035",
     "nom": "Sanctuaire Des Âmes",
     "set": "VB5",
     "rarete": "Ultra",
@@ -13671,7 +13671,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1036,
+    "id": "1036",
     "nom": "Sanctuaire Des Âmes",
     "set": "VB5",
     "rarete": "Ultra",
@@ -13692,7 +13692,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1037,
+    "id": "1037",
     "nom": "Saturne",
     "set": "308",
     "rarete": "Ultra",
@@ -13713,7 +13713,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1038,
+    "id": "1038",
     "nom": "Dragon Poussières D'Étoiles",
     "set": "GDB1",
     "rarete": "Gold",
@@ -13734,7 +13734,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 140,
+    "id": "140",
     "nom": "Tigre Photon",
     "set": "PHSW",
     "rarete": "Super",
@@ -13755,7 +13755,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 151,
+    "id": "151",
     "nom": "Étincelle D'Extase Triangulaire",
     "set": "RDS",
     "rarete": "Super",
@@ -13776,7 +13776,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 176,
+    "id": "176",
     "nom": "Barrière Mystique De Vie",
     "set": "SOD",
     "rarete": "Super",
@@ -13797,7 +13797,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 434,
+    "id": "434",
     "nom": "Ananta Le Dragon Maléfique",
     "set": "PP02",
     "rarete": "Secret",
@@ -13818,7 +13818,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 436,
+    "id": "436",
     "nom": "Ananta Le Dragon Maléfique",
     "set": "PP02",
     "rarete": "Secret",
@@ -13839,7 +13839,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 505,
+    "id": "505",
     "nom": "Soldat De Réserve",
     "set": "SDP-F",
     "rarete": "Super",
@@ -13860,7 +13860,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 692,
+    "id": "692",
     "nom": "Meklord Astro Mekanikle",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -13881,7 +13881,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 693,
+    "id": "693",
     "nom": "Meklord Emperor Granel",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -13902,7 +13902,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 694,
+    "id": "694",
     "nom": "Meklord Emperor Wisel",
     "set": "JUMP",
     "rarete": "Ultra",
@@ -13923,7 +13923,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 718,
+    "id": "718",
     "nom": "Dragon Explosif",
     "set": "WC07",
     "rarete": "Super",
@@ -13944,7 +13944,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 725,
+    "id": "725",
     "nom": "Dragon Cyberténébreux",
     "set": "DP04",
     "rarete": "Super",
@@ -13965,7 +13965,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1039,
+    "id": "1039",
     "nom": "Dragon Rose Noir",
     "set": "GS05",
     "rarete": "Gold",
@@ -13986,7 +13986,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 764,
+    "id": "764",
     "nom": "Numéro C1 Porte Du Chaos",
     "set": "BLAR",
     "rarete": "Secret",
@@ -14007,7 +14007,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 724,
+    "id": "724",
     "nom": "Cyber Dragon Ultime",
     "set": "DP04",
     "rarete": "Rare",
@@ -14028,7 +14028,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 767,
+    "id": "767",
     "nom": "Ver D'Appât",
     "set": "TF04",
     "rarete": "Super",
@@ -14049,7 +14049,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 768,
+    "id": "768",
     "nom": "Ver D'Appât",
     "set": "TF05",
     "rarete": "Super",
@@ -14070,7 +14070,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 769,
+    "id": "769",
     "nom": "Ver D'Appât",
     "set": "TF06",
     "rarete": "Super",
@@ -14091,7 +14091,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 647,
+    "id": "647",
     "nom": "Dragon Rouge Archdémon Mode Assaut",
     "set": "CRMS",
     "rarete": "Ultimate",
@@ -14112,7 +14112,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 626,
+    "id": "626",
     "nom": "Seigneur Des D",
     "set": "DDK-F",
     "rarete": "Super",
@@ -14133,7 +14133,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 637,
+    "id": "637",
     "nom": "Loup De Guerre Géno Perverti",
     "set": "STON",
     "rarete": "Ultimate",
@@ -14154,7 +14154,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 60,
+    "id": "60",
     "nom": "Lame Malveillante Héros Du Mal",
     "set": "GLAS",
     "rarete": "Ultimate",
@@ -14175,7 +14175,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 630,
+    "id": "630",
     "nom": "Bubbleman Héros Élémentaire",
     "set": "CRV",
     "rarete": "Ultimate",
@@ -14196,7 +14196,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 1081,
+    "id": "1081",
     "nom": "Néos Aérien Héros Élémentaire",
     "set": "STON",
     "rarete": "Ultimate",
@@ -14217,7 +14217,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 892,
+    "id": "892",
     "nom": "Raviel Empereur Des Phantasmes",
     "set": "SOI",
     "rarete": "Ultimate",
@@ -14238,7 +14238,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 571,
+    "id": "571",
     "nom": "Dragon Noir Aux Yeux Rouges",
     "set": "LDD-F",
     "rarete": "Ultra",
@@ -14259,7 +14259,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 627,
+    "id": "627",
     "nom": "Flute D'Invocation Du Dragon",
     "set": "DDK-F",
     "rarete": "Super",
@@ -14280,7 +14280,7 @@
     "vendeur": "s1"
   },
   {
-    "id": 3000001,
+    "id": "3000001",
     "nom": "Numéro C32 Requin Drakonien Veiss",
     "set": "ABYR",
     "rarete": "Ghost",
@@ -14301,7 +14301,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000002,
+    "id": "3000002",
     "nom": "Néos Arc-En-Ciel",
     "set": "PTDN",
     "rarete": "Ghost",
@@ -14322,7 +14322,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000003,
+    "id": "3000003",
     "nom": "Dragon Blanc Aux Yeux Bleus",
     "set": "LDD-F",
     "rarete": "Ultra",
@@ -14343,7 +14343,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000004,
+    "id": "3000004",
     "nom": "Magicienne Des Ténèbres",
     "set": "MP24",
     "rarete": "Qcsr",
@@ -14364,7 +14364,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000005,
+    "id": "3000005",
     "nom": "Soldat Du Lustre Noir - Super Soldat",
     "set": "DOCS",
     "rarete": "Ultimate",
@@ -14385,7 +14385,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000006,
+    "id": "3000006",
     "nom": "Golem Foudroyant Héros Du Mal",
     "set": "GLAS",
     "rarete": "Ultimate",
@@ -14406,7 +14406,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000007,
+    "id": "3000007",
     "nom": "Roi Des Poupées",
     "set": "CRMS",
     "rarete": "Secret",
@@ -14427,7 +14427,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000008,
+    "id": "3000008",
     "nom": "Soldat Du Lustre Noir - Émissaire Du Commencement",
     "set": "IOC",
     "rarete": "Ultra",
@@ -14448,7 +14448,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000009,
+    "id": "3000009",
     "nom": "Salamangrande Loup Du Soleil",
     "set": "LD10",
     "rarete": "Ghost",
@@ -14469,7 +14469,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000010,
+    "id": "3000010",
     "nom": "Dandelion",
     "set": "AP04",
     "rarete": "Ultimate",
@@ -14490,7 +14490,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000011,
+    "id": "3000011",
     "nom": "Pendulier De Combat",
     "set": "ABPF",
     "rarete": "Ultimate",
@@ -14511,7 +14511,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000012,
+    "id": "3000012",
     "nom": "Le Créateur",
     "set": "RDS",
     "rarete": "Ultimate",
@@ -14532,7 +14532,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000013,
+    "id": "3000013",
     "nom": "Dragon Rouge Archdémon / Mode Assaut",
     "set": "CRMS",
     "rarete": "Ghost",
@@ -14553,7 +14553,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000014,
+    "id": "3000014",
     "nom": "Cyber Dragon Laser",
     "set": "SOI",
     "rarete": "Ultimate",
@@ -14574,7 +14574,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000015,
+    "id": "3000015",
     "nom": "Néos Arc-En-Ciel",
     "set": "PTDN",
     "rarete": "Ghost",
@@ -14595,7 +14595,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000016,
+    "id": "3000016",
     "nom": "Le Dragon Ailé De Râ",
     "set": "LED7",
     "rarete": "Ghost",
@@ -14616,7 +14616,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000017,
+    "id": "3000017",
     "nom": "Dragon Ailes Sombres",
     "set": "TSHD",
     "rarete": "Ghost",
@@ -14637,7 +14637,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000018,
+    "id": "3000018",
     "nom": "Numéro 92 Dragon Heart-Earth",
     "set": "CBLZ",
     "rarete": "Ghost",
@@ -14658,7 +14658,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000019,
+    "id": "3000019",
     "nom": "Chevalier Maître Des Dragons",
     "set": "RP02",
     "rarete": "Secret",
@@ -14679,7 +14679,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000020,
+    "id": "3000020",
     "nom": "Espion Des Protecteurs Du Tombeau",
     "set": "CP03",
     "rarete": "Super",
@@ -14700,7 +14700,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000021,
+    "id": "3000021",
     "nom": "Dragon Ultime De Lumière",
     "set": "RGBT",
     "rarete": "Ultimate",
@@ -14721,7 +14721,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000022,
+    "id": "3000022",
     "nom": "Dragon Du Jugement",
     "set": "TU01",
     "rarete": "Ultimate",
@@ -14742,7 +14742,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000023,
+    "id": "3000023",
     "nom": "Ange De Loyauté",
     "set": "LODT",
     "rarete": "Ghost",
@@ -14763,7 +14763,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000024,
+    "id": "3000024",
     "nom": "Exécuteur Phoenix Lumineux Héros Élémentaire",
     "set": "EOJ",
     "rarete": "Ultimate",
@@ -14784,7 +14784,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000025,
+    "id": "3000025",
     "nom": "Dragon De La Victoire",
     "set": "RP02",
     "rarete": "Secret",
@@ -14805,7 +14805,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000026,
+    "id": "3000026",
     "nom": "Zombie Épidémique",
     "set": "CSOC",
     "rarete": "Ultimate",
@@ -14826,7 +14826,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000027,
+    "id": "3000027",
     "nom": "Magicien De La Foi",
     "set": "CP02",
     "rarete": "Super",
@@ -14847,7 +14847,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000028,
+    "id": "3000028",
     "nom": "Le Livre De La Lune",
     "set": "CP01",
     "rarete": "Super",
@@ -14868,7 +14868,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000029,
+    "id": "3000029",
     "nom": "Dragon Empereur Du Chaos - Émissaire De L'Achèvement",
     "set": "IOC",
     "rarete": "Ultra",
@@ -14889,7 +14889,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000030,
+    "id": "3000030",
     "nom": "Dragon Rouge Majestueux",
     "set": "ABPF",
     "rarete": "Ghost",
@@ -14910,7 +14910,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000031,
+    "id": "3000031",
     "nom": "Dragon Rouge Majestueux",
     "set": "ABPF",
     "rarete": "Ghost",
@@ -14931,7 +14931,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000032,
+    "id": "3000032",
     "nom": "Changement De Coeur",
     "set": "MRD",
     "rarete": "Ultra",
@@ -14952,7 +14952,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000033,
+    "id": "3000033",
     "nom": "Cyber Dragon Ultime",
     "set": "CRV",
     "rarete": "Ultimate",
@@ -14973,7 +14973,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000034,
+    "id": "3000034",
     "nom": "Dragon Du Jugement",
     "set": "LODT",
     "rarete": "Secret",
@@ -14994,7 +14994,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000035,
+    "id": "3000035",
     "nom": "Éxodia L'Interdit",
     "set": "BLCR",
     "rarete": "Starlight",
@@ -15015,7 +15015,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000036,
+    "id": "3000036",
     "nom": "Fusion Miraculeuse",
     "set": "CRV",
     "rarete": "Ultimate",
@@ -15036,7 +15036,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000037,
+    "id": "3000037",
     "nom": "Dragon Millénaire",
     "set": "MRD",
     "rarete": "Ultra",
@@ -15057,7 +15057,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000038,
+    "id": "3000038",
     "nom": "Soldat Lumineux",
     "set": "TP7",
     "rarete": "Super",
@@ -15078,7 +15078,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000039,
+    "id": "3000039",
     "nom": "Phoenix Sacré De Nephtys",
     "set": "FET",
     "rarete": "Ultimate",
@@ -15099,7 +15099,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000040,
+    "id": "3000040",
     "nom": "Le Créateur",
     "set": "RDS",
     "rarete": "Ultimate",
@@ -15120,7 +15120,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000041,
+    "id": "3000041",
     "nom": "Jinzo",
     "set": "SDP-F",
     "rarete": "Secret",
@@ -15141,7 +15141,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000042,
+    "id": "3000042",
     "nom": "Uria Seigneur Des Flammes Aveuglantes",
     "set": "SOI",
     "rarete": "Ultimate",
@@ -15162,7 +15162,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000043,
+    "id": "3000043",
     "nom": "Dragon Cyberténébreux",
     "set": "CDIP",
     "rarete": "Ultimate",
@@ -15183,7 +15183,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000044,
+    "id": "3000044",
     "nom": "Chimeratech Over-Dragon",
     "set": "POTD",
     "rarete": "Ultimate",
@@ -15204,7 +15204,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000045,
+    "id": "3000045",
     "nom": "Dragon Xyz De La Rébellion Des Ténèbres",
     "set": "NECH",
     "rarete": "Ghost",
@@ -15225,7 +15225,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000046,
+    "id": "3000046",
     "nom": "Magicien Du Temps",
     "set": "MRD",
     "rarete": "Super",
@@ -15246,7 +15246,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000047,
+    "id": "3000047",
     "nom": "Dragon De La Lumière Et Des Ténèbres",
     "set": "RP02",
     "rarete": "Secret",
@@ -15267,7 +15267,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000048,
+    "id": "3000048",
     "nom": "Hors-La-Loi Synchronique",
     "set": "TU06",
     "rarete": "Super",
@@ -15288,7 +15288,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000049,
+    "id": "3000049",
     "nom": "Épée Garma",
     "set": "TP8",
     "rarete": "Ultra",
@@ -15309,7 +15309,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000050,
+    "id": "3000050",
     "nom": "Carte De Retour Sain & Sauf",
     "set": "LDC",
     "rarete": "Ultra",
@@ -15330,7 +15330,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000051,
+    "id": "3000051",
     "nom": "Formule Magique",
     "set": "GLAS",
     "rarete": "Secret",
@@ -15351,7 +15351,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000052,
+    "id": "3000052",
     "nom": "Hamon Seigneur Du Tonnerre Fracassant",
     "set": "CT03",
     "rarete": "Secret",
@@ -15372,7 +15372,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000053,
+    "id": "3000053",
     "nom": "Apprenti Magicien",
     "set": "CP04",
     "rarete": "Super",
@@ -15393,7 +15393,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000054,
+    "id": "3000054",
     "nom": "Cyber Dragon Ultime",
     "set": "CRV",
     "rarete": "Ultimate",
@@ -15414,7 +15414,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000055,
+    "id": "3000055",
     "nom": "Jarre De Cupidité",
     "set": "LDC",
     "rarete": "Ultra",
@@ -15435,7 +15435,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000056,
+    "id": "3000056",
     "nom": "Puissance Du Mage",
     "set": "LDC",
     "rarete": "Ultra",
@@ -15456,7 +15456,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000057,
+    "id": "3000057",
     "nom": "Espion Des Protecteurs Du Tombeau",
     "set": "CP03",
     "rarete": "Super",
@@ -15477,7 +15477,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000058,
+    "id": "3000058",
     "nom": "Dragon Blanc Aux Yeux Bleus",
     "set": "MAMA",
     "rarete": "Ultra",
@@ -15498,7 +15498,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000059,
+    "id": "3000059",
     "nom": "Grand Maître Des Six Samouraïs",
     "set": "STON",
     "rarete": "Ultra",
@@ -15519,7 +15519,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000060,
+    "id": "3000060",
     "nom": "Le Livre De La Lune",
     "set": "CP01",
     "rarete": "Super",
@@ -15540,7 +15540,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000061,
+    "id": "3000061",
     "nom": "Moisson Ange De La Sagesse",
     "set": "STON",
     "rarete": "Secret",
@@ -15561,7 +15561,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000062,
+    "id": "3000062",
     "nom": "Gardien De L'Ordre",
     "set": "LODT",
     "rarete": "Secret",
@@ -15582,7 +15582,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000063,
+    "id": "3000063",
     "nom": "Dragon Empereur Du Chaos - Émissaire De L'Achèvement",
     "set": "IOC",
     "rarete": "Ultra",
@@ -15603,7 +15603,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000064,
+    "id": "3000064",
     "nom": "Ojama Roi",
     "set": "SOD",
     "rarete": "Ultimate",
@@ -15624,7 +15624,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000065,
+    "id": "3000065",
     "nom": "Meltiel Sage Du Paradis",
     "set": "STON",
     "rarete": "Secret",
@@ -15645,7 +15645,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000066,
+    "id": "3000066",
     "nom": "Reine Charmeuse Lv5",
     "set": "CDIP",
     "rarete": "Ultimate",
@@ -15666,7 +15666,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000067,
+    "id": "3000067",
     "nom": "Dragon Blanc Aux Yeux Bleus",
     "set": "LC01",
     "rarete": "Qcsr",
@@ -15687,7 +15687,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000068,
+    "id": "3000068",
     "nom": "Bazoo Le Mangeur D'Âmes",
     "set": "LDC",
     "rarete": "Super",
@@ -15708,7 +15708,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000069,
+    "id": "3000069",
     "nom": "Dragon Dix-Mille",
     "set": "BLAR",
     "rarete": "Spéciale",
@@ -15729,7 +15729,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000070,
+    "id": "3000070",
     "nom": "Raviel Empereur Des Phantasmes",
     "set": "CT03",
     "rarete": "Secret",
@@ -15750,7 +15750,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000071,
+    "id": "3000071",
     "nom": "Cyber Dragon",
     "set": "CRV",
     "rarete": "Ultimate",
@@ -15771,7 +15771,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000072,
+    "id": "3000072",
     "nom": "Rainette",
     "set": "SOI",
     "rarete": "Ultimate",
@@ -15792,7 +15792,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000073,
+    "id": "3000073",
     "nom": "Épée Garma",
     "set": "TP8",
     "rarete": "Ultra",
@@ -15813,7 +15813,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000074,
+    "id": "3000074",
     "nom": "Spectre Revenant",
     "set": "LDC",
     "rarete": "Super",
@@ -15834,7 +15834,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000075,
+    "id": "3000075",
     "nom": "Dé-Fusion",
     "set": "LDC",
     "rarete": "Ultra",
@@ -15855,7 +15855,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000076,
+    "id": "3000076",
     "nom": "Dragon Rouge Archdémon / Mode Assaut",
     "set": "CRMS",
     "rarete": "Ghost",
@@ -15876,7 +15876,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000077,
+    "id": "3000077",
     "nom": "Transporteur Interdimensionnel De Matière",
     "set": "DCR",
     "rarete": "Ultra",
@@ -15897,7 +15897,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000078,
+    "id": "3000078",
     "nom": "Dragon Rayonnant Aux Yeux Bleus",
     "set": "RP02",
     "rarete": "Secret",
@@ -15918,7 +15918,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000079,
+    "id": "3000079",
     "nom": "Fracas Le Guerrier Magique",
     "set": "TP7",
     "rarete": "Super",
@@ -15939,7 +15939,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000080,
+    "id": "3000080",
     "nom": "Dragon De La Lumière Et Des Ténèbres",
     "set": "RP02",
     "rarete": "Secret",
@@ -15960,7 +15960,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000081,
+    "id": "3000081",
     "nom": "Magicienne Des Ténèbres",
     "set": "CT2",
     "rarete": "Secret",
@@ -15981,7 +15981,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000082,
+    "id": "3000082",
     "nom": "Masque Du Maudit",
     "set": "LDC",
     "rarete": "Super",
@@ -16002,7 +16002,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000083,
+    "id": "3000083",
     "nom": "Hommage Torrentiel",
     "set": "LDC",
     "rarete": "Ultra",
@@ -16023,7 +16023,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000084,
+    "id": "3000084",
     "nom": "Barrière De Riryoku",
     "set": "LDC",
     "rarete": "Super",
@@ -16044,7 +16044,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000085,
+    "id": "3000085",
     "nom": "Phoenix Sacré De Nephtys",
     "set": "FET",
     "rarete": "Ultimate",
@@ -16065,7 +16065,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000086,
+    "id": "3000086",
     "nom": "Dragon Rayonnant Aux Yeux Bleus",
     "set": "RP02",
     "rarete": "Secret",
@@ -16086,7 +16086,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000087,
+    "id": "3000087",
     "nom": "Cyber Dragon",
     "set": "CRV",
     "rarete": "Ultimate",
@@ -16107,7 +16107,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000088,
+    "id": "3000088",
     "nom": "Guerrier Ardoise",
     "set": "TP8",
     "rarete": "Super",
@@ -16128,7 +16128,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000089,
+    "id": "3000089",
     "nom": "Fusion Dimensionnelle",
     "set": "IOC",
     "rarete": "Ultra",
@@ -16149,7 +16149,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000090,
+    "id": "3000090",
     "nom": "Dragon Dix-Mille",
     "set": "BLAR",
     "rarete": "Spéciale",
@@ -16170,7 +16170,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000091,
+    "id": "3000091",
     "nom": "Géant Du Tonnerre Héros Élémentaire",
     "set": "TLM",
     "rarete": "Ultimate",
@@ -16191,7 +16191,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000092,
+    "id": "3000092",
     "nom": "Dragon Blanc Aux Yeux Bleus",
     "set": "LOB",
     "rarete": "Ultra",
@@ -16212,7 +16212,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000093,
+    "id": "3000093",
     "nom": "Cancrelat Maxx",
     "set": "STOR",
     "rarete": "Secret",
@@ -16233,7 +16233,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000094,
+    "id": "3000094",
     "nom": "Dé-Fusion",
     "set": "LDC",
     "rarete": "Ultra",
@@ -16254,7 +16254,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000095,
+    "id": "3000095",
     "nom": "Épées De Ravissement De La Lumière",
     "set": "FET",
     "rarete": "Ultimate",
@@ -16275,7 +16275,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 3000096,
+    "id": "3000096",
     "nom": "Bazoo Le Mangeur D'Âmes",
     "set": "LDC",
     "rarete": "Super",
@@ -16296,7 +16296,7 @@
     "vendeur": "s3"
   },
   {
-    "id": 4000001,
+    "id": "4000001",
     "nom": "Shooting Majestic Star Dragon",
     "set": "DAMA",
     "rarete": "Starlight",
@@ -16317,7 +16317,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000002,
+    "id": "4000002",
     "nom": "Prismatic God Box",
     "set": "PGB1",
     "rarete": "Booster",
@@ -16338,7 +16338,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000003,
+    "id": "4000003",
     "nom": "Le Vortex Embrasé (Display)",
     "set": "BLVO",
     "rarete": "Booster",
@@ -16359,7 +16359,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000004,
+    "id": "4000004",
     "nom": "Le Pouvoir Des Éléments (Display)",
     "set": "POTE",
     "rarete": "Booster",
@@ -16380,7 +16380,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000005,
+    "id": "4000005",
     "nom": "Dragon Rouge Archdémon",
     "set": "GFP2",
     "rarete": "Ghost",
@@ -16401,7 +16401,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000006,
+    "id": "4000006",
     "nom": "Dragon Blanc Aux Yeux Bleus",
     "set": "GLD5",
     "rarete": "Ghost",
@@ -16422,7 +16422,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000007,
+    "id": "4000007",
     "nom": "Néo Dragon Photon Aux Yeux Galactiques",
     "set": "GAOV",
     "rarete": "Ultimate",
@@ -16443,7 +16443,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000008,
+    "id": "4000008",
     "nom": "Exxod Maître De La Garde",
     "set": "SD7",
     "rarete": "Ultra",
@@ -16464,7 +16464,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000009,
+    "id": "4000009",
     "nom": "Blue-Eyes Toon Dragon",
     "set": "SRL",
     "rarete": "Secret",
@@ -16485,7 +16485,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000010,
+    "id": "4000010",
     "nom": "Dragon Xyz De La Rébellion Des Ténèbres",
     "set": "NECH",
     "rarete": "Ultimate",
@@ -16506,7 +16506,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000011,
+    "id": "4000011",
     "nom": "Gardien Celte",
     "set": "LDD-F",
     "rarete": "Super",
@@ -16527,7 +16527,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000012,
+    "id": "4000012",
     "nom": "Dragon Pare-Feu",
     "set": "OP16",
     "rarete": "Ultimate",
@@ -16548,7 +16548,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000013,
+    "id": "4000013",
     "nom": "Dragon Of Illumination, Sanctuary'S Shield",
     "set": "REPLICA",
     "rarete": "Ultra",
@@ -16569,7 +16569,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000014,
+    "id": "4000014",
     "nom": "Dragon Armé Des Ténèbres",
     "set": "PTDN",
     "rarete": "Secret",
@@ -16590,7 +16590,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000015,
+    "id": "4000015",
     "nom": "Flash Hero !!",
     "set": "EOJ",
     "rarete": "Ultimate",
@@ -16611,7 +16611,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000016,
+    "id": "4000016",
     "nom": "Flash Hero !!",
     "set": "EOJ",
     "rarete": "Ultimate",
@@ -16632,7 +16632,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000017,
+    "id": "4000017",
     "nom": "Zorc - Maître Des Ténèbres",
     "set": "DCR",
     "rarete": "Super",
@@ -16653,7 +16653,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000018,
+    "id": "4000018",
     "nom": "Dragon De Métal Flamboyant Aux Yeux Rouges",
     "set": "CORE",
     "rarete": "Ultimate",
@@ -16674,7 +16674,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000019,
+    "id": "4000019",
     "nom": "Néos Flamboyant Héros Élémentaire",
     "set": "POTD",
     "rarete": "Ultimate",
@@ -16695,7 +16695,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000020,
+    "id": "4000020",
     "nom": "Bujinki Amaterasu",
     "set": "PRIO",
     "rarete": "Ghost",
@@ -16716,7 +16716,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000021,
+    "id": "4000021",
     "nom": "Numéro 92 : Dragon Heart-Earth",
     "set": "CBLZ",
     "rarete": "Ghost",
@@ -16737,7 +16737,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000022,
+    "id": "4000022",
     "nom": "Cyber Dragon Ultime",
     "set": "CRV",
     "rarete": "Ultimate",
@@ -16758,7 +16758,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000023,
+    "id": "4000023",
     "nom": "Dragon Du Jugement",
     "set": "TU01",
     "rarete": "Ultimate",
@@ -16779,7 +16779,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000024,
+    "id": "4000024",
     "nom": "Dragon Empereur Du Chaos - Émissaire De L'Achèvement",
     "set": "IOC",
     "rarete": "Secret",
@@ -16800,7 +16800,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000025,
+    "id": "4000025",
     "nom": "Blister Sanctuaire Ancestral",
     "set": "AST",
     "rarete": "Booster",
@@ -16821,7 +16821,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000026,
+    "id": "4000026",
     "nom": "La Genèse Du Duelliste (Édition Spéciale)",
     "set": "TDGS",
     "rarete": "Booster",
@@ -16842,7 +16842,7 @@
     "vendeur": "s2"
   },
   {
-    "id": 4000027,
+    "id": "4000027",
     "nom": "Évolution Tactique (Édition Spéciale)",
     "set": "TAEV",
     "rarete": "Booster",
@@ -16861,5 +16861,572 @@
     "photo_2": null,
     "first_seen": "2026-08-12",
     "vendeur": "s2"
+  },
+  {
+    "id": "1206",
+    "nom": "Mangeur D'Étoiles",
+    "set": "JOTL",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "MINT",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "retour gradation",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "1207",
+    "nom": "Dragon Rouge Majestueux",
+    "set": "ABPF",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "MINT",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "retour gradation",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A01",
+    "nom": "Bujinki Amaretsu",
+    "set": "PRIO",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "MINT",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "retour gradation",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A02",
+    "nom": "Dragon De Métal Flamboyant Aux Yeux Rouges",
+    "set": "CORE",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "MINT",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "retour gradation",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "1205",
+    "nom": "Crane Invoqué",
+    "set": "MRD",
+    "rarete": "Ultra",
+    "lang": "FR",
+    "etat": "EXC++",
+    "is_1st": false,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 75.0,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": "/img/1205_1.jpg",
+    "photo_2": "/img/1205_2.jpg",
+    "first_seen": "2026-07-16",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A03",
+    "nom": "Hamon Le Seigneur Du Tonnerre Fracassant",
+    "set": "SOI",
+    "rarete": "Ultimate",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "1212",
+    "nom": "Chasseur De Lumière",
+    "set": "MDM",
+    "rarete": "Super",
+    "lang": "FR",
+    "etat": "NM",
+    "is_1st": false,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 1.0,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "1213",
+    "nom": "Chasseur De Lumière",
+    "set": "MDM",
+    "rarete": "Super",
+    "lang": "FR",
+    "etat": "NM",
+    "is_1st": false,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 1.0,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A04",
+    "nom": "Magicien Du Chaos Sombre",
+    "set": "PP01",
+    "rarete": "Secret",
+    "lang": "FR",
+    "etat": "NM",
+    "is_1st": false,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "1215",
+    "nom": "Magicien Du Chaos Sombre",
+    "set": "PP01",
+    "rarete": "Secret",
+    "lang": "FR",
+    "etat": "NM",
+    "is_1st": false,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 4.0,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-18",
+    "vendeur": "s1"
+  },
+  {
+    "id": "1216",
+    "nom": "Le Renoncé Aux Milles Yeux",
+    "set": "SDP-F",
+    "rarete": "Ultra",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-21",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A05",
+    "nom": "Néos Flamboyant Héros Élémentaire",
+    "set": "POTD",
+    "rarete": "Ultimate",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-21",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A06",
+    "nom": "Géant Du Tonnerre Héros Élémentaire",
+    "set": "TLM",
+    "rarete": "Ultimate",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-21",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A07",
+    "nom": "Néos Chaos Héros Élémentaire",
+    "set": "GLAS",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-21",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A08",
+    "nom": "Dragon Rose Noir",
+    "set": "CSOC",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-21",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A09",
+    "nom": "Dragon Arc-En-Ciel",
+    "set": "TAEV",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-21",
+    "vendeur": "s1"
+  },
+  {
+    "id": "1222",
+    "nom": "Rayquaza",
+    "set": "BW PROMOS",
+    "rarete": "",
+    "lang": "JP",
+    "etat": "",
+    "is_1st": false,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-03-01",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A10",
+    "nom": "Dragon Électromécanique",
+    "set": "RGBT",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "NM",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-05",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A11",
+    "nom": "Le Renoncé Aux Milles Yeux",
+    "set": "SDP-F",
+    "rarete": "Ultra",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-07-10",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A12",
+    "nom": "Sanga Du Tonnerre",
+    "set": "MRD",
+    "rarete": "Super",
+    "lang": "FR",
+    "etat": "MINT",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-05-20",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A13",
+    "nom": "Néos Divin Héros Élémentaire",
+    "set": "CSOC",
+    "rarete": "Secret",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-08-10",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A14",
+    "nom": "Dragon Cyberténébreux",
+    "set": "CDIP",
+    "rarete": "Ultimate",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-08-10",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A15",
+    "nom": "Néos Géant Héros Élémentaire",
+    "set": "STON",
+    "rarete": "Ultimate",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-08-10",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A16",
+    "nom": "Dragon De L'Eau",
+    "set": "EEN",
+    "rarete": "Ultimate",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-08-10",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A17",
+    "nom": "Guerrier Roquette",
+    "set": "CT1",
+    "rarete": "Secret",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": false,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-08-10",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A18",
+    "nom": "Draco Equiste Paladin Dragon",
+    "set": "DREV",
+    "rarete": "Ghost",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-08-10",
+    "vendeur": "s1"
+  },
+  {
+    "id": "A19",
+    "nom": "Soldat Du Lustre Noir Émissaire Du Commencement",
+    "set": "IOC",
+    "rarete": "Ultra",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": false,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": null,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-08-10",
+    "vendeur": "s1"
   }
 ]
