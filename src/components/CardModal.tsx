@@ -82,9 +82,18 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
         </button>
 
         {/* Photos */}
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-1">
-          <Photo src={card.photo_1} alt={`${card.nom} - recto`} label="Recto" status={card.status} onOpen={openShot} />
-          <Photo src={card.photo_2} alt={`${card.nom} - verso`} label="Verso" status={card.status} onOpen={openShot} />
+        {/* On n'affiche que les faces qui existent : un placeholder "verso en
+            attente" a cote d'un vrai recto n'apporte rien et gache la photo.
+            Une seule face (ou aucune) -> pleine largeur. */}
+        <div className={
+          "grid gap-3 " + (card.photo_1 && card.photo_2 ? "grid-cols-2 md:grid-cols-1" : "grid-cols-1")
+        }>
+          {card.photo_1 || !card.photo_2 ? (
+            <Photo src={card.photo_1} alt={`${card.nom} - recto`} label="Recto" status={card.status} onOpen={openShot} />
+          ) : null}
+          {card.photo_2 ? (
+            <Photo src={card.photo_2} alt={`${card.nom} - verso`} label="Verso" status={card.status} onOpen={openShot} />
+          ) : null}
         </div>
 
         {/* Infos */}
@@ -104,7 +113,7 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
             >
               ★ Pop {card.pop}
               <span className="font-semibold normal-case tracking-normal opacity-90">
-                {card.pop === 1 ? "— unique à ce grade" : "— 2 exemplaires à ce grade"}
+                {card.pop === 1 ? "— unique à ce grade et au-dessus" : "— 2 exemplaires à ce grade"}
               </span>
             </span>
           )}
