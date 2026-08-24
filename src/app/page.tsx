@@ -98,6 +98,12 @@ export default async function HomePage() {
       <JsonLd data={buildFaqJsonLd()} />
       <HeaderNav />
       <SeoIntro />
+      <div className="mx-auto max-w-3xl px-4 pt-2">
+        <p className="rounded-lg border border-emerald-400/40 bg-emerald-500/10 px-4 py-2.5 text-center text-sm text-emerald-100">
+          💬 <strong className="font-semibold">Tous les prix sont négociables</strong> — achetez au
+          prix affiché ou proposez votre offre en DM.
+        </p>
+      </div>
       <CardGallery cards={cards} />
       <SeoFooter />
     </main>

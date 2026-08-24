@@ -113,7 +113,12 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
             {card.status === "sold" ? (
               <p className="text-2xl font-black uppercase tracking-widest text-red-600">Vendue</p>
             ) : card.prix !== null ? (
-              <p className="text-3xl font-semibold text-slate-900">{card.prix.toFixed(0)} €</p>
+              <>
+                <p className="text-3xl font-semibold text-slate-900">{card.prix.toFixed(0)} €</p>
+                <p className="mt-1 text-sm font-medium text-emerald-700">
+                  ou proposez votre offre
+                </p>
+              </>
             ) : (
               <p className="text-base font-medium uppercase tracking-wide text-amber-700">
                 Bientôt en boutique
