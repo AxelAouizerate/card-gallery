@@ -19,9 +19,9 @@ type FavCtx = {
 
 const FavContext = createContext<FavCtx | null>(null);
 
-function parseKey(k: CartKey): { cardId: number; cardSet: string } {
+function parseKey(k: CartKey): { cardId: string; cardSet: string } {
   const i = k.indexOf("-");
-  return { cardId: Number(k.slice(0, i)), cardSet: k.slice(i + 1) };
+  return { cardId: k.slice(0, i), cardSet: k.slice(i + 1) };
 }
 
 export function FavoritesProvider({ children }: { children: React.ReactNode }) {

@@ -7,7 +7,7 @@ import { createClient } from "@/lib/supabase/server";
 // est connecte.
 
 export type CardRef = {
-  cardId: number;
+  cardId: string;
   cardSet: string;
   cardNom?: string;
   cardPrix?: number | null;
@@ -168,7 +168,7 @@ export async function requestPhotos(c: PhotoReqInput) {
 }
 
 async function notifyOwnerPhotoRequest(p: {
-  cardId: number; cardSet: string; cardNom: string | null;
+  cardId: string; cardSet: string; cardNom: string | null;
   contactHandle: string; contactPlatform: Platform;
 }) {
   const resendKey = process.env.RESEND_API_KEY;
@@ -263,7 +263,7 @@ export async function submitOffer(c: OfferInput) {
 }
 
 async function notifyOwnerOffer(p: {
-  cardId: number; cardSet: string; cardNom: string | null;
+  cardId: string; cardSet: string; cardNom: string | null;
   cardPrix: number | null; offerPrice: number;
   contactHandle: string; contactPlatform: OfferPlatform;
 }) {

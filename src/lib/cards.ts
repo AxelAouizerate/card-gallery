@@ -1,7 +1,8 @@
 export type CardStatus = "available" | "photo_pending" | "coming_soon" | "sold";
 
 export type Card = {
-  id: number;
+  // Alphanumerique : "504" ou "A21" (serie A = entree en stock depuis aout 2026)
+  id: string;
   nom: string;
   set: string;
   rarete: string;

@@ -23,10 +23,10 @@ type CartCtx = {
 
 const CartContext = createContext<CartCtx | null>(null);
 
-function parseKey(k: CartKey): { cardId: number; cardSet: string } {
+function parseKey(k: CartKey): { cardId: string; cardSet: string } {
   // format: `${id}-${set}` — set peut contenir des tirets, donc on split au 1er
   const i = k.indexOf("-");
-  return { cardId: Number(k.slice(0, i)), cardSet: k.slice(i + 1) };
+  return { cardId: k.slice(0, i), cardSet: k.slice(i + 1) };
 }
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
