@@ -6,7 +6,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/site";
 
 const TITLE = "Comment acheter — un seul bouton : contacter le vendeur sur Instagram";
 const DESCRIPTION =
-  "Comment acheter une carte Yu-Gi-Oh! chez horuscards : sur chaque fiche, cliquez sur « Contacter le vendeur sur Instagram ». Ce bouton unique sert à tout : acheter au prix indiqué, faire une offre, ou demander des photos et vidéos supplémentaires sur n'importe quelle carte. Paiement et livraison convenus directement avec le vendeur en message privé.";
+  "Comment acheter une carte Yu-Gi-Oh! chez horuscards : sur chaque fiche, cliquez sur « Contacter le vendeur sur Instagram ». Ce bouton unique sert à tout : acheter au prix indiqué, faire une offre, ou demander des photos et vidéos supplémentaires sur n'importe quelle carte. Paiement en plusieurs fois accepté, envoi suivi ou remise en main propre autour de Lyon, Paris et Bordeaux.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -21,27 +21,20 @@ export const metadata: Metadata = {
   },
 };
 
-// Etapes reutilisees pour l'affichage ET le JSON-LD HowTo.
+// Etapes du JSON-LD : elles doivent refleter ce qui est reellement visible
+// sur la page, sinon le balisage decrit un contenu absent.
 const STEPS: { name: string; text: string }[] = [
   {
-    name: "Parcourez le catalogue",
-    text: "Filtrez les cartes par set, rareté, langue ou prix pour trouver celle qu'il vous manque.",
-  },
-  {
-    name: "Ouvrez la fiche de la carte",
-    text: "Cliquez sur une carte pour voir les photos recto/verso quand elles existent, la rareté, la langue, l'état, la 1ère édition et l'éventuelle gradation.",
+    name: "Parcourez le catalogue et ouvrez une fiche",
+    text: "Filtrez par set, rareté, langue ou prix, puis cliquez sur une carte pour voir ses photos, son état et son éventuelle gradation.",
   },
   {
     name: "Cliquez sur « Contacter le vendeur sur Instagram »",
-    text: "C'est le seul bouton d'achat du site, et il sert aux trois cas : acheter au prix indiqué, faire une offre, ou demander des photos et vidéos supplémentaires — sur n'importe quelle carte, qu'elle ait déjà des photos en ligne ou non. Il ouvre la messagerie Instagram du vendeur qui possède cette carte.",
-  },
-  {
-    name: "Envoyez-lui un message privé",
-    text: "Le message n'est pas pré-rempli : indiquez le nom de la carte et son set, puis dites ce que vous voulez — la prendre au prix affiché, proposer un montant, ou voir des photos supplémentaires.",
+    text: "Le seul bouton du site. Il sert à acheter au prix indiqué, faire une offre, ou demander des photos et vidéos supplémentaires sur n'importe quelle carte.",
   },
   {
     name: "Convenez du paiement et de la livraison",
-    text: "Le paiement et l'envoi (protégé, avec suivi) se règlent directement avec le vendeur dans la conversation. Le paiement en plusieurs fois est proposé par tous nos vendeurs. La remise en main propre est possible selon les cartes : en région parisienne, autour de Mont-de-Marsan et Bordeaux, et entre Givors et Saint-Étienne.",
+    text: "Paiement en plusieurs fois accepté par les 3 vendeurs. Envoi protégé et suivi, ou remise en main propre autour de Lyon, Paris et Bordeaux.",
   },
 ];
 
@@ -147,30 +140,33 @@ export default function CommentAcheterPage() {
           ))}
         </section>
 
-        <section className="mt-10">
-          <h2 className="text-xl font-semibold text-amber-200">Les étapes</h2>
-          <ol className="mt-4 space-y-4">
-            {STEPS.map((s, i) => (
-              <li key={s.name} className="flex gap-4 rounded-lg border border-amber-500/20 bg-black/40 p-4">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-500/20 font-bold text-amber-200">
-                  {i + 1}
-                </span>
-                <div>
-                  <p className="font-medium text-amber-100">{s.name}</p>
-                  <p className="mt-1 text-sm leading-relaxed text-amber-100/75">{s.text}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
+        <section className="mt-10 grid gap-4 sm:grid-cols-2">
+          <div className="rounded-lg border border-emerald-500/30 bg-emerald-500/5 p-5">
+            <h2 className="text-base font-semibold text-emerald-200">Paiement en plusieurs fois</h2>
+            <p className="mt-2 text-sm leading-relaxed text-amber-100/80">
+              <strong>Nos 3 vendeurs acceptent le paiement en plusieurs fois</strong>, sur toutes
+              les cartes et sans frais. Une pièce à 500 € peut se régler en 2, 3 ou 4 versements —
+              vous convenez du rythme directement avec le vendeur en DM. Il suffit de le demander.
+            </p>
+          </div>
+          <div className="rounded-lg border border-amber-500/30 bg-black/40 p-5">
+            <h2 className="text-base font-semibold text-amber-200">Livraison ou main propre</h2>
+            <p className="mt-2 text-sm leading-relaxed text-amber-100/80">
+              Envoi <strong>protégé et suivi</strong> partout en France. La{" "}
+              <strong>remise en main propre</strong> est possible autour de{" "}
+              <strong>Lyon, Paris et Bordeaux</strong> — pratique sur les grosses pièces, vous
+              voyez la carte avant de payer.
+            </p>
+          </div>
         </section>
 
         <section className="mt-10 rounded-lg border border-amber-500/20 bg-black/30 p-5">
           <h2 className="text-lg font-semibold text-amber-200">Bon à savoir</h2>
           <ul className="mt-3 space-y-2 text-sm text-amber-100/75">
             <li>• Une carte marquée <strong>« Disponible » sans photo</strong> est bien en stock : ses photos ne sont juste pas encore en ligne. Demandez-les au vendeur.</li>
-            <li>• Pensez à <strong>préciser le nom de la carte</strong> et son set dans votre message : le DM n&apos;est pas pré-rempli.</li>
+            <li>• Pensez à <strong>préciser la carte qui vous intéresse</strong> dans votre message : le DM n&apos;est pas pré-rempli.</li>
             <li>• Une même carte n&apos;est vendue que par un seul vendeur — le bouton vous mène toujours au bon compte.</li>
-            <li>• Le <strong>paiement en plusieurs fois</strong> est proposé par tous nos vendeurs.</li>
+            <li>• Le <strong>paiement en plusieurs fois</strong> est proposé par nos 3 vendeurs.</li>
             <li>• Ajoutez vos cartes en <Link href="/favorites" className="underline hover:text-amber-200">favoris</Link> pour les retrouver avant de contacter le vendeur.</li>
           </ul>
         </section>
