@@ -150,10 +150,9 @@ export default function CommentAcheterPage() {
           <h2 className="text-sm font-semibold text-amber-200">Bon à savoir</h2>
           <ul className="mt-2 grid gap-1.5 text-sm text-amber-100/75 sm:grid-cols-2">
             <li>• <strong>« Disponible » sans photo</strong> = en stock, photos à venir.</li>
-            <li>• <strong>Photos ou vidéos sur demande</strong>, sur toutes les cartes.</li>
+            <li>• <strong>« Bientôt en boutique »</strong> = carte que nous allons recevoir, gradée ou non. Contactez le vendeur pour des infos ou pour la réserver.</li>
             <li>• Précisez la carte dans votre message.</li>
-            <li>• <strong>Paiement en plusieurs fois</strong> chez nos 3 vendeurs.</li>
-            <li>• Ajoutez vos cartes en <Link href="/favorites" className="underline hover:text-amber-200">favoris</Link>.</li>
+            <li>• Ajoutez les cartes que vous voulez, pour maintenant ou plus tard, en <Link href="/favorites" className="underline hover:text-amber-200">favoris</Link>.</li>
           </ul>
         </section>
 
