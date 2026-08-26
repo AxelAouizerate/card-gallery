@@ -66,20 +66,17 @@ const USAGES: { titre: string; texte: string; icone: string }[] = [
   {
     icone: "🏷️",
     titre: "Acheter au prix indiqué",
-    texte:
-      "Le prix affiché sur la fiche est le prix de vente. Dites au vendeur que vous prenez la carte à ce prix, et convenez du paiement et de l'envoi.",
+    texte: "Le prix affiché est le prix de vente. Dites-le au vendeur, c'est réglé.",
   },
   {
     icone: "💶",
     titre: "Faire une offre",
-    texte:
-      "Vous pouvez proposer un montant inférieur : le vendeur reste libre d'accepter, de refuser ou de contre-proposer. Groupez plusieurs cartes pour négocier un lot.",
+    texte: "Proposez votre montant, il reste libre d'accepter. Groupez plusieurs cartes pour un lot.",
   },
   {
     icone: "📸",
-    titre: "Demander des photos ou une vidéo",
-    texte:
-      "Vous pouvez demander des photos supplémentaires sur n'importe quelle carte, y compris celles qui en ont déjà en ligne : gros plan sur un coin, sur la brillance, sous un autre angle. Une vidéo est possible aussi, c'est souvent le plus parlant pour juger une carte. Et les cartes sans photo sur le site sont bien disponibles : demandez-les, elles arrivent.",
+    titre: "Photos ou vidéo",
+    texte: "Sur n'importe quelle carte, y compris celles qui ont déjà des photos en ligne.",
   },
 ];
 
@@ -90,15 +87,15 @@ export default function CommentAcheterPage() {
       <JsonLd data={breadcrumbJsonLd} />
       <HeaderNav />
 
-      <article className="mx-auto max-w-3xl px-4 py-10">
-        <nav className="mb-4 text-xs text-amber-100/60">
+      <article className="mx-auto max-w-4xl px-4 py-6">
+        <nav className="mb-3 text-xs text-amber-100/60">
           <Link href="/" className="hover:text-amber-200">Accueil</Link>
           <span aria-hidden> › </span>
           <span className="text-amber-100/80">Comment acheter</span>
         </nav>
 
         <h1
-          className="text-2xl font-bold tracking-wide text-amber-200 sm:text-3xl"
+          className="text-xl font-bold tracking-wide text-amber-200 sm:text-2xl"
           style={{
             fontFamily: "var(--font-cinzel), serif",
             textShadow: "0 2px 0 #000, 0 0 14px rgba(212,175,55,0.35)",
@@ -108,61 +105,50 @@ export default function CommentAcheterPage() {
         </h1>
 
         {/* Message central : un seul bouton, trois usages. */}
-        <section className="mt-6 rounded-xl border-2 border-amber-400/60 bg-gradient-to-b from-amber-500/15 to-black/50 p-6">
-          <p className="text-sm font-medium uppercase tracking-widest text-amber-300/90">
-            La seule chose à retenir
-          </p>
-          <p className="mt-3 text-lg leading-relaxed text-amber-50">
-            Sur chaque fiche carte, il y a <strong>un seul bouton</strong> :{" "}
-            <span className="inline-block rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-2.5 py-1 font-semibold text-white">
+        <section className="mt-4 rounded-xl border-2 border-amber-400/60 bg-gradient-to-b from-amber-500/15 to-black/50 px-5 py-4">
+          <p className="text-base leading-relaxed text-amber-50">
+            Sur chaque fiche, <strong>un seul bouton</strong> :{" "}
+            <span className="inline-block rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-2 py-0.5 font-semibold text-white">
               Contacter le vendeur sur Instagram
             </span>
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-amber-100/85">
-            Que vous vouliez <strong>acheter au prix indiqué</strong>, <strong>faire une offre</strong>{" "}
-            ou <strong>demander des photos ou une vidéo</strong>, c&apos;est toujours ce bouton. Il ouvre la
-            messagerie Instagram du vendeur : vous lui écrivez, et tout se règle avec lui.{" "}
-            <strong>Aucun paiement ne se fait sur le site</strong> — horuscards est une vitrine, pas
-            une boutique en ligne.
+          <p className="mt-2 text-sm leading-relaxed text-amber-100/85">
+            Prix, offre, photos : tout passe par lui. <strong>Aucun paiement sur le site</strong> —
+            horuscards est une vitrine, la transaction se fait avec le vendeur.
           </p>
         </section>
 
-        <section className="mt-8 grid gap-4 sm:grid-cols-3">
+        <section className="mt-4 grid gap-3 sm:grid-cols-3">
           {USAGES.map((u) => (
-            <div key={u.titre} className="rounded-lg border border-amber-500/30 bg-black/40 p-5">
-              <p className="text-2xl" aria-hidden>{u.icone}</p>
-              <h2 className="mt-2 text-base font-semibold text-amber-200">{u.titre}</h2>
-              <p className="mt-2 text-sm leading-relaxed text-amber-100/75">{u.texte}</p>
-              <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-amber-300/80">
-                → Même bouton Instagram
-              </p>
+            <div key={u.titre} className="rounded-lg border border-amber-500/30 bg-black/40 p-4">
+              <h2 className="text-sm font-semibold text-amber-200">
+                <span aria-hidden>{u.icone}</span> {u.titre}
+              </h2>
+              <p className="mt-1.5 text-sm leading-snug text-amber-100/75">{u.texte}</p>
             </div>
           ))}
         </section>
 
-        <section className="mt-10 grid gap-4 sm:grid-cols-2">
-          <div className="rounded-lg border border-emerald-500/30 bg-emerald-500/5 p-5">
-            <h2 className="text-base font-semibold text-emerald-200">Paiement en plusieurs fois</h2>
-            <p className="mt-2 text-sm leading-relaxed text-amber-100/80">
-              <strong>Nos 3 vendeurs acceptent le paiement en plusieurs fois</strong>, sur toutes
-              les cartes et sans frais. Une pièce à 500 € peut se régler en 2, 3 ou 4 versements —
-              vous convenez du rythme directement avec le vendeur en DM. Il suffit de le demander.
+        <section className="mt-3 grid gap-3 sm:grid-cols-2">
+          <div className="rounded-lg border border-emerald-500/30 bg-emerald-500/5 p-4">
+            <h2 className="text-sm font-semibold text-emerald-200">Paiement en plusieurs fois</h2>
+            <p className="mt-1.5 text-sm leading-snug text-amber-100/80">
+              Accepté par <strong>nos 3 vendeurs</strong>, sans frais, sur toutes les cartes.
+              Il suffit de le demander.
             </p>
           </div>
-          <div className="rounded-lg border border-amber-500/30 bg-black/40 p-5">
-            <h2 className="text-base font-semibold text-amber-200">Livraison ou main propre</h2>
-            <p className="mt-2 text-sm leading-relaxed text-amber-100/80">
-              Envoi <strong>protégé et suivi</strong> partout en France. La{" "}
-              <strong>remise en main propre</strong> est possible autour de{" "}
-              <strong>Lyon, Paris et Bordeaux</strong> — pratique sur les grosses pièces, vous
-              voyez la carte avant de payer.
+          <div className="rounded-lg border border-amber-500/30 bg-black/40 p-4">
+            <h2 className="text-sm font-semibold text-amber-200">Livraison ou main propre</h2>
+            <p className="mt-1.5 text-sm leading-snug text-amber-100/80">
+              Envoi protégé et suivi partout en France. Main propre possible autour de{" "}
+              <strong>Lyon, Paris et Bordeaux</strong>.
             </p>
           </div>
         </section>
 
-        <section className="mt-10 rounded-lg border border-amber-500/20 bg-black/30 p-5">
-          <h2 className="text-lg font-semibold text-amber-200">Bon à savoir</h2>
-          <ul className="mt-3 space-y-2 text-sm text-amber-100/75">
+        <section className="mt-3 rounded-lg border border-amber-500/20 bg-black/30 px-4 py-3">
+          <h2 className="text-sm font-semibold text-amber-200">Bon à savoir</h2>
+          <ul className="mt-2 grid gap-1.5 text-sm text-amber-100/75 sm:grid-cols-2">
             <li>• <strong>« Disponible » sans photo</strong> = en stock, photos à venir.</li>
             <li>• <strong>Photos ou vidéos sur demande</strong>, sur toutes les cartes.</li>
             <li>• Précisez la carte dans votre message.</li>
@@ -171,10 +157,10 @@ export default function CommentAcheterPage() {
           </ul>
         </section>
 
-        <div className="mt-10">
+        <div className="mt-4">
           <Link
             href="/"
-            className="inline-flex items-center rounded-md border border-amber-400/60 bg-amber-500/20 px-4 py-2.5 text-sm font-medium text-amber-100 hover:bg-amber-500/30"
+            className="inline-flex items-center rounded-md border border-amber-400/60 bg-amber-500/20 px-4 py-2 text-sm font-medium text-amber-100 hover:bg-amber-500/30"
           >
             ← Parcourir le catalogue
           </Link>
