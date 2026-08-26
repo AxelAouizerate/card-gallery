@@ -163,11 +163,11 @@ export default function CommentAcheterPage() {
         <section className="mt-10 rounded-lg border border-amber-500/20 bg-black/30 p-5">
           <h2 className="text-lg font-semibold text-amber-200">Bon à savoir</h2>
           <ul className="mt-3 space-y-2 text-sm text-amber-100/75">
-            <li>• Une carte marquée <strong>« Disponible » sans photo</strong> est bien en stock : ses photos ne sont juste pas encore en ligne. Demandez-les au vendeur.</li>
-            <li>• Pensez à <strong>préciser la carte qui vous intéresse</strong> dans votre message : le DM n&apos;est pas pré-rempli.</li>
-            <li>• Une même carte n&apos;est vendue que par un seul vendeur — le bouton vous mène toujours au bon compte.</li>
-            <li>• Le <strong>paiement en plusieurs fois</strong> est proposé par nos 3 vendeurs.</li>
-            <li>• Ajoutez vos cartes en <Link href="/favorites" className="underline hover:text-amber-200">favoris</Link> pour les retrouver avant de contacter le vendeur.</li>
+            <li>• <strong>« Disponible » sans photo</strong> = en stock, photos à venir.</li>
+            <li>• <strong>Photos ou vidéos sur demande</strong>, sur toutes les cartes.</li>
+            <li>• Précisez la carte dans votre message.</li>
+            <li>• <strong>Paiement en plusieurs fois</strong> chez nos 3 vendeurs.</li>
+            <li>• Ajoutez vos cartes en <Link href="/favorites" className="underline hover:text-amber-200">favoris</Link>.</li>
           </ul>
         </section>
 
