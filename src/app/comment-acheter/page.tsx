@@ -71,7 +71,7 @@ const USAGES: { titre: string; texte: string; icone: string }[] = [
   {
     icone: "💶",
     titre: "Faire une offre",
-    texte: "Proposez votre montant, il reste libre d'accepter. Groupez plusieurs cartes pour un lot.",
+    texte: "Proposez votre montant, le vendeur reste libre d'accepter. Sur plusieurs cartes, un prix de lot est souvent possible.",
   },
   {
     icone: "📸",

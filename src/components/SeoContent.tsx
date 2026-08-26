@@ -44,14 +44,15 @@ export function SeoIntro() {
           textShadow: "0 2px 0 #000, 0 0 14px rgba(212,175,55,0.35)",
         }}
       >
-        Cartes Yu-Gi-Oh! à l&apos;unité — français, anglais &amp; japonais, raretés &amp; gradées
+        Cartes Yu-Gi-Oh! à l&apos;unité — raretés &amp; cartes gradées
       </h1>
       <p className="mt-3 max-w-3xl text-sm leading-relaxed text-amber-100/80">
         Bienvenue sur <strong>horuscards</strong>, la boutique française dédiée aux{" "}
         <strong>cartes Yu-Gi-Oh! à l&apos;unité</strong>. Ici, la carte à{" "}
-        <strong>1 €</strong> qui complète votre deck côtoie le <strong>Pop 1</strong> que
-        personne d&apos;autre n&apos;a — <em>ghost</em>, <em>ultimate</em>, <em>secret rare</em>,
-        1ère édition, en français, anglais et japonais. Bonne chasse.
+        <strong>1 €</strong> qui complète votre deck côtoie le <strong>Pop 1</strong>{" "}
+        que personne d&apos;autre n&apos;a — <strong>ghost</strong>, <strong>ultimate</strong>,{" "}
+        <strong>secret rare</strong>, <strong>1ère édition</strong>, en français, anglais et
+        japonais. Bonne chasse.
       </p>
     </section>
   );

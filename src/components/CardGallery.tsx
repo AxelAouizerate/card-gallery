@@ -115,11 +115,11 @@ export default function CardGallery({ cards }: Props) {
         >
           Cartes à l&apos;unité
         </h2>
-        <p className="text-sm text-amber-100/80">
+        <p className="text-lg font-semibold text-amber-100 sm:text-xl">
           {filtered.length}{" "}
           {produitFilter === "display" ? "displays" : produitFilter === "booster" ? "boosters" : "cartes"}
           {nWithoutPrice > 0 && (
-            <span className="text-amber-100/50"> (+{nWithoutPrice} bientôt en boutique)</span>
+            <span className="text-sm font-normal text-amber-100/60"> (+{nWithoutPrice} bientôt en boutique)</span>
           )}
         </p>
       </header>
