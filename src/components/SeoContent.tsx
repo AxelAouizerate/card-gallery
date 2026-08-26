@@ -34,10 +34,7 @@ export const FAQ_ITEMS: Faq[] = [
   },
 ];
 
-export function SeoIntro({ stats }: {
-  stats?: { total: number; petitsPrix: number; prixMax: number; gradees: number; pop1: number };
-}) {
-  const s = stats;
+export function SeoIntro() {
   return (
     <section className="mx-auto max-w-7xl px-4 pt-8">
       <h1
@@ -50,23 +47,16 @@ export function SeoIntro({ stats }: {
         Cartes Yu-Gi-Oh! à l&apos;unité — français, anglais &amp; japonais, raretés &amp; gradées
       </h1>
       <p className="mt-3 max-w-3xl text-sm leading-relaxed text-amber-100/80">
-        Du complément de deck <strong>à partir d&apos;1 €</strong> à la pièce de collection à
-        quatre chiffres{s ? ` — jusqu'à ${Math.round(s.prixMax).toLocaleString("fr-FR")} € —` : ""}{" "}
-        {s ? <><strong>{s.total} cartes</strong> sont en vente, dont <strong>{s.petitsPrix} sous les 5 €</strong>.</>
-           : <>notre catalogue couvre tous les budgets.</>}{" "}
-        De quoi finir un deck comme de quoi remplir une vitrine.
-      </p>
-      <p className="mt-2 max-w-3xl text-sm leading-relaxed text-amber-100/80">
-        Et tout en haut du panier :{" "}
-        {s ? <><strong>{s.gradees} cartes gradées</strong> CCC, PSA et CollectAura, dont{" "}
-              <strong>{s.pop1} Pop 1</strong></>
-           : <><strong>des cartes gradées</strong> CCC, PSA et CollectAura, dont des <strong>Pop 1</strong></>}{" "}
-        — <em>uniques à ce grade et au-dessus</em>, que vous ne retrouverez à peu près nulle part
-        ailleurs. Filtrez par set, rareté, langue ou prix.
+        Bienvenue sur <strong>horuscards</strong>, la boutique française dédiée aux{" "}
+        <strong>cartes Yu-Gi-Oh! à l&apos;unité</strong>. Ici, la carte à{" "}
+        <strong>1 €</strong> qui complète votre deck côtoie le <strong>Pop 1</strong> que
+        personne d&apos;autre n&apos;a — <em>ghost</em>, <em>ultimate</em>, <em>secret rare</em>,
+        1ère édition, en français, anglais et japonais. Bonne chasse.
       </p>
     </section>
   );
 }
+
 
 
 export function SeoFooter() {
