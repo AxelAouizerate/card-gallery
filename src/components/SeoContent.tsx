@@ -34,7 +34,10 @@ export const FAQ_ITEMS: Faq[] = [
   },
 ];
 
-export function SeoIntro() {
+export function SeoIntro({ stats }: {
+  stats?: { total: number; petitsPrix: number; prixMax: number; gradees: number; pop1: number };
+}) {
+  const s = stats;
   return (
     <section className="mx-auto max-w-7xl px-4 pt-8">
       <h1
@@ -47,21 +50,24 @@ export function SeoIntro() {
         Cartes Yu-Gi-Oh! à l&apos;unité — français, anglais &amp; japonais, raretés &amp; gradées
       </h1>
       <p className="mt-3 max-w-3xl text-sm leading-relaxed text-amber-100/80">
-        Bienvenue sur <strong>horuscards</strong>, la boutique française dédiée aux{" "}
-        <strong>cartes Yu-Gi-Oh! à l&apos;unité et aux produits scellés</strong> en{" "}
-        <strong>français, anglais et japonais</strong>, pour les{" "}
-        <strong>duellistes</strong> comme pour les <strong>collectionneurs</strong>. Vous
-        trouverez ici des <strong>éditions rares en français, anglais et japonais</strong>, des{" "}
-        <strong>1ère édition</strong>, des raretés <em>secret rare</em>, <em>ultimate rare</em>,{" "}
-        <em>ghost rare</em>, des <strong>cartes gradées</strong> (CCC, PSA, CollectAura) ainsi
-        que des <strong>pièces très rares — dont des Pop 1</strong>{" "}quasi introuvables ailleurs :
-        Magicien Sombre, Dragon Blanc aux Yeux Bleus, Néos, Héros Élémentaires, Dieux Égyptiens
-        et bien d&apos;autres. Filtrez par set, rareté, langue ou prix pour trouver la
-        carte qu&apos;il vous manque.
+        Du complément de deck <strong>à partir d&apos;1 €</strong> à la pièce de collection à
+        quatre chiffres{s ? ` — jusqu'à ${Math.round(s.prixMax).toLocaleString("fr-FR")} € —` : ""}{" "}
+        {s ? <><strong>{s.total} cartes</strong> sont en vente, dont <strong>{s.petitsPrix} sous les 5 €</strong>.</>
+           : <>notre catalogue couvre tous les budgets.</>}{" "}
+        De quoi finir un deck comme de quoi remplir une vitrine.
+      </p>
+      <p className="mt-2 max-w-3xl text-sm leading-relaxed text-amber-100/80">
+        Et tout en haut du panier :{" "}
+        {s ? <><strong>{s.gradees} cartes gradées</strong> CCC, PSA et CollectAura, dont{" "}
+              <strong>{s.pop1} Pop 1</strong></>
+           : <><strong>des cartes gradées</strong> CCC, PSA et CollectAura, dont des <strong>Pop 1</strong></>}{" "}
+        — <em>uniques à ce grade et au-dessus</em>, que vous ne retrouverez à peu près nulle part
+        ailleurs. Filtrez par set, rareté, langue ou prix.
       </p>
     </section>
   );
 }
+
 
 export function SeoFooter() {
   return (

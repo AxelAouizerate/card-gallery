@@ -89,6 +89,20 @@ function buildBreadcrumb() {
   };
 }
 
+/** Chiffres du catalogue, calcules a chaque rendu : jamais de valeur figee
+ *  qui vieillit dans le texte de presentation. */
+function statsCatalogue(cards: Card[]) {
+  const envente = cards.filter((c) => c.status !== "sold");
+  const prix = envente.map((c) => c.prix ?? 0).filter((p) => p > 0);
+  return {
+    total: envente.length,
+    petitsPrix: prix.filter((p) => p <= 5).length,
+    prixMax: prix.length ? Math.max(...prix) : 0,
+    gradees: envente.filter((c) => c.grade).length,
+    pop1: envente.filter((c) => c.pop === 1).length,
+  };
+}
+
 export default async function HomePage() {
   const cards = await getCards();
   return (
@@ -97,13 +111,7 @@ export default async function HomePage() {
       <JsonLd data={buildItemList(cards)} />
       <JsonLd data={buildFaqJsonLd()} />
       <HeaderNav />
-      <SeoIntro />
-      <div className="mx-auto max-w-3xl px-4 pt-2">
-        <p className="rounded-lg border border-emerald-400/40 bg-emerald-500/10 px-4 py-2.5 text-center text-sm text-emerald-100">
-          💬 <strong className="font-semibold">Tous les prix sont négociables</strong> — achetez au
-          prix affiché ou proposez votre offre en DM.
-        </p>
-      </div>
+      <SeoIntro stats={statsCatalogue(cards)} />
       <CardGallery cards={cards} />
       <SeoFooter />
     </main>
