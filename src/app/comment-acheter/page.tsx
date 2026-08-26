@@ -6,7 +6,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/site";
 
 const TITLE = "Comment acheter — un seul bouton : contacter le vendeur sur Instagram";
 const DESCRIPTION =
-  "Comment acheter une carte Yu-Gi-Oh! chez horuscards : sur chaque fiche, cliquez sur « Contacter le vendeur sur Instagram ». Ce bouton unique sert à tout : acheter au prix indiqué, faire une offre, ou demander des photos. Paiement et livraison convenus directement avec le vendeur en message privé.";
+  "Comment acheter une carte Yu-Gi-Oh! chez horuscards : sur chaque fiche, cliquez sur « Contacter le vendeur sur Instagram ». Ce bouton unique sert à tout : acheter au prix indiqué, faire une offre, ou demander des photos et vidéos supplémentaires sur n'importe quelle carte. Paiement et livraison convenus directement avec le vendeur en message privé.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -33,7 +33,7 @@ const STEPS: { name: string; text: string }[] = [
   },
   {
     name: "Cliquez sur « Contacter le vendeur sur Instagram »",
-    text: "C'est le seul bouton d'achat du site, et il sert aux trois cas : acheter au prix indiqué, faire une offre, ou demander des photos. Il ouvre la messagerie Instagram du vendeur qui possède cette carte.",
+    text: "C'est le seul bouton d'achat du site, et il sert aux trois cas : acheter au prix indiqué, faire une offre, ou demander des photos et vidéos supplémentaires — sur n'importe quelle carte, qu'elle ait déjà des photos en ligne ou non. Il ouvre la messagerie Instagram du vendeur qui possède cette carte.",
   },
   {
     name: "Envoyez-lui un message privé",
@@ -84,9 +84,9 @@ const USAGES: { titre: string; texte: string; icone: string }[] = [
   },
   {
     icone: "📸",
-    titre: "Demander des photos",
+    titre: "Demander des photos ou une vidéo",
     texte:
-      "Certaines cartes n'ont pas encore de photos en ligne. Elles sont bien disponibles : demandez au vendeur des photos recto/verso, il vous les envoie.",
+      "Vous pouvez demander des photos supplémentaires sur n'importe quelle carte, y compris celles qui en ont déjà en ligne : gros plan sur un coin, sur la brillance, sous un autre angle. Une vidéo est possible aussi, c'est souvent le plus parlant pour juger une carte. Et les cartes sans photo sur le site sont bien disponibles : demandez-les, elles arrivent.",
   },
 ];
 
@@ -127,7 +127,7 @@ export default function CommentAcheterPage() {
           </p>
           <p className="mt-3 text-sm leading-relaxed text-amber-100/85">
             Que vous vouliez <strong>acheter au prix indiqué</strong>, <strong>faire une offre</strong>{" "}
-            ou <strong>demander des photos</strong>, c&apos;est toujours ce bouton. Il ouvre la
+            ou <strong>demander des photos ou une vidéo</strong>, c&apos;est toujours ce bouton. Il ouvre la
             messagerie Instagram du vendeur : vous lui écrivez, et tout se règle avec lui.{" "}
             <strong>Aucun paiement ne se fait sur le site</strong> — horuscards est une vitrine, pas
             une boutique en ligne.

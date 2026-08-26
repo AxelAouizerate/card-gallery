@@ -75,7 +75,7 @@ export function SeoFooter() {
             <li>✅ <strong>Français, anglais &amp; japonais</strong> : un stock rare, du vintage aux sets récents.</li>
             <li>🏅 <strong>Cartes gradées</strong> CCC, PSA et CollectAura, note et organisme affichés — dont des <strong>Pop 1</strong>.</li>
             <li>✨ <strong>1ère édition</strong> et raretés secret / ultimate / ghost.</li>
-            <li>🔎 <strong>État visible sur les photos</strong> recto/verso — et indiqué sur la fiche pour les cartes en attente de photos, disponibles sur demande.</li>
+            <li>🔎 <strong>État visible sur les photos</strong> recto/verso — photos supplémentaires et vidéo sur demande, sur n&apos;importe quelle carte.</li>
             <li>📦 <strong>Envoi protégé et rapide</strong> partout en France, avec suivi.</li>
             <li>🤝 <strong>Prix négociables</strong> et réductions sur les lots.</li>
           </ul>

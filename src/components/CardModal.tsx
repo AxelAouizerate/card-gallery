@@ -183,7 +183,7 @@ function InstagramBuyButton({ card }: { card: Card }) {
     <p className="text-center text-xs leading-relaxed text-slate-500">
       Un seul bouton pour tout : <strong className="text-slate-700">acheter au prix indiqué</strong>,{" "}
       <strong className="text-slate-700">faire une offre</strong> ou{" "}
-      <strong className="text-slate-700">demander des photos</strong>.
+      <strong className="text-slate-700">demander photos et vidéo</strong>.
     </p>
     </div>
   );
