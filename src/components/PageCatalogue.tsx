@@ -20,6 +20,8 @@ export default function PageCatalogue({
   base,
   page,
   filAriane,
+  filtres,
+  nbFiltres = 0,
 }: {
   titre: string;
   chapo: string;
@@ -27,6 +29,9 @@ export default function PageCatalogue({
   base: string;
   page: number;
   filAriane: { nom: string; url: string }[];
+  /** Ilot client optionnel : seule partie interactive de la page. */
+  filtres?: React.ReactNode;
+  nbFiltres?: number;
 }) {
   const pages = Math.max(1, Math.ceil(cartes.length / PAR_PAGE));
   const p = Math.min(Math.max(1, page), pages);
@@ -87,8 +92,15 @@ export default function PageCatalogue({
           {titre}
         </h1>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-amber-100/80">{chapo}</p>
-        <p className="mt-3 font-mono text-lg font-semibold text-amber-100 sm:text-xl">
+        {filtres && <div className="mt-4">{filtres}</div>}
+
+        <p className="mt-4 font-mono text-lg font-semibold text-amber-100 sm:text-xl">
           {cartes.length} carte{cartes.length > 1 ? "s" : ""}
+          {nbFiltres > 0 && (
+            <span className="ml-2 text-sm font-normal text-amber-100/50">
+              filtré{cartes.length > 1 ? "es" : "e"}
+            </span>
+          )}
           {pages > 1 && (
             <span className="ml-2 text-sm font-normal text-amber-100/50">
               page {p} / {pages}
