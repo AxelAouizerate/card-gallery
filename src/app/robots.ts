@@ -10,6 +10,14 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
       disallow: [
+        // Combinaisons de filtres : contenu duplique a l'infini. Seules les
+        // pages d'atterrissage (/cartes/gradees, /cartes/[set]...) sont indexables.
+        "/cartes?*rarete=*",
+        "/cartes?*langue=*",
+        "/cartes?*edition=*",
+        "/cartes?*grade=*",
+        "/cartes?*prix=*",
+        "/cartes?*q=*",
         "/favorites",
         "/login",
         "/signup",
