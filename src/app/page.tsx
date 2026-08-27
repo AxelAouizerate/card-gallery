@@ -1,7 +1,10 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import CardGallery from "@/components/CardGallery";
+import Link from "next/link";
+import GrilleCartes from "@/components/GrilleCartes";
 import type { Card } from "@/lib/cards";
+import { isNewArrival } from "@/lib/cards";
+import { cartesAvecSlug, type CarteListee } from "@/lib/catalogue";
 import HeaderNav from "@/components/HeaderNav";
 import JsonLd from "@/components/JsonLd";
 import { SeoIntro, SeoFooter, FAQ_ITEMS } from "@/components/SeoContent";
@@ -13,55 +16,27 @@ async function getCards(): Promise<Card[]> {
   return JSON.parse(raw) as Card[];
 }
 
-// Codes langue collection -> BCP-47 pour schema.org (inLanguage).
-const LANG_BCP47: Record<string, string> = {
-  fr: "fr-FR", en: "en", jap: "ja", jp: "ja", kr: "ko", it: "it", de: "de", sp: "es",
-};
 
-function absUrl(u: string | null): string {
-  if (!u) return `${SITE_URL}/horus-logo.png`;
-  return u.startsWith("http") ? u : `${SITE_URL}${u.startsWith("/") ? "" : "/"}${u}`;
-}
 
 // ItemList des produits en vente : gros levier SEO e-commerce (rich results).
 // On limite aux cartes réellement achetables (dispo + prix) et on plafonne la
 // taille du payload en gardant les plus belles pièces en premier.
-function buildItemList(cards: Card[]) {
-  const products = cards
-    .filter((c) => c.status === "available" && c.prix !== null && c.prix > 0)
-    .sort((a, b) => (b.prix ?? 0) - (a.prix ?? 0))
-    .slice(0, 100);
-
+/**
+ * L'ItemList doit decrire ce qui est reellement affiche sur la page. La home
+ * ne montre plus le catalogue entier mais une selection : le detail Product
+ * complet vit desormais sur chaque fiche /carte/[slug].
+ */
+function buildItemList(selection: CarteListee[]) {
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Cartes Yu-Gi-Oh! françaises à l'unité — horuscards",
-    numberOfItems: products.length,
-    itemListElement: products.map((c, i) => ({
+    name: "Sélection — cartes Yu-Gi-Oh! à l'unité, horuscards",
+    numberOfItems: selection.length,
+    itemListElement: selection.map(({ slug, card }, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      item: {
-        "@type": "Product",
-        name: c.set ? `${c.nom} (${c.set})` : c.nom,
-        category: "Carte à collectionner Yu-Gi-Oh!",
-        inLanguage: LANG_BCP47[c.lang] ?? c.lang,
-        image: absUrl(c.photo_1),
-        brand: { "@type": "Brand", name: "Yu-Gi-Oh!" },
-        ...(c.grade
-          ? { additionalProperty: [{ "@type": "PropertyValue", name: "Gradation", value: `${c.grade_org ?? "Grade"} ${c.grade}` }] }
-          : {}),
-        offers: {
-          "@type": "Offer",
-          price: c.prix,
-          priceCurrency: "EUR",
-          availability: c.reserve
-            ? "https://schema.org/OutOfStock"
-            : "https://schema.org/InStock",
-          itemCondition: "https://schema.org/UsedCondition",
-          url: SITE_URL,
-          seller: { "@id": `${SITE_URL}/#store` },
-        },
-      },
+      url: `${SITE_URL}/carte/${slug}`,
+      name: card.set ? `${card.nom} (${card.set})` : card.nom,
     })),
   };
 }
@@ -91,15 +66,57 @@ function buildBreadcrumb() {
 
 export default async function HomePage() {
   const cards = await getCards();
+  const toutes = await cartesAvecSlug();
+
+  // La home n'est plus le catalogue : elle met en avant trois selections et
+  // renvoie vers /cartes. Elle ne charge donc plus les 833 cartes dans le
+  // payload client, ce qui etait le vrai poids mort de la page.
+  const pepites = toutes.filter((c) => c.card.status !== "sold").slice(0, 10);
+  const pop1 = toutes.filter((c) => c.card.pop === 1 && c.card.status !== "sold").slice(0, 5);
+  const nouveautes = toutes
+    .filter((c) => c.card.status !== "sold" && isNewArrival(c.card))
+    .slice(0, 5);
+
   return (
     <main className="min-h-screen">
       <JsonLd data={buildBreadcrumb()} />
-      <JsonLd data={buildItemList(cards)} />
+      <JsonLd data={buildItemList([...pepites, ...pop1, ...nouveautes])} />
       <JsonLd data={buildFaqJsonLd()} />
       <HeaderNav />
       <SeoIntro />
-      <CardGallery cards={cards} />
+
+      <div className="mx-auto max-w-7xl space-y-10 px-4 py-8">
+        <Selection titre="Les plus belles pièces" cartes={pepites} />
+        {pop1.length > 0 && (
+          <Selection titre="Pop 1 — uniques à ce grade et au-dessus" cartes={pop1} />
+        )}
+        {nouveautes.length > 0 && <Selection titre="Nouveautés" cartes={nouveautes} />}
+
+        <div className="text-center">
+          <Link
+            href="/cartes"
+            className="inline-flex items-center rounded-md border border-amber-400/60 bg-amber-500/20 px-6 py-3 font-medium text-amber-100 hover:bg-amber-500/30"
+          >
+            Parcourir les {cards.length} cartes →
+          </Link>
+        </div>
+      </div>
+
       <SeoFooter />
     </main>
+  );
+}
+
+function Selection({ titre, cartes }: { titre: string; cartes: CarteListee[] }) {
+  return (
+    <section>
+      <h2
+        className="mb-3 text-lg font-semibold text-amber-200"
+        style={{ fontFamily: "var(--font-cinzel), serif" }}
+      >
+        {titre}
+      </h2>
+      <GrilleCartes cartes={cartes} />
+    </section>
   );
 }
