@@ -21,6 +21,7 @@ export default function PageCatalogue({
   page,
   filAriane,
   filtres,
+  panneauFiltres,
   nbFiltres = 0,
 }: {
   titre: string;
@@ -29,8 +30,10 @@ export default function PageCatalogue({
   base: string;
   page: number;
   filAriane: { nom: string; url: string }[];
-  /** Ilot client optionnel : seule partie interactive de la page. */
+  /** Barre au-dessus de la grille : recherche, chips, drawer mobile. */
   filtres?: React.ReactNode;
+  /** Colonne laterale collante, visible en permanence a partir de lg. */
+  panneauFiltres?: React.ReactNode;
   nbFiltres?: number;
 }) {
   const pages = Math.max(1, Math.ceil(cartes.length / PAR_PAGE));
@@ -92,9 +95,12 @@ export default function PageCatalogue({
           {titre}
         </h1>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-amber-100/80">{chapo}</p>
-        {filtres && <div className="mt-4">{filtres}</div>}
+        <div className={panneauFiltres ? "mt-5 gap-6 lg:grid lg:grid-cols-[260px_minmax(0,1fr)]" : "mt-5"}>
+          {panneauFiltres}
+          <div>
+        {filtres && <div className="mb-4">{filtres}</div>}
 
-        <p className="mt-4 font-mono text-lg font-semibold text-amber-100 sm:text-xl">
+        <p className="font-mono text-lg font-semibold text-amber-100 sm:text-xl">
           {cartes.length} carte{cartes.length > 1 ? "s" : ""}
           {nbFiltres > 0 && (
             <span className="ml-2 text-sm font-normal text-amber-100/50">
@@ -108,11 +114,13 @@ export default function PageCatalogue({
           )}
         </p>
 
-        <div className="mt-5">
+        <div className="mt-4">
           <GrilleCartes cartes={tranche} />
         </div>
 
         <PaginationNumerotee page={p} pages={pages} base={base} />
+          </div>
+        </div>
       </div>
     </main>
   );

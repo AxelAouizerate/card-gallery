@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import PageCatalogue from "@/components/PageCatalogue";
-import FiltresCatalogue from "@/components/FiltresCatalogue";
+import BarreFiltres, { PanneauFiltres } from "@/components/FiltresCatalogue";
 import { cartesAvecSlug, setsDuCatalogue, getCards } from "@/lib/catalogue";
 import { lireFiltres, appliquerFiltres, estIndexable, nbFiltresActifs } from "@/lib/filtres";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
@@ -49,7 +49,8 @@ export default async function Page({ searchParams }: { searchParams: Params }) {
       cartes={cartes}
       base={BASE}
       page={f.page}
-      filtres={<FiltresCatalogue options={options} base={BASE} />}
+      filtres={<BarreFiltres options={options} base={BASE} />}
+      panneauFiltres={<PanneauFiltres options={options} base={BASE} />}
       nbFiltres={nbFiltresActifs(f)}
       filAriane={[
         { nom: "Accueil", url: SITE_URL },
