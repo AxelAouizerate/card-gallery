@@ -5,6 +5,7 @@ import type { Card } from "@/lib/cards";
 import PhotoLightbox, { type Shot } from "./PhotoLightbox";
 import { useFavorites } from "@/lib/favorites";
 import { sellerInstagramUrl } from "@/lib/site";
+import { libelleSet } from "@/lib/sets";
 
 // Libelles lisibles des etats bruts du Google Sheet.
 // Affiches UNIQUEMENT pour les cartes sans photo : des qu'il y a des photos,
@@ -141,7 +142,7 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
                 ? "Visible sur les photos"
                 : (ETAT_LABELS[card.etat] ?? card.etat ?? "-")}
             </Row>
-            <Row label="Édition">{card.set || "-"}</Row>
+            <Row label="Édition">{libelleSet(card.set) || "-"}</Row>
             <Row label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Row>
             <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
             <Row label="Réservée">{card.reserve ? "Oui" : "Non"}</Row>

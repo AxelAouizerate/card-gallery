@@ -2,6 +2,7 @@ import type { Card } from "@/lib/cards";
 import SlabBandeau from "./SlabBandeau";
 import FichePhotos from "./FichePhotos";
 import { sellerInstagramUrl } from "@/lib/site";
+import { libelleSet } from "@/lib/sets";
 
 function Ligne({ label, children }: { label: string; children: React.ReactNode }) {
   return (
@@ -69,7 +70,7 @@ export default function FicheCarte({ card }: { card: Card }) {
           </div>
 
           <dl className="mt-5">
-            <Ligne label="Set">{card.set}</Ligne>
+            <Ligne label="Set">{libelleSet(card.set)}</Ligne>
             <Ligne label="Rareté">{card.rarete || "—"}</Ligne>
             <Ligne label="Langue">{card.lang}</Ligne>
             <Ligne label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Ligne>
