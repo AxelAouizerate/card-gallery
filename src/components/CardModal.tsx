@@ -6,38 +6,7 @@ import PhotoLightbox, { type Shot } from "./PhotoLightbox";
 import { useFavorites } from "@/lib/favorites";
 import { sellerInstagramUrl } from "@/lib/site";
 import { libelleSet } from "@/lib/sets";
-
-// Libelles lisibles des etats bruts du Google Sheet.
-// Affiches UNIQUEMENT pour les cartes sans photo : des qu'il y a des photos,
-// l'etat se juge dessus et on ne promet pas d'etat exact (decision du 2026-07-19).
-const ETAT_LABELS: Record<string, string> = {
-  "GEM MINT": "Gem Mint",
-  "MINT": "Mint",
-  "MINT+": "Mint+",
-  "NM": "Near Mint",
-  "NM+": "Near Mint+",
-  "NM-": "Near Mint-",
-  "EX": "Excellent",
-  "EX+": "Excellent+",
-  "EX-": "Excellent-",
-  "EXC": "Excellent",
-  "EXC+": "Excellent+",
-  "EXC++": "Excellent++",
-  "EXC-": "Excellent-",
-  "LP": "Légèrement played",
-  "LP+": "Légèrement played+",
-  "LP-": "Légèrement played-",
-  "GOOD": "Bon",
-  "GOOD+": "Bon+",
-  "GOOD++": "Bon++",
-  "GOOD-": "Bon-",
-  "PL": "Played",
-  "PL+": "Played+",
-  "PL-": "Played-",
-  "PLAYED": "Played",
-  "POOR": "Très played",
-  "SCELLÉ": "Scellé",
-};
+import { libelleEtat } from "@/lib/etats";
 
 export default function CardModal({ card, onClose }: { card: Card; onClose: () => void }) {
   // Visionneuse plein écran (index de la photo ouverte, ou null)
@@ -138,9 +107,11 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
 
           <dl className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
             <Row label="État">
-              {shots.length > 0
-                ? "Visible sur les photos"
-                : (ETAT_LABELS[card.etat] ?? card.etat ?? "-")}
+              {card.grade
+                ? libelleEtat(card.etat) || "-"
+                : shots.length > 0
+                  ? "Visible sur les photos"
+                  : card.etat || "-"}
             </Row>
             <Row label="Édition">{libelleSet(card.set) || "-"}</Row>
             <Row label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Row>

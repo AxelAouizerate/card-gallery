@@ -111,24 +111,27 @@ function Selection({ titre, icone, cartes }: { titre: string; icone?: React.Reac
   return (
     <section>
       <h2
-        className="mb-3 flex items-center gap-2 text-lg font-semibold text-amber-200"
+        className="mb-3 flex items-center gap-2.5 text-lg font-semibold text-amber-200"
         style={{ fontFamily: "var(--font-cinzel), serif" }}
       >
         {icone}
-        {titre}
+        <span>{titre}</span>
       </h2>
       <GrilleCartes cartes={cartes} />
     </section>
   );
 }
 
+// Silhouette pleine (pas des traits fins) : se reconnait d'un coup d'oeil,
+// nettement plus grosse que le texte du titre a cote.
 function IconeCoffre() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <path d="M3 10.5c0-1.66 1.34-3 3-3h12c1.66 0 3 1.34 3 3V18c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1v-7.5Z" />
-      <path d="M3 10.5 5.5 4h13L21 10.5" />
-      <path d="M3 14h18" />
-      <path d="M10.5 12v2.5a1.5 1.5 0 0 0 3 0V12" />
+    <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden className="shrink-0">
+      <path d="M4 15c0-3.31 2.69-6 6-6h12c3.31 0 6 2.69 6 6v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9Z" fill="#a16207" />
+      <path d="M4 15c0-3.31 2.69-6 6-6h12c3.31 0 6 2.69 6 6v1H4v-1Z" fill="#78350f" />
+      <rect x="4" y="15" width="24" height="3" fill="#d97706" />
+      <circle cx="16" cy="17.5" r="2.6" fill="#fde68a" />
+      <rect x="14.9" y="17.3" width="2.2" height="3.2" rx="0.6" fill="#78350f" />
     </svg>
   );
 }

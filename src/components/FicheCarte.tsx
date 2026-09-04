@@ -3,6 +3,7 @@ import SlabBandeau from "./SlabBandeau";
 import FichePhotos from "./FichePhotos";
 import { sellerInstagramUrl } from "@/lib/site";
 import { libelleSet } from "@/lib/sets";
+import { libelleEtat } from "@/lib/etats";
 
 function Ligne({ label, children }: { label: string; children: React.ReactNode }) {
   return (
@@ -93,7 +94,11 @@ export default function FicheCarte({ card }: { card: Card }) {
               </Ligne>
             )}
             <Ligne label="État">
-              {photos.length > 0 ? "Visible sur les photos" : card.etat || "—"}
+              {card.grade
+                ? libelleEtat(card.etat) || "—"
+                : photos.length > 0
+                  ? "Visible sur les photos"
+                  : card.etat || "—"}
             </Ligne>
           </dl>
 
