@@ -126,3 +126,28 @@ export const setsDuCatalogue = cache(async (): Promise<{ set: string; n: number 
     .map(([set, n]) => ({ set, n }))
     .sort((a, b) => b.n - a.n || a.set.localeCompare(b.set));
 });
+
+// "Booster"/"Display" : residu du CSV source sur des produits scelles (pas
+// des cartes individuelles) — n'a rien a faire dans un filtre de rarete.
+const RARETES_EXCLUES = new Set(["Booster", "Display"]);
+
+// Grosses raretes recherchees par les collectionneurs, mises en avant avant
+// le reste (gold/commune/rare, moins pertinentes pour filtrer un catalogue
+// de pieces rares) plutot qu'un tri alphabetique qui les noie.
+const ORDRE_RARETES = [
+  "Secret", "Ghost", "Ultimate", "Ultra", "Starlight",
+  "Prismatic Secret Rare", "Secret Parallel", "Ultra Parallel", "Gold Secret",
+];
+
+/** Raretes presentes au catalogue, grosses raretes en tete. */
+export const raretesDuCatalogue = cache(async (): Promise<string[]> => {
+  const cards = await getCards();
+  const presentes = new Set(cards.map((c) => c.rarete).filter((r): r is string => Boolean(r)));
+  for (const r of RARETES_EXCLUES) presentes.delete(r);
+
+  const rang = (r: string) => {
+    const i = ORDRE_RARETES.indexOf(r);
+    return i === -1 ? ORDRE_RARETES.length : i;
+  };
+  return [...presentes].sort((a, b) => rang(a) - rang(b) || a.localeCompare(b));
+});

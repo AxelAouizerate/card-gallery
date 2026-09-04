@@ -18,6 +18,7 @@ export type Filtres = {
   edition1st: boolean;
   pop1: boolean;
   dispo: boolean;
+  soldOut: boolean;
   nouveautes: boolean;
   page: number;
 };
@@ -25,7 +26,7 @@ export type Filtres = {
 export const FILTRES_VIDES: Filtres = {
   q: "", sets: [], raretes: [], langues: [],
   prixMin: null, prixMax: null, gradation: "", noteMin: null,
-  edition1st: false, pop1: false, dispo: false, nouveautes: false, page: 1,
+  edition1st: false, pop1: false, dispo: false, soldOut: false, nouveautes: false, page: 1,
 };
 
 type Params = Record<string, string | string[] | undefined>;
@@ -55,6 +56,7 @@ export function lireFiltres(params: Params): Filtres {
     edition1st: vrai(params.edition),
     pop1: vrai(params.pop1),
     dispo: vrai(params.dispo),
+    soldOut: vrai(params.soldOut),
     nouveautes: vrai(params.nouveautes),
     page: Math.max(1, nombre(params.page) ?? 1),
   };
@@ -74,6 +76,7 @@ export function ecrireFiltres(f: Filtres): string {
   if (f.edition1st) p.set("edition", "1");
   if (f.pop1) p.set("pop1", "1");
   if (f.dispo) p.set("dispo", "1");
+  if (f.soldOut) p.set("soldOut", "1");
   if (f.nouveautes) p.set("nouveautes", "1");
   if (f.page > 1) p.set("page", String(f.page));
   return p.toString();
@@ -86,7 +89,7 @@ export function nbFiltresActifs(f: Filtres): number {
     (f.prixMin != null ? 1 : 0) + (f.prixMax != null ? 1 : 0) +
     (f.gradation ? 1 : 0) + (f.noteMin != null ? 1 : 0) +
     (f.edition1st ? 1 : 0) + (f.pop1 ? 1 : 0) +
-    (f.dispo ? 1 : 0) + (f.nouveautes ? 1 : 0)
+    (f.dispo ? 1 : 0) + (f.soldOut ? 1 : 0) + (f.nouveautes ? 1 : 0)
   );
 }
 
@@ -123,6 +126,7 @@ export function appliquerFiltres(cards: Card[], f: Filtres, maintenant = new Dat
     if (f.edition1st && !c.is_1st) return false;
     if (f.pop1 && c.pop !== 1) return false;
     if (f.dispo && (c.status === "sold" || c.status === "coming_soon")) return false;
+    if (f.soldOut && c.status !== "sold") return false;
     if (f.nouveautes) {
       if (!c.first_seen) return false;
       const age = maintenant.getTime() - new Date(`${c.first_seen}T00:00:00Z`).getTime();

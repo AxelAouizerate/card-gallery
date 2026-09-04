@@ -63,6 +63,11 @@ export default function GrilleCartes({ cartes }: { cartes: CarteListee[] }) {
                       ★ Pop 1
                     </span>
                   )}
+                  {card.pop != null && card.pop > 1 && card.pop <= 3 && (
+                    <span className="rounded-sm bg-slate-400 px-1 py-0.5 font-mono text-[9px] font-black uppercase tracking-wider text-black">
+                      Low Pop
+                    </span>
+                  )}
                   {card.is_1st && (
                     <span className="rounded-sm bg-indigo-500 px-1 py-0.5 font-mono text-[9px] font-black uppercase tracking-wider text-white">
                       1st

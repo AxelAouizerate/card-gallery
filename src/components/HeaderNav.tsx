@@ -2,10 +2,12 @@ import Link from "next/link";
 // Le header est volontairement statique : l'etat de session est charge par
 // HeaderAuth cote client, sinon cookies() rendrait toutes les routes dynamiques.
 import HeaderAuth from "./HeaderAuth";
+import BandeauAnnonces from "./BandeauAnnonces";
 
 export default function HeaderNav() {
   return (
     <header className="border-b border-amber-500/30 bg-black/60 backdrop-blur supports-[backdrop-filter]:bg-black/40">
+      <BandeauAnnonces />
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-3 group">
           {/* eslint-disable-next-line @next/next/no-img-element */}

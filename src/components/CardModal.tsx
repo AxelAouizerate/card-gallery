@@ -103,7 +103,7 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           <p className="mt-1 text-sm text-slate-500">
             {card.set} · {card.rarete} · {card.lang}
           </p>
-          {card.pop != null && card.pop <= 2 && (
+          {card.pop != null && card.pop <= 3 && (
             <span
               className={
                 "mt-2 inline-flex w-fit items-center gap-1.5 rounded-full px-3 py-1 text-xs font-black uppercase tracking-wider text-white shadow-sm " +
@@ -112,9 +112,9 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
                   : "bg-gradient-to-r from-slate-400 to-slate-500")
               }
             >
-              ★ Pop {card.pop}
+              {card.pop === 1 ? "★ Pop 1" : `Low Pop · ${card.pop}`}
               <span className="font-semibold normal-case tracking-normal opacity-90">
-                {card.pop === 1 ? "— unique à ce grade et au-dessus" : "— 2 exemplaires à ce grade"}
+                {card.pop === 1 ? "— unique à ce grade et au-dessus" : `— ${card.pop} exemplaires à ce grade`}
               </span>
             </span>
           )}
@@ -237,7 +237,7 @@ function Photo({ src, alt, label, status, onOpen }: {
         {label}
       </span>
       {zoomable && (
-        <span className="pointer-events-none absolute bottom-2 right-2 z-20 flex items-center gap-1 rounded-full bg-black/60 px-2 py-1 text-[10px] font-semibold text-white opacity-0 transition-opacity group-hover:opacity-100">
+        <span className="pointer-events-none absolute bottom-2 right-2 z-20 flex items-center gap-1 rounded-full bg-black/60 px-2 py-1 text-[10px] font-semibold text-white">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
           Zoom
         </span>

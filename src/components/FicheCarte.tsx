@@ -27,11 +27,16 @@ export default function FicheCarte({ card }: { card: Card }) {
         <div className="relative">
           <FichePhotos photos={photos} nom={card.nom} bientot={bientot} />
 
-          {(card.pop === 1 || card.is_1st) && (
+          {(card.pop != null || card.is_1st) && (
             <div className="pointer-events-none absolute left-2 top-9 flex flex-col gap-1">
               {card.pop === 1 && (
                 <span className="rounded-sm bg-amber-500 px-1.5 py-0.5 font-mono text-[10px] font-black uppercase tracking-wider text-black shadow">
                   ★ Pop 1
+                </span>
+              )}
+              {card.pop != null && card.pop > 1 && card.pop <= 3 && (
+                <span className="rounded-sm bg-slate-400 px-1.5 py-0.5 font-mono text-[10px] font-black uppercase tracking-wider text-black shadow">
+                  Low Pop · {card.pop}
                 </span>
               )}
               {card.is_1st && (

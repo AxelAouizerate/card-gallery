@@ -148,6 +148,7 @@ function CorpsFiltres({ options, base }: { options: OptionsFiltres; base: string
           <button type="button" onClick={() => naviguer({ ...f, edition1st: !f.edition1st })} className={puce(f.edition1st)}>1ère édition</button>
           <button type="button" onClick={() => naviguer({ ...f, pop1: !f.pop1 })} className={puce(f.pop1)}>★ Pop 1</button>
           <button type="button" onClick={() => naviguer({ ...f, dispo: !f.dispo })} className={puce(f.dispo)}>Disponible</button>
+          <button type="button" onClick={() => naviguer({ ...f, soldOut: !f.soldOut })} className={puce(f.soldOut)}>Sold out</button>
           <button type="button" onClick={() => naviguer({ ...f, nouveautes: !f.nouveautes })} className={puce(f.nouveautes)}>Nouveautés</button>
         </div>
       </Bloc>
@@ -204,6 +205,7 @@ export default function BarreFiltres({ options, base }: { options: OptionsFiltre
     ...(f.edition1st ? [{ libelle: "1ère édition", retirer: () => naviguer({ ...f, edition1st: false }) }] : []),
     ...(f.pop1 ? [{ libelle: "★ Pop 1", retirer: () => naviguer({ ...f, pop1: false }) }] : []),
     ...(f.dispo ? [{ libelle: "Disponible", retirer: () => naviguer({ ...f, dispo: false }) }] : []),
+    ...(f.soldOut ? [{ libelle: "Sold out", retirer: () => naviguer({ ...f, soldOut: false }) }] : []),
     ...(f.nouveautes ? [{ libelle: "Nouveautés", retirer: () => naviguer({ ...f, nouveautes: false }) }] : []),
   ];
 

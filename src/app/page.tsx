@@ -86,7 +86,7 @@ export default async function HomePage() {
       <SeoIntro />
 
       <div className="mx-auto max-w-7xl space-y-10 px-4 py-8">
-        <Selection titre="Les plus belles pièces" cartes={pepites} />
+        <Selection titre="Les plus belles pièces" icone={<IconeCoffre />} cartes={pepites} />
         {pop1.length > 0 && (
           <Selection titre="Pop 1 — uniques à ce grade et au-dessus" cartes={pop1} />
         )}
@@ -107,16 +107,28 @@ export default async function HomePage() {
   );
 }
 
-function Selection({ titre, cartes }: { titre: string; cartes: CarteListee[] }) {
+function Selection({ titre, icone, cartes }: { titre: string; icone?: React.ReactNode; cartes: CarteListee[] }) {
   return (
     <section>
       <h2
-        className="mb-3 text-lg font-semibold text-amber-200"
+        className="mb-3 flex items-center gap-2 text-lg font-semibold text-amber-200"
         style={{ fontFamily: "var(--font-cinzel), serif" }}
       >
+        {icone}
         {titre}
       </h2>
       <GrilleCartes cartes={cartes} />
     </section>
+  );
+}
+
+function IconeCoffre() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M3 10.5c0-1.66 1.34-3 3-3h12c1.66 0 3 1.34 3 3V18c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1v-7.5Z" />
+      <path d="M3 10.5 5.5 4h13L21 10.5" />
+      <path d="M3 14h18" />
+      <path d="M10.5 12v2.5a1.5 1.5 0 0 0 3 0V12" />
+    </svg>
   );
 }

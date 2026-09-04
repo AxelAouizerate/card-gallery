@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import PageCatalogue from "@/components/PageCatalogue";
 import BarreFiltres, { PanneauFiltres } from "@/components/FiltresCatalogue";
-import { cartesAvecSlug, setsDuCatalogue, getCards } from "@/lib/catalogue";
+import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, getCards } from "@/lib/catalogue";
 import { lireFiltres, appliquerFiltres, estIndexable, nbFiltresActifs } from "@/lib/filtres";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
@@ -37,7 +37,7 @@ export default async function Page({ searchParams }: { searchParams: Params }) {
   const brut = await getCards();
   const options = {
     sets: await setsDuCatalogue(),
-    raretes: [...new Set(brut.map((c) => c.rarete).filter(Boolean))].sort(),
+    raretes: await raretesDuCatalogue(),
     langues: [...new Set(brut.map((c) => c.lang).filter(Boolean))].sort(),
     prixMax: Math.max(0, ...brut.map((c) => c.prix ?? 0)),
   };
