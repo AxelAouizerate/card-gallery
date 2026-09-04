@@ -11,22 +11,26 @@ export const ERES: { id: Ere; nom: string; periode: string }[] = [
 ];
 
 const SETS_PAR_ERE: Record<Ere, string[]> = {
+  // RP02 classe avec RDS (reprints de cette epoque), pas par date de sortie
+  // du Retro Pack lui-meme — precision d'Axel du 2026-09-04.
   "duel-monsters": [
     "LOB", "LDD", "LDD-F", "MRD", "SRL", "SDP", "SDP-F", "LOD", "PGD", "MFC",
-    "DCR", "IOC", "AST", "RDS", "SOD",
+    "DCR", "IOC", "AST", "RDS", "SOD", "DDK", "DDY", "DDP", "CT1", "PP01",
+    "RP02",
   ],
   gx: [
     "FET", "TLM", "CDIP", "EEN", "EOJ", "SOI", "CRV", "CSOC", "GLAS", "TAEV",
     "POTD", "RGBT", "ANPR", "FOTB", "TDGS", "STON", "PTDN", "LODT", "CRMS",
-    "LCGX",
+    "LCGX", "CT2", "CT3", "CT03", "CT4", "CT04", "RP01", "PP02",
   ],
   "5ds": [
     "SOVR", "ABPF", "STBL", "DREV", "TSHD", "STOR", "EXVC", "CDIP",
+    "CT05", "CT06", "CT07",
   ],
   apres: [
     "GENF", "ORCS", "PHSW", "GAOV", "ABYR", "CBLZ", "LTGY", "JOTL", "SHSP",
     "LVAL", "PRIO", "DUEA", "CORE", "NECH", "DOCS", "BLAR", "BLCR", "BLMR",
-    "BLVO", "CBLZ",
+    "BLVO", "CBLZ", "CT08", "CT09", "CT12",
   ],
 };
 
@@ -36,7 +40,7 @@ for (const [ere, codes] of Object.entries(SETS_PAR_ERE) as [Ere, string[]][]) {
 }
 
 function sansSuffixeLangue(code: string): string {
-  return code.replace(/-(JP|EN|FR|KR|C)$/, "");
+  return code.replace(/-(JP|EN|FR|KR|C|F)$/, "");
 }
 
 export function ereDuSet(code: string | null | undefined): Ere | null {

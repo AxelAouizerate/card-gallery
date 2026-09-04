@@ -30,7 +30,7 @@ const CATEGORIES: Categorie[] = [
   {
     titre: "Sets introuvables",
     href: "/cartes?set=LDC,DCR",
-    photo: null,
+    photo: "/img/dcr-fr016-g.jpg",
     icone: <IconeLoupe />,
   },
 ];

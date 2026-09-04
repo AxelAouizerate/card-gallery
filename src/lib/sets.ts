@@ -90,11 +90,12 @@ export const NOMS_SETS: Record<string, string> = {
   CT09: "Collector's Tins 2012",
 };
 
-// "-JP"/"-EN"/"-FR"/"-KR"/"-C" en suffixe = variante linguistique du meme
-// set (ex: RDS-JP = Rise of Destiny). On retombe dessus si le code exact
-// n'est pas dans le dictionnaire, avant d'abandonner et d'afficher le code brut.
+// "-JP"/"-EN"/"-FR"/"-F"/"-KR"/"-C" en suffixe = variante linguistique du meme
+// set (ex: RDS-JP = Rise of Destiny, DDK-F = Duelist Deck Kaiba FR — les deux
+// conventions ("-FR" et "-F") coexistent dans les donnees). On retombe dessus
+// si le code exact n'est pas dans le dictionnaire, avant d'afficher le code brut.
 function sansSuffixeLangue(code: string): string {
-  return code.replace(/-(JP|EN|FR|KR|C)$/, "");
+  return code.replace(/-(JP|EN|FR|KR|C|F)$/, "");
 }
 
 export function nomSet(code: string | null | undefined): string {
