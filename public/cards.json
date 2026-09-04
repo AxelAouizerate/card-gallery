@@ -2052,8 +2052,8 @@
     "prix": 75.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "/img/897_1.jpg",
-    "photo_2": "/img/897_2.jpg",
+    "photo_1": "/img/897_2.jpg",
+    "photo_2": "/img/897_1.jpg",
     "first_seen": "2026-05-01",
     "vendeur": "s1"
   },
@@ -2493,8 +2493,8 @@
     "prix": 60.0,
     "status": "available",
     "statut_raw": "en vente",
-    "photo_1": "/img/903_1.jpg",
-    "photo_2": "/img/903_2.jpg",
+    "photo_1": "/img/903_2.jpg",
+    "photo_2": "/img/903_1.jpg",
     "first_seen": "2026-05-01",
     "vendeur": "s1"
   },
