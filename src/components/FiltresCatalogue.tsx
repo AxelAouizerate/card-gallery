@@ -61,7 +61,7 @@ const puce = (actif: boolean) =>
   );
 
 /** Les controles eux-memes, sans habillage : reutilises tels quels des deux cotes. */
-function CorpsFiltres({ options, base }: { options: OptionsFiltres; base: string }) {
+export function CorpsFiltres({ options, base }: { options: OptionsFiltres; base: string }) {
   const { f, naviguer, bascule, actifs } = useFiltres(base);
 
   return (

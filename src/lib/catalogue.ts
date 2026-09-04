@@ -127,6 +127,13 @@ export const setsDuCatalogue = cache(async (): Promise<{ set: string; n: number 
     .sort((a, b) => b.n - a.n || a.set.localeCompare(b.set));
 });
 
+/** Cartes dont le set appartient a l'ere donnee (voir lib/eres.ts). */
+export const cartesDeLere = cache(async (ere: import("./eres").Ere): Promise<CarteListee[]> => {
+  const { ereDuSet } = await import("./eres");
+  const toutes = await cartesAvecSlug();
+  return toutes.filter((c) => ereDuSet(c.card.set) === ere);
+});
+
 // "Booster"/"Display" : residu du CSV source sur des produits scelles (pas
 // des cartes individuelles) — n'a rien a faire dans un filtre de rarete.
 const RARETES_EXCLUES = new Set(["Booster", "Display"]);

@@ -4,11 +4,13 @@ import Link from "next/link";
 import GrilleCartes from "@/components/GrilleCartes";
 import type { Card } from "@/lib/cards";
 import { isNewArrival } from "@/lib/cards";
-import { cartesAvecSlug, type CarteListee } from "@/lib/catalogue";
+import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, type CarteListee } from "@/lib/catalogue";
 import HeaderNav from "@/components/HeaderNav";
 import JsonLd from "@/components/JsonLd";
 import { SeoIntro, SeoFooter, FAQ_ITEMS } from "@/components/SeoContent";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
+import VignettesCategories from "@/components/VignettesCategories";
+import FiltreAccueilDepliable from "@/components/FiltreAccueilDepliable";
 
 async function getCards(): Promise<Card[]> {
   const file = path.join(process.cwd(), "public", "cards.json");
@@ -77,6 +79,13 @@ export default async function HomePage() {
     .filter((c) => c.card.status !== "sold" && isNewArrival(c.card))
     .slice(0, 5);
 
+  const options = {
+    sets: await setsDuCatalogue(),
+    raretes: await raretesDuCatalogue(),
+    langues: [...new Set(cards.map((c) => c.lang).filter(Boolean))].sort(),
+    prixMax: Math.max(0, ...cards.map((c) => c.prix ?? 0)),
+  };
+
   return (
     <main className="min-h-screen">
       <JsonLd data={buildBreadcrumb()} />
@@ -86,11 +95,15 @@ export default async function HomePage() {
       <SeoIntro />
 
       <div className="mx-auto max-w-7xl space-y-10 px-4 py-8">
+        <VignettesCategories />
+        <FiltreAccueilDepliable options={options} />
+
         <Selection titre="Les plus belles pièces" icone={<IconeCoffre />} cartes={pepites} />
         {pop1.length > 0 && (
           <Selection titre="Pop 1 — uniques à ce grade et au-dessus" cartes={pop1} />
         )}
         {nouveautes.length > 0 && <Selection titre="Nouveautés" cartes={nouveautes} />}
+        <SectionLots />
 
         <div className="text-center">
           <Link
@@ -104,6 +117,26 @@ export default async function HomePage() {
 
       <SeoFooter />
     </main>
+  );
+}
+
+// Section vide pour l'instant (aucun lot en vente) — prete a accueillir des
+// lots des qu'il y en aura, sans travail supplementaire cote structure.
+function SectionLots() {
+  return (
+    <section>
+      <h2
+        className="mb-3 text-lg font-semibold text-amber-200"
+        style={{ fontFamily: "var(--font-cinzel), serif" }}
+      >
+        Lots
+      </h2>
+      <div className="rounded-lg border border-dashed border-amber-500/25 bg-black/20 p-6 text-center">
+        <p className="font-mono text-sm uppercase tracking-widest text-amber-100/50">
+          Aucun lot en ce moment — revenez bientôt
+        </p>
+      </div>
+    </section>
   );
 }
 
