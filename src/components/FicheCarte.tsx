@@ -1,27 +1,7 @@
-import Image from "next/image";
 import type { Card } from "@/lib/cards";
 import SlabBandeau from "./SlabBandeau";
+import FichePhotos from "./FichePhotos";
 import { sellerInstagramUrl } from "@/lib/site";
-
-function Photo({ src, alt, label, priority }: {
-  src: string; alt: string; label: string; priority?: boolean;
-}) {
-  return (
-    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-900">
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        priority={priority}
-        sizes="(max-width: 768px) 50vw, 320px"
-        className="object-contain"
-      />
-      <span className="absolute left-2 top-2 rounded bg-black/70 px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-white">
-        {label}
-      </span>
-    </div>
-  );
-}
 
 function Ligne({ label, children }: { label: string; children: React.ReactNode }) {
   return (
@@ -44,25 +24,7 @@ export default function FicheCarte({ card }: { card: Card }) {
 
       <div className="grid gap-6 p-5 md:grid-cols-[minmax(0,340px)_1fr]">
         <div className="relative">
-          <div className={"grid gap-3 " + (photos.length > 1 ? "grid-cols-2" : "grid-cols-1")}>
-            {photos.length > 0 ? (
-              photos.map((src, i) => (
-                <Photo
-                  key={src}
-                  src={src}
-                  alt={`${card.nom} — ${i === 0 ? "recto" : "verso"}`}
-                  label={i === 0 ? "Recto" : "Verso"}
-                  priority={i === 0}
-                />
-              ))
-            ) : (
-              <div className="flex aspect-[3/4] w-full items-center justify-center rounded-lg border border-dashed border-white/15 bg-slate-900/60 text-center">
-                <span className="px-4 font-mono text-xs uppercase tracking-widest text-amber-100/60">
-                  {bientot ? "Bientôt en boutique" : "Photos sur demande"}
-                </span>
-              </div>
-            )}
-          </div>
+          <FichePhotos photos={photos} nom={card.nom} bientot={bientot} />
 
           {(card.pop === 1 || card.is_1st) && (
             <div className="pointer-events-none absolute left-2 top-9 flex flex-col gap-1">
