@@ -61,6 +61,12 @@ export const NOMS_SETS: Record<string, string> = {
   BLCR: "Battles of Legend: Crystal Revenge",
   RP01: "Retro Pack",
   RP02: "Retro Pack 2",
+  EOJ: "Enemy of Justice",
+  SOI: "Shadow of Infinity",
+  IGAS: "Ignition Assault",
+  SHVI: "Shining Victories",
+  LON: "Labyrinth of Nightmare",
+  BP01: "Battle Pack: Epic Dawn",
 
   // Confirmes par recherche le 2026-09-04
   LART: "The Lost Art Promotion",
@@ -84,13 +90,20 @@ export const NOMS_SETS: Record<string, string> = {
   CT09: "Collector's Tins 2012",
 };
 
+// "-JP"/"-EN"/"-FR"/"-KR"/"-C" en suffixe = variante linguistique du meme
+// set (ex: RDS-JP = Rise of Destiny). On retombe dessus si le code exact
+// n'est pas dans le dictionnaire, avant d'abandonner et d'afficher le code brut.
+function sansSuffixeLangue(code: string): string {
+  return code.replace(/-(JP|EN|FR|KR|C)$/, "");
+}
+
 export function nomSet(code: string | null | undefined): string {
   if (!code) return "";
-  return NOMS_SETS[code] ?? code;
+  return NOMS_SETS[code] ?? NOMS_SETS[sansSuffixeLangue(code)] ?? code;
 }
 
 export function libelleSet(code: string | null | undefined): string {
   if (!code) return "";
-  const nom = NOMS_SETS[code];
+  const nom = NOMS_SETS[code] ?? NOMS_SETS[sansSuffixeLangue(code)];
   return nom ? `${nom} (${code})` : code;
 }
