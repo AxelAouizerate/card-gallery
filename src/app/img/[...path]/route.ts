@@ -41,13 +41,29 @@ export async function GET(
   // L'API GitHub Contents marche pour les repos prives avec un token, et
   // sait servir le contenu brut quand on demande Accept: vnd.github.raw.
   const ghUrl = `https://api.github.com/repos/${REPO}/contents/${encodeURIComponent(filename)}?ref=${BRANCH}`;
-  const upstream = await fetch(ghUrl, { headers, cache: "force-cache" });
+
+  // Un rate-limit GitHub (403) ou un hoquet reseau (5xx) est transitoire :
+  // un seul essai suffisait a faire echouer des images au hasard sur le
+  // site entier. On retente une fois apres une courte pause avant
+  // d'abandonner (jamais sur un vrai 404, ca n'a aucune chance de changer).
+  async function tenter(): Promise<Response> {
+    return fetch(ghUrl, { headers, cache: "force-cache" });
+  }
+
+  let upstream = await tenter();
+  if (!upstream.ok && upstream.status !== 404) {
+    await new Promise((r) => setTimeout(r, 400));
+    upstream = await tenter();
+  }
 
   if (!upstream.ok) {
-    // Fallback : raw.githubusercontent (utile si le repo est encore public
-    // et qu'on n'a pas encore mis le token)
+    // Fallback : raw.githubusercontent, avec le meme token (le repo est
+    // prive — sans lui ce fallback echouait toujours, silencieusement).
     const rawUrl = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${filename}`;
-    const fallback = await fetch(rawUrl, { cache: "force-cache" });
+    const fallback = await fetch(rawUrl, {
+      headers: token ? { Authorization: `Bearer ${token}` } : undefined,
+      cache: "force-cache",
+    });
     if (!fallback.ok) {
       return new Response(`Not found (${upstream.status}/${fallback.status})`,
                           { status: 404 });

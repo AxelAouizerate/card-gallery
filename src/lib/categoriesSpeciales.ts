@@ -19,18 +19,32 @@ const SETS_ICONIQUES = ["LDD-F", "MRD", "MDM", "SDP-F"];
 const SETS_INTROUVABLES = ["LDC", "DCR"];
 const SETS_INTROUVABLES_1ERE_ED = ["TDGS", "LDD-F", "CSOC"];
 
+// Les cartes d'Axel sont francaises : dans cards.json, un meme set se
+// retrouve parfois code en clair ("TDGS") et parfois avec le suffixe
+// "-FR" ("TDGS-FR") — ce n'est pas un set different, juste une variation de
+// saisie. On les fusionne. Le japonais ("-JP") reste en revanche un tirage
+// distinct et ne doit jamais matcher — precision d'Axel du 2026-09-06.
+function sansSuffixeFr(code: string): string {
+  return code.endsWith("-FR") ? code.slice(0, -3) : code;
+}
+
+function memeSet(codeCarte: string, codesListe: string[]): boolean {
+  const normalise = sansSuffixeFr(codeCarte);
+  return codesListe.some((code) => sansSuffixeFr(code) === normalise);
+}
+
 export function filtreCategorieSpeciale(id: CategorieId, c: Card): boolean {
   switch (id) {
     case "sets-iconiques":
-      return SETS_ICONIQUES.includes(c.set);
+      return memeSet(c.set, SETS_ICONIQUES);
     case "ghost":
       return c.rarete === "Ghost";
     case "ultimate":
       return c.rarete === "Ultimate";
     case "introuvables":
       return (
-        SETS_INTROUVABLES.includes(c.set) ||
-        (SETS_INTROUVABLES_1ERE_ED.includes(c.set) && Boolean(c.is_1st))
+        memeSet(c.set, SETS_INTROUVABLES) ||
+        (memeSet(c.set, SETS_INTROUVABLES_1ERE_ED) && Boolean(c.is_1st))
       );
   }
 }
