@@ -1,6 +1,6 @@
 import { ANNONCES } from "@/lib/annonces";
 
-const INSTAGRAM = "https://www.instagram.com/horus_et_madrid/";
+const INSTAGRAM = "https://www.instagram.com/horuscards_/";
 const TIKTOK = "https://www.tiktok.com/@horus_et_madrid";
 
 // Bandeau "a la une" au-dessus du header : gros, colore, impossible a rater
