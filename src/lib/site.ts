@@ -46,10 +46,13 @@ export const SITE_KEYWORDS = [
 // navigateur. Elle doit correspondre à la valeur `vendeur` des cartes.
 // `vinted` = page Vinted du vendeur : l'achat se fait indirectement là-bas
 // (on ne paie pas sur le site). `instagram` reste optionnel (bouton masqué si vide).
-export const SELLERS: Record<string, { instagram: string; vinted: string }> = {
-  s1: { instagram: "horuscards_", vinted: "https://www.vinted.com/member/241859388" },
-  s2: { instagram: "marvinyugi", vinted: "https://www.vinted.com/member/59915583" },
-  s3: { instagram: "sr4madrid", vinted: "https://www.vinted.com/member/33433064" },
+// `voggt`/`whatnot` : pages perso pour les lives (annonces "live" de la
+// banderole d'accueil — cf. lib/evenements.ts). Optionnels : tous les
+// vendeurs ne font pas de live sur les deux plateformes.
+export const SELLERS: Record<string, { instagram: string; vinted: string; voggt?: string; whatnot?: string }> = {
+  s1: { instagram: "horuscards_", vinted: "https://www.vinted.com/member/241859388", voggt: "https://voggt.com/fr/Axellll3" },
+  s2: { instagram: "marvinyugi", vinted: "https://www.vinted.com/member/59915583", voggt: "https://voggt.com/fr/marviyugi", whatnot: "https://www.whatnot.com/fr-FR/user/marvinyugi" },
+  s3: { instagram: "sr4madrid", vinted: "https://www.vinted.com/member/33433064", voggt: "https://voggt.com/fr/Madrid38" },
 };
 
 /** URL du compte Instagram du vendeur, ou null si vendeur inconnu / handle non renseigné. */

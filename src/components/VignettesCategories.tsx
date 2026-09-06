@@ -1,39 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
+import { CATEGORIES_META, type CategorieId } from "@/lib/categoriesSpeciales";
 
-type Categorie = {
-  titre: string;
-  href: string;
-  photo: string | null;
-  icone: React.ReactNode;
+export const ICONES_CATEGORIES: Record<CategorieId, React.ReactNode> = {
+  "sets-iconiques": <IconeEtoile />,
+  ghost: <IconeFantome />,
+  ultimate: <IconeCouronne />,
+  introuvables: <IconeLoupe />,
 };
-
-const CATEGORIES: Categorie[] = [
-  {
-    titre: "Sets iconiques",
-    href: "/cartes?set=LDD-F,MRD,MDM,SDP-F",
-    photo: "/img/Q03.jpg",
-    icone: <IconeEtoile />,
-  },
-  {
-    titre: "Ghost Rare",
-    href: "/cartes?rarete=Ghost",
-    photo: "/img/tdgs-fr040-g.jpg",
-    icone: <IconeFantome />,
-  },
-  {
-    titre: "Ultimate Rare",
-    href: "/cartes?rarete=Ultimate",
-    photo: "/img/1081_1.jpg",
-    icone: <IconeCouronne />,
-  },
-  {
-    titre: "Sets introuvables",
-    href: "/cartes?set=LDC,DCR",
-    photo: "/img/dcr-fr016-g.jpg",
-    icone: <IconeLoupe />,
-  },
-];
 
 // Grille de vignettes cliquables : la porte d'entree pour qui ne connait pas
 // les codes de set (LDD, MRD...) et n'ira jamais taper "RP02" dans une barre
@@ -42,10 +16,10 @@ export default function VignettesCategories() {
   return (
     <section>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        {CATEGORIES.map((c) => (
+        {CATEGORIES_META.map((c) => (
           <Link
-            key={c.titre}
-            href={c.href}
+            key={c.id}
+            href={`/cartes/${c.id}`}
             className="group relative aspect-[3/4] overflow-hidden rounded-lg border border-amber-500/20 bg-slate-900"
           >
             {c.photo ? (
@@ -66,7 +40,7 @@ export default function VignettesCategories() {
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-black/40" />
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 p-2 text-center">
-              <span className="text-amber-300">{c.icone}</span>
+              <span className="text-amber-300">{ICONES_CATEGORIES[c.id]}</span>
               <span
                 className="text-sm font-bold uppercase tracking-wide text-amber-100 sm:text-base"
                 style={{ fontFamily: "var(--font-cinzel), serif" }}

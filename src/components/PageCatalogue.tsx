@@ -23,6 +23,7 @@ export default function PageCatalogue({
   filtres,
   panneauFiltres,
   nbFiltres = 0,
+  avantGrille,
 }: {
   titre: string;
   chapo: string;
@@ -35,6 +36,9 @@ export default function PageCatalogue({
   /** Colonne laterale collante, visible en permanence a partir de lg. */
   panneauFiltres?: React.ReactNode;
   nbFiltres?: number;
+  /** Juste sous le chapo, avant meme le compteur de cartes — visible sans
+   * scroller (ex: navigation croisee vers les categories voisines). */
+  avantGrille?: React.ReactNode;
 }) {
   const pages = Math.max(1, Math.ceil(cartes.length / PAR_PAGE));
   const p = Math.min(Math.max(1, page), pages);
@@ -95,6 +99,7 @@ export default function PageCatalogue({
           {titre}
         </h1>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-amber-100/80">{chapo}</p>
+        {avantGrille && <div className="mt-4">{avantGrille}</div>}
         <div className={panneauFiltres ? "mt-5 gap-6 lg:grid lg:grid-cols-[260px_minmax(0,1fr)]" : "mt-5"}>
           {panneauFiltres}
           <div>

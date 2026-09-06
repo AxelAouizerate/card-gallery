@@ -11,6 +11,7 @@ import { SeoIntro, SeoFooter, FAQ_ITEMS } from "@/components/SeoContent";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 import VignettesCategories from "@/components/VignettesCategories";
 import FiltreAccueilDepliable from "@/components/FiltreAccueilDepliable";
+import BandeauEvenements from "@/components/BandeauEvenements";
 
 async function getCards(): Promise<Card[]> {
   const file = path.join(process.cwd(), "public", "cards.json");
@@ -95,6 +96,7 @@ export default async function HomePage() {
       <SeoIntro />
 
       <div className="mx-auto max-w-7xl space-y-10 px-4 py-8">
+        <BandeauEvenements />
         <VignettesCategories />
         <FiltreAccueilDepliable options={options} />
 

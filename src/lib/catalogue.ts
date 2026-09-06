@@ -134,6 +134,15 @@ export const cartesDeLere = cache(async (ere: import("./eres").Ere): Promise<Car
   return toutes.filter((c) => ereDuSet(c.card.set) === ere);
 });
 
+/** Cartes d'une des 4 categories speciales (voir lib/categoriesSpeciales.ts). */
+export const cartesCategorieSpeciale = cache(
+  async (id: import("./categoriesSpeciales").CategorieId): Promise<CarteListee[]> => {
+    const { filtreCategorieSpeciale } = await import("./categoriesSpeciales");
+    const toutes = await cartesAvecSlug();
+    return toutes.filter((c) => filtreCategorieSpeciale(id, c.card));
+  },
+);
+
 // "Booster"/"Display" : residu du CSV source sur des produits scelles (pas
 // des cartes individuelles) — n'a rien a faire dans un filtre de rarete.
 const RARETES_EXCLUES = new Set(["Booster", "Display"]);
