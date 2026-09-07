@@ -42,12 +42,20 @@ export async function GET(
   // sait servir le contenu brut quand on demande Accept: vnd.github.raw.
   const ghUrl = `https://api.github.com/repos/${REPO}/contents/${encodeURIComponent(filename)}?ref=${BRANCH}`;
 
+  // cache: "no-store" est volontaire ici : le cache Data de Next.js retient
+  // une reponse fetch() meme si elle est en erreur (403 rate-limit, 5xx).
+  // Avec "force-cache", une seule image qui tombait sur un hoquet GitHub
+  // restait cassee pour toujours (le retry ci-dessous relisait alors la
+  // meme erreur en cache au lieu de refaire une vraie requete) - bug trouve
+  // le 2026-09-07 en cherchant pourquoi des images restaient indisponibles
+  // malgre le retry ajoute la veille. Le cache navigateur/CDN est deja
+  // assure par le Cache-Control sur la Response qu'on renvoie plus bas.
   // Un rate-limit GitHub (403) ou un hoquet reseau (5xx) est transitoire :
   // un seul essai suffisait a faire echouer des images au hasard sur le
   // site entier. On retente une fois apres une courte pause avant
   // d'abandonner (jamais sur un vrai 404, ca n'a aucune chance de changer).
   async function tenter(): Promise<Response> {
-    return fetch(ghUrl, { headers, cache: "force-cache" });
+    return fetch(ghUrl, { headers, cache: "no-store" });
   }
 
   let upstream = await tenter();
@@ -62,7 +70,7 @@ export async function GET(
     const rawUrl = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${filename}`;
     const fallback = await fetch(rawUrl, {
       headers: token ? { Authorization: `Bearer ${token}` } : undefined,
-      cache: "force-cache",
+      cache: "no-store",
     });
     if (!fallback.ok) {
       return new Response(`Not found (${upstream.status}/${fallback.status})`,

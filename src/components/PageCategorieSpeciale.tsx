@@ -10,7 +10,7 @@ export function pageCategorieSpeciale(id: CategorieId) {
   const info = CATEGORIES_META.find((c) => c.id === id)!;
   const base = `/cartes/${id}`;
   const titre = `${info.titre} — cartes Yu-Gi-Oh! à l'unité`;
-  const chapo = `Toutes nos cartes ${info.titre} disponibles à l'unité chez horuscards, triées par valeur.`;
+  const chapo = info.description;
 
   async function generateMetadata({ searchParams }: {
     searchParams: Promise<{ page?: string }>;
