@@ -9,6 +9,9 @@ export type Evenement =
       date: string;
       photos: string[];
       logoGradeur?: string;
+      // true = deja en stock (badge "Nouvelle reception" au lieu de "a venir") -
+      // demande d'Axel du 2026-09-07 pour un recap de reception passee.
+      recue?: boolean;
     }
   | {
       type: "live";
@@ -29,5 +32,13 @@ export const EVENEMENTS: Evenement[] = [
       "/img/annonce-dragon-arc-en-ciel.webp",
     ],
     logoGradeur: "/img/logo-collectaura.png",
+  },
+  {
+    type: "reception",
+    titre: "Nouvelle réception CCC",
+    date: "7 cartes gradées, déjà en boutique",
+    photos: ["/img/A14_1.jpg", "/img/A08_1.jpg", "/img/1206_1.jpg"],
+    logoGradeur: "/img/logo-ccc.png",
+    recue: true,
   },
 ];

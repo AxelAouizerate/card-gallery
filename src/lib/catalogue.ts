@@ -143,6 +143,14 @@ export const cartesCategorieSpeciale = cache(
   },
 );
 
+/** Cartes Pokemon (deduites du set, voir lib/cards.ts) - onglet a part du
+ * Yu-Gi-Oh, demande d'Axel du 2026-09-07. */
+export const cartesPokemon = cache(async (): Promise<CarteListee[]> => {
+  const { jeuDeLaCarte } = await import("./cards");
+  const toutes = await cartesAvecSlug();
+  return toutes.filter((c) => jeuDeLaCarte(c.card) === "pokemon");
+});
+
 // "Booster"/"Display" : residu du CSV source sur des produits scelles (pas
 // des cartes individuelles) — n'a rien a faire dans un filtre de rarete.
 const RARETES_EXCLUES = new Set(["Booster", "Display"]);

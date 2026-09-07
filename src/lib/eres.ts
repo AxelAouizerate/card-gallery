@@ -11,26 +11,27 @@ export const ERES: { id: Ere; nom: string; periode: string }[] = [
 ];
 
 const SETS_PAR_ERE: Record<Ere, string[]> = {
-  // RP02 classe avec RDS (reprints de cette epoque), pas par date de sortie
-  // du Retro Pack lui-meme — precision d'Axel du 2026-09-04.
   "duel-monsters": [
     "LOB", "LDD", "LDD-F", "MRD", "SRL", "SDP", "SDP-F", "LOD", "PGD", "MFC",
-    "DCR", "IOC", "AST", "RDS", "SOD", "DDK", "DDY", "DDP", "CT1", "PP01",
-    "RP02",
+    "DCR", "IOC", "AST", "SOD", "DDK", "DDY", "DDP", "CT1", "PP01",
   ],
   gx: [
-    "FET", "TLM", "CDIP", "EEN", "EOJ", "SOI", "CRV", "CSOC", "GLAS", "TAEV",
-    "POTD", "RGBT", "ANPR", "FOTB", "TDGS", "STON", "PTDN", "LODT", "CRMS",
-    "LCGX", "CT2", "CT3", "CT03", "CT4", "CT04", "RP01", "PP02",
+    "FET", "TLM", "CDIP", "EEN", "EOJ", "SOI", "CRV", "GLAS", "TAEV",
+    "POTD", "ANPR", "FOTB", "STON", "PTDN", "LODT",
+    "LCGX", "RDS", "CT2", "CT3", "CT03", "CT4", "CT04", "RP01", "PP02",
   ],
   "5ds": [
-    "SOVR", "ABPF", "STBL", "DREV", "TSHD", "STOR", "EXVC", "CDIP",
-    "CT05", "CT06", "CT07",
+    "SOVR", "ABPF", "STBL", "DREV", "TSHD", "STOR", "EXVC",
+    "RP02", "CT05", "CT06", "CT07", "CRMS", "TDGS", "RGBT", "CSOC",
   ],
   apres: [
     "GENF", "ORCS", "PHSW", "GAOV", "ABYR", "CBLZ", "LTGY", "JOTL", "SHSP",
     "LVAL", "PRIO", "DUEA", "CORE", "NECH", "DOCS", "BLAR", "BLCR", "BLMR",
     "BLVO", "CBLZ", "CT08", "CT09", "CT12",
+    // Reprint tardif (pas le LOB original de 2002) — precision d'Axel du
+    // 2026-09-07. Code explicite : sansSuffixeLangue() ne doit PAS le
+    // ramener vers "LOB" (duel-monsters) puisque le lookup exact passe avant.
+    "LOB-FR",
   ],
 };
 

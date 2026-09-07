@@ -16,6 +16,14 @@ export default function OngletsEre() {
             {e.nom}
           </Link>
         ))}
+        {/* Pokemon n'est pas une ere Yu-Gi-Oh, mais partage la meme barre de
+            navigation — demande d'Axel du 2026-09-07. */}
+        <Link
+          href="/cartes/pokemon"
+          className="whitespace-nowrap rounded-md px-3 py-1.5 font-medium text-amber-100/70 transition hover:bg-amber-500/15 hover:text-amber-200"
+        >
+          Pokémon
+        </Link>
       </div>
     </nav>
   );
