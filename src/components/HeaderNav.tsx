@@ -4,6 +4,7 @@ import Link from "next/link";
 import HeaderAuth from "./HeaderAuth";
 import BandeauAnnonces from "./BandeauAnnonces";
 import OngletsEre from "./OngletsEre";
+import BarreLiensMobile from "./BarreLiensMobile";
 import LogoHorus from "./LogoHorus";
 
 export default function HeaderNav() {
@@ -27,6 +28,7 @@ export default function HeaderNav() {
         <HeaderAuth />
       </div>
       <OngletsEre />
+      <BarreLiensMobile />
     </header>
   );
 }

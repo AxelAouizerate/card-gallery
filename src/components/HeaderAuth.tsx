@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { logout } from "@/app/actions/auth";
 import FavLink from "./FavLink";
-import MobileMenu from "./MobileMenu";
 
 type Session = { email: string | null; owner: boolean };
 
@@ -31,7 +30,6 @@ export default function HeaderAuth() {
   const owner = session?.owner ?? false;
 
   return (
-    <>
       <nav className="hidden items-center gap-3 text-sm sm:flex">
         <Link
           href="/comment-acheter"
@@ -77,8 +75,5 @@ export default function HeaderAuth() {
           </>
         )}
       </nav>
-
-      <MobileMenu userEmail={email} owner={owner} />
-    </>
   );
 }
