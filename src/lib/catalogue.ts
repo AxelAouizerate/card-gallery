@@ -151,6 +151,13 @@ export const cartesPokemon = cache(async (): Promise<CarteListee[]> => {
   return toutes.filter((c) => jeuDeLaCarte(c.card) === "pokemon");
 });
 
+/** Produits scelles (boosters, displays...) - onglet a part, avant Pokemon,
+ * demande d'Axel du 2026-09-19. */
+export const cartesScellees = cache(async (): Promise<CarteListee[]> => {
+  const toutes = await cartesAvecSlug();
+  return toutes.filter((c) => c.card.produit === "booster" || c.card.produit === "display");
+});
+
 // "Booster"/"Display" : residu du CSV source sur des produits scelles (pas
 // des cartes individuelles) — n'a rien a faire dans un filtre de rarete.
 const RARETES_EXCLUES = new Set(["Booster", "Display"]);

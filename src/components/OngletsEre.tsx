@@ -16,11 +16,19 @@ export default function OngletsEre() {
             {e.nom}
           </Link>
         ))}
-        {/* Pokemon n'est pas une ere Yu-Gi-Oh, mais partage la meme barre de
-            navigation — demande d'Axel du 2026-09-07. */}
+        {/* Scelle et Pokemon ne sont pas des eres Yu-Gi-Oh, mais partagent la
+            meme barre de navigation — demandes d'Axel du 2026-09-07 et
+            2026-09-19. Pokemon a une couleur distincte (bleu) pour bien se
+            detacher des onglets Yu-Gi-Oh (ambre) au premier coup d'oeil. */}
+        <Link
+          href="/cartes/scelle"
+          className="whitespace-nowrap rounded-md px-3 py-1.5 font-medium text-amber-100/70 transition hover:bg-amber-500/15 hover:text-amber-200"
+        >
+          Scellé
+        </Link>
         <Link
           href="/cartes/pokemon"
-          className="whitespace-nowrap rounded-md px-3 py-1.5 font-medium text-amber-100/70 transition hover:bg-amber-500/15 hover:text-amber-200"
+          className="whitespace-nowrap rounded-md bg-sky-500/15 px-3 py-1.5 font-medium text-sky-200 transition hover:bg-sky-500/25 hover:text-sky-100"
         >
           Pokémon
         </Link>
