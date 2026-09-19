@@ -25,7 +25,7 @@ export const EVENEMENTS: Evenement[] = [
   {
     type: "reception",
     titre: "Grosse réception CollectAura",
-    date: "13 septembre 2026",
+    date: "21 septembre 2026",
     photos: [
       "/img/annonce-neos-geant-ulti.jpg",
       "/img/annonce-dragon-rouge-majestueux.jpg",

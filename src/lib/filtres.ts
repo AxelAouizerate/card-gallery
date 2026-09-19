@@ -102,16 +102,29 @@ function sansAccents(s: string) {
   return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 }
 
+/** Normalise une recherche : accents retires, virgules -> espaces, espaces
+ * multiples ecrases. Sert a rendre "dragon, blanc" et "blanc dragon"
+ * equivalents a "dragon blanc" - demande d'Axel du 2026-09-20. */
+function normaliserRecherche(s: string): string {
+  return sansAccents(s).replace(/,/g, " ").replace(/\s+/g, " ").trim();
+}
+
 const JOURS_NOUVEAUTE = 14;
 
 export function appliquerFiltres(cards: Card[], f: Filtres, maintenant = new Date()): Card[] {
-  const q = sansAccents(f.q);
+  // Tolerant a l'ordre des mots et aux virgules : "dragon, blanc" et "blanc
+  // dragon" matchent tous les deux "Dragon Blanc aux Yeux Bleus" (chaque mot
+  // de la recherche doit apparaitre quelque part, peu importe l'ordre).
+  const qMots = normaliserRecherche(f.q).split(" ").filter(Boolean);
   const sets = new Set(f.sets.map((s) => s.toLowerCase()));
   const raretes = new Set(f.raretes.map((s) => s.toLowerCase()));
   const langues = new Set(f.langues.map((s) => s.toLowerCase()));
 
   return cards.filter((c) => {
-    if (q && !sansAccents(`${c.nom} ${c.set} ${c.rarete}`).includes(q)) return false;
+    if (qMots.length) {
+      const cible = normaliserRecherche(`${c.nom} ${c.set} ${c.rarete}`);
+      if (!qMots.every((m) => cible.includes(m))) return false;
+    }
     if (sets.size && !sets.has((c.set || "").toLowerCase())) return false;
     if (raretes.size && !raretes.has((c.rarete || "").toLowerCase())) return false;
     if (langues.size && !langues.has((c.lang || "").toLowerCase())) return false;

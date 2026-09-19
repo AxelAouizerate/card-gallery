@@ -79,10 +79,15 @@ export async function slugCanonique(c: Card): Promise<string> {
 /**
  * Ordre par defaut du catalogue : la valeur d'abord. Le prix prime sur tout —
  * une non gradee a 5 000 EUR passe devant une Pop 1 a 200 EUR. Grade et pop
- * ne departagent qu'a prix egal.
+ * ne departagent qu'a prix egal. Les cartes vendues sont toujours reléguées
+ * en toute fin de liste, meme si leur prix les placerait plus haut - demande
+ * d'Axel du 2026-09-20 (une carte vendue n'interesse plus un acheteur).
  */
 export function trierParValeur(cards: Card[]): Card[] {
   return [...cards].sort((a, b) => {
+    const sa = a.status === "sold" ? 1 : 0;
+    const sb = b.status === "sold" ? 1 : 0;
+    if (sa !== sb) return sa - sb;
     const pa = a.prix ?? -1;
     const pb = b.prix ?? -1;
     if (pa !== pb) return pb - pa;

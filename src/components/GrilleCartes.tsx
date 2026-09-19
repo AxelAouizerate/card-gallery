@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SlabBandeau from "./SlabBandeau";
 import type { CarteListee } from "@/lib/catalogue";
+import { isNewArrival } from "@/lib/cards";
 
 /**
  * Grille catalogue, rendue cote serveur. Chaque tuile est un lien vers sa
@@ -74,6 +75,12 @@ export default function GrilleCartes({ cartes }: { cartes: CarteListee[] }) {
                     </span>
                   )}
                 </div>
+
+                {isNewArrival(card) && (
+                  <span className="absolute bottom-1.5 right-1.5 rounded-sm bg-gradient-to-r from-rose-600 via-red-500 to-rose-500 px-1.5 py-0.5 font-mono text-[9px] font-black uppercase tracking-wider text-white shadow-md">
+                    New
+                  </span>
+                )}
               </div>
 
               <div className="p-2">
