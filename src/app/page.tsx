@@ -101,10 +101,10 @@ export default async function HomePage() {
         <FiltreAccueilDepliable options={options} />
 
         <Selection titre="Les plus belles pièces" icone={<IconeCoffre />} cartes={pepites} />
+        {nouveautes.length > 0 && <Selection titre="Nouveautés" cartes={nouveautes} />}
         {pop1.length > 0 && (
           <Selection titre="Pop 1 — uniques à ce grade et au-dessus" cartes={pop1} />
         )}
-        {nouveautes.length > 0 && <Selection titre="Nouveautés" cartes={nouveautes} />}
         <SectionLots />
 
         <div className="text-center">
@@ -135,7 +135,7 @@ function SectionLots() {
       </h2>
       <div className="rounded-lg border border-dashed border-amber-500/25 bg-black/20 p-6 text-center">
         <p className="font-mono text-sm uppercase tracking-widest text-amber-100/50">
-          Aucun lot en ce moment — revenez bientôt
+          Aucun lot proposé en ce moment — constituez un lot et faites nous une offre !
         </p>
       </div>
     </section>
