@@ -94,9 +94,15 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
             ) : card.prix !== null ? (
               <>
                 <p className="text-3xl font-semibold text-slate-900">{card.prix.toFixed(0)} €</p>
-                <p className="mt-1 text-sm font-medium text-emerald-700">
-                  ou proposez votre offre
-                </p>
+                {card.reserve ? (
+                  <p className="mt-1 text-sm font-black uppercase tracking-wide text-amber-700">
+                    ⏳ Réservée — en attente de finalisation
+                  </p>
+                ) : (
+                  <p className="mt-1 text-sm font-medium text-emerald-700">
+                    ou proposez votre offre
+                  </p>
+                )}
               </>
             ) : (
               <p className="text-base font-medium uppercase tracking-wide text-amber-700">
@@ -116,7 +122,6 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
             <Row label="Édition">{libelleSet(card.set) || "-"}</Row>
             <Row label="1ère édition">{card.is_1st ? "Oui" : "Non"}</Row>
             <Row label="Grade">{card.grade ? `${card.grade_org ?? ""} ${card.grade}`.trim() : "-"}</Row>
-            <Row label="Réservée">{card.reserve ? "Oui" : "Non"}</Row>
           </dl>
 
           <div className="mt-6 flex flex-col gap-2">

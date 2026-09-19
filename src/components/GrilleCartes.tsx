@@ -58,6 +58,12 @@ export default function GrilleCartes({ cartes }: { cartes: CarteListee[] }) {
                   </span>
                 )}
 
+                {!vendue && card.reserve && (
+                  <span className="absolute inset-x-0 top-1/2 -translate-y-1/2 bg-amber-600/90 py-1 text-center font-mono text-[11px] font-black uppercase tracking-[0.25em] text-white">
+                    Réservée
+                  </span>
+                )}
+
                 <div className="pointer-events-none absolute left-1.5 top-1.5 flex flex-col gap-1">
                   {card.pop === 1 && (
                     <span className="rounded-sm bg-amber-500 px-1 py-0.5 font-mono text-[9px] font-black uppercase tracking-wider text-black">

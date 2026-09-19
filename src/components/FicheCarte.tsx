@@ -66,7 +66,13 @@ export default function FicheCarte({ card }: { card: Card }) {
                 <p className="font-mono text-3xl font-bold tabular-nums text-amber-300">
                   {card.prix.toFixed(0)} €
                 </p>
-                <p className="mt-1 text-sm font-medium text-emerald-300/90">ou proposez votre offre</p>
+                {card.reserve ? (
+                  <p className="mt-1 text-sm font-black uppercase tracking-wide text-amber-400">
+                    ⏳ Réservée — en attente de finalisation
+                  </p>
+                ) : (
+                  <p className="mt-1 text-sm font-medium text-emerald-300/90">ou proposez votre offre</p>
+                )}
               </>
             ) : (
               <p className="text-base font-medium uppercase tracking-wide text-amber-300">
