@@ -38,7 +38,7 @@ export const EVENEMENTS: Evenement[] = [
     // visuels d'annonce maintenant que les cartes sont en vente.
     photos: ["/img/A07_1.jpg", "/img/A09_1.jpg", "/img/1207_1.jpg"],
     logoGradeur: "/img/logo-collectaura.png",
-    badge: "Réception confirmée · vidéos à venir",
+    badge: "Réception confirmée",
     recue: true,
     lien: "/reception/collectaura",
   },

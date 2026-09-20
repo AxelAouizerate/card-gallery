@@ -17494,7 +17494,7 @@
   },
   {
     "id": "A24",
-    "nom": "Roi Shinato, Souverain d'un Monde Supérieur",
+    "nom": "Shinato, Roi d'un Plan Supérieur",
     "set": "DCR",
     "rarete": "Ultra",
     "lang": "FR",
@@ -17527,10 +17527,10 @@
     "produit": "carte",
     "reserve": false,
     "prix": 695.0,
-    "status": "photo_pending",
+    "status": "available",
     "statut_raw": "en vente",
-    "photo_1": null,
-    "photo_2": null,
+    "photo_1": "/img/A25_1.jpg",
+    "photo_2": "/img/A25_2.jpg",
     "first_seen": "2026-09-07",
     "vendeur": "s1"
   },
