@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { Suspense } from "react";
 import Link from "next/link";
 import GrilleCartes from "@/components/GrilleCartes";
 import type { Card } from "@/lib/cards";
@@ -116,7 +117,14 @@ export default async function HomePage() {
       <div className="mx-auto max-w-7xl space-y-10 px-4 py-8">
         <BandeauEvenements />
         <VignettesCategories />
-        <FiltreAccueilDepliable options={options} />
+        {/* FiltreAccueilDepliable utilise useSearchParams (via useFiltres) des
+            son rendu initial, meme replie - `/` etant une page statique, Next
+            exige un Suspense autour de tout consommateur de useSearchParams
+            sous peine de faire echouer le build entier (vu en prod le
+            2026-09-20 : les 3 commits suivants n'avaient jamais deploye). */}
+        <Suspense fallback={<div className="h-14 rounded-lg border border-amber-500/20 bg-black/30" />}>
+          <FiltreAccueilDepliable options={options} />
+        </Suspense>
 
         <Selection titre="Les plus belles pièces" icone={<IconeCoffre />} cartes={pepites} />
         {nouveautes.length > 0 && <Selection titre="Nouveautés" cartes={nouveautes} />}
