@@ -19,7 +19,7 @@ const CONTENT_TYPES: Record<string, string> = {
 };
 
 export async function GET(
-  _req: NextRequest,
+  req: NextRequest,
   { params }: { params: Promise<{ path: string[] }> }
 ) {
   const { path } = await params;
@@ -33,6 +33,35 @@ export async function GET(
   if (!contentType) return new Response("Bad extension", { status: 400 });
 
   const token = process.env.GITHUB_TOKEN;
+
+  // Safari/iOS exige une vraie reponse 206 + Content-Range pour lire une
+  // <video> (sinon : ecran noir, bloque a 0s - bug remonte par Axel le
+  // 2026-09-20). L'API Contents de GitHub ne sait pas servir de plage
+  // partielle ; raw.githubusercontent.com le sait (CDN standard). Toute
+  // requete avec un header Range part donc directement sur le raw, en
+  // repercutant tel quel son statut (206) et ses en-tetes de plage.
+  const range = req.headers.get("range");
+  if (range) {
+    const rawUrl = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${filename}`;
+    const rawHeaders: Record<string, string> = { Range: range };
+    if (token) rawHeaders.Authorization = `Bearer ${token}`;
+    const ranged = await fetch(rawUrl, { headers: rawHeaders, cache: "no-store" });
+    if (ranged.ok) {
+      const passthrough: Record<string, string> = {
+        "Content-Type": contentType,
+        "Cache-Control": "public, max-age=31536000, immutable",
+        "Accept-Ranges": "bytes",
+      };
+      const cr = ranged.headers.get("content-range");
+      const cl = ranged.headers.get("content-length");
+      if (cr) passthrough["Content-Range"] = cr;
+      if (cl) passthrough["Content-Length"] = cl;
+      return new Response(ranged.body, { status: ranged.status, headers: passthrough });
+    }
+    // Echec (ex: repo prive sans token) -> retombe sur le chemin normal
+    // ci-dessous, qui renverra le fichier complet (200) plutot que rien.
+  }
+
   const headers: Record<string, string> = {
     Accept: "application/vnd.github.raw",
     "User-Agent": "card-gallery-proxy",
@@ -82,6 +111,7 @@ export async function GET(
       headers: {
         "Content-Type": contentType,
         "Cache-Control": "public, max-age=31536000, immutable",
+        "Accept-Ranges": "bytes",
       },
     });
   }
@@ -90,6 +120,7 @@ export async function GET(
     headers: {
       "Content-Type": contentType,
       "Cache-Control": "public, max-age=31536000, immutable",
+      "Accept-Ranges": "bytes",
     },
   });
 }

@@ -17178,6 +17178,7 @@
     "statut_raw": "en vente",
     "photo_1": "/img/A08_1.jpg",
     "photo_2": "/img/A08_2.jpg",
+    "video": "/img/A08_video.mp4",
     "first_seen": "2026-07-21",
     "vendeur": "s1"
   },
@@ -17509,7 +17510,7 @@
     "is_1st": false,
     "grade": "8.5",
     "grade_org": "CCC",
-    "pop": null,
+    "pop": 1,
     "produit": "carte",
     "reserve": false,
     "prix": 6995.0,

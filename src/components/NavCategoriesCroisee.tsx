@@ -6,18 +6,20 @@ import { ICONES_CATEGORIES } from "./VignettesCategories";
 
 /**
  * Sur chaque page categorielle (sets iconiques, ghost, ultimate,
- * introuvables) : suggestion vers UNE seule des 3 autres (tiree au sort a
- * chaque chargement), pas les 3 d'un coup — pour que le visiteur enchaine
- * naturellement les 4 pages au fil de plusieurs visites plutot que de tout
- * voir d'un coup. Format carte (portrait, etroit) plutot qu'un bandeau
- * large : illustree par la carte la plus chere de la categorie suggeree,
- * pas la photo generique de CATEGORIES_META — vitrine plus parlante que
- * l'icone seule. Precisions d'Axel du 2026-09-07. Placee juste sous le
- * chapo (avantGrille de PageCatalogue), pas en bas de page.
+ * introuvables) : suggestion vers la suivante dans l'ordre de
+ * CATEGORIES_META, en boucle (introuvables -> sets-iconiques) — un vrai
+ * cycle qui couvre les 4 pages, pas un tirage au sort (l'ancienne version
+ * aleatoire pouvait "sauter" une categorie plusieurs visites de suite,
+ * remonte par Axel le 2026-09-20 comme un cycle casse). Format carte
+ * (portrait, etroit) plutot qu'un bandeau large : illustree par la carte la
+ * plus chere de la categorie suggeree, pas la photo generique de
+ * CATEGORIES_META — vitrine plus parlante que l'icone seule. Precisions
+ * d'Axel du 2026-09-07. Placee juste sous le chapo (avantGrille de
+ * PageCatalogue), pas en bas de page.
  */
 export default async function NavCategoriesCroisee({ actuelle }: { actuelle: CategorieId }) {
-  const autres = CATEGORIES_META.filter((c) => c.id !== actuelle);
-  const suivante = autres[Math.floor(Math.random() * autres.length)];
+  const index = CATEGORIES_META.findIndex((c) => c.id === actuelle);
+  const suivante = CATEGORIES_META[(index + 1) % CATEGORIES_META.length];
   if (!suivante) return null;
 
   const cartes = await cartesCategorieSpeciale(suivante.id);
