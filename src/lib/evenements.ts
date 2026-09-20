@@ -33,14 +33,13 @@ export const EVENEMENTS: Evenement[] = [
   {
     type: "reception",
     titre: "Grosse réception CollectAura",
-    date: "21 septembre 2026",
-    photos: [
-      "/img/annonce-neos-geant-ulti.jpg",
-      "/img/annonce-dragon-rouge-majestueux.jpg",
-      "/img/annonce-dragon-arc-en-ciel.webp",
-    ],
+    date: "10 cartes gradées, déjà en boutique",
+    // Vraies photos (recto) des cartes recues le 2026-09-20, remplacent les
+    // visuels d'annonce maintenant que les cartes sont en vente.
+    photos: ["/img/A07_1.jpg", "/img/A09_1.jpg", "/img/1207_1.jpg"],
     logoGradeur: "/img/logo-collectaura.png",
-    badge: "Réception confirmée · photos à venir",
+    badge: "Réception confirmée · vidéos à venir",
+    recue: true,
     lien: "/reception/collectaura",
   },
   {

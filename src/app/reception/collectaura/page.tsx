@@ -6,7 +6,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/site";
 const BASE = "/reception/collectaura";
 const TITRE = "Grosse réception CollectAura";
 const CHAPO =
-  "Réception confirmée : ces cartes sont gradées et au prix indiqué, les photos et vidéos arrivent très bientôt.";
+  "Réception confirmée : 10 cartes gradées CollectAura, déjà en vente. Vidéos de présentation à venir.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const url = `${SITE_URL}${BASE}`;
