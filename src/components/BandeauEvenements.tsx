@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { EVENEMENTS, type Evenement } from "@/lib/evenements";
 
 // Banderole "a la une" de l'accueil : receptions et lives a venir. Navigation
@@ -63,11 +64,11 @@ export default function BandeauEvenements() {
 
 function Slide({ evenement }: { evenement: Evenement }) {
   if (evenement.type === "reception") {
-    return (
+    const contenu = (
       <div className="flex flex-col items-center gap-4 p-5 sm:flex-row sm:justify-between sm:p-6">
         <div className="text-center sm:text-left">
           <span className="inline-block rounded-full bg-amber-500/20 px-2.5 py-0.5 font-mono text-[10px] font-bold uppercase tracking-widest text-amber-300">
-            {evenement.recue ? "Dernière réception" : "Réception à venir"}
+            {evenement.badge ?? (evenement.recue ? "Dernière réception" : "Réception à venir")}
           </span>
           <h2
             className="mt-2 text-xl font-bold text-amber-100 sm:text-2xl"
@@ -81,6 +82,11 @@ function Slide({ evenement }: { evenement: Evenement }) {
               <Image src={evenement.logoGradeur} alt="Gradeur" fill className="object-contain object-left invert" />
             </div>
           )}
+          {evenement.lien && (
+            <span className="mt-3 inline-block text-xs font-semibold text-amber-300 underline underline-offset-2">
+              Voir les cartes →
+            </span>
+          )}
         </div>
         <div className="flex gap-2">
           {evenement.photos.map((src, i) => (
@@ -91,6 +97,15 @@ function Slide({ evenement }: { evenement: Evenement }) {
         </div>
       </div>
     );
+
+    if (evenement.lien) {
+      return (
+        <Link href={evenement.lien} className="block transition hover:bg-white/5">
+          {contenu}
+        </Link>
+      );
+    }
+    return contenu;
   }
 
   return (

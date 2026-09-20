@@ -5,6 +5,7 @@ import GrilleCartes from "@/components/GrilleCartes";
 import type { Card } from "@/lib/cards";
 import { isNewArrival } from "@/lib/cards";
 import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, type CarteListee } from "@/lib/catalogue";
+import { IDS_RECEPTION_CCC, IDS_RECEPTION_COLLECTAURA } from "@/lib/receptions";
 import HeaderNav from "@/components/HeaderNav";
 import JsonLd from "@/components/JsonLd";
 import { SeoIntro, SeoFooter, FAQ_ITEMS } from "@/components/SeoContent";
@@ -80,12 +81,12 @@ export default async function HomePage() {
   // Nouveautes = pieces des receptions CCC + CollectAura en cours (peu importe
   // first_seen, certaines sont deja en stock depuis un moment) + Shinato et
   // Chimeratech en avant. Shinato toujours en tete - demande d'Axel du
-  // 2026-09-20. Liste d'ids tenue a la main, a completer a chaque reception.
+  // 2026-09-20. Listes d'ids partagees avec les pages /reception/* (lib/receptions).
   const ID_SHINATO = "A24";
   const IDS_RECEPTION = [
-    "A03", "A05", "A08", "A14", "A16", "A18", "1206", // reception CCC (7 cartes)
+    ...IDS_RECEPTION_CCC,
     "A25", // Chimeratech Over-Dragon (CCC)
-    "A07", "A15", "A06", "A19", "A02", "1207", "A01", "A13", "A17", "A09", // reception CollectAura
+    ...IDS_RECEPTION_COLLECTAURA,
   ];
   const nouveautes = [
     ...toutes.filter((c) => c.card.id === ID_SHINATO),

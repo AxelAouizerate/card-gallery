@@ -12,6 +12,14 @@ export type Evenement =
       // true = deja en stock (badge "Nouvelle reception" au lieu de "a venir") -
       // demande d'Axel du 2026-09-07 pour un recap de reception passee.
       recue?: boolean;
+      // Texte de badge personnalise, prioritaire sur celui derive de `recue` -
+      // pour une reception actee (deal conclu, prix/grades connus) mais dont
+      // les vraies photos/videos ne sont pas encore arrivees - demande d'Axel
+      // du 2026-09-20 (reception CollectAura du 21/09).
+      badge?: string;
+      // Vers la page qui liste les cartes de cette reception - demande
+      // d'Axel du 2026-09-20 (banderole cliquable).
+      lien?: string;
     }
   | {
       type: "live";
@@ -32,6 +40,8 @@ export const EVENEMENTS: Evenement[] = [
       "/img/annonce-dragon-arc-en-ciel.webp",
     ],
     logoGradeur: "/img/logo-collectaura.png",
+    badge: "Réception confirmée · photos à venir",
+    lien: "/reception/collectaura",
   },
   {
     type: "reception",
@@ -40,5 +50,6 @@ export const EVENEMENTS: Evenement[] = [
     photos: ["/img/A14_1.jpg", "/img/A08_1.jpg", "/img/1206_1.jpg"],
     logoGradeur: "/img/logo-ccc.png",
     recue: true,
+    lien: "/reception/ccc",
   },
 ];
