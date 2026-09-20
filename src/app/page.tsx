@@ -77,7 +77,9 @@ export default async function HomePage() {
   // renvoie vers /cartes. Elle ne charge donc plus les 833 cartes dans le
   // payload client, ce qui etait le vrai poids mort de la page.
   const pepites = toutes.filter((c) => c.card.status !== "sold").slice(0, 10);
-  const pop1 = toutes.filter((c) => c.card.pop === 1 && c.card.status !== "sold").slice(0, 5);
+  // Pas de plafond artificiel : les Pop 1 sont rares par definition, les
+  // couper a 5 en cachait les 2/3 sans raison - demande d'Axel du 2026-09-20.
+  const pop1 = toutes.filter((c) => c.card.pop === 1 && c.card.status !== "sold");
 
   // Nouveautes = pieces des receptions CCC + CollectAura en cours (peu importe
   // first_seen, certaines sont deja en stock depuis un moment) + Shinato et
