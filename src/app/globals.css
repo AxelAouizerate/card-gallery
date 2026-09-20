@@ -39,3 +39,18 @@ body {
   font-feature-settings: "tnum" 1;
   letter-spacing: 0.01em;
 }
+
+/* Bordure brillante pour une mise en valeur exceptionnelle (piece unique
+   tres haut de gamme, ex: Shinato 6995E) - a poser a la main sur une carte
+   a la fois, jamais generalise. Demande d'Axel du 2026-09-20. */
+@keyframes glow-legendaire {
+  0%, 100% {
+    box-shadow: 0 0 10px 2px rgba(251, 191, 36, 0.55), 0 0 22px 6px rgba(251, 191, 36, 0.28);
+  }
+  50% {
+    box-shadow: 0 0 18px 4px rgba(251, 191, 36, 0.9), 0 0 38px 12px rgba(251, 191, 36, 0.45);
+  }
+}
+.glow-legendaire {
+  animation: glow-legendaire 2.4s ease-in-out infinite;
+}

@@ -19,9 +19,17 @@ export default function FicheCarte({ card }: { card: Card }) {
   const vendue = card.status === "sold";
   const bientot = card.status === "coming_soon";
   const instagram = sellerInstagramUrl(card.vendeur);
+  // Mise en valeur exceptionnelle, posee a la main pour Shinato (6995E) -
+  // demande d'Axel du 2026-09-20, jamais generalisee a d'autres cartes.
+  const miseEnValeur = card.id === "A24";
 
   return (
-    <div className="overflow-hidden rounded-xl border border-white/10 bg-black/40">
+    <div
+      className={
+        "overflow-hidden rounded-xl border bg-black/40 " +
+        (miseEnValeur ? "glow-legendaire border-amber-400/70" : "border-white/10")
+      }
+    >
       <SlabBandeau card={card} taille="lg" />
 
       <div className="grid gap-6 p-5 md:grid-cols-[minmax(0,340px)_1fr]">

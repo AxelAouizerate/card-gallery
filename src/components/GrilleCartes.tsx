@@ -22,11 +22,19 @@ export default function GrilleCartes({ cartes }: { cartes: CarteListee[] }) {
       {cartes.map(({ slug, card }, i) => {
         const vendue = card.status === "sold";
         const bientot = card.status === "coming_soon";
+        // Mise en valeur exceptionnelle, posee a la main pour Shinato (6995E) -
+        // demande d'Axel du 2026-09-20, jamais generalisee a d'autres cartes.
+        const miseEnValeur = card.id === "A24";
         return (
           <li key={slug}>
             <Link
               href={`/carte/${slug}`}
-              className="group block overflow-hidden rounded-lg border border-white/10 bg-black/40 transition hover:border-amber-400/40 hover:shadow-[0_0_0_1px_rgba(212,175,55,0.25)]"
+              className={
+                "group block overflow-hidden rounded-lg border transition hover:border-amber-400/40 hover:shadow-[0_0_0_1px_rgba(212,175,55,0.25)] " +
+                (miseEnValeur
+                  ? "glow-legendaire border-amber-400/70 bg-black/40"
+                  : "border-white/10 bg-black/40")
+              }
             >
               <SlabBandeau card={card} />
 
