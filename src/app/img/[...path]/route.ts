@@ -34,9 +34,26 @@ export async function GET(
 
   const token = process.env.GITHUB_TOKEN;
 
+  // Cache-Control par type : les images n'ont jamais de Range, le cache
+  // partage (CDN Vercel) public+immutable est donc sans risque. Les videos
+  // si : le CDN ne varie pas son cache selon le header Range, donc la
+  // PREMIERE requete vue pour une URL video (typiquement un simple GET,
+  // ex: un test manuel) peut se faire mettre en cache en 200-fichier-entier,
+  // et TOUTES les requetes suivantes - y compris avec Range - se prennent
+  // alors ce meme 200 en retour au lieu du 206 attendu. Safari/iOS refuse de
+  // lire une <video> a qui on repond 200 sur une requete Range (ecran noir,
+  // bloque a 0s) - bug remonte par Axel le 2026-09-20 sur Shinato et Rose
+  // Noir, alors que Neos Chaos marchait (premiere requete = deja une Range,
+  // donc cache en 206 des le depart, jamais pollue depuis). Fix : le cache
+  // partage n'est plus autorise sur les videos, seul le navigateur du
+  // visiteur garde sa propre copie (Cache-Control: private).
+  const isVideo = contentType.startsWith("video/");
+  const cacheControl = isVideo
+    ? "private, max-age=31536000"
+    : "public, max-age=31536000, immutable";
+
   // Safari/iOS exige une vraie reponse 206 + Content-Range pour lire une
-  // <video> (sinon : ecran noir, bloque a 0s - bug remonte par Axel le
-  // 2026-09-20). L'API Contents de GitHub ne sait pas servir de plage
+  // <video>. L'API Contents de GitHub ne sait pas servir de plage
   // partielle ; raw.githubusercontent.com le sait (CDN standard). Toute
   // requete avec un header Range part donc directement sur le raw, en
   // repercutant tel quel son statut (206) et ses en-tetes de plage.
@@ -49,7 +66,7 @@ export async function GET(
     if (ranged.ok) {
       const passthrough: Record<string, string> = {
         "Content-Type": contentType,
-        "Cache-Control": "public, max-age=31536000, immutable",
+        "Cache-Control": cacheControl,
         "Accept-Ranges": "bytes",
       };
       const cr = ranged.headers.get("content-range");
@@ -110,7 +127,7 @@ export async function GET(
       status: 200,
       headers: {
         "Content-Type": contentType,
-        "Cache-Control": "public, max-age=31536000, immutable",
+        "Cache-Control": cacheControl,
         "Accept-Ranges": "bytes",
       },
     });
@@ -119,7 +136,7 @@ export async function GET(
     status: 200,
     headers: {
       "Content-Type": contentType,
-      "Cache-Control": "public, max-age=31536000, immutable",
+      "Cache-Control": cacheControl,
       "Accept-Ranges": "bytes",
     },
   });
