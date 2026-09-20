@@ -26,7 +26,7 @@ export default function GrilleCartes({ cartes }: { cartes: CarteListee[] }) {
         // demande d'Axel du 2026-09-20, jamais generalisee a d'autres cartes.
         const miseEnValeur = card.id === "A24";
         return (
-          <li key={slug}>
+          <li key={slug} className={miseEnValeur ? "relative z-10" : undefined}>
             <Link
               href={`/carte/${slug}`}
               className={
