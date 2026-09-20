@@ -23,7 +23,7 @@ export type OptionsFiltres = {
  * (desktop) et le drawer (mobile) : les deux pilotent les memes searchParams,
  * donc ils restent synchronises sans etat local a reconcilier.
  */
-function useFiltres(base: string) {
+export function useFiltres(base: string) {
   const router = useRouter();
   const params = useSearchParams();
   const [enCours, demarrer] = useTransition();

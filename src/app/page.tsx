@@ -76,9 +76,26 @@ export default async function HomePage() {
   // payload client, ce qui etait le vrai poids mort de la page.
   const pepites = toutes.filter((c) => c.card.status !== "sold").slice(0, 10);
   const pop1 = toutes.filter((c) => c.card.pop === 1 && c.card.status !== "sold").slice(0, 5);
-  const nouveautes = toutes
-    .filter((c) => c.card.status !== "sold" && isNewArrival(c.card))
-    .slice(0, 5);
+
+  // Nouveautes = pieces des receptions CCC + CollectAura en cours (peu importe
+  // first_seen, certaines sont deja en stock depuis un moment) + Shinato et
+  // Chimeratech en avant. Shinato toujours en tete - demande d'Axel du
+  // 2026-09-20. Liste d'ids tenue a la main, a completer a chaque reception.
+  const ID_SHINATO = "A24";
+  const IDS_RECEPTION = [
+    "A03", "A05", "A08", "A14", "A16", "A18", "1206", // reception CCC (7 cartes)
+    "A25", // Chimeratech Over-Dragon (CCC)
+    "A07", "A15", "A06", "A19", "A02", "1207", "A01", "A13", "A17", "A09", // reception CollectAura
+  ];
+  const nouveautes = [
+    ...toutes.filter((c) => c.card.id === ID_SHINATO),
+    ...toutes.filter(
+      (c) => c.card.id !== ID_SHINATO && c.card.status !== "sold" && IDS_RECEPTION.includes(c.card.id),
+    ),
+    ...toutes.filter(
+      (c) => c.card.id !== ID_SHINATO && c.card.status !== "sold" && !IDS_RECEPTION.includes(c.card.id) && isNewArrival(c.card),
+    ),
+  ];
 
   const options = {
     sets: await setsDuCatalogue(),

@@ -23,7 +23,9 @@ export const CATEGORIES_META: { id: CategorieId; titre: string; photo: string | 
   {
     id: "ultimate",
     titre: "Ultimate Rare",
-    photo: "/img/1081_1.jpg",
+    // Neos Aerien (1081_1.jpg) est vendu - remplace par une piece disponible
+    // (Cyber Dragon Ultime CRV, CollectAura 9) - demande d'Axel du 2026-09-20.
+    photo: "/img/Q54.jpg",
     description: "Un relief sculpté à même la carte, réservé aux tirages d'exception. L'Ultimate Rare transforme chaque duel en pièce de collection, triée par valeur.",
   },
   {
