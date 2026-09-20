@@ -239,7 +239,27 @@ export default function BarreFiltres({ options, base }: { options: OptionsFiltre
             )}
           </SheetTrigger>
           <SheetContent titre="Filtrer le catalogue">
-            <div className="pb-4">
+            <div className="space-y-4 pb-4">
+              {/* Le drawer masque la barre de recherche du dessus tant qu'il
+                  est ouvert : sans ce champ, impossible de chercher par nom
+                  sans d'abord refermer le drawer - signale par Axel du
+                  2026-09-20 ("le filtre par nom est dans Parcourir les 837
+                  cartes mais pas dans Filtrer le catalogue"). */}
+              <form
+                className="relative"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  naviguer({ ...f, q: String(new FormData(e.currentTarget).get("q") ?? "") });
+                }}
+              >
+                <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-amber-100/40" />
+                <input
+                  name="q"
+                  defaultValue={f.q}
+                  placeholder="Rechercher une carte…"
+                  className="w-full rounded-md border border-amber-500/30 bg-black/50 py-2 pl-9 pr-3 text-sm text-amber-50 placeholder:text-amber-100/35 focus:border-amber-400 focus:outline-none"
+                />
+              </form>
               <CorpsFiltres options={options} base={base} />
             </div>
           </SheetContent>
