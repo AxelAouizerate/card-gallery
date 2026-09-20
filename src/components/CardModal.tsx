@@ -66,6 +66,12 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
           ) : null}
         </div>
 
+        {card.video && (
+          <video controls playsInline preload="metadata" poster={card.photo_1 ?? undefined} className="w-full rounded-lg bg-black md:col-span-2">
+            <source src={card.video} type="video/mp4" />
+          </video>
+        )}
+
         {/* Infos */}
         <div className="flex flex-col">
           <h2 className="pr-10 text-xl font-semibold text-slate-900">{card.nom}</h2>

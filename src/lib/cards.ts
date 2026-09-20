@@ -22,6 +22,9 @@ export type Card = {
   statut_raw: string;
   photo_1: string | null;
   photo_2: string | null;
+  // Courte video de presentation (quelques secondes), optionnelle - demande
+  // d'Axel du 2026-09-20. Meme repo/proxy que les photos (/img/...).
+  video?: string | null;
   // ISO date (YYYY-MM-DD) - 1ere apparition de la carte dans cards.json.
   // Sert au badge "NEW" et au filtre "nouvelles arrivees" (< 14 jours).
   first_seen?: string;

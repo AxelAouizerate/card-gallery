@@ -36,6 +36,18 @@ export default function FicheCarte({ card }: { card: Card }) {
         <div className="relative">
           <FichePhotos photos={photos} nom={card.nom} bientot={bientot} />
 
+          {card.video && (
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster={card.photo_1 ?? undefined}
+              className="mt-3 w-full rounded-lg bg-black"
+            >
+              <source src={card.video} type="video/mp4" />
+            </video>
+          )}
+
           {(card.pop != null || card.is_1st) && (
             <div className="pointer-events-none absolute left-2 top-9 flex flex-col gap-1">
               {card.pop === 1 && (

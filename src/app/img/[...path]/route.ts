@@ -15,6 +15,7 @@ const BRANCH = process.env.GITHUB_PHOTOS_BRANCH ?? "main";
 const CONTENT_TYPES: Record<string, string> = {
   jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png",
   gif: "image/gif", webp: "image/webp", heic: "image/heic", heif: "image/heif",
+  mp4: "video/mp4",
 };
 
 export async function GET(

@@ -16901,6 +16901,7 @@
     "statut_raw": "en vente",
     "photo_1": "/img/1207_1.jpg",
     "photo_2": "/img/1207_2.jpg",
+    "video": "/img/1207_video.mp4",
     "first_seen": "2026-07-18",
     "vendeur": "s1"
   },
@@ -16943,6 +16944,7 @@
     "statut_raw": "en vente",
     "photo_1": "/img/A02_1.jpg",
     "photo_2": "/img/A02_2.jpg",
+    "video": "/img/A02_video.mp4",
     "first_seen": "2026-07-18",
     "vendeur": "s1"
   },
@@ -17132,6 +17134,7 @@
     "statut_raw": "en vente",
     "photo_1": "/img/A06_1.jpg",
     "photo_2": "/img/A06_2.jpg",
+    "video": "/img/A06_video.mp4",
     "first_seen": "2026-07-21",
     "vendeur": "s1"
   },
@@ -17153,6 +17156,7 @@
     "statut_raw": "en vente",
     "photo_1": "/img/A07_1.jpg",
     "photo_2": "/img/A07_2.jpg",
+    "video": "/img/A07_video.mp4",
     "first_seen": "2026-07-21",
     "vendeur": "s1"
   },
@@ -17195,6 +17199,7 @@
     "statut_raw": "en vente",
     "photo_1": "/img/A09_1.jpg",
     "photo_2": "/img/A09_2.jpg",
+    "video": "/img/A09_video.mp4",
     "first_seen": "2026-07-21",
     "vendeur": "s1"
   },
@@ -17342,6 +17347,7 @@
     "statut_raw": "en vente",
     "photo_1": "/img/A15_1.jpg",
     "photo_2": "/img/A15_2.jpg",
+    "video": "/img/A15_video.mp4",
     "first_seen": "2026-08-10",
     "vendeur": "s1"
   },
@@ -17426,6 +17432,7 @@
     "statut_raw": "en vente",
     "photo_1": "/img/A19_1.jpg",
     "photo_2": "/img/A19_2.jpg",
+    "video": "/img/A19_video.mp4",
     "first_seen": "2026-08-10",
     "vendeur": "s1"
   },
