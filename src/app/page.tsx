@@ -14,6 +14,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/site";
 import VignettesCategories from "@/components/VignettesCategories";
 import FiltreAccueilDepliable from "@/components/FiltreAccueilDepliable";
 import BandeauEvenements from "@/components/BandeauEvenements";
+import RechercheAccueil from "@/components/RechercheAccueil";
 
 async function getCards(): Promise<Card[]> {
   const file = path.join(process.cwd(), "public", "cards.json");
@@ -119,6 +120,11 @@ export default async function HomePage() {
       <SeoIntro />
 
       <div className="mx-auto max-w-7xl space-y-10 px-4 py-8">
+        {/* Recherche par nom toujours visible, avant tout le reste - meme
+            raison de Suspense que le panneau de filtres plus bas. */}
+        <Suspense fallback={<div className="h-14 rounded-lg border border-amber-500/40 bg-black/50" />}>
+          <RechercheAccueil />
+        </Suspense>
         <BandeauEvenements />
         <VignettesCategories />
         {/* FiltreAccueilDepliable utilise useSearchParams (via useFiltres) des
