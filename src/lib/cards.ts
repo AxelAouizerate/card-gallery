@@ -36,6 +36,10 @@ export type Card = {
   // Vendeur proprietaire de la carte (onglet du Google Sheet : Axel/Marvin/Quentin).
   // Sert au bouton "Acheter via Instagram" (mapping vendeur -> compte dans lib/site.ts).
   vendeur?: string | null;
+  // true = a afficher dans la section "Lots" de l'accueil (bundle de
+  // plusieurs boosters/cartes vendu en un seul lot) - demande d'Axel du
+  // 2026-09-21.
+  est_lot?: boolean;
 };
 
 export type Jeu = "yugioh" | "pokemon";

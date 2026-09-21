@@ -101,6 +101,8 @@ export default async function HomePage() {
     ),
   ];
 
+  const lots = toutes.filter((c) => c.card.est_lot && !estVendueEtDemotee(c.card));
+
   const options = {
     sets: await setsDuCatalogue(),
     raretes: await raretesDuCatalogue(),
@@ -133,7 +135,7 @@ export default async function HomePage() {
         {pop1.length > 0 && (
           <Selection titre="Pop 1 — uniques à ce grade et au-dessus" cartes={pop1} />
         )}
-        <SectionLots />
+        <SectionLots cartes={lots} />
 
         <div className="text-center">
           <Link
@@ -150,9 +152,23 @@ export default async function HomePage() {
   );
 }
 
-// Section vide pour l'instant (aucun lot en vente) — prete a accueillir des
-// lots des qu'il y en aura, sans travail supplementaire cote structure.
-function SectionLots() {
+// Cartes marquees est_lot (bundle de plusieurs boosters/cartes) - vide la
+// plupart du temps, mais prete a en afficher des qu'il y en a, sans travail
+// supplementaire cote structure. Demande d'Axel du 2026-09-21.
+function SectionLots({ cartes }: { cartes: CarteListee[] }) {
+  if (cartes.length > 0) {
+    return (
+      <section>
+        <h2
+          className="mb-3 text-lg font-semibold text-amber-200"
+          style={{ fontFamily: "var(--font-cinzel), serif" }}
+        >
+          Lots
+        </h2>
+        <GrilleCartes cartes={cartes} />
+      </section>
+    );
+  }
   return (
     <section>
       <h2
