@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { cache } from "react";
 import type { Card } from "@/lib/cards";
+import { estVendueEtDemotee } from "@/lib/cards";
 
 /**
  * Acces au catalogue cote serveur. Source : public/cards.json.
@@ -82,11 +83,13 @@ export async function slugCanonique(c: Card): Promise<string> {
  * ne departagent qu'a prix egal. Les cartes vendues sont toujours reléguées
  * en toute fin de liste, meme si leur prix les placerait plus haut - demande
  * d'Axel du 2026-09-20 (une carte vendue n'interesse plus un acheteur).
+ * Exception : `estVendueEtDemotee` retarde cette relegation de quelques
+ * jours pour une carte au `sold_date` recent (delai de courtoisie ponctuel).
  */
 export function trierParValeur(cards: Card[]): Card[] {
   return [...cards].sort((a, b) => {
-    const sa = a.status === "sold" ? 1 : 0;
-    const sb = b.status === "sold" ? 1 : 0;
+    const sa = estVendueEtDemotee(a) ? 1 : 0;
+    const sb = estVendueEtDemotee(b) ? 1 : 0;
     if (sa !== sb) return sa - sb;
     const pa = a.prix ?? -1;
     const pb = b.prix ?? -1;

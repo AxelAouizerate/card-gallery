@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import GrilleCartes from "@/components/GrilleCartes";
 import type { Card } from "@/lib/cards";
-import { isNewArrival } from "@/lib/cards";
+import { isNewArrival, estVendueEtDemotee } from "@/lib/cards";
 import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, type CarteListee } from "@/lib/catalogue";
 import { IDS_RECEPTION_CCC, IDS_RECEPTION_COLLECTAURA } from "@/lib/receptions";
 import HeaderNav from "@/components/HeaderNav";
@@ -76,10 +76,10 @@ export default async function HomePage() {
   // La home n'est plus le catalogue : elle met en avant trois selections et
   // renvoie vers /cartes. Elle ne charge donc plus les 833 cartes dans le
   // payload client, ce qui etait le vrai poids mort de la page.
-  const pepites = toutes.filter((c) => c.card.status !== "sold").slice(0, 10);
+  const pepites = toutes.filter((c) => !estVendueEtDemotee(c.card)).slice(0, 10);
   // Pas de plafond artificiel : les Pop 1 sont rares par definition, les
   // couper a 5 en cachait les 2/3 sans raison - demande d'Axel du 2026-09-20.
-  const pop1 = toutes.filter((c) => c.card.pop === 1 && c.card.status !== "sold");
+  const pop1 = toutes.filter((c) => c.card.pop === 1 && !estVendueEtDemotee(c.card));
 
   // Nouveautes = pieces des receptions CCC + CollectAura en cours (peu importe
   // first_seen, certaines sont deja en stock depuis un moment) + Shinato et
@@ -94,10 +94,10 @@ export default async function HomePage() {
   const nouveautes = [
     ...toutes.filter((c) => c.card.id === ID_SHINATO),
     ...toutes.filter(
-      (c) => c.card.id !== ID_SHINATO && c.card.status !== "sold" && IDS_RECEPTION.includes(c.card.id),
+      (c) => c.card.id !== ID_SHINATO && !estVendueEtDemotee(c.card) && IDS_RECEPTION.includes(c.card.id),
     ),
     ...toutes.filter(
-      (c) => c.card.id !== ID_SHINATO && c.card.status !== "sold" && !IDS_RECEPTION.includes(c.card.id) && isNewArrival(c.card),
+      (c) => c.card.id !== ID_SHINATO && !estVendueEtDemotee(c.card) && !IDS_RECEPTION.includes(c.card.id) && isNewArrival(c.card),
     ),
   ];
 

@@ -17514,12 +17514,13 @@
     "produit": "carte",
     "reserve": false,
     "prix": 6995.0,
-    "status": "available",
-    "statut_raw": "en vente",
+    "status": "sold",
+    "statut_raw": "vendu",
     "photo_1": "/img/dcr-fr016-g.jpg",
     "photo_2": null,
     "video": "/img/A24_video.mp4",
     "first_seen": "2026-09-07",
+    "sold_date": "2026-09-21",
     "vendeur": "s1"
   },
   {

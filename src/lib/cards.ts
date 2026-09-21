@@ -28,6 +28,11 @@ export type Card = {
   // ISO date (YYYY-MM-DD) - 1ere apparition de la carte dans cards.json.
   // Sert au badge "NEW" et au filtre "nouvelles arrivees" (< 14 jours).
   first_seen?: string;
+  // ISO date (YYYY-MM-DD) - jour ou le statut est passe a "sold". Sert
+  // uniquement au delai de courtoisie ci-dessous (voir estVendueEtDemotee) ;
+  // le badge/bandeau "Vendue" affiche par ailleurs reste immediat des que
+  // status="sold", peu importe cette date.
+  sold_date?: string | null;
   // Vendeur proprietaire de la carte (onglet du Google Sheet : Axel/Marvin/Quentin).
   // Sert au bouton "Acheter via Instagram" (mapping vendeur -> compte dans lib/site.ts).
   vendeur?: string | null;
@@ -85,6 +90,25 @@ export function isNewArrival(c: Card, now: Date = new Date()): boolean {
   if (isNaN(seen.getTime())) return false;
   const ageMs = now.getTime() - seen.getTime();
   return ageMs >= 0 && ageMs <= NEW_WINDOW_DAYS * 24 * 60 * 60 * 1000;
+}
+
+const DELAI_COURTOISIE_VENTE_JOURS = 2;
+
+/**
+ * true si une carte vendue doit deja disparaitre des selections
+ * (Nouveautes/Pop1) et tomber en fin de tri. Le badge/bandeau "Vendue" reste
+ * lui immediat des que status="sold" - seul le PLACEMENT est retarde, via
+ * `sold_date`, a la demande ponctuelle d'Axel pour une carte a la fois
+ * (jamais automatique sans cette date) - ex: Shinato vendu le 2026-09-21,
+ * garde en position normale jusqu'au 2026-09-23.
+ */
+export function estVendueEtDemotee(c: Card, now: Date = new Date()): boolean {
+  if (c.status !== "sold") return false;
+  if (!c.sold_date) return true;
+  const vendue = new Date(c.sold_date + "T00:00:00Z");
+  if (isNaN(vendue.getTime())) return true;
+  const ageMs = now.getTime() - vendue.getTime();
+  return ageMs >= DELAI_COURTOISIE_VENTE_JOURS * 24 * 60 * 60 * 1000;
 }
 
 export async function loadCards(): Promise<Card[]> {
