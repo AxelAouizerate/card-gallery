@@ -9,13 +9,24 @@ export default function PaginationNumerotee({
   page,
   pages,
   base,
+  queryString = "",
 }: {
   page: number;
   pages: number;
   base: string;
+  /** Filtres/parPage actifs deja serialises (sans `page`) - preserves d'une
+   * page a l'autre. Un simple `?page=N` effacait les filtres en cours au
+   * changement de page - signale par Axel le 2026-09-23. */
+  queryString?: string;
 }) {
   if (pages <= 1) return null;
-  const href = (p: number) => (p === 1 ? base : `${base}?page=${p}`);
+  const href = (p: number) => {
+    const params = new URLSearchParams(queryString);
+    if (p > 1) params.set("page", String(p));
+    else params.delete("page");
+    const qs = params.toString();
+    return qs ? `${base}?${qs}` : base;
+  };
 
   // Fenetre glissante autour de la page courante, plus toujours la 1re et la derniere.
   const autour = new Set<number>([1, pages, page]);

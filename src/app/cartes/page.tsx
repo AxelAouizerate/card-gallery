@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import PageCatalogue from "@/components/PageCatalogue";
+import PageCatalogue, { lireParPage } from "@/components/PageCatalogue";
 import BarreFiltres, { PanneauFiltres } from "@/components/FiltresCatalogue";
 import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, getCards } from "@/lib/catalogue";
-import { lireFiltres, appliquerFiltres, estIndexable, nbFiltresActifs } from "@/lib/filtres";
+import { lireFiltres, ecrireFiltres, appliquerFiltres, estIndexable, nbFiltresActifs } from "@/lib/filtres";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
 const TITRE = "Toutes les cartes Yu-Gi-Oh! à l'unité";
@@ -49,6 +49,8 @@ export default async function Page({ searchParams }: { searchParams: Params }) {
       cartes={cartes}
       base={BASE}
       page={f.page}
+      parPage={lireParPage(params.parPage)}
+      queryExtra={ecrireFiltres({ ...f, page: 1 })}
       filtres={<BarreFiltres options={options} base={BASE} />}
       panneauFiltres={<PanneauFiltres options={options} base={BASE} />}
       nbFiltres={nbFiltresActifs(f)}

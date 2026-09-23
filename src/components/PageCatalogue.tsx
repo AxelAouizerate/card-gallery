@@ -3,10 +3,18 @@ import HeaderNav from "./HeaderNav";
 import JsonLd from "./JsonLd";
 import GrilleCartes from "./GrilleCartes";
 import PaginationNumerotee from "./PaginationNumerotee";
+import SelecteurParPage from "./SelecteurParPage";
 import type { CarteListee } from "@/lib/catalogue";
 import { SITE_URL } from "@/lib/site";
 
-export const PAR_PAGE = 40;
+export const PAR_PAGE_DEFAUT = 40;
+export const PAR_PAGE_OPTIONS = [40, 80, 120, 160, 200];
+
+/** Lit `parPage` depuis un searchParam brut : valeur reconnue sinon defaut. */
+export function lireParPage(raw: string | string[] | undefined): number {
+  const v = Number(Array.isArray(raw) ? raw[0] : raw);
+  return PAR_PAGE_OPTIONS.includes(v) ? v : PAR_PAGE_DEFAUT;
+}
 
 /**
  * Coque commune aux pages de liste : /cartes et les pages d'atterrissage.
@@ -24,6 +32,12 @@ export default function PageCatalogue({
   panneauFiltres,
   nbFiltres = 0,
   avantGrille,
+  parPage = PAR_PAGE_DEFAUT,
+  // Filtres actifs (hors page/parPage), deja serialises par ecrireFiltres -
+  // sert a ce que changer de page ou de taille de page ne perde pas les
+  // filtres en cours (bug remonte par Axel le 2026-09-23 : passer de la
+  // page 1 a 2 les effacait, la pagination ne reconstruisait que `page`).
+  queryExtra = "",
 }: {
   titre: string;
   chapo: string;
@@ -39,10 +53,19 @@ export default function PageCatalogue({
   /** Juste sous le chapo, avant meme le compteur de cartes — visible sans
    * scroller (ex: navigation croisee vers les categories voisines). */
   avantGrille?: React.ReactNode;
+  parPage?: number;
+  queryExtra?: string;
 }) {
-  const pages = Math.max(1, Math.ceil(cartes.length / PAR_PAGE));
+  const pages = Math.max(1, Math.ceil(cartes.length / parPage));
   const p = Math.min(Math.max(1, page), pages);
-  const tranche = cartes.slice((p - 1) * PAR_PAGE, p * PAR_PAGE);
+  const tranche = cartes.slice((p - 1) * parPage, p * parPage);
+
+  // Base commune aux liens de pagination ET au selecteur de taille : les
+  // filtres actifs, plus parPage si different du defaut (page geree a part
+  // par chacun des deux composants).
+  const queryPagination = new URLSearchParams(queryExtra);
+  if (parPage !== PAR_PAGE_DEFAUT) queryPagination.set("parPage", String(parPage));
+  const queryString = queryPagination.toString();
 
   const itemList = {
     "@context": "https://schema.org",
@@ -51,7 +74,7 @@ export default function PageCatalogue({
     numberOfItems: cartes.length,
     itemListElement: tranche.map((c, i) => ({
       "@type": "ListItem",
-      position: (p - 1) * PAR_PAGE + i + 1,
+      position: (p - 1) * parPage + i + 1,
       url: `${SITE_URL}/carte/${c.slug}`,
       name: c.card.nom,
     })),
@@ -123,7 +146,10 @@ export default function PageCatalogue({
           <GrilleCartes cartes={tranche} />
         </div>
 
-        <PaginationNumerotee page={p} pages={pages} base={base} />
+        <PaginationNumerotee page={p} pages={pages} base={base} queryString={queryString} />
+        {cartes.length > PAR_PAGE_OPTIONS[0] && (
+          <SelecteurParPage base={base} queryExtra={queryExtra} valeur={parPage} />
+        )}
           </div>
         </div>
       </div>

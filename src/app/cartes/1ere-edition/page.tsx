@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PageCatalogue from "@/components/PageCatalogue";
+import PageCatalogue, { lireParPage } from "@/components/PageCatalogue";
 import { cartesAvecSlug } from "@/lib/catalogue";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
@@ -12,9 +12,9 @@ export async function generateMetadata({ searchParams }: {
 }): Promise<Metadata> {
   const { page } = await searchParams;
   const p = Math.max(1, Number(page) || 1);
-  const url = `${SITE_URL}$/cartes/1ere-edition` + (p > 1 ? `?page=${p}` : "");
+  const url = `${SITE_URL}${BASE}` + (p > 1 ? `?page=${p}` : "");
   return {
-    title: `$"Cartes Yu-Gi-Oh! 1ère édition"${p > 1 ? ` — page ${p}` : ""} | ${SITE_NAME}`,
+    title: `${TITRE}${p > 1 ? ` — page ${p}` : ""} | ${SITE_NAME}`,
     description: CHAPO,
     alternates: { canonical: url },
     openGraph: { type: "website", url, title: TITRE, description: CHAPO, locale: "fr_FR" },
@@ -22,9 +22,9 @@ export async function generateMetadata({ searchParams }: {
 }
 
 export default async function Page({ searchParams }: {
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<{ page?: string; parPage?: string }>;
 }) {
-  const { page } = await searchParams;
+  const { page, parPage } = await searchParams;
   const toutes = await cartesAvecSlug();
   const cartes = toutes.filter((c) => c.card.is_1st);
   return (
@@ -34,6 +34,7 @@ export default async function Page({ searchParams }: {
       cartes={cartes}
       base={BASE}
       page={Math.max(1, Number(page) || 1)}
+      parPage={lireParPage(parPage)}
       filAriane={[
         { nom: "Accueil", url: SITE_URL },
         { nom: "Cartes", url: `${SITE_URL}/cartes` },

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import PageCatalogue from "@/components/PageCatalogue";
+import PageCatalogue, { lireParPage } from "@/components/PageCatalogue";
 import { cartesAvecSlug, setsDuCatalogue } from "@/lib/catalogue";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
@@ -52,10 +52,10 @@ export default async function PageSet({
   searchParams,
 }: {
   params: Promise<{ set: string }>;
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<{ page?: string; parPage?: string }>;
 }) {
   const { set } = await params;
-  const { page } = await searchParams;
+  const { page, parPage } = await searchParams;
   const cartes = await cartesDuSet(set);
   if (cartes.length === 0) notFound();
 
@@ -69,6 +69,7 @@ export default async function PageSet({
       cartes={cartes}
       base={base}
       page={Math.max(1, Number(page) || 1)}
+      parPage={lireParPage(parPage)}
       filAriane={[
         { nom: "Accueil", url: SITE_URL },
         { nom: "Cartes", url: `${SITE_URL}/cartes` },

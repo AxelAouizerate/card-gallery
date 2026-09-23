@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PageCatalogue from "@/components/PageCatalogue";
+import PageCatalogue, { lireParPage } from "@/components/PageCatalogue";
 import { cartesDeLere } from "@/lib/catalogue";
 import { ERES, type Ere } from "@/lib/eres";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
@@ -26,9 +26,9 @@ export function pageEre(ere: Ere) {
   }
 
   async function Page({ searchParams }: {
-    searchParams: Promise<{ page?: string }>;
+    searchParams: Promise<{ page?: string; parPage?: string }>;
   }) {
-    const { page } = await searchParams;
+    const { page, parPage } = await searchParams;
     const cartes = await cartesDeLere(ere);
     return (
       <PageCatalogue
@@ -37,6 +37,7 @@ export function pageEre(ere: Ere) {
         cartes={cartes}
         base={base}
         page={Math.max(1, Number(page) || 1)}
+        parPage={lireParPage(parPage)}
         filAriane={[
           { nom: "Accueil", url: SITE_URL },
           { nom: "Cartes", url: `${SITE_URL}/cartes` },

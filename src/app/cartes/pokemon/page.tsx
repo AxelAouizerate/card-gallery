@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PageCatalogue from "@/components/PageCatalogue";
+import PageCatalogue, { lireParPage } from "@/components/PageCatalogue";
 import { cartesPokemon } from "@/lib/catalogue";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
@@ -22,9 +22,9 @@ export async function generateMetadata({ searchParams }: {
 }
 
 export default async function Page({ searchParams }: {
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<{ page?: string; parPage?: string }>;
 }) {
-  const { page } = await searchParams;
+  const { page, parPage } = await searchParams;
   const cartes = await cartesPokemon();
   return (
     <PageCatalogue
@@ -33,6 +33,7 @@ export default async function Page({ searchParams }: {
       cartes={cartes}
       base={BASE}
       page={Math.max(1, Number(page) || 1)}
+      parPage={lireParPage(parPage)}
       filAriane={[
         { nom: "Accueil", url: SITE_URL },
         { nom: "Cartes", url: `${SITE_URL}/cartes` },

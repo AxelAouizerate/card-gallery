@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PageCatalogue from "@/components/PageCatalogue";
+import PageCatalogue, { lireParPage } from "@/components/PageCatalogue";
 import NavCategoriesCroisee from "@/components/NavCategoriesCroisee";
 import { cartesCategorieSpeciale } from "@/lib/catalogue";
 import { CATEGORIES_META, type CategorieId } from "@/lib/categoriesSpeciales";
@@ -27,9 +27,9 @@ export function pageCategorieSpeciale(id: CategorieId) {
   }
 
   async function Page({ searchParams }: {
-    searchParams: Promise<{ page?: string }>;
+    searchParams: Promise<{ page?: string; parPage?: string }>;
   }) {
-    const { page } = await searchParams;
+    const { page, parPage } = await searchParams;
     const cartes = await cartesCategorieSpeciale(id);
     return (
       <PageCatalogue
@@ -38,6 +38,7 @@ export function pageCategorieSpeciale(id: CategorieId) {
         cartes={cartes}
         base={base}
         page={Math.max(1, Number(page) || 1)}
+        parPage={lireParPage(parPage)}
         avantGrille={<NavCategoriesCroisee actuelle={id} />}
         filAriane={[
           { nom: "Accueil", url: SITE_URL },
