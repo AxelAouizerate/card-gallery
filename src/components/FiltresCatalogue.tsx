@@ -16,6 +16,7 @@ export type OptionsFiltres = {
   raretes: string[];
   langues: string[];
   prixMax: number;
+  notes: number[];
 };
 
 /**
@@ -135,11 +136,19 @@ export function CorpsFiltres({ options, base }: { options: OptionsFiltres; base:
           ))}
         </div>
         <div className="mt-2 flex flex-wrap gap-1.5">
-          {[10, 9, 8, 7, 6].map((n) => (
-            <button key={n} type="button" onClick={() => naviguer({ ...f, noteMin: f.noteMin === n ? null : n })} className={puce(f.noteMin === n)}>
-              <span className="font-mono">≥ {n}</span>
-            </button>
-          ))}
+          {options.notes.map((n) => {
+            const actif = f.notes.includes(n);
+            return (
+              <button
+                key={n}
+                type="button"
+                onClick={() => naviguer({ ...f, notes: actif ? f.notes.filter((x) => x !== n) : [...f.notes, n] })}
+                className={puce(actif)}
+              >
+                <span className="font-mono">{n}</span>
+              </button>
+            );
+          })}
         </div>
       </Bloc>
 
@@ -199,7 +208,7 @@ export default function BarreFiltres({ options, base }: { options: OptionsFiltre
     ...f.raretes.map((r) => ({ libelle: r, retirer: () => bascule("raretes", r) })),
     ...f.langues.map((l) => ({ libelle: l, retirer: () => bascule("langues", l) })),
     ...(f.gradation ? [{ libelle: f.gradation === "gradee" ? "Gradée" : "Non gradée", retirer: () => naviguer({ ...f, gradation: "" }) }] : []),
-    ...(f.noteMin != null ? [{ libelle: `Note ≥ ${f.noteMin}`, retirer: () => naviguer({ ...f, noteMin: null }) }] : []),
+    ...f.notes.map((n) => ({ libelle: `Note ${n}`, retirer: () => naviguer({ ...f, notes: f.notes.filter((x) => x !== n) }) })),
     ...(f.prixMin != null ? [{ libelle: `≥ ${f.prixMin} €`, retirer: () => naviguer({ ...f, prixMin: null }) }] : []),
     ...(f.prixMax != null ? [{ libelle: `≤ ${f.prixMax} €`, retirer: () => naviguer({ ...f, prixMax: null }) }] : []),
     ...(f.edition1st ? [{ libelle: "1ère édition", retirer: () => naviguer({ ...f, edition1st: false }) }] : []),

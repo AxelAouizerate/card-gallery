@@ -5,7 +5,7 @@ import Link from "next/link";
 import GrilleCartes from "@/components/GrilleCartes";
 import type { Card } from "@/lib/cards";
 import { isNewArrival, estVendueEtDemotee } from "@/lib/cards";
-import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, type CarteListee } from "@/lib/catalogue";
+import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, notesDuCatalogue, type CarteListee } from "@/lib/catalogue";
 import { IDS_RECEPTION_CCC, IDS_RECEPTION_COLLECTAURA } from "@/lib/receptions";
 import HeaderNav from "@/components/HeaderNav";
 import JsonLd from "@/components/JsonLd";
@@ -109,6 +109,7 @@ export default async function HomePage() {
     raretes: await raretesDuCatalogue(),
     langues: [...new Set(cards.map((c) => c.lang).filter(Boolean))].sort(),
     prixMax: Math.max(0, ...cards.map((c) => c.prix ?? 0)),
+    notes: await notesDuCatalogue(),
   };
 
   return (

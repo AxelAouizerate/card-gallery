@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import PageCatalogue, { lireParPage } from "@/components/PageCatalogue";
 import BarreFiltres, { PanneauFiltres } from "@/components/FiltresCatalogue";
-import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, getCards } from "@/lib/catalogue";
+import { cartesAvecSlug, setsDuCatalogue, raretesDuCatalogue, notesDuCatalogue, getCards } from "@/lib/catalogue";
 import { lireFiltres, ecrireFiltres, appliquerFiltres, estIndexable, nbFiltresActifs } from "@/lib/filtres";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
@@ -40,6 +40,7 @@ export default async function Page({ searchParams }: { searchParams: Params }) {
     raretes: await raretesDuCatalogue(),
     langues: [...new Set(brut.map((c) => c.lang).filter(Boolean))].sort(),
     prixMax: Math.max(0, ...brut.map((c) => c.prix ?? 0)),
+    notes: await notesDuCatalogue(),
   };
 
   return (

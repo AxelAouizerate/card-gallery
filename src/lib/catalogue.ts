@@ -190,3 +190,17 @@ export const raretesDuCatalogue = cache(async (): Promise<string[]> => {
   };
   return [...presentes].sort((a, b) => rang(a) - rang(b) || a.localeCompare(b));
 });
+
+/** Notes de gradation presentes au catalogue, de la plus haute a la plus
+ * basse - alimente le filtre "grade exact" (multi-select, pas un seuil
+ * minimum) - demande d'Axel du 2026-09-26. */
+export const notesDuCatalogue = cache(async (): Promise<number[]> => {
+  const cards = await getCards();
+  const presentes = new Set<number>();
+  for (const c of cards) {
+    if (!c.grade) continue;
+    const n = parseFloat(c.grade);
+    if (!Number.isNaN(n)) presentes.add(n);
+  }
+  return [...presentes].sort((a, b) => b - a);
+});

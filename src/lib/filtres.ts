@@ -14,7 +14,9 @@ export type Filtres = {
   prixMin: number | null;
   prixMax: number | null;
   gradation: "" | "gradee" | "non-gradee";
-  noteMin: number | null;
+  /** Grades exacts selectionnes (multi-select) - pas un seuil minimum :
+   * choisir "7" ne ramene plus les 8/9/10 - demande d'Axel du 2026-09-26. */
+  notes: number[];
   edition1st: boolean;
   pop1: boolean;
   dispo: boolean;
@@ -25,7 +27,7 @@ export type Filtres = {
 
 export const FILTRES_VIDES: Filtres = {
   q: "", sets: [], raretes: [], langues: [],
-  prixMin: null, prixMax: null, gradation: "", noteMin: null,
+  prixMin: null, prixMax: null, gradation: "", notes: [],
   edition1st: false, pop1: false, dispo: false, soldOut: false, nouveautes: false, page: 1,
 };
 
@@ -38,6 +40,9 @@ const nombre = (v: string | string[] | undefined): number | null => {
   const n = Number(Array.isArray(v) ? v[0] : v);
   return Number.isFinite(n) ? n : null;
 };
+
+const listeNombres = (v: string | string[] | undefined): number[] =>
+  liste(v).map(Number).filter(Number.isFinite);
 
 const vrai = (v: string | string[] | undefined) =>
   (Array.isArray(v) ? v[0] : v) === "1";
@@ -52,7 +57,7 @@ export function lireFiltres(params: Params): Filtres {
     prixMin: nombre(params.prixMin),
     prixMax: nombre(params.prixMax),
     gradation: g === "gradee" || g === "non-gradee" ? g : "",
-    noteMin: nombre(params.note),
+    notes: listeNombres(params.note),
     edition1st: vrai(params.edition),
     pop1: vrai(params.pop1),
     dispo: vrai(params.dispo),
@@ -72,7 +77,7 @@ export function ecrireFiltres(f: Filtres): string {
   if (f.prixMin != null) p.set("prixMin", String(f.prixMin));
   if (f.prixMax != null) p.set("prixMax", String(f.prixMax));
   if (f.gradation) p.set("gradation", f.gradation);
-  if (f.noteMin != null) p.set("note", String(f.noteMin));
+  if (f.notes.length) p.set("note", f.notes.join(","));
   if (f.edition1st) p.set("edition", "1");
   if (f.pop1) p.set("pop1", "1");
   if (f.dispo) p.set("dispo", "1");
@@ -87,7 +92,7 @@ export function nbFiltresActifs(f: Filtres): number {
   return (
     (f.q ? 1 : 0) + f.sets.length + f.raretes.length + f.langues.length +
     (f.prixMin != null ? 1 : 0) + (f.prixMax != null ? 1 : 0) +
-    (f.gradation ? 1 : 0) + (f.noteMin != null ? 1 : 0) +
+    (f.gradation ? 1 : 0) + f.notes.length +
     (f.edition1st ? 1 : 0) + (f.pop1 ? 1 : 0) +
     (f.dispo ? 1 : 0) + (f.soldOut ? 1 : 0) + (f.nouveautes ? 1 : 0)
   );
@@ -132,9 +137,9 @@ export function appliquerFiltres(cards: Card[], f: Filtres, maintenant = new Dat
     if (f.prixMax != null && (c.prix ?? Infinity) > f.prixMax) return false;
     if (f.gradation === "gradee" && !c.grade) return false;
     if (f.gradation === "non-gradee" && c.grade) return false;
-    if (f.noteMin != null) {
+    if (f.notes.length) {
       const note = c.grade ? parseFloat(c.grade) : null;
-      if (note == null || Number.isNaN(note) || note < f.noteMin) return false;
+      if (note == null || Number.isNaN(note) || !f.notes.includes(note)) return false;
     }
     if (f.edition1st && !c.is_1st) return false;
     if (f.pop1 && c.pop !== 1) return false;
