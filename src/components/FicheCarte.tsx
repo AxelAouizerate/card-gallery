@@ -139,8 +139,9 @@ export default function FicheCarte({ card }: { card: Card }) {
                 Contacter le vendeur sur Instagram
               </a>
               <p className="mt-1.5 text-center text-xs leading-relaxed text-amber-100/60">
-                Un seul bouton pour tout : acheter au prix indiqué, faire une offre ou demander
-                photos et vidéo.
+                Prix, offre, photos : tout passe par lui. Aucun paiement sur le site — horuscards
+                est une vitrine, la transaction se fait en toute confiance entre l'acheteur et le
+                vendeur.
               </p>
             </div>
           )}

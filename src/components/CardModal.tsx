@@ -164,9 +164,9 @@ function InstagramBuyButton({ card }: { card: Card }) {
       Contacter le vendeur sur Instagram
     </a>
     <p className="text-center text-xs leading-relaxed text-slate-500">
-      Un seul bouton pour tout : <strong className="text-slate-700">acheter au prix indiqué</strong>,{" "}
-      <strong className="text-slate-700">faire une offre</strong> ou{" "}
-      <strong className="text-slate-700">demander photos et vidéo</strong>.
+      <strong className="text-slate-700">Prix, offre, photos</strong> : tout passe par lui. Aucun
+      paiement sur le site — horuscards est une vitrine, la transaction se fait en toute confiance
+      entre l'acheteur et le vendeur.
     </p>
     </div>
   );

@@ -114,7 +114,8 @@ export default function CommentAcheterPage() {
           </p>
           <p className="mt-2 text-sm leading-relaxed text-amber-100/85">
             Prix, offre, photos : tout passe par lui. <strong>Aucun paiement sur le site</strong> —
-            horuscards est une vitrine, la transaction se fait avec le vendeur.
+            horuscards est une vitrine, la transaction se fait en toute confiance entre l'acheteur
+            et le vendeur.
           </p>
         </section>
 

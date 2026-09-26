@@ -34,6 +34,8 @@ export default async function Page({ searchParams }: {
       base={BASE}
       page={Math.max(1, Number(page) || 1)}
       parPage={lireParPage(parPage)}
+      nomItemSingulier="item scellé"
+      nomItemPluriel="items scellés"
       filAriane={[
         { nom: "Accueil", url: SITE_URL },
         { nom: "Cartes", url: `${SITE_URL}/cartes` },

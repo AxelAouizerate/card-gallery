@@ -38,6 +38,10 @@ export default function PageCatalogue({
   // filtres en cours (bug remonte par Axel le 2026-09-23 : passer de la
   // page 1 a 2 les effacait, la pagination ne reconstruisait que `page`).
   queryExtra = "",
+  // Libelle du compteur ("X cartes" par defaut) - le scelle n'est pas fait
+  // de "cartes" (boosters, displays...), demande d'Axel du 2026-09-26.
+  nomItemSingulier = "carte",
+  nomItemPluriel = "cartes",
 }: {
   titre: string;
   chapo: string;
@@ -55,6 +59,8 @@ export default function PageCatalogue({
   avantGrille?: React.ReactNode;
   parPage?: number;
   queryExtra?: string;
+  nomItemSingulier?: string;
+  nomItemPluriel?: string;
 }) {
   const pages = Math.max(1, Math.ceil(cartes.length / parPage));
   const p = Math.min(Math.max(1, page), pages);
@@ -129,7 +135,7 @@ export default function PageCatalogue({
         {filtres && <div className="mb-4">{filtres}</div>}
 
         <p className="font-mono text-lg font-semibold text-amber-100 sm:text-xl">
-          {cartes.length} carte{cartes.length > 1 ? "s" : ""}
+          {cartes.length} {cartes.length > 1 ? nomItemPluriel : nomItemSingulier}
           {nbFiltres > 0 && (
             <span className="ml-2 text-sm font-normal text-amber-100/50">
               filtré{cartes.length > 1 ? "es" : "e"}
