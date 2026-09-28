@@ -92,15 +92,17 @@ export default async function HomePage() {
     "A25", // Chimeratech Over-Dragon (CCC)
     ...IDS_RECEPTION_COLLECTAURA,
   ];
-  const nouveautes = [
-    ...toutes.filter((c) => c.card.id === ID_SHINATO),
+  // Classees par ordre d'ajout (first_seen decroissant) - demande d'Axel du
+  // 2026-09-28. Shinato reste epingle en tete (regle distincte du 2026-09-20).
+  const resteNouveautes = [
     ...toutes.filter(
       (c) => c.card.id !== ID_SHINATO && !estVendueEtDemotee(c.card) && IDS_RECEPTION.includes(c.card.id),
     ),
     ...toutes.filter(
       (c) => c.card.id !== ID_SHINATO && !estVendueEtDemotee(c.card) && !IDS_RECEPTION.includes(c.card.id) && isNewArrival(c.card),
     ),
-  ];
+  ].sort((a, b) => (b.card.first_seen ?? "").localeCompare(a.card.first_seen ?? ""));
+  const nouveautes = [...toutes.filter((c) => c.card.id === ID_SHINATO), ...resteNouveautes];
 
   const lots = toutes.filter((c) => c.card.est_lot && !estVendueEtDemotee(c.card));
 
