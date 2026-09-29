@@ -1,4 +1,5 @@
 import type { Card } from "@/lib/cards";
+import { TRADUCTIONS_NOM } from "@/lib/traductions-cartes";
 
 /**
  * L'etat des filtres vit dans l'URL, pas dans un useState : une vue filtree
@@ -127,7 +128,13 @@ export function appliquerFiltres(cards: Card[], f: Filtres, maintenant = new Dat
 
   return cards.filter((c) => {
     if (qMots.length) {
-      const cible = normaliserRecherche(`${c.nom} ${c.set} ${c.rarete}`);
+      // Ajoute le(s) nom(s) dans l'autre langue quand on les connait, pour
+      // que "Dark Magician" retrouve "Magicien Sombre" et vice-versa, y
+      // compris sur les exemplaires japonais - demande d'Axel du 2026-09-29.
+      const alt = TRADUCTIONS_NOM[c.nom];
+      const cible = normaliserRecherche(
+        `${c.nom} ${c.set} ${c.rarete}${alt ? " " + alt.join(" ") : ""}`,
+      );
       if (!qMots.every((m) => cible.includes(m))) return false;
     }
     if (sets.size && !sets.has((c.set || "").toLowerCase())) return false;
