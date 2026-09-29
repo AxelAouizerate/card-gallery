@@ -2562,6 +2562,27 @@
     "vendeur": "s1"
   },
   {
+    "id": "1089",
+    "nom": "Gaia Le Dragon Champion",
+    "set": "LDD-F",
+    "rarete": "Secret",
+    "lang": "FR",
+    "etat": "",
+    "is_1st": true,
+    "grade": null,
+    "grade_org": null,
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 140.0,
+    "status": "available",
+    "statut_raw": "en vente",
+    "photo_1": "/img/1089_1.jpg",
+    "photo_2": "/img/1089_2.jpg",
+    "first_seen": "2026-09-29",
+    "vendeur": "s1"
+  },
+  {
     "id": "1181",
     "nom": "Magicien Sombre Du Chaos",
     "set": "IOC",
