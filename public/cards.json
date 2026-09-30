@@ -1692,7 +1692,7 @@
     "pop": 1,
     "produit": "carte",
     "reserve": false,
-    "prix": 90.0,
+    "prix": 75.0,
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/633_2.jpg",
