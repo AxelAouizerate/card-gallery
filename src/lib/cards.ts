@@ -54,6 +54,9 @@ export const SETS_POKEMON = new Set([
   "eveil des legendes",
   "bw promos",
   "bw promo",
+  "set de base",
+  "ex rubis et saphir",
+  "xy promos",
 ]);
 
 function sansAccents(s: string): string {
