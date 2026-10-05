@@ -6,4 +6,5 @@
 export const ANNONCES: string[] = [
   "📦 Rachat de collections Yu-Gi-Oh! — contactez-nous",
   "🔄 Trade partiel accepté sur les grosses pièces",
+  "🔥 Néos Chaos Héros Élémentaire CollectAura 9 VENDU !",
 ];
