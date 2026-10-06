@@ -4,7 +4,6 @@
 // Le premier message (rachat + trade) est permanent ; les suivants sont
 // des annonces ponctuelles (reception, live...) a retirer une fois passees.
 export const ANNONCES: string[] = [
-  "📦 Rachat de collections Yu-Gi-Oh! — contactez-nous",
+  "📦 Rachat de collections Yu-Gi-Oh! — contactez-moi sur Instagram @horuscards_",
   "🔄 Trade partiel accepté sur les grosses pièces",
-  "🔥 Néos Chaos Héros Élémentaire CollectAura 9 VENDU !",
 ];
