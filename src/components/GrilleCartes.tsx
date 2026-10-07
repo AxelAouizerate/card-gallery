@@ -122,7 +122,7 @@ export default function GrilleCartes({ cartes }: { cartes: CarteListee[] }) {
                 href={instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-1.5 block rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-1.5 py-1.5 text-center font-mono text-[10px] font-semibold uppercase tracking-wide text-white shadow transition hover:opacity-90"
+                className="mt-1.5 block rounded-md border border-amber-500/20 bg-black/30 px-1.5 py-1 text-center font-mono text-[9px] font-medium uppercase tracking-wide text-amber-100/60 transition hover:border-amber-500/40 hover:bg-amber-500/10 hover:text-amber-100"
               >
                 Contacter @{instagramHandle}
               </a>

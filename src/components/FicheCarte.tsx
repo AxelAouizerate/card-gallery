@@ -135,7 +135,7 @@ export default function FicheCarte({ card }: { card: Card }) {
                 href={instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
+                className="block w-full rounded-md border border-amber-500/30 bg-amber-500/10 px-4 py-2.5 text-center text-sm font-medium text-amber-100 transition hover:border-amber-400/50 hover:bg-amber-500/20"
               >
                 Contacter @{instagramHandle} sur Instagram
               </a>

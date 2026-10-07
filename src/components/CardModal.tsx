@@ -160,7 +160,7 @@ function InstagramBuyButton({ card }: { card: Card }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-full rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
+      className="w-full rounded-md border border-slate-300 bg-white px-4 py-2.5 text-center text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
     >
       Contacter @{handle} sur Instagram
     </a>
