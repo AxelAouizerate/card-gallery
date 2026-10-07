@@ -63,6 +63,14 @@ export function sellerInstagramUrl(vendeur?: string | null): string | null {
   return handle ? `https://www.instagram.com/${handle}/` : null;
 }
 
+/** Handle Instagram du vendeur SANS le @ (pour l'afficher sur le bouton de contact), ou null. */
+export function sellerInstagramHandle(vendeur?: string | null): string | null {
+  if (!vendeur) return null;
+  const key = Object.keys(SELLERS).find((k) => k.toLowerCase() === vendeur.toLowerCase());
+  const handle = key ? SELLERS[key].instagram.trim().replace(/^@/, "") : "";
+  return handle || null;
+}
+
 /** URL de la page Vinted du vendeur, ou null si vendeur inconnu / non renseigné. */
 export function sellerVintedUrl(vendeur?: string | null): string | null {
   if (!vendeur) return null;

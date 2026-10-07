@@ -1,7 +1,7 @@
 import type { Card } from "@/lib/cards";
 import SlabBandeau from "./SlabBandeau";
 import FichePhotos from "./FichePhotos";
-import { sellerInstagramUrl } from "@/lib/site";
+import { sellerInstagramUrl, sellerInstagramHandle } from "@/lib/site";
 import { libelleSet } from "@/lib/sets";
 import { libelleEtat } from "@/lib/etats";
 
@@ -19,6 +19,7 @@ export default function FicheCarte({ card }: { card: Card }) {
   const vendue = card.status === "sold";
   const bientot = card.status === "coming_soon";
   const instagram = sellerInstagramUrl(card.vendeur);
+  const instagramHandle = sellerInstagramHandle(card.vendeur);
   // Mise en valeur exceptionnelle, posee a la main pour Shinato (6995E) -
   // demande d'Axel du 2026-09-20, jamais generalisee a d'autres cartes.
   const miseEnValeur = card.id === "A24";
@@ -136,7 +137,7 @@ export default function FicheCarte({ card }: { card: Card }) {
                 rel="noopener noreferrer"
                 className="block w-full rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
               >
-                Contacter le vendeur sur Instagram
+                Contacter @{instagramHandle} sur Instagram
               </a>
               <p className="mt-1.5 text-center text-xs leading-relaxed text-amber-100/60">
                 Prix, offre, photos : tout passe par lui. Aucun paiement sur le site — horuscards

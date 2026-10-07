@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import type { Card } from "@/lib/cards";
 import PhotoLightbox, { type Shot } from "./PhotoLightbox";
 import { useFavorites } from "@/lib/favorites";
-import { sellerInstagramUrl } from "@/lib/site";
+import { sellerInstagramUrl, sellerInstagramHandle } from "@/lib/site";
 import { libelleSet } from "@/lib/sets";
 import { libelleEtat } from "@/lib/etats";
 
@@ -151,6 +151,7 @@ export default function CardModal({ card, onClose }: { card: Card; onClose: () =
 
 function InstagramBuyButton({ card }: { card: Card }) {
   const url = sellerInstagramUrl(card.vendeur);
+  const handle = sellerInstagramHandle(card.vendeur);
   // Masqué tant qu'on ne connaît pas le compte Instagram du vendeur, ou si vendue.
   if (!url || card.status === "coming_soon" || card.status === "sold") return null;
   return (
@@ -161,7 +162,7 @@ function InstagramBuyButton({ card }: { card: Card }) {
       rel="noopener noreferrer"
       className="w-full rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-4 py-2.5 text-center text-sm font-semibold text-white shadow transition hover:opacity-90"
     >
-      Contacter le vendeur sur Instagram
+      Contacter @{handle} sur Instagram
     </a>
     <p className="text-center text-xs leading-relaxed text-slate-500">
       <strong className="text-slate-700">Prix, offre, photos</strong> : tout passe par lui. Aucun

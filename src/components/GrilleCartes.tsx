@@ -3,6 +3,7 @@ import Link from "next/link";
 import SlabBandeau from "./SlabBandeau";
 import type { CarteListee } from "@/lib/catalogue";
 import { isNewArrival } from "@/lib/cards";
+import { sellerInstagramUrl, sellerInstagramHandle } from "@/lib/site";
 
 /**
  * Grille catalogue, rendue cote serveur. Chaque tuile est un lien vers sa
@@ -25,6 +26,8 @@ export default function GrilleCartes({ cartes }: { cartes: CarteListee[] }) {
         // Mise en valeur exceptionnelle, posee a la main pour Shinato (6995E) -
         // demande d'Axel du 2026-09-20, jamais generalisee a d'autres cartes.
         const miseEnValeur = card.id === "A24";
+        const instagram = sellerInstagramUrl(card.vendeur);
+        const instagramHandle = sellerInstagramHandle(card.vendeur);
         return (
           <li key={slug} className={miseEnValeur ? "relative z-10" : undefined}>
             <Link
@@ -113,6 +116,17 @@ export default function GrilleCartes({ cartes }: { cartes: CarteListee[] }) {
                 </p>
               </div>
             </Link>
+
+            {instagram && !vendue && !bientot && (
+              <a
+                href={instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1.5 block rounded-md bg-gradient-to-r from-fuchsia-600 via-rose-500 to-amber-500 px-1.5 py-1.5 text-center font-mono text-[10px] font-semibold uppercase tracking-wide text-white shadow transition hover:opacity-90"
+              >
+                Contacter @{instagramHandle}
+              </a>
+            )}
           </li>
         );
       })}
