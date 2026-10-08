@@ -14,14 +14,15 @@ const SETS_PAR_ERE: Record<Ere, string[]> = {
   "duel-monsters": [
     "LOB", "LDD", "LDD-F", "MRD", "SRL", "SDP", "SDP-F", "LOD", "PGD", "MFC",
     "DCR", "IOC", "AST", "SOD", "DDK", "DDY", "DDP", "CT1", "PP01",
-    // RP01/RP02 (Retro Pack) reimpriment des cartes de l'ere Duel Monsters -
-    // precision d'Axel du 2026-09-26, malgre leur date d'edition plus tardive.
-    "RP01", "RP02",
   ],
   gx: [
     "FET", "TLM", "CDIP", "EEN", "EOJ", "SOI", "CRV", "GLAS", "TAEV",
     "POTD", "ANPR", "FOTB", "STON", "PTDN", "LODT",
     "LCGX", "RDS", "CT2", "CT3", "CT03", "CT4", "CT04", "PP02",
+    // RP01/RP02 (Retro Pack) reimpriment des cartes de l'ere Duel Monsters,
+    // mais Axel les classe cote GX (correction du 2026-10-08, annule son
+    // instruction precedente du 2026-09-26 de les mettre en duel-monsters).
+    "RP01", "RP02",
   ],
   "5ds": [
     "SOVR", "ABPF", "STBL", "DREV", "TSHD", "STOR", "EXVC",
