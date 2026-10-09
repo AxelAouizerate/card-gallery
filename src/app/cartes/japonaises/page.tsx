@@ -4,7 +4,7 @@ import { cartesAvecSlug, estJaponaise } from "@/lib/catalogue";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
 const TITRE = "Cartes Yu-Gi-Oh! japonaises (OCG)";
-const CHAPO = "Les cartes japonaises du catalogue : OCG, promos V Jump, Vol. et séries rétro introuvables en français.";
+const CHAPO = "Les cartes japonaises (et coréennes) du catalogue : OCG, promos V Jump, Vol. et séries rétro introuvables en français.";
 const BASE = "/cartes/japonaises";
 
 export async function generateMetadata({ searchParams }: {

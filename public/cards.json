@@ -10640,10 +10640,10 @@
     "produit": "carte",
     "reserve": false,
     "prix": 3.0,
-    "status": "available",
+    "status": "photo_pending",
     "statut_raw": "en vente",
-    "photo_1": "/img/628_1.jpg",
-    "photo_2": "/img/628_2.jpg",
+    "photo_1": null,
+    "photo_2": null,
     "first_seen": "2026-06-15",
     "vendeur": "s1"
   },

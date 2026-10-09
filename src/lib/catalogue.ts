@@ -108,7 +108,9 @@ export function trierParValeur(cards: Card[]): Card[] {
 export const estVendue = (c: Card) => c.status === "sold";
 export const estGradee = (c: Card) => Boolean(c.grade);
 
-const LANGUES_JP = new Set(["JP", "JAP", "JA"]);
+// Le coreen partage l'onglet "Japonais" avec le japonais - demande d'Axel
+// du 2026-10-09 (peu de cartes coreennes, pas assez pour un onglet dedie).
+const LANGUES_JP = new Set(["JP", "JAP", "JA", "KR", "KOR"]);
 export const estJaponaise = (c: Card) => LANGUES_JP.has((c.lang || "").toUpperCase());
 
 // ─── Listes pretes a afficher ───────────────────────────────────────────────
