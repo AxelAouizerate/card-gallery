@@ -16,13 +16,22 @@ export default function OngletsEre() {
             {e.nom}
           </Link>
         ))}
-        {/* Scelle et Pokemon ne sont pas des eres Yu-Gi-Oh, mais partagent la
-            meme barre de navigation — demandes d'Axel du 2026-09-07 et
-            2026-09-19. Pokemon a une couleur distincte (bleu) pour bien se
-            detacher des onglets Yu-Gi-Oh (ambre) au premier coup d'oeil. */}
+        {/* Japonais, Scelle et Pokemon ne sont pas des eres Yu-Gi-Oh, mais
+            partagent la meme barre de navigation — demandes d'Axel du
+            2026-09-07, 2026-09-19 et 2026-10-09 (Japonais ajoute avant
+            Scelle, qui doit aussi se demarquer des onglets ambre). Chacun a
+            sa propre couleur pour bien se detacher des onglets Yu-Gi-Oh
+            (ambre) au premier coup d'oeil : rouge/blanc pour Japonais
+            (drapeau), emeraude pour Scelle, bleu pour Pokemon. */}
+        <Link
+          href="/cartes/japonaises"
+          className="whitespace-nowrap rounded-md bg-rose-500/15 px-3 py-1.5 font-medium text-rose-200 transition hover:bg-rose-500/25 hover:text-rose-100"
+        >
+          Japonais
+        </Link>
         <Link
           href="/cartes/scelle"
-          className="whitespace-nowrap rounded-md px-3 py-1.5 font-medium text-amber-100/70 transition hover:bg-amber-500/15 hover:text-amber-200"
+          className="whitespace-nowrap rounded-md bg-emerald-500/15 px-3 py-1.5 font-medium text-emerald-200 transition hover:bg-emerald-500/25 hover:text-emerald-100"
         >
           Scellé
         </Link>
