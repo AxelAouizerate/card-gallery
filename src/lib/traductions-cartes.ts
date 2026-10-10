@@ -33,6 +33,10 @@ export const TRADUCTIONS_NOM: Record<string, string[]> = {
   "Magicienne Des Ténèbres": ["Dark Magician Girl"],
   "Magicienne Des Ténèbres Le Dragon Chevalier": ["Dark Magician Girl the Dragon Knight"],
   "Toon Dark Magician Girl": ["Magicienne Toon Des Ténèbres"],
+  // Pas une carte "Dark Magician Girl" elle-meme, mais son artwork la montre
+  // en avant-plan - les acheteurs la cherchent quand meme par ce nom, demande
+  // d'Axel du 2026-10-10.
+  "Dark Magical Curtain": ["Dark Magician Girl", "Magicienne Des Ténèbres"],
   "Magicien De La Foi": ["Magician of Faith"],
   "Apprenti Magicien": ["Skilled Dark Magician"],
   "Sorcier Du Chaos": ["Chaos Sorcerer"],
