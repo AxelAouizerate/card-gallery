@@ -31,8 +31,11 @@ export default async function Page({ searchParams }: { searchParams: Params }) {
   const f = lireFiltres(params);
 
   const toutes = await cartesAvecSlug();
-  const retenues = new Set(appliquerFiltres(toutes.map((c) => c.card), f));
-  const cartes = toutes.filter((c) => retenues.has(c.card));
+  // appliquerFiltres reordonne selon f.tri : on reconstruit cartes dans CET
+  // ordre (pas celui de `toutes`) pour que le tri choisi soit bien applique,
+  // tout en recuperant le slug de chaque carte via la map.
+  const parCard = new Map(toutes.map((c) => [c.card, c]));
+  const cartes = appliquerFiltres(toutes.map((c) => c.card), f).map((card) => parCard.get(card)!);
 
   const brut = await getCards();
   const options = {

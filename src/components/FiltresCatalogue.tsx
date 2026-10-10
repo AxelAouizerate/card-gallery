@@ -53,6 +53,16 @@ export function useFiltres(base: string) {
   return { f, naviguer, bascule, enCours, actifs: nbFiltresActifs(f) };
 }
 
+const LIBELLES_TRI: Record<Exclude<Filtres["tri"], "">, string> = {
+  prix_asc: "Prix croissant",
+  prix_desc: "Prix décroissant",
+  ajout_recent: "Date de vente (plus récent)",
+  sortie_ancien: "Date de sortie (plus ancien d'abord)",
+  sortie_recent: "Date de sortie (plus récent d'abord)",
+  nom_asc: "Nom A → Z",
+  nom_desc: "Nom Z → A",
+};
+
 const puce = (actif: boolean) =>
   cn(
     "rounded-full border px-3 py-1.5 text-xs transition",
@@ -67,6 +77,19 @@ export function CorpsFiltres({ options, base }: { options: OptionsFiltres; base:
 
   return (
     <div className="space-y-6">
+      <Bloc titre="Trier par">
+        <select
+          value={f.tri}
+          onChange={(e) => naviguer({ ...f, tri: e.target.value as Filtres["tri"] })}
+          className="w-full rounded-md border border-amber-500/30 bg-black/50 px-2 py-1.5 text-sm text-amber-50 focus:border-amber-400 focus:outline-none"
+        >
+          <option value="">Pertinence (valeur)</option>
+          {(Object.keys(LIBELLES_TRI) as (keyof typeof LIBELLES_TRI)[]).map((t) => (
+            <option key={t} value={t}>{LIBELLES_TRI[t]}</option>
+          ))}
+        </select>
+      </Bloc>
+
       <Bloc titre="Set / Extension">
         <Command className="overflow-hidden rounded-md border border-white/10 bg-black/40">
           <div className="flex items-center border-b border-white/10 px-2">
@@ -216,6 +239,7 @@ export default function BarreFiltres({ options, base }: { options: OptionsFiltre
     ...(f.dispo ? [{ libelle: "Disponible", retirer: () => naviguer({ ...f, dispo: false }) }] : []),
     ...(f.soldOut ? [{ libelle: "Sold out", retirer: () => naviguer({ ...f, soldOut: false }) }] : []),
     ...(f.nouveautes ? [{ libelle: "Nouveautés", retirer: () => naviguer({ ...f, nouveautes: false }) }] : []),
+    ...(f.tri ? [{ libelle: LIBELLES_TRI[f.tri], retirer: () => naviguer({ ...f, tri: "" }) }] : []),
   ];
 
   return (

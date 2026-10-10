@@ -1,5 +1,17 @@
 import type { Card } from "@/lib/cards";
 import { TRADUCTIONS_NOM } from "@/lib/traductions-cartes";
+import { rangSortie } from "@/lib/chronologie-sets";
+
+/** Options de tri du catalogue - demande d'Axel du 2026-10-10. "" = ordre
+ * par defaut (valeur decroissante, deja applique en amont par
+ * cartesAvecSlug). "ajout_recent" trie par date de mise en vente
+ * (first_seen) - pas de champ "date de vente" distinct dans les donnees. */
+export type TriCatalogue =
+  | ""
+  | "prix_asc" | "prix_desc"
+  | "ajout_recent"
+  | "sortie_ancien" | "sortie_recent"
+  | "nom_asc" | "nom_desc";
 
 /**
  * L'etat des filtres vit dans l'URL, pas dans un useState : une vue filtree
@@ -23,14 +35,20 @@ export type Filtres = {
   dispo: boolean;
   soldOut: boolean;
   nouveautes: boolean;
+  tri: TriCatalogue;
   page: number;
 };
 
 export const FILTRES_VIDES: Filtres = {
   q: "", sets: [], raretes: [], langues: [],
   prixMin: null, prixMax: null, gradation: "", notes: [],
-  edition1st: false, pop1: false, dispo: false, soldOut: false, nouveautes: false, page: 1,
+  edition1st: false, pop1: false, dispo: false, soldOut: false, nouveautes: false,
+  tri: "", page: 1,
 };
+
+const TRIS_VALIDES = new Set<TriCatalogue>([
+  "prix_asc", "prix_desc", "ajout_recent", "sortie_ancien", "sortie_recent", "nom_asc", "nom_desc",
+]);
 
 type Params = Record<string, string | string[] | undefined>;
 
@@ -64,6 +82,10 @@ export function lireFiltres(params: Params): Filtres {
     dispo: vrai(params.dispo),
     soldOut: vrai(params.soldOut),
     nouveautes: vrai(params.nouveautes),
+    tri: (() => {
+      const t = Array.isArray(params.tri) ? params.tri[0] : params.tri;
+      return TRIS_VALIDES.has(t as TriCatalogue) ? (t as TriCatalogue) : "";
+    })(),
     page: Math.max(1, nombre(params.page) ?? 1),
   };
 }
@@ -84,6 +106,7 @@ export function ecrireFiltres(f: Filtres): string {
   if (f.dispo) p.set("dispo", "1");
   if (f.soldOut) p.set("soldOut", "1");
   if (f.nouveautes) p.set("nouveautes", "1");
+  if (f.tri) p.set("tri", f.tri);
   if (f.page > 1) p.set("page", String(f.page));
   return p.toString();
 }
@@ -126,7 +149,7 @@ export function appliquerFiltres(cards: Card[], f: Filtres, maintenant = new Dat
   const raretes = new Set(f.raretes.map((s) => s.toLowerCase()));
   const langues = new Set(f.langues.map((s) => s.toLowerCase()));
 
-  return cards.filter((c) => {
+  const filtrees = cards.filter((c) => {
     if (qMots.length) {
       // Ajoute le(s) nom(s) dans l'autre langue quand on les connait, pour
       // que "Dark Magician" retrouve "Magicien Sombre" et vice-versa, y
@@ -159,4 +182,46 @@ export function appliquerFiltres(cards: Card[], f: Filtres, maintenant = new Dat
     }
     return true;
   });
+
+  if (!f.tri) return filtrees;
+
+  // Valeurs "inconnues" toujours en fin de liste, quel que soit le sens du
+  // tri (jamais intercalees au hasard parmi des valeurs connues).
+  const trie = [...filtrees];
+  switch (f.tri) {
+    case "prix_asc":
+      trie.sort((a, b) => (a.prix ?? Infinity) - (b.prix ?? Infinity));
+      break;
+    case "prix_desc":
+      trie.sort((a, b) => (b.prix ?? -Infinity) - (a.prix ?? -Infinity));
+      break;
+    case "ajout_recent":
+      trie.sort((a, b) => (b.first_seen ?? "").localeCompare(a.first_seen ?? ""));
+      break;
+    case "sortie_ancien":
+      trie.sort((a, b) => {
+        const ra = rangSortie(a.set), rb = rangSortie(b.set);
+        if (ra == null && rb == null) return 0;
+        if (ra == null) return 1;
+        if (rb == null) return -1;
+        return ra - rb;
+      });
+      break;
+    case "sortie_recent":
+      trie.sort((a, b) => {
+        const ra = rangSortie(a.set), rb = rangSortie(b.set);
+        if (ra == null && rb == null) return 0;
+        if (ra == null) return 1;
+        if (rb == null) return -1;
+        return rb - ra;
+      });
+      break;
+    case "nom_asc":
+      trie.sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
+      break;
+    case "nom_desc":
+      trie.sort((a, b) => b.nom.localeCompare(a.nom, "fr"));
+      break;
+  }
+  return trie;
 }
