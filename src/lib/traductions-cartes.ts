@@ -37,6 +37,10 @@ export const TRADUCTIONS_NOM: Record<string, string[]> = {
   // en avant-plan - les acheteurs la cherchent quand meme par ce nom, demande
   // d'Axel du 2026-10-10.
   "Dark Magical Curtain": ["Dark Magician Girl", "Magicienne Des Ténèbres"],
+  // Nom officiel imprime "Esprit De La T.I.C.C." (ANPR-FR017), mais Axel
+  // appelle toujours cette carte "Chacu Challhua" (surnom perso) -
+  // ajoute le 2026-10-10 pour qu'il la retrouve avec les deux noms.
+  "Esprit De La T.I.C.C.": ["Chacu Challhua"],
   "Magicien De La Foi": ["Magician of Faith"],
   "Apprenti Magicien": ["Skilled Dark Magician"],
   "Sorcier Du Chaos": ["Chaos Sorcerer"],
