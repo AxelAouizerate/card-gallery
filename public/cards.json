@@ -18284,6 +18284,27 @@
     "vendeur": "s1"
   },
   {
+    "id": "A64",
+    "nom": "Shinato, Roi D'Un Plan Supérieur",
+    "set": "DCR",
+    "rarete": "Ultra",
+    "lang": "FR",
+    "etat": "EX",
+    "is_1st": false,
+    "grade": "6",
+    "grade_org": "COLLECTAURA",
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 2500.0,
+    "status": "available",
+    "statut_raw": "en vente",
+    "photo_1": "/img/A64_1.jpg",
+    "photo_2": "/img/A64_2.jpg",
+    "first_seen": "2026-10-10",
+    "vendeur": "s1"
+  },
+  {
     "id": "4000028",
     "nom": "Booster Legend Of Blue-Eyes White Dragon 1ère Édition (PSA 10)",
     "set": "LOB",
