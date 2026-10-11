@@ -4255,12 +4255,12 @@
     "produit": "carte",
     "reserve": false,
     "prix": 25.0,
-    "status": "sold",
-    "statut_raw": "vendu",
+    "status": "available",
+    "statut_raw": "en vente",
     "photo_1": "/img/541_1.jpg",
     "photo_2": "/img/541_2.jpg",
     "first_seen": "2026-05-01",
-    "vendeur": "s1"
+    "vendeur": "s3"
   },
   {
     "id": "610",
