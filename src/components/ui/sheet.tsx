@@ -21,6 +21,13 @@ export const SheetContent = React.forwardRef<
     <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm data-[state=closed]:animate-out data-[state=closed]:fade-out data-[state=open]:animate-in data-[state=open]:fade-in" />
     <DialogPrimitive.Content
       ref={ref}
+      // Radix focus par defaut le 1er champ texte a l'ouverture (ici le
+      // champ de recherche) : sur mobile ca ouvre le clavier virtuel
+      // immediatement, qui redimensionne la fenetre et decale tout juste au
+      // moment ou l'utilisateur essaie de taper un set dans la liste -
+      // le tap atterrit alors a cote de sa cible reelle. Signale par Axel
+      // le 2026-10-11 ("le filtre d'extension ne marche pas sur telephone").
+      onOpenAutoFocus={(e) => e.preventDefault()}
       className={cn(
         "fixed z-50 flex flex-col gap-4 border-amber-500/30 bg-[#0e0a18] shadow-2xl",
         // mobile : bottom sheet

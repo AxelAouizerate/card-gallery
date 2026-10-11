@@ -99,7 +99,7 @@ export function CorpsFiltres({ options, base }: { options: OptionsFiltres; base:
               className="w-full bg-transparent px-2 py-2 text-sm text-amber-50 placeholder:text-amber-100/35 focus:outline-none"
             />
           </div>
-          <Command.List className="max-h-52 overflow-y-auto p-1">
+          <Command.List className="max-h-52 overflow-y-auto overscroll-contain p-1" style={{ touchAction: "pan-y" }}>
             <Command.Empty className="px-2 py-3 text-xs text-amber-100/50">Aucun set.</Command.Empty>
             {options.sets.map(({ set, n }) => {
               const choisi = f.sets.includes(set);
