@@ -17209,27 +17209,6 @@
     "vendeur": "s1"
   },
   {
-    "id": "A12",
-    "nom": "Sanga Du Tonnerre",
-    "set": "MRD",
-    "rarete": "Super",
-    "lang": "FR",
-    "etat": "MINT",
-    "is_1st": true,
-    "grade": null,
-    "grade_org": null,
-    "pop": null,
-    "produit": "carte",
-    "reserve": false,
-    "prix": null,
-    "status": "coming_soon",
-    "statut_raw": "bientôt disponible",
-    "photo_1": null,
-    "photo_2": null,
-    "first_seen": "2026-05-20",
-    "vendeur": "s1"
-  },
-  {
     "id": "A13",
     "nom": "Néos Divin Héros Élémentaire",
     "set": "CSOC",
