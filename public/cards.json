@@ -18411,6 +18411,27 @@
     "vendeur": "s1"
   },
   {
+    "id": "A71",
+    "nom": "Gardien De La Porte",
+    "set": "MRD",
+    "rarete": "",
+    "lang": "FR",
+    "etat": "MINT",
+    "is_1st": true,
+    "grade": "9",
+    "grade_org": "CCC",
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 1000.0,
+    "status": "coming_soon",
+    "statut_raw": "bientôt disponible",
+    "photo_1": null,
+    "photo_2": null,
+    "first_seen": "2026-10-26",
+    "vendeur": "s1"
+  },
+  {
     "id": "4000028",
     "nom": "Booster Legend Of Blue-Eyes White Dragon 1ère Édition (PSA 10)",
     "set": "LOB",
