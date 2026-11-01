@@ -129,7 +129,9 @@ export const NOMS_SETS: Record<string, string> = {
   "PP01-KR": "Premium Pack Vol.1 (Korean)",
   QCDB: "Quarter Century Duelist Box",
   RA01: "25th Anniversary Rarity Collection",
-  ROD: "Rise of Destiny",
+  // ROD = jeu vidéo GBA "Reshef of Destruction" (2004), pas le set "Rise of
+  // Destiny" (code RDS) - confusion corrigée le 2026-11-01 sur demande d'Axel.
+  ROD: "Reshef of Destruction",
   SD7: "Structure Deck: Invincible Fortress",
   "SD8-KRDS1": "Structure Deck: Lord of the Storm (Korean)",
   TU03: "Turbo Pack: Booster Three",
