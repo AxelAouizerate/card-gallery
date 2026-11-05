@@ -4,8 +4,8 @@ import { cartesReceptionCollectAura } from "@/lib/receptions";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 
 const BASE = "/reception/collectaura";
-const TITRE = "Grosse réception CollectAura";
-const CHAPO = "Réception confirmée : 10 cartes gradées CollectAura, déjà en vente.";
+const TITRE = "Réception à venir CollectAura";
+const CHAPO = "6 cartes envoyées en gradation chez CollectAura, de retour prochainement.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const url = `${SITE_URL}${BASE}`;

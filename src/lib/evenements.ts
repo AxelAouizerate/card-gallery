@@ -32,23 +32,29 @@ export type Evenement =
 export const EVENEMENTS: Evenement[] = [
   {
     type: "reception",
-    titre: "Grosse réception CollectAura",
-    date: "10 cartes gradées, déjà en boutique",
-    // Vraies photos (recto) des cartes recues le 2026-09-20, remplacent les
-    // visuels d'annonce maintenant que les cartes sont en vente.
-    photos: ["/img/A07_1.jpg", "/img/A09_1.jpg", "/img/1207_1.jpg"],
+    titre: "Réception à venir CollectAura",
+    date: "6 cartes envoyées en gradation",
+    // Photos du lot envoye en gradation le 04/11/2026 (pas encore de fiche
+    // avec vraies photos recto/verso tant que les cartes ne sont pas
+    // revenues) - voir IDS_RECEPTION_COLLECTAURA dans receptions.ts.
+    photos: [
+      "/img/recep-nov2026-collectaura-1.jpg",
+      "/img/recep-nov2026-collectaura-2.jpg",
+      "/img/recep-nov2026-collectaura-3.jpg",
+    ],
     logoGradeur: "/img/logo-collectaura.png",
-    badge: "Réception confirmée",
-    recue: true,
     lien: "/reception/collectaura",
   },
   {
     type: "reception",
-    titre: "Nouvelle réception CCC",
-    date: "7 cartes gradées, déjà en boutique",
-    photos: ["/img/A14_1.jpg", "/img/A08_1.jpg", "/img/1206_1.jpg"],
+    titre: "Réception à venir CCC",
+    date: "6 cartes envoyées en gradation",
+    photos: [
+      "/img/recep-nov2026-ccc-1.jpg",
+      "/img/recep-nov2026-ccc-2.jpg",
+      "/img/recep-nov2026-ccc-3.jpg",
+    ],
     logoGradeur: "/img/logo-ccc.png",
-    recue: true,
     lien: "/reception/ccc",
   },
 ];

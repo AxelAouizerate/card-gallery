@@ -6,10 +6,13 @@ import { cartesAvecSlug, type CarteListee } from "@/lib/catalogue";
 // banderole pour voir les cartes concernees et de les faire apparaitre dans
 // Nouveautes, sans dupliquer la liste a deux endroits. A completer a chaque
 // nouvelle reception - demande d'Axel du 2026-09-20.
-export const IDS_RECEPTION_CCC = ["A03", "A05", "A08", "A14", "A16", "A18", "1206"];
-export const IDS_RECEPTION_COLLECTAURA = [
-  "A07", "A15", "A06", "A19", "A02", "1207", "A01", "A13", "A17", "A09",
-];
+//
+// Mise a jour 2026-11-05 : l'ancienne reception de septembre est en vente
+// depuis plus d'un mois (plus la peine de la mettre en avant) - remplacee
+// par le nouveau lot envoye en gradation le 04/11, identifie sur les photos
+// deposees par Axel. Cartes "sold"/"coming_soon" en attente de retour.
+export const IDS_RECEPTION_CCC = ["A06", "A15", "1116", "1216", "A97", "A98"];
+export const IDS_RECEPTION_COLLECTAURA = ["A65", "1182", "A79", "1169", "A75", "A74"];
 
 export const cartesReceptionCCC = cache(async (): Promise<CarteListee[]> => {
   const toutes = await cartesAvecSlug();
