@@ -34,9 +34,11 @@ export const EVENEMENTS: Evenement[] = [
     type: "reception",
     titre: "Réception à venir CollectAura",
     date: "6 cartes envoyées en gradation",
-    // Photos du lot envoye en gradation le 04/11/2026 (pas encore de fiche
-    // avec vraies photos recto/verso tant que les cartes ne sont pas
-    // revenues) - voir IDS_RECEPTION_COLLECTAURA dans receptions.ts.
+    // Vraies photos (non recadrees carte par carte) du lot envoye en
+    // gradation le 04/11/2026, prises telles quelles par Axel - demande du
+    // 2026-11-05 ("photos globales avec plusieurs cartes"). Pas encore de
+    // fiche avec vraies photos recto/verso tant que les cartes ne sont pas
+    // revenues - voir IDS_RECEPTION_COLLECTAURA dans receptions.ts.
     photos: [
       "/img/recep-nov2026-collectaura-1.jpg",
       "/img/recep-nov2026-collectaura-2.jpg",
@@ -52,7 +54,6 @@ export const EVENEMENTS: Evenement[] = [
     photos: [
       "/img/recep-nov2026-ccc-1.jpg",
       "/img/recep-nov2026-ccc-2.jpg",
-      "/img/recep-nov2026-ccc-3.jpg",
     ],
     logoGradeur: "/img/logo-ccc.png",
     lien: "/reception/ccc",
