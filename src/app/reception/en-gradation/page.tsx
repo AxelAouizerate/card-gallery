@@ -53,7 +53,7 @@ const GROUPES: { titre: string; cartes: string[] }[] = [
       "Quilla",
       "Ninja D'Intervention",
       "Tigre De Laboratoire",
-      "Snorlax (espèces delta, JP)",
+      "Ronflex Ex (Snorlax, espèces delta JP)",
       "Psyduck (reverse)",
       "Cresselia (reverse)",
       "Umbreon (Majestic Dawn)",
