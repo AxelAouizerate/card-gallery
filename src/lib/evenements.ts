@@ -7,7 +7,10 @@ export type Evenement =
       type: "reception";
       titre: string;
       date: string;
-      photos: string[];
+      // Optionnel : certaines annonces (ex: liste de cartes en gradation
+      // chez plusieurs gradeurs/Quentin, pas encore de fiche ni de photo)
+      // n'ont pas de visuel a montrer - demande d'Axel du 2026-11-06.
+      photos?: string[];
       logoGradeur?: string;
       // true = deja en stock (badge "Nouvelle reception" au lieu de "a venir") -
       // demande d'Axel du 2026-09-07 pour un recap de reception passee.
@@ -57,5 +60,12 @@ export const EVENEMENTS: Evenement[] = [
     ],
     logoGradeur: "/img/logo-ccc.png",
     lien: "/reception/ccc",
+  },
+  {
+    type: "reception",
+    titre: "Cartes en gradation ou chez Quentin",
+    date: "Liste complète, retours à venir",
+    badge: "Suivi des envois",
+    lien: "/reception/en-gradation",
   },
 ];

@@ -88,13 +88,15 @@ function Slide({ evenement }: { evenement: Evenement }) {
             </span>
           )}
         </div>
-        <div className="flex gap-2">
-          {evenement.photos.map((src, i) => (
-            <div key={i} className="relative h-28 w-20 overflow-hidden rounded-md border border-amber-500/20 shadow-lg sm:h-32 sm:w-24">
-              <Image src={src} alt="" fill sizes="100px" className="object-cover" />
-            </div>
-          ))}
-        </div>
+        {evenement.photos && evenement.photos.length > 0 && (
+          <div className="flex gap-2">
+            {evenement.photos.map((src, i) => (
+              <div key={i} className="relative h-28 w-20 overflow-hidden rounded-md border border-amber-500/20 shadow-lg sm:h-32 sm:w-24">
+                <Image src={src} alt="" fill sizes="100px" className="object-cover" />
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     );
 
