@@ -19335,5 +19335,26 @@
     "photo_2": null,
     "first_seen": "2026-09-21",
     "vendeur": "s2"
+  },
+  {
+    "id": "A105",
+    "nom": "Dark Magician Of Chaos",
+    "set": "IOC",
+    "rarete": "Ultra",
+    "lang": "EN",
+    "etat": "NM",
+    "is_1st": true,
+    "grade": "7",
+    "grade_org": "PSA",
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 200.0,
+    "status": "available",
+    "statut_raw": "en vente",
+    "photo_1": "/img/A105_1.jpg",
+    "photo_2": "/img/A105_2.jpg",
+    "first_seen": "2026-11-13",
+    "vendeur": "s1"
   }
 ]
