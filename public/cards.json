@@ -14952,13 +14952,13 @@
     "pop": null,
     "produit": "carte",
     "reserve": false,
-    "prix": 145.0,
+    "prix": 140.0,
     "status": "available",
     "statut_raw": "en vente",
     "photo_1": "/img/Q34.jpg",
     "photo_2": null,
     "first_seen": "2026-08-12",
-    "vendeur": "s3"
+    "vendeur": "s1"
   },
   {
     "id": "3000035",
@@ -18342,7 +18342,7 @@
     "lang": "FR",
     "etat": "NM",
     "is_1st": true,
-    "grade": "7",
+    "grade": "8",
     "grade_org": "COLLECTAURA",
     "pop": null,
     "produit": "carte",
