@@ -19520,5 +19520,28 @@
     "first_seen": "2026-11-16",
     "vendeur": "s1",
     "code_complet": "ABYR-FR039"
+  },
+  {
+    "id": "A114",
+    "nom": "Garnecia Eléfantis",
+    "set": "MRD",
+    "rarete": "Super",
+    "lang": "FR",
+    "etat": "NM",
+    "is_1st": true,
+    "grade": "7",
+    "grade_org": "COLLECTAURA",
+    "pop": null,
+    "produit": "carte",
+    "reserve": false,
+    "prix": 20.0,
+    "status": "available",
+    "statut_raw": "en vente",
+    "photo_1": "/img/A114_1.jpg",
+    "photo_2": "/img/A114_2.jpg",
+    "first_seen": "2026-11-16",
+    "vendeur": "s1",
+    "code_complet": "MRD-F125",
+    "nom_autre": null
   }
 ]
